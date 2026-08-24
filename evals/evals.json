@@ -1,0 +1,26 @@
+{
+  "skill_name": "swe-re-expert",
+  "evals": [
+    {
+      "id": 1,
+      "name": "binary-triage-and-yara",
+      "prompt": "I have a suspicious Windows PE binary at /tmp/sample.exe. I don't know what it does. Can you triage it, tell me what behavior you can identify from static analysis alone, extract the IOCs you find, and generate a YARA rule for the family? Use the scripts in the skill if they help. Don't run the binary.\n\nIf /tmp/sample.exe doesn't exist, fall back to /bin/ls (a benign Linux binary) and treat it as if it were a sample of unknown intent — the goal is to demonstrate the triage workflow, not to actually find malware.",
+      "expected_output": "A structured malware triage report with: verdict (CLEAN/SUSPICIOUS/MALICIOUS/INCONCLUSIVE), hashes, file type, sections with entropy, imports categorized by suspicious type, strings categorized (network/paths/cred-hints), MITRE ATT&CK mapping if any behavior identified, IOC tables, at least one YARA rule, limitations, and a recommended next step. The report should follow the assets/report_malware_triage.md template structure.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "python-code-audit",
+      "prompt": "Review this Python module for security issues, code quality issues, and architectural concerns. Produce a code audit report with prioritized findings (P0/P1/P2/P3), each citing specific line numbers and the actual code, with concrete recommended fixes.\n\nHere's the module:\n\n```python\nimport os\nimport pickle\nimport sqlite3\nimport hashlib\nimport random\n\n# Global cache shared across requests\ncache = {}\n\ndef get_user(user_id):\n    conn = sqlite3.connect('users.db')\n    c = conn.cursor()\n    query = f\"SELECT * FROM users WHERE id = {user_id}\"\n    c.execute(query)\n    return c.fetchone()\n\ndef login(email, password):\n    user = get_user_by_email(email)\n    if user and user.password == hashlib.md5(password.encode()).hexdigest():\n        token = ''.join(random.choice('abcdef0123456789') for _ in range(32))\n        cache[token] = user.id\n        return token\n    return None\n\ndef load_session(data):\n    return pickle.loads(data)\n\ndef run_command(user_input):\n    os.system(f\"echo {user_input}\")\n\ndef read_file(filename):\n    with open(f\"/data/{filename}\") as f:\n        return f.read()\n\ndef process_payment(amount, currency, user_id):\n    # TODO: implement payment processing\n    pass\n```",
+      "expected_output": "A code audit report (using assets/report_code_audit.md structure) with verdict (FAIL given multiple P0 issues), findings table containing at minimum: P0 SQLi at get_user, P0 weak crypto (md5) at login, P0 predictable token (random) at login, P0 pickle.loads RCE at load_session, P0 command injection at run_command, P0 path traversal at read_file, P1 race condition on global cache, P2 unimplemented process_payment. Each finding should cite the line number and quote the code. Recommended next steps should be ordered by priority.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "disasm-semantic-recovery",
+      "prompt": "Here's a disassembled x86-64 function (GCC, System V AMD64). Tell me what it does. Annotate the basic blocks, recover the high-level pseudocode, and identify any security-relevant patterns.\n\n```asm\npush   rbp\nmov    rbp, rsp\nsub    rsp, 0x20\nmov    QWORD PTR [rbp-0x18], rdi\nmov    DWORD PTR [rbp-0x4], 0x0\njmp    .L2\n.L3:\nmov    eax, DWORD PTR [rbp-0x4]\ncdqe\nmovzx  eax, BYTE PTR [rbp-0x18+rax]\nsub    eax, 0x20\nmovsx  edx, al\nmov    rax, QWORD PTR [rbp-0x18]\nmov    ecx, DWORD PTR [rbp-0x4]\ncdqe\nmov    BYTE PTR [rax], dl\nadd    DWORD PTR [rbp-0x4], 1\n.L2:\ncmp    DWORD PTR [rbp-0x4], 0x9\njle    .L3\nleave\nret\n```\n\nBe specific: identify the calling convention, the args, the loop bound, the operation performed, and any vulnerabilities or notable patterns. Cite the disasm evidence for each claim.",
+      "expected_output": "A binary analysis report (using assets/report_binary_analysis.md structure) or a focused semantic recovery writeup that identifies: System V AMD64 calling convention (rdi=arg1), arg1 is a char* pointer, loop runs 0 to 9 (10 iterations), each iteration subtracts 0x20 from a byte. Reconstructed pseudocode: `void lowercase_to_uppercase(char *buf) { for (int i = 0; i <= 9; i++) buf[i] -= 0x20; }`. Security observation: bounded loop (no overflow), but operation is case conversion (lowercase to uppercase ASCII). Evidence cited: rbp-0x18 = arg1 storage, rbp-0x4 = loop counter, cmp 0x9 / jle .L3 = loop bound, sub eax, 0x20 = case conversion. Limitations: buffer length assumed 10+; can't verify statically. Recommended next step: confirm with a hex dump of the calling function to see the buffer size.",
+      "files": []
+    }
+  ]
+}
