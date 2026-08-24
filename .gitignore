@@ -1,0 +1,18 @@
+# Eval workspace — ignore
+evals-workspace/
+iteration-*/
+*.skill
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
