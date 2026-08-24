@@ -134,6 +134,21 @@ Read **only** what the current task needs. Each file is self-contained and can b
 
 ---
 
+## Prompts — expert reasoning files
+
+The `prompts/` directory contains focused, expert-level reasoning patterns that strengthen the agent's analysis. Read **only** what the task calls for. Each file is self-contained (50-200 lines, dense).
+
+| When to read | Directory | What's inside |
+|--------------|-----------|---------------|
+| Need the mental model for the task type | `prompts/mental-models/` | How a senior RE approaches a binary, how a senior engineer reads a codebase, vuln-hunting patterns, refactor decision gates, architecture fitness, static vs dynamic trade-offs, evidence vs assertion |
+| RE-specific deep techniques | `prompts/re-playbooks/` | C/Go/Rust binary recovery, CTF rev & pwn approaches, disasm recovery, anti-pattern recognition (packers, anti-debug, obfuscation), malware triage mental model, YARA rule design, IOC extraction, obfuscation workarounds |
+| SWE-specific deep techniques | `prompts/swe-playbooks/` | Code audit priorities, perf review, security review, test quality review, modernization gates, dependency analysis, dead code confirmation, refactor prioritization, per-language anti-patterns (Python/Rust/Go/C++) |
+| Output discipline | `prompts/meta/` | Report writing discipline, uncertainty markers (HYPOTHESIS/SUSPECTED/UNVERIFIED/BLOCKED/INCONCLUSIVE), evidence checklist (12-point verification) |
+
+These files are the agent's "thinking tools" — when the task needs expert-level reasoning on a specific dimension, the agent loads the relevant prompt file rather than reasoning from scratch. They make the agent consistently apply senior-level patterns instead of ad-hoc reasoning.
+
+---
+
 ## Bundled scripts
 
 All scripts are deterministic. They do **not** execute target binaries, do **not** make network calls, and do **not** write outside the agent's working directory. Run them from this skill's root.

@@ -16,23 +16,30 @@ Both halves share a single output discipline: deep, structured analysis reports 
 ```
 swe-re-expert/
 ├── SKILL.md                          # Main entry — 5-phase workflow + triggers
-├── references/
+├── references/                       # Core playbooks (load on demand)
 │   ├── swe-playbook.md               # Code review, refactoring, architecture audit
 │   ├── binary-analysis.md           # Static → dynamic → semantic recovery
 │   ├── malware-analysis.md          # Triage, IOCs, YARA, family classification
 │   └── language-depth.md            # C/C++/ASM, Python, Go, Rust deep notes
-├── scripts/
+├── prompts/                          # Expert reasoning patterns (the agent's "thinking tools")
+│   ├── mental-models/               # 7 files: how senior RE/SWE approach problems
+│   ├── re-playbooks/                # 11 files: per-language binary recovery, CTF, obfuscation, YARA, IOC
+│   ├── swe-playbooks/               # 12 files: audit priorities, perf, security, tests, modernization, anti-patterns
+│   └── meta/                        # 3 files: report discipline, uncertainty markers, evidence checklist
+├── scripts/                          # Deterministic analysis scripts
 │   ├── re_triage.py                 # PE/ELF/Mach-O triage (no execution)
 │   ├── re_disasm.py                 # Capstone function-level disasm summary
 │   └── swe_audit.py                 # Multi-lang codebase audit (complexity, dead code, deps)
-├── assets/
-│   ├── report_binary_analysis.md    # RE report template
-│   ├── report_malware_triage.md     # Malware triage report template
-│   ├── report_code_audit.md        # SWE code audit report template
-│   └── report_architecture.md      # Architecture audit report template
+├── assets/                           # Report templates (4 markdown files)
+│   ├── report_binary_analysis.md
+│   ├── report_malware_triage.md
+│   ├── report_code_audit.md
+│   └── report_architecture.md
 └── evals/
-    └── evals.json                   # Test cases for skill eval
+    └── evals.json                    # Test cases for skill eval
 ```
+
+**Total**: ~35 files of expert content. The agent loads only what each task needs.
 
 ## Install
 
