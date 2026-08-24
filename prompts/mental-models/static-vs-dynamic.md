@@ -6,7 +6,7 @@ The pipeline is static → dynamic, but the **proportion** matters. A senior ana
 
 Static analysis is **always first**. It's:
 - Reproducible (same input → same output, every time)
-- Side-effect-free (no VMs, no network, no risk)
+- Side-effect-free (no VM, no network)
 - High signal per minute (entropy, imports, strings all answer questions in seconds)
 - Independent of environment (works on any machine with the binary)
 
@@ -22,7 +22,7 @@ Static sees the packer's stub. The actual payload is encrypted in `.text` or a r
 
 **Signal:** high-entropy `.text` section (> 7.5), small entry stub, no readable strings, jump to memory region that wasn't in the original layout.
 
-**Escalation:** run in isolated VM, dump memory after unpack, re-analyze the dump statically. (The dump becomes a new static target.)
+**Escalation:** run in an analysis VM, dump memory after unpack, re-analyze the dump statically. (The dump becomes a new static target.)
 
 ### Dynamically-resolved APIs
 
@@ -82,9 +82,9 @@ The binary detects VM artifacts (registry keys, MAC address prefixes, CPUID leav
 
 ### Time bombs
 
-The binary sleeps to evade sandbox time limits (e.g., `Sleep(60000)` to wait out a 30-second sandbox).
+The binary sleeps to evade automated analysis time limits (e.g., `Sleep(60000)` to wait out a 30-second dynamic window).
 
-**Bypass:** hook `Sleep` / `nanosleep` to return immediately, or run with sleep-skipping debugger extension, or just wait (long sandbox runs are fine for one-off analysis).
+**Bypass:** hook `Sleep` / `nanosleep` to return immediately, or run with sleep-skipping debugger extension, or just wait (long dynamic runs are fine for one-off analysis).
 
 ### Code that requires specific input
 
@@ -94,7 +94,7 @@ The binary only reveals behavior with the right magic bytes, command-line args, 
 
 ## The "confirm, don't discover" principle
 
-Dynamic should confirm hypotheses from static, not discover behavior from scratch. If you don't know what to look for before you run dynamic, you'll generate a pile of sandbox logs and not know what's signal.
+Dynamic should confirm hypotheses from static, not discover behavior from scratch. If you don't know what to look for before you run dynamic, you'll generate a pile of capture logs and not know what's signal.
 
 Static: form hypotheses ("binary connects to C2 at IP X, sends hostname + screenshot, then waits for command").
 Dynamic: confirm or refute each hypothesis ("✅ connects to X; ❌ no screenshot — instead sends clipboard contents; new hypothesis: this is a clipboard stealer").
@@ -103,18 +103,18 @@ This back-and-forth is the work. Each pass refines the model.
 
 ## The "1 sample = anecdote" principle
 
-A single dynamic detonation is an anecdote, not a finding. Variance in:
+A single dynamic run is an anecdote, not a finding. Variance in:
 
 - Network conditions (DNS resolution, NAT behavior)
 - Timing (sleep bombs, jitter)
 - Environmental state (registry, files)
 - Random seeds
 
-…can change observed behavior. Run 2-3 detonations and compare. If behavior is consistent, you have a finding. If it varies, mark INCONCLUSIVE and explain what would stabilize it.
+…can change observed behavior. Run 2-3 executions and compare. If behavior is consistent, you have a finding. If it varies, mark INCONCLUSIVE and explain what would stabilize it.
 
 ## The "environment is part of the report" principle
 
-Document the sandbox config in the report:
+Document the analysis environment config in the report:
 
 - VM type and version (VirtualBox 7.0, VMware 17.5, etc.)
 - OS version and patch level
@@ -134,7 +134,7 @@ Without this, the analysis is not reproducible. A senior analyst who omits the e
 | Dynamically-resolved APIs | ⚠️ partial (hash function) | ✅ breakpoint on GetProcAddress | Dynamic resolves the table |
 | Encrypted strings | ❌ sees encryption only | ✅ breakpoint after decrypt | Static can't read encrypted |
 | VM-protected (Themida VM, VMP) | ❌ sees dispatcher only | ✅ symbolic / trace | Multi-week effort; consider BLOCKED |
-| Network behavior | ⚠️ from strings + imports | ✅ detonate with FakeNet | Static infers; dynamic confirms |
+| Network behavior | ⚠️ from strings + imports | ✅ run dynamically with FakeNet | Static infers; dynamic confirms |
 | File / registry behavior | ⚠️ from imports | ✅ Process Monitor | Same |
 | Malware family attribution | ✅ enough usually | optional | String / struct / import signals often suffice |
 | YARA rule generation | ✅ enough | optional | String + structural patterns are stable across variants |

@@ -2,8 +2,8 @@
 """
 re_triage.py — PE/ELF/Mach-O triage wrapper.
 
-Deterministic, defensive. Does not execute target binaries.
-Does not make network calls. Writes JSON to stdout or --out file.
+Deterministic static analyzer — reads the binary and produces structured
+triage JSON for the agent to reason over.
 
 Usage:
     python scripts/re_triage.py --file <target> --all
@@ -512,6 +512,43 @@ def detect_compilers(path: Path, fmt: str) -> list:
     for compiler, sig in COMPILER_SIGNATURES.items():
         if sig in section_data:
             hits.append(compiler)
+
+    # Fallback: if .comment is stripped (common on distro binaries), infer from dynsym
+    if not hits:
+        try:
+            if fmt == "ELF":
+                from elftools.elf.elffile import ELFFile
+                from elftools.elf.dynamic import DynamicSection
+                with path.open("rb") as f:
+                    elf = ELFFile(f)
+                    dynsyms = set()
+                    for sec in elf.iter_sections():
+                        if isinstance(sec, DynamicSection):
+                            for tag in sec.iter_tags():
+                                if tag.entry.d_tag == "DT_NEEDED":
+                                    val = tag.needed
+                                    if isinstance(val, bytes):
+                                        val = val.decode(errors="replace")
+                                    dynsyms.add(val)
+                    if "libc.so.6" in dynsyms:
+                        hits.append("glibc-linked")
+                    if any("libstdc++" in s for s in dynsyms):
+                        hits.append("libstdc++")
+            elif fmt == "PE":
+                import pefile
+                pe = pefile.PE(str(path))
+                if hasattr(pe, "DIRECTORY_ENTRY_IMPORT"):
+                    imported_dlls = set()
+                    for entry in pe.DIRECTORY_ENTRY_IMPORT:
+                        if entry.dll:
+                            imported_dlls.add(entry.dll.decode(errors="replace").lower())
+                    if "msvcr140.dll" in imported_dlls or "vcruntime140.dll" in imported_dlls:
+                        hits.append("MSVC-redist")
+                    if "mscoree.dll" in imported_dlls:
+                        hits.append(".NET")
+        except (ImportError, Exception):
+            pass
+
     return hits
 
 
@@ -583,17 +620,27 @@ def triage(path: Path, args) -> dict:
     if args.all or args.entry:
         result["entry_point"] = detect_entry_point(path, fmt)
 
-    # Build summary
+    # Build summary — verbose to surface fast verdict hint
     summary_parts = [fmt]
     if result.get("arch"):
         summary_parts.append(result["arch"])
     if result.get("packer_hints"):
         summary_parts.append(f"packed[{','.join(result['packer_hints'])}]")
+    elif result.get("sections"):
+        # Surface high-entropy sections if no packer matched but entropy is suspicious
+        high_entropy = [s["name"] for s in result["sections"]
+                        if isinstance(s.get("entropy"), (int, float)) and s.get("entropy", 0) >= 7.5]
+        if high_entropy:
+            summary_parts.append(f"high_entropy_sections[{','.join(high_entropy[:3])}]")
+        else:
+            summary_parts.append("no_packed_sections")
     if result.get("compiler_hints"):
         summary_parts.append(f"compiler[{','.join(result['compiler_hints'])}]")
     if result.get("suspicious_imports"):
         cats = list(result["suspicious_imports"].keys())
         summary_parts.append(f"suspicious_imports[{','.join(cats)}]")
+    else:
+        summary_parts.append("0_suspicious_import_cats")
     if result.get("suspicious_strings", {}).get("vm_check"):
         summary_parts.append("vm_check_strings")
     result["summary"] = " | ".join(summary_parts)
@@ -602,7 +649,7 @@ def triage(path: Path, args) -> dict:
 
 
 def main():
-    p = argparse.ArgumentParser(description="Defensive binary triage wrapper")
+    p = argparse.ArgumentParser(description="Binary triage wrapper — static analysis only")
     p.add_argument("--file", required=True, help="Path to target binary")
     p.add_argument("--all", action="store_true", help="Run all checks")
     p.add_argument("--hashes", action="store_true")

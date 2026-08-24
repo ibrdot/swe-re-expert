@@ -96,7 +96,7 @@ The skill fires when the user (or another agent) asks about:
 | `scripts/re_disasm.py` | Capstone-based function-level disasm summary with call/jump targets |
 | `scripts/swe_audit.py` | Multi-language codebase audit: complexity hotspots, dead code candidates, dependency direction |
 
-All scripts are deterministic. They do not execute target binaries, do not make network calls, and do not write outside the agent's working directory.
+All scripts are deterministic static analyzers — they read the binary/code and produce structured JSON for the agent to reason over.
 
 ## Languages covered
 

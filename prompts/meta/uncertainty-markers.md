@@ -77,11 +77,11 @@ Evidence points both ways. Can't call it confidently either direction.
 > - High-entropy `.text` (7.6) → suspicious (suggests packing)
 > - No imports beyond `kernel32` → suspicious (suggests dynamic resolution)
 > - But: small file size (12KB) → unusual for malware
-> - But: PDB path `C:\\projects\\test_app\\release\\test_app.pdb` → suggests legitimate
+> - But: PDB path `C:\\projects\\test_app\\release\\test_app.pdb` → suggests a
 >   development artifact
 >
 > Cannot determine statically. Recommend: submit to VirusTotal for multi-AV scan;
-> detonate in isolated VM for behavioral confirmation."
+> run dynamically in an instrumented VM for behavioral confirmation."
 
 The inconclusive marker: the conflicting evidence, why it's a tie, what would resolve it.
 
@@ -116,7 +116,7 @@ Each marker maps to a confidence level, and the report explains what's strong / 
 Explicit limitations build trust:
 
 > "This report covers static analysis only. Dynamic behavior was not confirmed because
-> the user did not provide a sandbox environment. The behavioral findings are
+> the user did not provide a dynamic analysis environment. The behavioral findings are
 > inferred from imports and strings; the actual runtime behavior may differ."
 
 Without this, the reader might assume the report says more than it does. With it, the reader knows exactly what to trust and what to take with salt.
@@ -155,7 +155,7 @@ Worst sin: high confidence on weak evidence.
 > - File extension enumeration loop at 0x401234
 > - RSA-2048 public key at 0x4090A0
 >
-> To confirm: dynamic detonation — verify shadow copies are deleted and files are
+> To confirm: dynamic execution — verify shadow copies are deleted and files are
 > encrypted with the observed public key."
 
 The first is bluff. The second is the same conclusion with evidence.
@@ -186,7 +186,7 @@ This report is based on:
 
 To strengthen:
 - Submit SHA-256 to MalwareBazaar for family confirmation
-- Detonate in isolated VM for behavioral capture
+- Run dynamically in an instrumented VM for behavioral capture
 - Run Ghidra GoBinaryAnalyzer for function name recovery
 ```
 

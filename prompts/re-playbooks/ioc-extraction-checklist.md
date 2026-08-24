@@ -15,7 +15,7 @@ For every suspicious sample, extract indicators across all six categories. Each 
 
 ### IPs
 
-For each IP found in strings or observed in dynamic detonation:
+For each IP found in strings or observed during dynamic execution:
 
 ```
 | IP | Port | Context | Source |

@@ -4,7 +4,7 @@ The mental model for security review. Different from general code review — sec
 
 ## The 6 categories of security review
 
-1. **Input validation** — every user input is hostile until proven otherwise
+1. **Input validation** — every user input is untrusted until validated
 2. **Authentication** — who is the caller? how do we know?
 3. **Authorization** — what's the caller allowed to do?
 4. **Cryptography** — are we using crypto correctly?

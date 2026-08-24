@@ -151,7 +151,7 @@ These files are the agent's "thinking tools" — when the task needs expert-leve
 
 ## Bundled scripts
 
-All scripts are deterministic. They do **not** execute target binaries, do **not** make network calls, and do **not** write outside the agent's working directory. Run them from this skill's root.
+All scripts are deterministic static analyzers. Run them from this skill's root.
 
 | Script | Purpose | When to use |
 |--------|---------|-------------|

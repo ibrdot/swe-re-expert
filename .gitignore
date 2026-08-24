@@ -1,18 +1,24 @@
-# Eval workspace — ignore
-evals-workspace/
-iteration-*/
-*.skill
-
-# Python
+# Python build artifacts
 __pycache__/
 *.pyc
 *.pyo
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+*.pyd
 
-# OS / editor
+# OS junk
 .DS_Store
 Thumbs.db
-.vscode/
+
+# Editor / IDE
 .idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Triage / disasm output (when scripts are run during testing)
+*.triage.json
+*.disasm.json
+*.audit.json
+
+# YARA test artifacts
+yara_test_*/

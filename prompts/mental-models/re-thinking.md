@@ -31,7 +31,7 @@ Always exhaust cheap signals before expensive ones:
 | Medium | Disassembly of `main` + entry | Control flow, idioms |
 | Medium | Cross-references from suspicious imports | Behavior confirmation |
 | Expensive | Full disassembly + analysis | Function-by-function semantics |
-| Expensive | Dynamic detonation | Confirms behavior, captures runtime-only state |
+| Expensive | Dynamic execution | Confirms behavior, captures runtime-only state |
 
 A senior RE gets 80% of the understanding from the first 4 rows. Dynamic analysis is reserved for confirming hypotheses, not forming them.
 

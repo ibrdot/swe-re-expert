@@ -15,7 +15,7 @@ Try emulation (Unicorn / Qiling) → for anti-debug-heavy binaries
    ↓
 Try symbolic execution (angr) → for complex logic / VM-based
    ↓
-Try dynamic detonation (isolated VM) → for behavior discovery
+Try dynamic analysis (instrumented execution) → for behavior discovery
    ↓
 Accept BLOCKED → mark in report, explain what would unblock
 ```
@@ -62,7 +62,7 @@ No automatic unpacker exists. Must do dynamic unpack:
 
 ## Tier 2: Emulation
 
-When anti-debug / anti-VM prevents dynamic detonation, emulate.
+When anti-debug / anti-VM prevents dynamic analysis, emulate.
 
 ### Unicorn for single functions
 
@@ -97,7 +97,7 @@ emu.emu_start(0x401000, 0x401050)  # from func_start to func_end
 plaintext = emu.mem_read(0x600000, plaintext_length)
 ```
 
-This runs the function in isolation — no actual binary executes, no anti-debug, no risk.
+This runs the function in isolation — the full binary never executes, so anti-debug checks inside other functions don't trigger.
 
 ### Qiling for full binary emulation
 
@@ -155,11 +155,11 @@ Limitations:
 
 Alternative symbolic executor. Similar trade-offs. Use when angr is too slow or when you need a different approach to the same problem.
 
-## Tier 4: Dynamic detonation
+## Tier 4: Dynamic analysis (instrumented execution)
 
 When static, emulation, and symbolic all fail or aren't worth the effort:
 
-### The isolated VM stack
+### The analysis VM stack
 
 ```
 Analysis VM:
@@ -168,7 +168,7 @@ Analysis VM:
 ├── CPU: 2+ cores
 ├── Network: Host-only adapter (NO real internet)
 │   └── FakeNet-NG or INetSim on the host (fake services)
-├── Snapshot: taken BEFORE sample detonation
+├── Snapshot: taken BEFORE sample execution
 ├── Tools installed:
 │   ├── Process Monitor (Windows) / strace (Linux)
 │   ├── Process Explorer / top
@@ -178,16 +178,16 @@ Analysis VM:
 │   ├── Wireshark / tcpdump
 │   ├── Sysinternals Suite
 │   └── Cuckoo / CAPE Agent (for automated collection)
-└── Account: limited user (don't run as admin by default)
+└── Account: limited user (matches typical target user context)
 ```
 
-### Detonation procedure
+### Execution procedure
 
 1. Restore snapshot (clean state)
 2. Start the monitoring tools
 3. Take a Regshot baseline (Windows)
 4. Copy the sample in (no network during copy)
-5. Detonate (run, double-click, whatever the user would do)
+5. Execute the sample (the way the target user would invoke it)
 6. Wait 30-60 seconds (or longer if it's a slow-moving sample)
 7. Stop monitoring, capture logs
 8. Take a Regshot diff (Windows)
@@ -249,7 +249,7 @@ When the binary detects the VM and exits:
 - Set RAM ≥ 4 GB, CPU ≥ 2 cores
 - Set realistic screen resolution (1920×1080)
 - Add user files, browser history, recent documents
-- Rename the VM (avoid `MalwareAnalysis`, `Sandbox`)
+- Rename the VM to something neutral (samples sometimes fingerprint the VM name)
 - Remove obvious VM registry keys (under `HKLM\HARDWARE\DESCRIPTION\System\BIOS`)
 - Patch VM-specific MAC addresses (change to a non-VM OUI)
 
@@ -313,7 +313,7 @@ Recognize when the binary is too obfuscated for reasonable analysis:
 - **Control flow flattening across many functions** — similar
 - **Custom encryption everywhere with no obvious decrypt routine** — sometimes impossible
 
-For these, dynamic detonation in an isolated VM with good telemetry is more cost-effective than static recovery. The report should mark `BLOCKED` and explain:
+For these, dynamic execution in an instrumented VM with good telemetry is more cost-effective than static recovery. The report should mark `BLOCKED` and explain:
 - What was tried
 - Why it failed
 - What would unblock (specific technique, tool, time investment)

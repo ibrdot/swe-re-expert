@@ -3,7 +3,7 @@
 **Verdict:** CLEAN | SUSPICIOUS | MALICIOUS | INCONCLUSIVE
 **Analyzed by:** Agent using `swe-re-expert` skill
 **Date:** {{YYYY-MM-DD}}
-**Analysis type:** Static-only | Static + dynamic (sandbox: {{SANDBOX_DESC}})
+**Analysis type:** Static-only | Static + dynamic (env: {{ENV_DESC}})
 
 ---
 

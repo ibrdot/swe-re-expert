@@ -137,8 +137,8 @@ Two PRs. Each bounded. Reversible. The reader knows the cost.
 - 6 of 9 known Lumma C2 URI patterns present
 - Imports `LsaOpenPolicy` and `CryptUnprotectData` (Lumma-signature imports)
 
-To confirm: submit SHA-256 to MalwareBazaar for family match; detonate in isolated VM
-to verify browser profile enumeration."
+To confirm: submit SHA-256 to MalwareBazaar for family match; run dynamically in an
+instrumented VM to verify browser profile enumeration."
 
 SUSPECTED marker. Evidence cited. Confirm-test stated. The reader knows the confidence level.
 

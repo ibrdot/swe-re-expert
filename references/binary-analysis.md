@@ -1,6 +1,6 @@
 # Binary Analysis Playbook — Static → Dynamic → Semantic Recovery
 
-This is the agent's reference whenever the target is a **native binary** (ELF, PE, Mach-O, raw firmware) that may or may not be hostile. The goal: turn a stack of bytes into a structured understanding of what the binary does, supported by evidence (offsets, instructions, call targets).
+This is the agent's reference whenever the target is a **native binary** (ELF, PE, Mach-O, raw firmware) of unknown behavior. The goal: turn a stack of bytes into a structured understanding of what the binary does, supported by evidence (offsets, instructions, call targets).
 
 The pipeline has three layers. Each layer's output feeds the next: static signals form hypotheses, dynamic traces confirm them, semantic recovery rebuilds the high-level picture.
 

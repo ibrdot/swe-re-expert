@@ -4,7 +4,7 @@
     {
       "id": 1,
       "name": "binary-triage-and-yara",
-      "prompt": "I have a suspicious Windows PE binary at /tmp/sample.exe. I don't know what it does. Can you triage it, tell me what behavior you can identify from static analysis alone, extract the IOCs you find, and generate a YARA rule for the family? Use the scripts in the skill if they help. Don't run the binary.\n\nIf /tmp/sample.exe doesn't exist, fall back to /bin/ls (a benign Linux binary) and treat it as if it were a sample of unknown intent — the goal is to demonstrate the triage workflow, not to actually find malware.",
+      "prompt": "I have a suspicious Windows PE binary at /tmp/sample.exe. I don't know what it does. Can you triage it, tell me what behavior you can identify from static analysis alone, extract the IOCs you find, and generate a YARA rule for the family? Use the scripts in the skill if they help.\n\nIf /tmp/sample.exe doesn't exist, fall back to /bin/ls (a benign Linux binary) and treat it as if it were a sample of unknown intent — the goal is to demonstrate the triage workflow, not to actually find malware.",
       "expected_output": "A structured malware triage report with: verdict (CLEAN/SUSPICIOUS/MALICIOUS/INCONCLUSIVE), hashes, file type, sections with entropy, imports categorized by suspicious type, strings categorized (network/paths/cred-hints), MITRE ATT&CK mapping if any behavior identified, IOC tables, at least one YARA rule, limitations, and a recommended next step. The report should follow the assets/report_malware_triage.md template structure.",
       "files": []
     },

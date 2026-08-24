@@ -15,7 +15,7 @@ When a binary resists standard analysis, recognize the technique fast. Each tech
 | Anti-debug: timing | `rdtsc` pairs around code | Patch jumps |
 | Anti-VM: strings | Strings like "VMware", "VirtualBox" | Patch strings |
 | Anti-VM: CPUID | `cpuid` with eax=0x40000000 | Patch result |
-| Anti-sandbox: timing | `Sleep` calls with long durations | Hook to return immediately |
+| Anti-analysis: timing-based evasion | `Sleep` calls with long durations | Hook to return immediately |
 | String encryption | No readable strings, XOR loops in disasm | Find decrypt routine, emulate |
 | Control flow flattening | Switch dispatcher with state variable | Trace execution, map state→target |
 | Code virtualization | Custom VM interpreter | Multi-week recovery |
@@ -278,7 +278,7 @@ This is research-grade. Options:
 2. **Trace dynamic execution** — record every opcode execution, build execution traces
 3. **Symbolic execution** — angr or manticore with VM-aware execution
 
-Plan on 1-4 weeks for full recovery. For most practical purposes, you'd mark BLOCKED and look for the behavior via dynamic detonation instead.
+Plan on 1-4 weeks for full recovery. For most practical purposes, you'd mark BLOCKED and look for the behavior via dynamic execution instead.
 
 ## Self-modifying code
 
@@ -345,4 +345,4 @@ Some binaries are too obfuscated to reverse in reasonable time. Recognize when t
 - Control flow flattening across many functions (similar)
 - Encrypted everything with no obvious decrypt routine (custom crypto)
 
-For these, dynamic detonation in an isolated VM with good telemetry (Process Monitor, Sysmon, FakeNet-NG, Wireshark) is more cost-effective than static recovery. Mark the report as `BLOCKED` and explain what would unblock it.
+For these, dynamic execution in an instrumented VM with good telemetry (Process Monitor, Sysmon, FakeNet-NG, Wireshark) is more cost-effective than static recovery. Mark the report as `BLOCKED` and explain what would unblock it.

@@ -2,7 +2,7 @@
 """
 re_disasm.py — Capstone-based function-level disasm summary.
 
-Deterministic. Does not execute target binaries. Uses capstone for disasm;
+Deterministic static disassembler. Uses capstone for disasm;
 pyelftools/pefile for ELF/PE parsing to find functions and entry points.
 
 Usage:
