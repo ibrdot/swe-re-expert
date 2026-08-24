@@ -1,101 +1,159 @@
 # Binary Analysis Report — {{TARGET_NAME}}
 
+> Canonical output template for RE binary analysis (non-malware — for malware triage, use `report_malware_triage.md`). Replace `{{...}}` placeholders with concrete values. Maintain the section order.
+
 **Verdict:** CLEAN | SUSPICIOUS | MALICIOUS | INCONCLUSIVE
-**Analyzed by:** Agent using `swe-re-expert` skill
+**Audited by:** Agent using `swe-re-expert` skill
 **Date:** {{YYYY-MM-DD}}
-**Analysis type:** Static-only | Static + dynamic (env: {{ENV_DESC}})
+**Target:** {{file path or blob ID}}
+**Size:** {{N bytes}}
+**SHA256:** {{hash}}
+**Analysis type:** {{Static / Static + Dynamic / Static + Emulated}}
 
 ---
 
-## Binary metadata
+## Executive summary
+
+{{3-5 sentences. State the verdict in plain English. What is the binary? What does it do? What's the headline finding? What's the recommended next step?}}
+
+Example (good):
+> CLEAN (benign utility). The binary is a 158KB ELF x86-64 dynamically-linked `ls` executable from GNU coreutils (Build ID `0243f2a3ad64d635299a574bbc8ef951ddde9b21`). Standard glibc/libselinux/libcap imports; full security hardening (NX, PIE, full RELRO, canary, FORTIFY). All strings resolve to GNU license URLs and standard coreutils paths. No malicious behavior identified statically. Recommend: skip threat-intel lookup; verdict is CLEAN with high confidence.
+
+## Sample metadata
 
 | Field | Value |
-|-------|-------|
-| File path | {{TARGET_PATH}} |
-| Size | {{N}} bytes |
-| Format | {{ELF / PE / Mach-O / raw}} |
-| Architecture | {{x86_64 / ARM64 / ...}} |
+|---|---|
+| File path | {{target}} |
+| Size (bytes) | {{N}} |
+| Magic bytes | {{`7f 45 4c 46` for ELF, `4d 5a` for PE, `cafe babf` for Mach-O universal, etc.}} |
+| Format | {{ELF / PE / Mach-O / other}} |
+| Architecture | {{x86_64 / i386 / ARM64 / ARM / MIPS / RISC-V}} |
 | Endianness | {{little / big}} |
-| Linking | {{static / dynamic}} |
-| Compiler / toolchain | {{GCC 11.4.0 / MSVC 19.37 / Go 1.21 / Rust 1.75 / ...}} |
-| Entry point | {{0xADDRESS}} |
-| MD5 | {{HASH}} |
-| SHA1 | {{HASH}} |
-| SHA256 | {{HASH}} |
-| SSDeep | {{HASH}} |
+| Linking | {{dynamic / static}} |
+| Compiler hints | {{GCC / Clang / MSVC / Go / Rust / .NET / etc.}} |
+| Build ID / PDB path | {{ID or path if present}} |
+| Timestamp | {{file header TimeDateStamp; flag if zero or off}} |
 
-## Security features
+### Hashes
 
-| Feature | Status | Evidence |
-|---------|--------|----------|
-| NX / DEP | {{true / false}} | {{section or PE flag evidence}} |
-| PIE / ASLR | {{true / false}} | {{ET_DYN / DYNAMIC_BASE}} |
-| RELRO | {{full / partial / none}} | {{PT_GNU_RELRO + DT_BIND_NOW}} |
-| Stack canary | {{true / false}} | {{__stack_chk_fail in symtab}} |
-| FORTIFY | {{true / false}} | {{*_chk imports}} |
-| CFG (PE) | {{true / false}} | {{DllCharacteristics & 0x4000}} |
+| Algorithm | Hash |
+|---|---|
+| MD5 | {{hash}} |
+| SHA1 | {{hash}} |
+| SHA256 | {{hash}} |
+| ssdeep | {{hash}} |
+| TLSH | {{hash}} |
+| Import hash (imphash) | {{hash — Windows PE only}} |
+| Rich header hash | {{hash — Windows PE / MSVC only}} |
 
-## Behavioral summary
+### Mitigations / hardening
 
-{{3-5 sentences in plain English describing what the binary does. Include: what entry point does, what main behavior is, what's unusual/suspicious. Use evidence from static analysis as the basis.}}
+| Mitigation | Status | Notes |
+|---|---|---|
+| NX (DEP) | {{enabled / disabled}} | Stack not executable |
+| PIE / ASLR | {{enabled / disabled}} | Position-independent |
+| RELRO | {{none / partial / full}} | GOT protection |
+| Stack canary | {{present / absent}} | Stack buffer overflow detection |
+| FORTIFY | {{enabled / disabled}} | `_chk` variants |
+| CFG (Control Flow Guard) | {{enabled / disabled}} | Windows only |
+| CET (Control-flow Enforcement) | {{enabled / disabled}} | Linux x86 with `endbr64` |
+| seccomp filter | {{present / absent}} | Syscall restriction |
 
-## Evidence table
+## Section entropy profile
 
-| # | Offset / addr | Instruction / symbol / string | Interpretation |
-|---|---------------|---------------------------------|----------------|
-| 1 | {{0x...}} | {{`mov rdi, [rip+0x...]`}} | {{Reference to .rodata string}} |
-| 2 | {{0x...}} | {{`call 0x...`}} | {{Calls function X, presumably for Y}} |
-| 3 | {{...}} | {{`MZ` magic in `.data` at 0x...}} | {{Embedded PE — possible payload}} |
-| 4 | {{...}} | {{string: "Mozilla/5.0..."}} | {{C2 User-Agent}} |
-| 5 | {{...}} | {{entropy of `.text` = 7.91}} | {{High entropy — possible packing}} |
+| Section | VAddr | Size | Entropy | Notes |
+|---|---|---|---|---|
+| {{.text}} | {{0x...}} | {{N}} | {{X.XXX}} | {{code, normal ~6.0-6.7}} |
+| {{.rodata}} | {{0x...}} | {{N}} | {{X.XXX}} | {{constants, strings}} |
+| {{.data}} | {{0x...}} | {{N}} | {{X.XXX}} | {{mutable globals}} |
+| ... | ... | ... | ... | ... |
 
-## Sections inventory
+High-entropy sections (>7.5) are flagged with rationale: packed / encrypted / compressed / normal-for-data.
 
-| Name | Virt addr | Size | Entropy | Notes |
-|------|-----------|------|---------|-------|
-| {{.text}} | {{0x...}} | {{N}} | {{0.0-8.0}} | {{normal / packed / encrypted}} |
-| {{.rodata}} | ... | ... | ... | ... |
-| {{.data}} | ... | ... | ... | ... |
+## Imports / dynamic symbols
 
-## Imports / library dependencies
+Categorized by behavior class. For RE, focus on suspicious categories.
 
-{{For PE: list of imported DLLs + high-signal functions. For ELF: list of NEEDED libs. For Mach-O: linked dylibs.}}
+| Category | Imports | Behavioral interpretation |
+|---|---|---|
+| Process / memory | {{VirtualAlloc, WriteProcessMemory, CreateRemoteThread, OpenProcess}} | {{injection, hollowing}} |
+| File system | {{CreateFile, WriteFile, ReadFile, DeleteFile, MoveFile}} | {{file manipulation, persistence}} |
+| Registry | {{RegSetValueEx, RegCreateKeyEx}} | {{persistence (Windows)} |
+| Network | {{socket, connect, send, recv, WSAGetLastError}} | {{network communication}} |
+| Process info | {{GetCurrentProcessId, GetModuleHandle, GetProcAddress}} | {{runtime API resolution}} |
+| Dynamic resolution | {{LoadLibraryA, GetProcAddress}} | {{runtime import loading — common in packers}} |
+| Crypto | {{CryptAcquireContext, CryptEncrypt, BCryptEncrypt}} | {{data encryption}} |
+| Anti-debug / anti-VM | {{IsDebuggerPresent, NtQueryInformationProcess, cpuid, rdtsc}} | {{anti-analysis}} |
+| Other (libstdc++, libc, etc.) | {{...}} | {{standard library, benign}} |
 
-| Category | Functions |
-|----------|-----------|
-| {{injection}} | {{CreateRemoteThread, WriteProcessMemory, ...}} |
-| {{network}} | {{socket, connect, ...}} |
-| {{...}} | ... |
+## Strings of interest
 
-## Findings
+Categorized. Only include non-boilerplate strings (boilerplate = GNU license text, std library paths, etc.).
 
-| Priority | Problem | Evidence | Recommended next step |
-|----------|---------|----------|----------------------|
-| {{P0/P1/P2/P3}} | {{Buffer overflow at line/offset}} | {{evidence addr/insn}} | {{Bound the copy or use safe API}} |
-| {{...}} | ... | ... | ... |
+| Category | String | Offset | Notes |
+|---|---|---|---|
+| Network (URLs / IPs) | {{http://1.2.3.4/api}} | {{0x...}} | {{C2 endpoint}} |
+| Network (User-Agent) | {{Mozilla/5.0...}} | {{0x...}} | {{HTTP fingerprint}} |
+| File paths | {{C:\\Users\\*\\AppData\\Local\\Temp\\}} | {{0x...}} | {{staging location}} |
+| Registry keys | {{HKLM\\...\\Run}} | {{0x...}} | {{persistence}} |
+| Mutex names | {{Global\\MyMalware_v2_Inst}} | {{0x...}} | {{family signature}} |
+| Browser paths | {{%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Login Data}} | {{0x...}} | {{browser credential theft}} |
+| Crypto wallet paths | {{%APPDATA%\\Bitcoin\\wallet.dat}} | {{0x...}} | {{crypto wallet theft}} |
+| Email / SMTP | {{smtp://mail.evil.com}} | {{0x...}} | {{spam / exfil via email}} |
+| Error messages | {{Failed to decrypt config}} | {{0x...}} | {{confirms decryption routine}} |
+| Build paths (PDB) | {{C:\\Users\\author\\projects\\malware\\Release\\malware.pdb}} | {{0x...}} | {{author environment}} |
+| Library version strings | {{OpenSSL 3.0.7}} | {{0x...}} | {{embedded libraries}} |
+| Mangled C++ names | {{St6vectorIiSaIiEE}} | {{0x...}} | {{std::vector<int> instantiation}} |
 
-## Anti-analysis techniques observed
+## Behavioral analysis
 
-| Technique | Indicator | Workaround |
-|-----------|-----------|------------|
-| {{UPX packing}} | {{UPX0 section}} | {{upx -d to unpack}} |
-| {{IsDebuggerPresent}} | {{import in IAT}} | {{patch to return 0}} |
-| {{...}} | ... | ... |
+### Identified behaviors
+
+| Behavior | Evidence | Confidence | MITRE ATT&CK |
+|---|---|---|---|
+| {{Behavior name}} | {{offset + instruction + interpretation}} | {{CONFIRMED / SUSPECTED / HYPOTHESIS}} | {{TXXXX Technique Name}} |
+| Process injection | `call VirtualAllocEx@plt` at 0x401234; `call WriteProcessMemory@plt` at 0x401250; `call CreateRemoteThread@plt` at 0x40127A | CONFIRMED | T1055 Process Injection |
+| Persistence (registry) | `call RegSetValueExA` at 0x4010F0 with `HKLM\...\Run` arg | SUSPECTED | T1547.001 Boot or Logon Autostart Execution: Registry Run Keys |
+| C2 communication | `call socket` at 0x401100, `call connect` at 0x401120, IP string at 0x4080F0 | CONFIRMED | T1071 Application Layer Protocol |
+| ... | ... | ... | ... |
+
+### Crypto identification
+
+If the binary uses crypto, identify the algorithm and mode:
+
+| Algorithm | Mode | Evidence | Key length (if inferred) |
+|---|---|---|---|
+| {{AES-128}} | {{CBC}} | {{AES S-box at 0x4040; AES inverse S-box at 0x4440; 10 rounds in cipher loop → 128-bit; IV passed as 2nd arg}} | {{128 bits}} |
+| {{MD5}} | {{N/A}} | {{MD5 IV at 0x4080; 64-entry sine table at 0x40A0}} | {{N/A}} |
+| {{RC4}} | {{stream}} | {{256-byte array init loop + swap loop at 0x401030; no constants in .rodata}} | {{runtime-derived}} |
+| ... | ... | ... | ... |
+
+If no crypto found: state "No standard crypto constants found. If the binary appears to do encryption, suspect custom/hand-rolled crypto and recommend reviewing the suspicious function at {{offset}}."
 
 ## Limitations
 
-{{What couldn't be confirmed, why, what would resolve it. Common cases:
-- "Stripped — function names not recovered; use Ghidra GoBinaryAnalyzer / IDAFLIRT sigs"
-- "Packed — main payload not analyzed statically; dump memory after unpack"
-- "Static-only — no dynamic confirmation of network behavior"
-- "VM-based obfuscation — handlers not fully mapped"
+{{What couldn't be verified, why, what would resolve it. Common:
+
+- "Static-only — dynamic execution not performed; behavioral findings are inferred from imports/strings, not confirmed at runtime"
+- "Stripped binary — function names not recovered; addresses used instead"
+- "No threat intel lookup — sample SHA-256 not submitted to MalwareBazaar / VirusTotal"
+- "Packed binary — payload not unpacked statically; only packer stub analyzed. Inner behavior BLOCKED."
+- "Go binary — gopclntab function name recovery not run; function names are addresses only"
+- "Rust binary — panic strings extracted but full type recovery not performed"
+- "VM-protected functions — {{N}} virtualized functions marked BLOCKED; behavior inferred from non-virtualized functions only"
+- "No sandbox/CAPE environment available — dynamic confirmation BLOCKED"
+- "YARA CLI not installed in analysis environment — YARA rule written but not validated against target"
 }}
 
 ## Recommended next step
 
-{{The smallest safe change or follow-up action. Concrete and bounded. Examples:
-- "Re-run with `python scripts/re_disasm.py --file <target> --function main` to get full main() disasm"
-- "Unpack with `upx -d <target>` and re-run triage on the unpacked binary"
-- "Set up an isolated VM and capture dynamic behavior with Cuckoo"
-- "Hand off to senior RE for VM-based obfuscation analysis"
+{{The smallest safe action for the user. Concrete, bounded, ordered by prerequisite. Examples:
+
+1. **If verdict CLEAN with high confidence**: No further action needed. Skip threat-intel lookup.
+2. **If verdict SUSPICIOUS**: Submit SHA-256 to MalwareBazaar for family confirmation; run dynamically in instrumented VM for behavioral capture.
+3. **If verdict MALICIOUS**: Share YARA rule with detection team; update blocklists with C2 IOCs; submit to VirusTotal for community coverage.
+4. **If verdict INCONCLUSIVE**: Escalate to dynamic analysis with full instrumentation; collect runtime imports, network traffic, file system changes.
+5. **If BLOCKED (packed/VM-protected)**: Run in dynamic analysis environment with unpacker; re-analyze the unpacked dump statically.
 }}
+
+For each step: estimated effort, what's needed (tools, environment, time).
