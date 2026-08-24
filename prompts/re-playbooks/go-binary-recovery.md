@@ -163,13 +163,104 @@ call   runtime.newproc         ; spawn goroutine
 ; size arg (small) is in rdi for regabi
 ```
 
+## Recovering Go module paths from buildinfo
+
+Go 1.18+ embeds the module path, version, and dependency list in the binary. Extract via:
+
+```bash
+# Use Go toolchain if available
+go version -m <target> | head -50
+# Output: path, version, dep path, dep version
+
+# Or via Python (for cross-platform, no Go toolchain needed)
+python3 -c "
+import sys
+data = open(sys.argv[1], 'rb').read()
+# Find the buildinfo marker
+marker = b'\\xff Go buildinf:'
+idx = data.find(marker)
+if idx > 0:
+    # Parse the buildinfo structure
+    ptr_size = data[idx + len(marker)]
+    endian = data[idx + len(marker) + 1]
+    print(f'Found buildinfo at offset {hex(idx)}')
+    print(f'Pointer size: {ptr_size}, Endian: {endian}')
+" target
+```
+
+The `buildinfo` reveals:
+- Main module path (e.g., `github.com/ibrdot/example-app`)
+- Go version (e.g., `go1.21.0`)
+- Build settings (CGO enabled, build tags, etc.)
+- All dependency module paths + versions
+- Build flags (`-trimpath`, `-ldflags`, etc.)
+
+This is gold for attribution: the module path tells you the project, and dependencies tell you what libraries the binary uses (which gives you the function-name lookup table — e.g., if `github.com/spf13/cobra` is in deps, the command-line argument parser is Cobra).
+
+## Recovering the Go version (when .comment is stripped)
+
+Even without `.comment`, the version is embedded in `runtime.buildVersion`:
+
+```bash
+# Find the build version string
+strings -a <target> | grep "^go1\." | head -5
+# Or look for runtime.buildVersion symbol (if symbols present)
+nm <target> 2>/dev/null | grep "buildVersion"
+# Or look for the version string pattern in .rodata
+strings -a <target> | grep -E "^go1\.[0-9]+\.[0-9]+"
+```
+
+The Go version determines:
+- ABI (pre-1.17 = stack-based, 1.17+ = regabi)
+- `gopclntab` format (1.2, 1.16, 1.18, 1.20 each have slight differences)
+- Available stdlib functions (e.g., `slices`, `maps`, `cmp` packages added in 1.21)
+
+## Recovering interface implementations (itab analysis)
+
+Go interfaces use itab tables. Each itab links an interface type to a concrete type + method table. Find itabs via the `.itablink` section or via runtime initialization calls.
+
+```bash
+# List itabs (if symbols present)
+nm <target> 2>/dev/null | grep "itab"
+# Or scan the .itablink section
+objdump -s -j .itablink <target> | head
+```
+
+For each itab:
+1. Identify the interface type (from `.typelink`)
+2. Identify the concrete type (from `.typelink`)
+3. The method table maps to the actual implementations
+
+This is how you discover that, e.g., a `fmt.Stringer` interface is implemented by `User` struct — by finding the itab that connects them.
+
+## Common Go runtime panic patterns
+
+Go panics have distinctive patterns in the binary:
+
+| Panic string | Source-level operation |
+|--------------|-------------------------|
+| `runtime error: index out of range` | Slice index out of bounds |
+| `runtime error: slice bounds out of range` | Slice with bad start/end |
+| `runtime error: integer divide by zero` | `/0` or `%0` |
+| `runtime error: invalid memory address or nil pointer dereference` | Dereferencing nil pointer |
+| `send on closed channel` | Sending to a closed channel |
+| `concurrent map writes` | Map mutation race detected |
+| `concurrent map read and map write` | Map read/write race |
+| `sync: negative WaitGroup counter` | WaitGroup misuse |
+| `close of closed channel` | Closing an already-closed channel |
+| `close of nil channel` | Closing nil channel |
+| `runtime: goroutine stack exceeds X` | Stack overflow (deep recursion or unbounded) |
+
+Each of these tells you what risky operations the binary does. Map them to source-level concerns.
+
 ## When to escalate to dynamic
 
 For Go, static usually gets you 90% there because `gopclntab` exposes so much. Escalate to dynamic when:
-- Encrypted strings (rare in Go but possible)
-- Reflective API calls (`reflect.Value.Call`)
-- Plugin loading (`plugin.Open`)
-- Network behavior needs confirmation
+- Encrypted strings (rare in Go but possible — custom XOR or AES wrappers)
+- Reflective API calls (`reflect.Value.Call`) — the function being called is computed at runtime
+- Plugin loading (`plugin.Open`) — the loaded code is external
+- Network behavior needs confirmation — FakeNet-NG to capture C2/HTTP calls
+- Goroutine scheduling behavior (rarely needed; only for concurrency-bug analysis)
 
 ## Output
 
@@ -185,3 +276,31 @@ main.respond (0x402100) — writes encrypted response
 ```
 
 Each function has: address, source-level name (recovered from gopclntab), behavior summary (recovered from disasm). This is your evidence table.
+
+## Cross-references
+
+- `re-playbooks/crypto-identification.md` — for crypto primitive fingerprinting when AES S-box or similar found
+- `re-playbooks/disasm-recovery.md` — for general disasm heuristics that apply beyond Go
+- `re-playbooks/anti-debug-evasion.md` — if the Go binary uses anti-debug (rare but possible via direct syscalls or PEB checks)
+- `re-playbooks/api-resolution.md` — if the Go binary makes raw syscalls (uncommon; Go usually wraps via `syscall` package)
+- `mental-models/static-vs-dynamic.md` — for the decision matrix on when to escalate
+- `mental-models/evidence-vs-assertion.md` — every function-name recovery from gopclntab should cite the gopclntab entry offset
+
+## Verification checklist — for the agent before finalizing Go binary RE report
+
+- [ ] Go confirmed via `.gopclntab` section OR `runtime.*` strings OR `go1.*` version string
+- [ ] Go version extracted (from `.comment` or `runtime.buildVersion`)
+- [ ] All function names + addresses extracted via `go tool nm` or `gopclntab` parser
+- [ ] Module path + dependencies extracted from `buildinfo` (if Go 1.18+)
+- [ ] Itab tables analyzed for interface-to-impl mappings
+- [ ] Type descriptors from `.typelink` applied to disasm
+- [ ] Stack-check prologues recognized (gs:[0x30] access) and skipped in semantic recovery
+- [ ] Go-specific instruction idioms (channels, maps, slices, goroutines) mapped to source-level operations
+- [ ] String literals recovered (Go strings are (ptr, len) — use Go-aware extraction, not `strings`)
+- [ ] Bug patterns flagged (unsafe.Pointer, cgo calls, global mutable maps, etc.)
+- [ ] Panic strings mapped to risky source-level operations
+- [ ] Decision made on static-vs-dynamic
+- [ ] Cross-references added to sibling playbooks
+- [ ] All findings cite byte offsets + gopclntab entry indices
+
+If any checkbox is unchecked, the Go RE report is incomplete — go back and finish the missing layer before submission.

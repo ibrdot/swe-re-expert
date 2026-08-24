@@ -187,3 +187,136 @@ For modernization findings:
 | P2 | flask 1.1.x | Bug in `make_response` (line 47 workaround) | Upgrade to 2.3+ | 1 PR | Removes workaround |
 
 Each finding: current state, defect (specific), recommendation (bounded), cost (PR count, time), benefit (specific).
+
+## Migration sequence examples — concrete patterns
+
+For modernization findings that pass all 4 gates, sequence the migration by prerequisite. Each phase must be bounded (single PR), reversible, and testable.
+
+### Example 1: Python 3.11+ upgrade (with `asyncio.TaskGroup`)
+
+```
+Phase 1 (1 PR): Update base Docker image from python:3.9-slim to
+  python:3.11-slim. Update CI matrix to test against 3.11. No code
+  changes yet — verify all existing tests pass on 3.11. (~50 LOC
+  infra changes, 0 LOC code changes, rollback trivial)
+
+Phase 2 (1 PR): Replace ad-hoc asyncio.gather() calls with
+  asyncio.TaskGroup where the structured concurrency benefit applies.
+  Run unit tests; add a test that verifies task cancellation propagates.
+  (~80 LOC, single PR, rollback trivial)
+
+Phase 3 (1 PR): Replace remaining asyncio.gather() calls that benefit
+  from structured concurrency; leave the ones that don't (e.g., fan-out
+  with all-results-needed semantics). (~30 LOC, single PR, rollback
+  trivial)
+
+Phase 4 (1 PR): Drop Python 3.9 support from pyproject.toml. Remove
+  version checks (`if sys.version_info >= (3, 9)`). (~20 LOC deletions)
+
+Total: 4 PRs over 1 sprint. Each is independent, reversible, testable.
+```
+
+### Example 2: Go 1.21+ upgrade (with `slog`)
+
+```
+Phase 1 (1 PR): Update go.mod to require Go 1.21. Update CI matrix.
+  Run go test ./... — verify all pass. No code changes. (~10 LOC
+  go.mod, 0 LOC code)
+
+Phase 2 (1 PR): Introduce slog in a single package (e.g., internal/auth)
+  alongside existing log package calls. Both loggers active. Verify
+  structured logging works in production via a feature flag.
+  (~100 LOC, single PR, rollback: flip the feature flag)
+
+Phase 3 (1 PR per package): Migrate remaining packages to slog, one
+  package at a time. Each PR replaces log.Printf calls with slog.Info
+  calls, preserving the message text. (~50 LOC per PR, rollback trivial)
+
+Phase 4 (1 PR): Remove the old log package from imports. Verify no
+  callers remain via grep. (~30 LOC deletions)
+
+Total: 4-N PRs (where N is the package count) over 1 sprint. Each PR
+is bounded and reversible.
+```
+
+### Example 3: Rust edition 2024 upgrade
+
+```
+Phase 1 (1 PR): Update Cargo.toml: edition = "2024". Run `cargo check`
+  and `cargo test`. Fix any breaking changes (rare for edition bumps —
+  most are additive). (~10 LOC Cargo.toml, possibly 0-50 LOC code
+  fixes, single PR, rollback trivial)
+
+Phase 2 (1 PR per pattern): Adopt edition 2024 features where they
+  improve the code:
+  - Replace `if let Some(x) = ... { } else { return ... }` with
+    `let Some(x) = ... else { return ... }` (let-else)
+  - Replace `async_trait` crate dependency with native `async fn` in
+    traits (if used)
+  - Adopt let-chains in conditionals where readability improves
+  (~30-80 LOC per pattern, single PR each, rollback trivial)
+
+Total: 1 + N PRs over a sprint. Each is bounded, reversible, testable.
+```
+
+## Risk assessment template
+
+For each modernization finding, assess risk before recommending:
+
+| Risk dimension | Low (proceed) | Medium (mitigate) | High (defer) |
+|----------------|---------------|---------------------|----------------|
+| Regression risk | Has comprehensive tests; no behavior change expected | Has tests but behavior may shift subtly (perf, ordering) | Limited tests; behavior change is expected |
+| Migration scope | Single PR, one module | Multi-PR, one team | Multi-team, multi-quarter |
+| Rollback cost | Trivial (revert commit) | Medium (data migration may be needed) | High (data migration required; can't roll back) |
+| Tooling impact | No CI/deploy changes | Minor CI config update | Major toolchain upgrade (separate project) |
+| Team familiarity | Team knows the new tool | Team has used similar tools | Team is new to the paradigm |
+| Customer impact | Internal only | Customer-visible but reversible | Customer-visible and irreversible (e.g., data format change) |
+
+If any dimension is "High", the modernization is a project, not a finding. Document it as a future opportunity, not a current recommendation.
+
+## Common modernization mistakes — DO NOT recommend
+
+These look like modernizations but are actually rewrites or bad calls:
+
+- ❌ "Migrate from REST to gRPC across all services" — architecture migration, not modernization
+- ❌ "Migrate from monolith to microservices" — same
+- ❌ "Migrate from Postgres to MongoDB" — same (and almost always a bad idea; relational data fits Postgres)
+- ❌ "Switch from React to Vue" or any UI framework swap — rewrite, not modernization
+- ❌ "Switch from Kubernetes to Nomad" — infrastructure migration, separate decision
+- ❌ "Adopt event sourcing" — architecture pattern adoption, separate decision
+- ❌ "Move to serverless" — deployment model change, separate decision
+- ❌ "Switch to GraphQL" — API paradigm change, separate decision
+- ❌ "Rewrite in Rust for memory safety" — rewrite, not modernization; if memory safety is the goal, recommend specific unsafe code audits instead
+- ❌ "Migrate to microservices for scalability" — without concrete scaling target, premature
+- ❌ "Adopt DDD" — architecture pattern adoption, separate decision
+
+These are all valid *projects* a team might undertake, but they don't belong in an audit report as findings — they're decisions for the team to make with their own stakeholders, not recommendations from an audit.
+
+## Cross-references
+
+- `mental-models/refactor-decisions.md` — modernization is a special case of refactor; same 4-gate test applies
+- `mental-models/architecture-fitness.md` — for modernizations that touch architecture (apply 5-question test)
+- `swe-playbooks/dependency-analysis.md` — for modernizations driven by dependency EOL or vulnerability
+- `swe-playbooks/refactor-prioritization.md` — for sequencing modernization with other refactors
+- `swe-playbooks/test-quality-review.md` — modernization risk depends on test quality; assess tests first
+- `assets/report_code_audit.md` — the output template (modernization findings go in the same audit report)
+- `meta/evidence-checklist.md` — every modernization finding cites the defect, the migration plan, and the risk
+
+## Verification checklist — for the agent before submitting modernization findings
+
+- [ ] All 4 gates passed (present defect? fixes it? bounded? cost < benefit?)
+- [ ] Defect is specific (not "newer is better", "modern", "cleaner")
+- [ ] Migration plan is bounded (single PR or short sequence)
+- [ ] Each PR in the sequence has a rollback path
+- [ ] Each PR in the sequence is independently testable
+- [ ] Toolchain constraint verified (CI supports it, deploy target supports it, deps are compatible)
+- [ ] Regression risk assessed (per the risk assessment template)
+- [ ] No bundled changes (no "while we're at it, also do X" — each modernization is its own finding)
+- [ ] No architecture migrations dressed as modernizations (REST to gRPC, monolith to microservices, etc.)
+- [ ] No "rewrite" recommendations
+- [ ] Each finding has current state, defect, recommendation, cost, benefit
+- [ ] Deprecation status verified (vendor EOL date is cited if relevant)
+- [ ] Cross-references to sibling playbooks added where relevant
+- [ ] If risk is "High" on any dimension, finding is downgraded to "future opportunity", not current recommendation
+
+If any checkbox is unchecked, the modernization finding is a draft — fix before submission.

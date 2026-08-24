@@ -158,6 +158,157 @@ Don't recommend rewrites. Ever. If the current code has a defect, recommend fixi
 
 Almost always the wrong call. The exception: the system is so broken that incremental fixes cost more than a rewrite — and that decision is the team's, not the reviewer's.
 
+## Per-language audit patterns — quick reference
+
+The Phase 1 pattern scan works best when adapted per language. Use these per-language cheat sheets:
+
+### Python
+```bash
+# Security (highest signal)
+rg "eval\(|exec\(" --type py -g '!tests/**'    # Code injection
+rg "os\.system|subprocess\..*shell=True"        # Command injection
+rg "pickle\.loads|yaml\.load\((?!Loader)"      # Insecure deserialization
+rg "MD5|SHA1\b|DES|RC4|ECB"                      # Weak crypto
+rg "Math\.random|random\.randint.*auth|secret"  # Insecure RNG for security
+rg "password.*=.*[\"'].*[\"']"                   # Hardcoded credentials
+rg "secret.*=.*[\"'].*[\"']"                     # Same
+rg "api[_-]?key.*=.*[\"']"                      # Same
+rg "DEBUG.*=.*True"                              # Debug mode in production path
+rg "allow_origin.*\*"                            # CORS open
+rg "verify.*=.*False"                            # SSL verification disabled
+
+# Concurrency
+rg "Lock\(\)|threading\.Lock"                   # Verify usage pattern
+rg "asyncio\.create_task"                        # Verify task tracking
+rg "global\s+\w+"                                # Global mutable state
+
+# Code smells
+rg "TODO|FIXME|XXX|HACK"                          # Tech debt markers
+rg "print\(" --type py                            # Debug logging left in
+rg "^\s*#.*defunct|deprecated"                   # Commented-out code
+rg "except\s*:"                                   # Bare except
+rg "except\s+Exception\s*:"                       # Over-broad except
+rg "^\s*pass$"                                    # Stubs / placeholders
+```
+
+### Go
+```bash
+# Security
+rg "exec\.Command.*\+|exec\.Command.*Sprintf"    # Command injection
+rg "fmt\.Sprintf.*sql|query.*\+"                  # SQL injection (Go doesn't have parameterized via Sprintf)
+rg "MD4|MD5|SHA1\b|DES|RC4|ECB"                  # Weak crypto
+rg "math/rand.*auth|secret|token|password"       # Insecure RNG for security
+rg "password.*=.*[\"']"                           # Hardcoded credentials
+
+# Concurrency
+rg "go func\(\)"                                  # Verify goroutine lifecycle
+rg "sync\.Mutex|sync\.RWMutex"                   # Verify usage
+rg "global\s+map\["                              # Global mutable map (race risk)
+rg "select\s*\{.*case.*<-.*:"                    # Verify channel direction
+rg "interface\{\}"                                # Loses type safety
+rg "\.Default\(\)"                                # HTTP client with default timeout (often no timeout)
+
+# Code smells
+rg "TODO|FIXME|XXX|HACK"                          # Tech debt
+rg "panic\("                                      # Should usually be error return
+rg "_ = .*err"                                    # Error swallowing
+rg "if err != nil \{ return err \}"               # Lost context; use fmt.Errorf %w
+```
+
+### Rust
+```bash
+# Security
+rg "unsafe"                                       # Manual memory unsafety; review each
+rg "unwrap\(\)" --type rust                       # Panic on None/Err
+rg "expect\("                                      # Same (but with message)
+rg "as\s+(u8|i8|u16|i16|u32|i32|u64|i64|usize|isize)" # Truncation cast
+rg "MD5|SHA1\b|DES|RC4|ECB"                       # Weak crypto
+rg "password.*=.*[\"']"                            # Hardcoded credentials
+
+# Concurrency
+rg "Arc<Mutex"                                    # Verify contention
+rg "Arc<RwLock"                                   # Verify read/write ratio
+rg "unsafe impl Send"                             # Manual thread-safety claim
+rg "unsafe impl Sync"                             # Same
+rg "tokio::spawn"                                 # Verify task lifecycle
+rg "\.await"                                       # Async code; verify cancellation safety
+
+# Code smells
+rg "todo!\("                                       # Stubs
+rg "unimplemented!\("                              # Stubs
+rg "panic!\("                                      # Should usually be Result
+rg "\.clone\(\)"                                   # Often unnecessary; check
+rg "Box<dyn .*Error"                              # Loses error type info
+rg "Option<Option"                                 # Nested Option (usually a smell)
+rg "_: &.*&.*&"                                    # Triple-reference (rare and confusing)
+```
+
+### C / C++
+```bash
+# Security (high signal)
+rg "gets\(|strcpy\(|sprintf\(|strcat\("            # Buffer overflow sinks
+rg "memcpy\("                                      # Verify size
+rg "system\(|popen\(|execl\(|execve\("             # Command exec
+rg "printf\(|fprintf\(.*\w"                        # Format string if arg is user input
+rg "MD5|SHA1\b|DES|RC4|ECB"                        # Weak crypto
+rg "password\s*=\s*\""                             # Hardcoded credentials
+
+# Memory
+rg "new\s+\w+"                                     # Verify delete path
+rg "malloc\("                                      # Verify free path
+rg "free\("                                        # Verify not double-free
+rg "\*\(.*\*\)"                                    # Pointer-to-pointer-to-pointer (smell)
+
+# Concurrency
+rg "pthread_create"                                # Verify thread join
+rg "std::thread"                                   # Same
+rg "atomic<|std::atomic"                           # Verify memory order
+rg "std::mutex"                                    # Verify lock scope
+
+# Code smells
+rg "TODO|FIXME|XXX|HACK"                           # Tech debt
+rg "reinterpret_cast"                              # Type punning; review
+rg "const_cast"                                    # Usually a smell
+rg "dynamic_cast"                                  # Often a sign of design issue
+rg "delete\s+\w+;"                                 # Manual delete (smell in C++)
+```
+
+## Audit priority matrix — by codebase type
+
+Different codebases have different priorities. Adapt your audit order accordingly:
+
+| Codebase type | Audit first | Audit later | Skip |
+|----------------|-------------|--------------|------|
+| Web service (HTTP entry) | Auth, input validation, SQL queries, ORM usage, file upload, SSRF | Logging, metrics, config | Internal utilities |
+| CLI tool | Arg parsing, file I/O, env var usage | Logging | Tests |
+| Library / SDK | Public API surface, input validation, error returns | Internal helpers | Examples |
+| Daemon / service | IPC, file perms, env var usage, signal handling | Logging | CLI subcommand handlers |
+| Embedded | Memory safety, interrupt safety, hardware register access | Logging | Tests |
+| Game / graphics | Render loop correctness, asset loading | Logging | Build scripts |
+| Batch job | Input parsing, file I/O, error handling on failure paths | Logging | Tests |
+
+## The "audit the data path" rule
+
+For any codebase, the audit's highest-ROI focus is the data path:
+- Where does user input enter?
+- Where does it get transformed?
+- Where does it reach a sink (DB, shell, file, network)?
+- Where are the validation checkpoints?
+- Where are the error handling gaps?
+
+Trace one full data path end-to-end per audit. Even if you only flag 2 findings from that trace, they'll be high-confidence (because you saw the whole path) — better than 10 isolated pattern matches.
+
+## The "audit the failure paths" rule
+
+Codebases have happy paths (well-tested, well-reviewed) and failure paths (often untested, often buggy). Spend disproportionate time on failure paths:
+- Error handling branches
+- Timeout / retry / cancellation logic
+- Cleanup / rollback logic
+- Partial-failure scenarios (3-of-5 subsystems succeed; what happens?)
+- Resource exhaustion (OOM, disk full, too many open files)
+
+These are where P0 bugs hide. Happy paths rarely have undiscovered bugs.
+
 ## Time budget per finding
 
 | Phase | Per finding |
@@ -170,19 +321,41 @@ Almost always the wrong call. The exception: the system is so broken that increm
 
 In a 1-hour review, that's 7-12 findings — about right for a focused review on a single PR or a focused audit on a single module.
 
-## Output
+For a multi-module audit (2-4 hours), expect 20-40 findings. Order by priority; the top 10 carry 80% of the value.
 
-The deliverable is the code audit report (see `assets/report_code_audit.md`). Findings table with P0/P1/P2/P3 priorities, each with line numbers and recommended next steps.
+## Cross-references
 
-Skip:
-- Stylistic nitpicks (defer to linters)
-- Pattern preferences (not findings)
-- Speculative concerns (no concrete cost)
-- "Should be refactored" without specifics
+- `mental-models/evidence-vs-assertion.md` — every audit finding cites a file:line
+- `mental-models/refactor-decisions.md` — for findings that are refactor candidates (apply 4-gate test before flagging)
+- `mental-models/architecture-fitness.md` — for findings that are architectural (apply 5-question test)
+- `swe-playbooks/refactor-prioritization.md` — for sequencing refactor findings from the audit
+- `swe-playbooks/dead-code-confirmation.md` — for findings that are "this code is dead"
+- `swe-playbooks/test-quality-review.md` — for findings about test coverage
+- `swe-playbooks/security-review-thinking.md` — for security-specific findings
+- `swe-playbooks/perf-review-thinking.md` — for performance-specific findings
+- `swe-playbooks/concurrency-bugs.md` — for concurrency-specific findings
+- `swe-playbooks/modernization-gates.md` — for findings that are "upgrade to X"
+- `swe-playbooks/dependency-analysis.md` — for findings about dependency issues
+- `assets/report_code_audit.md` — the output template
+- `meta/evidence-checklist.md` — self-check before submitting the audit report
 
-Include:
-- Correctness / security defects with line citations
-- Architecture violations with evidence
-- Missing tests on critical paths
-- Performance issues on hot paths
-- Maintenance costs with concrete examples
+## Verification checklist — for the agent before submitting the audit report
+
+- [ ] Phase 1 pattern scan completed across the codebase (per-language cheat sheets)
+- [ ] Phase 2 critical flow trace completed on at least one data path end-to-end
+- [ ] Phase 3 test quality assessed on the modules under audit
+- [ ] Phase 4 filter applied — every finding passes the 4-gate test
+- [ ] Findings ordered P0 first, then P1, P2, P3
+- [ ] Every finding cites a file:line
+- [ ] Every finding has a concrete consequence (not "looks bad")
+- [ ] Every finding has a bounded recommendation (not "refactor this")
+- [ ] Every P0 finding has at least 2 independent evidence types (per `evidence-vs-assertion.md`)
+- [ ] No style nitpicks in the report (defer to linters)
+- [ ] No pattern preferences dressed as findings
+- [ ] No "should use X" architectural recommendations without concrete defect
+- [ ] No "rewrite this" recommendations
+- [ ] Failure paths audited disproportionately (per "audit the failure paths" rule)
+- [ ] Data path traced end-to-end at least once (per "audit the data path" rule)
+- [ ] Cross-references to sibling playbooks added where relevant
+
+If any checkbox is unchecked, the audit report is a draft — fix before submission.
