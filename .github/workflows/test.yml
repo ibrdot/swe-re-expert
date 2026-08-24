@@ -1,10 +1,16 @@
 name: skill-smoke-test
 
+# Auto-trigger on push/PR is currently disabled because the GitHub account
+# is on a billing hold — every push was failing at job-start with
+# "The job was not started because your account is locked due to a billing
+# issue." Once billing is resolved at https://github.com/settings/billing,
+# uncomment the `push`/`pull_request` blocks below (or run manually via the
+# Actions tab → "Run workflow" button) to re-enable CI.
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  # push:
+  #   branches: [main]
+  # pull_request:
+  #   branches: [main]
   workflow_dispatch:
 
 jobs:
