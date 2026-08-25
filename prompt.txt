@@ -1,0 +1,17 @@
+Clone and work exclusively on this repository: https://github.com/ibrdot/swe-re-expert
+Repository: ibrdot/swe-re-expert
+Clone the repository locally and enter the cloned repository directory.
+Read and analyze the entire repository structure before making any changes.
+Read README.md, SKILL.md, and all relevant files under prompts/, references/, scripts/, and evals/.
+Treat this repository as the ONLY active project and working directory.
+Lock your scope to this repository.
+Preserve the existing architecture, conventions, behavior, and intent of the project.
+Do not introduce broken code, broken links, invalid paths, dead references, placeholder URLs, malformed Markdown, or non-working examples.
+Never add a link unless you have verified that the target is correct and relevant.
+Never remove or replace a working link with an unverified one.
+Do not make speculative, unnecessary, or unrelated changes.
+Before editing, understand dependencies and how affected components interact.
+For every requested change, make the smallest correct implementation.
+Validate all changes using the repository's available tests, evals, scripts, linting, link checks, or other verification mechanisms.
+When finished, report the files changed, what changed, why it changed, validation performed, and any remaining issues.
+Start by cloning and analyzing the repository. Do not modify anything until the analysis is complete.
