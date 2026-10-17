@@ -289,7 +289,6 @@ If a file grows past ~800 lines, split it. The whole point of the prompts/ direc
 ## Using this library with the wider skill ecosystem
 
 For adjacent workflows outside software engineering and reverse engineering,
-browse **[ai-agent-skills](https://github.com/ibrdot/ai-agent-skills)**: 941 indexed
-guides with names, paths, purposes, and licenses, plus a searchable explorer and
-read-only JSON API. Keep the referenced guides together with these prompts so
-relative links resolve. Questions or improvements: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).
+browse the bundled skills library at [`skills-library/SKILLS.md`](../skills-library/SKILLS.md):
+941 indexed guides with names, paths, purposes, and licenses, plus a searchable explorer
+and JSON API under `skills-library/docs/api/v1/`. Questions: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).

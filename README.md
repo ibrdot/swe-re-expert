@@ -34,12 +34,8 @@ research, browser automation, documents, workspace workflows, and integrations.
 
 ## 🔗 Related skills from the same team
 
-**[ai-agent-skills](https://github.com/ibrdot/ai-agent-skills)** - a curated library of
-941 AI agent skill guides covering engineering, research, browser automation, documents,
-workspace workflows, and integrations. It indexes every guide by name, path, purpose,
-and license, with a searchable web explorer and a versioned read-only JSON API.
-Use it to find complementary skills; use SWE + RE Expert when the task is deep
-source review or binary analysis. Contact: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).
+The bundled [skills library](#-built-in-skills-library-941-guides) serves this role: 941 indexed
+guides with a searchable explorer and versioned JSON API. Contact: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).
 
 ## 🧓 Contents
 
