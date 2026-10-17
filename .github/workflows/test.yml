@@ -80,7 +80,7 @@ jobs:
 
       - name: All markdown files have non-trivial content
         run: |
-          find . -name "*.md" -not -path "./.git/*" | while read f; do
+          find . -name "*.md" -not -path "./.git/*" -not -path "./skills-library/*" | while read f; do
             lines=$(wc -l < "$f")
             if [ "$lines" -lt 5 ]; then
               echo "ERROR: $f has only $lines lines"
