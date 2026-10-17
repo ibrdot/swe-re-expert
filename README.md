@@ -1,5 +1,11 @@
 <div align="center">
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![CI](https://github.com/ibrdot/swe-re-expert/actions/workflows/ci.yml/badge.svg)](https://github.com/ibrdot/swe-re-expert/actions/workflows/ci.yml)
+[![GitHub stars](https://img.shields.io/github/stars/ibrdot/swe-re-expert?style=social)](https://github.com/ibrdot/swe-re-expert/stargazers)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 # SWE + RE Expert
 
 ### Code review meets binary analysis. Evidence, not guesswork.
@@ -23,6 +29,10 @@ workspace workflows, and integrations. It indexes every guide by name, path, pur
 and license, with a searchable web explorer and a versioned read-only JSON API.
 Use it to find complementary skills; use SWE + RE Expert when the task is deep
 source review or binary analysis. Contact: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).
+
+## Contents
+
+[Why this exists](#why-this-exists) · [Try it in 60 seconds](#try-it-in-60-seconds) · [What's included](#whats-included) · [Binary analysis](#binary-analysis-quick-start) · [The analysis loop](#the-analysis-loop) · [Development](#development)
 
 ## Why this exists
 
