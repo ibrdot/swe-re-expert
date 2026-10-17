@@ -28,7 +28,7 @@ This repository now bundles a complete AI-agent skills library in
 research, browser automation, documents, workspace workflows, and integrations.
 
 - Full catalogue: [`skills-library/SKILLS.md`](skills-library/SKILLS.md)
-- Versioned JSON API: [`skills-library/API.md`](skills-library/api/v1/skills.json)
+- Versioned JSON API: [`skills-library/API.md`](skills-library/API.md)
 - Searchable explorer (pure white, light-only): `skills-library/docs/`
 - Rebuild docs and API anytime: `cd skills-library && python3 tools/build.py`
 
