@@ -22,24 +22,23 @@ jobs:
       - name: Install Python deps
         run: |
           python -m pip install --upgrade pip
-          pip install pefile pyelftools capstone
-        continue-on-error: true
+          pip install -r requirements.txt
 
       - name: Smoke test re_triage.py on /bin/ls
         run: |
           python scripts/re_triage.py --file /bin/ls --all --out /tmp/ls_triage.json
           test -f /tmp/ls_triage.json
-          python -c "import json; d=json.load(open('/tmp/ls_triage.json')); assert d['format']=='ELF'; assert d['arch']; print('re_triage OK')"
+          python -c "import json; d=json.load(open('/tmp/ls_triage.json')); assert 'error' not in d; assert d['format']=='ELF'; assert d['arch']; print('re_triage OK')"
 
       - name: Smoke test re_disasm.py on /bin/ls
         run: |
-          python scripts/re_disasm.py --file /bin/ls --functions --all --out /tmp/ls_disasm.json
+          python scripts/re_disasm.py --file /bin/ls --entry --out /tmp/ls_disasm.json
           test -f /tmp/ls_disasm.json
-          python -c "import json; d=json.load(open('/tmp/ls_disasm.json')); print('re_disasm OK')"
+          python -c "import json; d=json.load(open('/tmp/ls_disasm.json')); assert 'error' not in d; assert d.get('entry_disasm'); print('re_disasm OK')"
 
       - name: Smoke test swe_audit.py on scripts/
         run: |
-          python scripts/swe_audit.py --root scripts --triage --out /tmp/swe_triage.json
+          python scripts/swe_audit.py --root scripts --all --out /tmp/swe_triage.json
           test -f /tmp/swe_triage.json
           python -c "import json; d=json.load(open('/tmp/swe_triage.json')); print('swe_audit OK')"
 
@@ -68,6 +67,9 @@ jobs:
 
       - name: evals.json valid JSON
         run: python -c "import json; json.load(open('evals/evals.json'))"
+
+      - name: Regression tests
+        run: python -m unittest discover -s tests -v
 
       - name: All scripts compile
         run: |

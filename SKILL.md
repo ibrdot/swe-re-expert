@@ -51,15 +51,9 @@ Both SWE and RE work runs through the same loop. The phase *names* are shared; t
 
 ### Phase 1 — SCOPE
 
-Before any tool call, nail down what the user wants. Ask (do not assume):
+Establish the target, goal, depth, constraints, and acceptance criteria from the user's request and available project records. Inspect what is already accessible before asking questions. Ask one focused question only when a missing detail blocks a correct result; otherwise state reasonable assumptions and begin reversible analysis.
 
-- **Target**: file path? binary blob? function name? codebase root? git ref?
-- **Goal**: full report? one specific question? patch? just understand?
-- **Depth**: quick triage (minutes) or deep dive (hours)?
-- **Constraints**: time, environment, sensitivity (CTF? prod incident?), and what's off-limits
-- **Format**: markdown report? inline answer? patched diff? extracted IOCs?
-
-If the user gave a binary without much context, ask one quick clarifying question about the goal (triage vs deep dive) rather than assuming.
+For execution-focused behavior, follow [prompt.txt](prompt.txt). Do the actual analysis or implementation requested, preserve unrelated changes, distinguish observations from hypotheses, and verify the result. A prompt does not add tools or guarantee expertise.
 
 ### Phase 2 — TRIAGE
 

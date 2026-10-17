@@ -73,7 +73,8 @@ def inventory(root: Path) -> dict:
         lang = LANG_BY_EXT.get(ext)
         if lang:
             try:
-                loc = sum(1 for _ in p.open("rb"))
+                with p.open("rb") as source:
+                    loc = sum(1 for _ in source)
                 total_loc += loc
                 files_by_lang[lang].append({"path": str(p.relative_to(root)), "loc": loc})
             except (UnicodeDecodeError, PermissionError):
@@ -163,13 +164,13 @@ def generic_complexity(path: Path) -> list:
     return out
 
 
-def collect_complexity(files_by_lang: dict) -> list:
+def collect_complexity(files_by_lang: dict, root: Path = Path(".")) -> list:
     hotspots = []
     for lang, files in files_by_lang.items():
         if lang == "headers":
             continue
         for f in files:
-            path = Path(f["path"])
+            path = root / f["path"]
             if lang == "python":
                 hotspots.extend(python_complexity(path))
             else:
@@ -223,7 +224,7 @@ def generic_dead_code(path: Path) -> list:
     return candidates
 
 
-def find_dead_code(files_by_lang: dict) -> list:
+def find_dead_code(files_by_lang: dict, root: Path = Path(".")) -> list:
     """Mark symbols that are defined but never referenced outside their definition file."""
     # First, collect all defined symbols
     definitions = []
@@ -231,7 +232,7 @@ def find_dead_code(files_by_lang: dict) -> list:
         if lang == "headers":
             continue
         for f in files:
-            path = Path(f["path"])
+            path = root / f["path"]
             if lang == "python":
                 definitions.extend(python_dead_code(path))
             else:
@@ -244,7 +245,7 @@ def find_dead_code(files_by_lang: dict) -> list:
             continue
         for f in files:
             try:
-                corpus_text += Path(f["path"]).read_text() + "\n"
+                corpus_text += (root / f["path"]).read_text() + "\n"
             except (UnicodeDecodeError, PermissionError):
                 continue
 
@@ -253,7 +254,7 @@ def find_dead_code(files_by_lang: dict) -> list:
     dead = []
     for d in definitions[:200]:  # cap for performance
         sym = d["symbol"]
-        occurrences = corpus_text.count(r"\b" + re.escape(sym) + r"\b")
+        occurrences = len(re.findall(r"\b" + re.escape(sym) + r"\b", corpus_text))
         if occurrences <= 2:
             dead.append({**d, "occurrences": occurrences, "reason": "low reference count"})
     return dead[:30]
@@ -315,7 +316,7 @@ def analyze_deps(files_by_lang: dict, root: Path) -> list:
         if lang == "headers":
             continue
         for f in files:
-            src_path = Path(f["path"])
+            src_path = root / f["path"]
             try:
                 src_layer = layer_of(f["path"])
                 if src_layer == "other":
@@ -426,8 +427,8 @@ def main():
         "total_loc": inv["total_loc"],
     }
 
-    complexity = collect_complexity(inv["files_by_lang"]) if (args.all or args.complexity) else []
-    dead = find_dead_code(inv["files_by_lang"]) if (args.all or args.dead_code) else []
+    complexity = collect_complexity(inv["files_by_lang"], root) if (args.all or args.complexity) else []
+    dead = find_dead_code(inv["files_by_lang"], root) if (args.all or args.dead_code) else []
     deps = analyze_deps(inv["files_by_lang"], root) if (args.all or args.deps) else []
 
     if args.all or args.complexity:
