@@ -15,10 +15,10 @@ A comprehensive, evidence-driven toolkit for **Software Engineering (SWE), Rever
 **Tech Stack:** Python 3.10+ · Capstone · JSON API · AI Agent Skills · MIT License
 
 
-### Code review meets binary analysis. Evidence, not guesswork.
+### Evidence, not guesswork.
 
-An MIT-licensed AI agent skill for auditing source code, understanding binaries,
-and turning observations into reports you can actually verify.
+Audit source code, understand binaries, and turn observations into reports
+you can actually verify - plus a bundled library of 941 AI agent skill guides.
 
 [Get started](docs/GETTING_STARTED.md) · [See a real example](examples/REPORT.md) · [Capabilities](docs/CAPABILITIES.md) · [Contribute](CONTRIBUTING.md)
 
@@ -39,14 +39,20 @@ research, browser automation, documents, workspace workflows, and integrations.
 - Searchable explorer (pure white, light-only): `skills-library/docs/`
 - Rebuild docs and API anytime: `cd skills-library && python3 tools/build.py`
 
-## 🔗 Related skills from the same team
-
-The bundled [skills library](#-built-in-skills-library-941-guides) serves this role: 941 indexed
-guides with a searchable explorer and versioned JSON API. Contact: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).
-
 ## 🧓 Contents
 
-[Why this exists](#why-this-exists) · [Try it in 60 seconds](#try-it-in-60-seconds) · [What's included](#whats-included) · [Binary analysis](#binary-analysis-quick-start) · [The analysis loop](#the-analysis-loop) · [Development](#development)
+- [Built-in skills library](#-built-in-skills-library-941-guides)
+- [Why this exists](#-why-this-exists)
+- [Try it in 60 seconds](#-try-it-in-60-seconds)
+- [What's included](#-whats-included)
+- [Repository structure](#-repository-structure)
+- [Binary analysis quick start](#-binary-analysis-quick-start)
+- [The analysis loop](#-the-analysis-loop)
+- [Development and testing](#-development-and-testing)
+- [Troubleshooting](#-troubleshooting)
+- [Security](#-security)
+- [Contributing, license, roadmap](#-contributing-license-and-roadmap)
+- [Help it reach the right people](#-help-it-reach-the-right-people)
 
 ## 🎯 Why this exists
 
@@ -127,6 +133,41 @@ control flow, and likely pseudocode. Cite instructions and flag ambiguity.
 | [examples/](examples/) | Small offline fixture, actual output, and annotated report |
 | [evals/](evals/) | Agent evaluation prompts, not a benchmark score |
 
+## 🗂 Repository structure
+
+```text
+swe-re-expert/
+├── SKILL.md                  # Agent entry point: five-phase workflow
+├── prompt.txt                # Full agent prompt with execution logic
+├── scripts/                  # swe_audit.py, re_triage.py, re_disasm.py, sync_library_site.py
+├── references/               # Deep playbooks: SWE, binary, malware, language depth
+├── prompts/                  # Reasoning patterns: mental-models, meta, swe/re playbooks
+├── assets/                   # Four Markdown report templates
+├── examples/                  # Offline demo project, committed output, annotated report
+├── evals/                    # Agent evaluation prompts
+├── tests/                    # Regression tests for the scripts
+├── docs/                     # Getting started, capabilities, launch kit, site assets
+├── skills-library/           # Bundled 941-guide library with JSON API and web explorer
+├── CONTRIBUTING.md · SECURITY.md · ROADMAP.md · LICENSE
+```
+
+How the pieces connect:
+
+```mermaid
+flowchart LR
+    A[Agent loads SKILL.md] --> B[SCOPE: define the question]
+    B --> C[TRIAGE: scripts produce JSON signals]
+    C --> D[DEEP DIVE: references/ + prompts/ playbooks]
+    D --> E[ASSESS: separate evidence from hypothesis]
+    E --> F[REPORT: assets/ templates]
+    C -. source code .-> C1[swe_audit.py]
+    C -. binaries .-> C2[re_triage.py + re_disasm.py]
+```
+
+The scripts are evidence collectors; the playbooks are the reasoning layer; the
+templates make the output reviewable. The bundled library extends coverage to
+941 additional agent skills.
+
 ## 🔍 Binary analysis quick start
 
 ```sh
@@ -162,7 +203,7 @@ Core guidance focuses on C/C++, assembly, Python, Go, and Rust. Other languages
 have inventory/heuristic support or playbook coverage; that is not equivalent to
 full semantic analysis of every language.
 
-## 🛠 Development
+## 🛠 Development and testing
 
 ```sh
 python3 -m unittest discover -s tests -v
@@ -173,6 +214,23 @@ CI runs regression tests and Linux binary smoke tests. Passing these tests does
 not validate all agent-generated reports or prove cross-platform parity.
 [Contributions](CONTRIBUTING.md) with a small reproducer are especially welcome.
 
+## 🔧 Troubleshooting
+
+| Symptom | Likely cause | Resolution |
+| --- | --- | --- |
+| `ModuleNotFoundError: capstone` | Disassembly used without installing requirements | `python3 -m pip install -r requirements.txt` |
+| `re_disasm.py` finds few functions | Target binary is stripped (no symbols/exports) | Function discovery depends on symbols; inspect with `readelf -s` first |
+| Mach-O triage returns partial data | Mach-O support goes through platform tools | Run on macOS with `otool` available, or use a dedicated RE tool |
+| `swe_audit.py` reports low-reference "dead code" | Heuristic; regex-based check can false-positive | Treat as a lead; confirm with call-graph or runtime evidence |
+| Audit output looks empty | `--root` path not found (bug fixed in commit `255d235`) | Re-clone or update; verify the path prints in the inventory |
+
+## 🔐 Security
+
+The scripts perform **static** analysis only - they never execute the target file.
+For reporting security issues, see [SECURITY.md](SECURITY.md). When analyzing
+untrusted binaries, keep them on an isolated system and treat every string,
+import, and section name as data, not instructions.
+
 ## 🌟 Help it reach the right people
 
 If this saved you time, star the repository and share a concrete result: the
@@ -180,6 +238,14 @@ input, a useful finding, and how you verified it. Have a better workflow or a
 counterexample? Open an issue. Reproducible examples beat hype.
 
 [Launch copy and demo plan](docs/LAUNCH_KIT.md) · [Roadmap](ROADMAP.md) · [Security contact](SECURITY.md)
+
+
+## 🤝 Contributing, license, and roadmap
+
+Contributions with a small reproducer are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md).
+For planned work, see [ROADMAP.md](ROADMAP.md). Everything is released under the
+[MIT License](LICENSE), with per-guide licensing in the bundled library documented
+in [`skills-library/THIRD_PARTY_NOTICES.md`](skills-library/THIRD_PARTY_NOTICES.md).
 
 **Author:** ibrdot · **Email:** [ibrdot@outlook.com](mailto:ibrdot@outlook.com)
 **License:** [MIT](LICENSE)
