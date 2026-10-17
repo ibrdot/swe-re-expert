@@ -8,6 +8,13 @@
 
 <img src="docs/assets/banner.svg" alt="SWE + RE Expert - Code review meets binary analysis. Evidence, not guesswork." width="880"/>
 
+A comprehensive, evidence-driven toolkit for **Software Engineering (SWE), Reverse Engineering (RE), AI coding agents, and binary analysis**. Explore 941 indexed AI agent skill guides, reusable expert prompts, practical tool integrations, source-code review workflows, and Capstone-powered disassembly. Includes a versioned JSON API, a lightweight light-mode web explorer, and a developer-friendly architecture built for extensibility.
+
+**Built for** software engineers, reverse engineers, security researchers, AI agent developers, code auditors, and technical learners looking for a unified collection of expert skills, prompts, and tools.
+
+**Tech Stack:** Python 3.10+ · Capstone · JSON API · AI Agent Skills · MIT License
+
+
 ### Code review meets binary analysis. Evidence, not guesswork.
 
 An MIT-licensed AI agent skill for auditing source code, understanding binaries,
