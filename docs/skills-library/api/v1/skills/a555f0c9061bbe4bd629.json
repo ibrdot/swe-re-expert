@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/accelo-automation/SKILL.md",
+  "name": "accelo-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/accelo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/accelo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/accelo-automation/SKILL.md",
+  "description": "Automate Accelo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a555f0c9061bbe4bd629",
+  "content_sha256": "8fbe90e17c3ed8877faf1d954e13df4513ac2b434418b584b2a9afaba7fe39e2"
+}

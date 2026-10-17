@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bugbug-automation/SKILL.md",
+  "name": "bugbug-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bugbug-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bugbug-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bugbug-automation/SKILL.md",
+  "description": "Automate Bugbug tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e5ea2e45dc8ed5022956",
+  "content_sha256": "e86784e229deb88e7ab336e4dbd03ebe80aa8c7879d51c964dedeecc07d0aa0f"
+}

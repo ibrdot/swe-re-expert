@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/minerstat-automation/SKILL.md",
+  "name": "minerstat-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/minerstat-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/minerstat-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/minerstat-automation/SKILL.md",
+  "description": "Automate Minerstat tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "04a129c57314fe43b5bb",
+  "content_sha256": "be650f2827af1442da448b6f4678e34c520b90639216fb3339889ccb68966b44"
+}

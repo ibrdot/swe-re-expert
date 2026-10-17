@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ip2location-automation/SKILL.md",
+  "name": "ip2location-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ip2location-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ip2location-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ip2location-automation/SKILL.md",
+  "description": "Automate Ip2location tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "bbd855e6bde24cbc30f1",
+  "content_sha256": "65333a1c109520306f385db40c1d42afcfbb818d83ce180ed1ab67929cb69a88"
+}

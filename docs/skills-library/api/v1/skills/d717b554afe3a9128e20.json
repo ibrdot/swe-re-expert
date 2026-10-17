@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/scrapingant-automation/SKILL.md",
+  "name": "scrapingant-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/scrapingant-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/scrapingant-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/scrapingant-automation/SKILL.md",
+  "description": "Automate Scrapingant tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d717b554afe3a9128e20",
+  "content_sha256": "b20b2218c79429f86e594e2437191a8aa2b2380357c2702b37ac56f4687281f8"
+}

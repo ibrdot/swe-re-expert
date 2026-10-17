@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/kommo-automation/SKILL.md",
+  "name": "Kommo Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/kommo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/kommo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/kommo-automation/SKILL.md",
+  "description": "Automate Kommo CRM operations -- manage leads, pipelines, pipeline stages, tasks, and custom fields -- using natural language through the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "31a037657b3c54cab4eb",
+  "content_sha256": "de1de648f9e2c29f0c7503dc4e2f6cc9ef5c2f70f105d6d65d58568b49af0b07"
+}

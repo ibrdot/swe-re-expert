@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/smartproxy-automation/SKILL.md",
+  "name": "smartproxy-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/smartproxy-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/smartproxy-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/smartproxy-automation/SKILL.md",
+  "description": "Automate Smartproxy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0b19463e88c19be78749",
+  "content_sha256": "74c6d44ac00bf3a06a7fd5e6461bbfa5945f13aa6865328a20b7c5a43ebc5b50"
+}

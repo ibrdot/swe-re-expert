@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/tisane-automation/SKILL.md",
+  "name": "tisane-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/tisane-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/tisane-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/tisane-automation/SKILL.md",
+  "description": "Automate Tisane tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9f2d593cb0d3c64570a0",
+  "content_sha256": "e85ce5d6a22305fc3d2621f9c46bcc5e5901a2074faf864d4a4247e4bc11205b"
+}

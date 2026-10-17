@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/cats-automation/SKILL.md",
+  "name": "cats-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/cats-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/cats-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/cats-automation/SKILL.md",
+  "description": "Automate Cats tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e18ea48f55ea14c93604",
+  "content_sha256": "4649214316ca3872455c5c27e044d922f9ce02eafa4be54615b408b6333d9285"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/appcircle-automation/SKILL.md",
+  "name": "appcircle-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/appcircle-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/appcircle-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/appcircle-automation/SKILL.md",
+  "description": "Automate Appcircle tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "720e1a37edfc8c1e962e",
+  "content_sha256": "3bc1b1ea9a1b5d388e05a209f81220d61470f45202418d74481ac73c486ae43d"
+}

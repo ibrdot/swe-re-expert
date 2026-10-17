@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/quaderno-automation/SKILL.md",
+  "name": "quaderno-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/quaderno-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/quaderno-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/quaderno-automation/SKILL.md",
+  "description": "Automate Quaderno tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4510c7f8b22b8b215bd6",
+  "content_sha256": "d307bae4d946c9c9b97564ed07428b5977017e2ee78cd60aec45627c6b301446"
+}

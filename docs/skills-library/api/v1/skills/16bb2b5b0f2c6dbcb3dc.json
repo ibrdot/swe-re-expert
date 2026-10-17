@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/in-progress/writing-shape/SKILL.md",
+  "name": "writing-shape",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Experimental",
+  "path": "vendor/mattpocock-skills/skills/in-progress/writing-shape/",
+  "skill_file": "vendor/mattpocock-skills/skills/in-progress/writing-shape/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/in-progress/writing-shape/SKILL.md",
+  "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "16bb2b5b0f2c6dbcb3dc",
+  "content_sha256": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/docmosis-automation/SKILL.md",
+  "name": "docmosis-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/docmosis-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/docmosis-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/docmosis-automation/SKILL.md",
+  "description": "Automate Docmosis tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e6867528177ffbfc3a51",
+  "content_sha256": "365ed0af9a60304390081a2aa91728f2908d4efcb89ff01d2d91a3d091937455"
+}

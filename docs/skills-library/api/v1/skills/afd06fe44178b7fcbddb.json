@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/builtwith-automation/SKILL.md",
+  "name": "builtwith-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/builtwith-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/builtwith-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/builtwith-automation/SKILL.md",
+  "description": "Automate Builtwith tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "afd06fe44178b7fcbddb",
+  "content_sha256": "b18ede714d46e6b733092c39a01c444b8119e66a7a9c124bb28f86040b3a55a5"
+}

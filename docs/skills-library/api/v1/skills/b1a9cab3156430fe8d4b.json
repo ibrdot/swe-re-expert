@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/many-chat-automation/SKILL.md",
+  "name": "many-chat-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/many-chat-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/many-chat-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/many-chat-automation/SKILL.md",
+  "description": "Automate ManyChat tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b1a9cab3156430fe8d4b",
+  "content_sha256": "fe07e52db87d02f9af72c8b7f0d7c130fc37af5222bd1aeb284c13464864380d"
+}

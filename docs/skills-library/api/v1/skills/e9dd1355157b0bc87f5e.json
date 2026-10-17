@@ -1,0 +1,15 @@
+{
+  "id": "gws-drive/SKILL.md",
+  "name": "gws-drive",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Google Workspace",
+  "path": "gws-drive/",
+  "skill_file": "gws-drive/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/gws-drive/SKILL.md",
+  "description": "Google Drive: Manage files, folders, and shared drives.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "e9dd1355157b0bc87f5e",
+  "content_sha256": "20f73f6653edf47cf0ada9d23f2f71c284280bdd327af7ef9185a14134312d4d"
+}

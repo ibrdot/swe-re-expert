@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/snowflake-automation/SKILL.md",
+  "name": "Snowflake Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/snowflake-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/snowflake-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/snowflake-automation/SKILL.md",
+  "description": "Automate Snowflake data warehouse operations -- list databases, schemas, and tables, execute SQL statements, and manage data workflows via the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1d2da5dc485d021c116c",
+  "content_sha256": "18b012dede07434a0acad9d25ff1819410e1368c118e051e293061a037af3b7b"
+}

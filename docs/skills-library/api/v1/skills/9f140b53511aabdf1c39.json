@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/opencage-automation/SKILL.md",
+  "name": "opencage-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/opencage-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/opencage-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/opencage-automation/SKILL.md",
+  "description": "Automate Opencage tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9f140b53511aabdf1c39",
+  "content_sha256": "a2ec51d891618caf6902b49b68c0c09e782eeffa2274c22917d780a83890ec2e"
+}

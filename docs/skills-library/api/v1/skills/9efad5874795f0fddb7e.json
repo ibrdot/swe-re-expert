@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/globalping-automation/SKILL.md",
+  "name": "globalping-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/globalping-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/globalping-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/globalping-automation/SKILL.md",
+  "description": "Automate Globalping tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9efad5874795f0fddb7e",
+  "content_sha256": "d80973ffdba4fd358e4432381c974c6ec60cd2aff9fb3546d1ab86730df982ac"
+}

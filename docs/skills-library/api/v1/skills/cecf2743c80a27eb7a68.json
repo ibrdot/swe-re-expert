@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/contentful-graphql-automation/SKILL.md",
+  "name": "contentful-graphql-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/contentful-graphql-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/contentful-graphql-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/contentful-graphql-automation/SKILL.md",
+  "description": "Automate Contentful Graphql tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "cecf2743c80a27eb7a68",
+  "content_sha256": "8399f0bb4884b0bf269f9546d4d58786209721c0df77821271bbb25c93715b41"
+}

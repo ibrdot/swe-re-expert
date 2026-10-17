@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/tomba-automation/SKILL.md",
+  "name": "tomba-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/tomba-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/tomba-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/tomba-automation/SKILL.md",
+  "description": "Automate Tomba tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2c8c94aad82462d18fd2",
+  "content_sha256": "2037cb4cd5d3592f9eb9bfdafa49f8cc3629d5bf234a54085849acbeff40b1a3"
+}

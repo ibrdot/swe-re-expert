@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/googlephotos-automation/SKILL.md",
+  "name": "googlephotos-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/googlephotos-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/googlephotos-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/googlephotos-automation/SKILL.md",
+  "description": "Automate Google Photos tasks via Rube MCP (Composio): upload media, manage albums, search photos, batch add items, create and update albums. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e773a7b7f6aa019d9b71",
+  "content_sha256": "261f049fb0aa81db6aa016b84ca5900490ae958ceb31f1e3a9b565d7bbd54acc"
+}

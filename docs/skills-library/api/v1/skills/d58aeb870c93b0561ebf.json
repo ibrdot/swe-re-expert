@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mailbluster-automation/SKILL.md",
+  "name": "mailbluster-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mailbluster-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mailbluster-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mailbluster-automation/SKILL.md",
+  "description": "Automate Mailbluster tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d58aeb870c93b0561ebf",
+  "content_sha256": "d49251dbafba8ff44fdbbecd6ba9a9f8c484512f1cde9a64233abe79c6059b06"
+}

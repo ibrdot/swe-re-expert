@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/serpapi-automation/SKILL.md",
+  "name": "serpapi-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/serpapi-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/serpapi-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/serpapi-automation/SKILL.md",
+  "description": "Automate Serpapi tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1b74016467c766fcaeda",
+  "content_sha256": "1aab745bf2a759f4ed07f6b8b69e9838f95cc5ac83689be7018cf04849e4337e"
+}

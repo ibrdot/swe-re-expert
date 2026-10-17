@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/gigasheet-automation/SKILL.md",
+  "name": "gigasheet-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/gigasheet-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/gigasheet-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/gigasheet-automation/SKILL.md",
+  "description": "Automate Gigasheet tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8235a00d648d371fa21a",
+  "content_sha256": "a6adaf8bcbeb9f2f618bb514bb9590cdfd3f487c64259e579a6670680ad2ac8e"
+}

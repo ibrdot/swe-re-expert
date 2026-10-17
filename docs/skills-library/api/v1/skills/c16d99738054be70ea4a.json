@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/writer-automation/SKILL.md",
+  "name": "writer-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/writer-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/writer-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/writer-automation/SKILL.md",
+  "description": "Automate Writer tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c16d99738054be70ea4a",
+  "content_sha256": "d87e37d8585eea51cef0d611d6c8f422c0669da76d7164591daf08d27753d252"
+}

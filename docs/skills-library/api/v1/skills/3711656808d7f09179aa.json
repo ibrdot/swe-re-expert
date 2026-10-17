@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/customerio-automation/SKILL.md",
+  "name": "Customer.io Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/customerio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/customerio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/customerio-automation/SKILL.md",
+  "description": "Automate customer engagement workflows including broadcast triggers, message analytics, segment management, and newsletter tracking through Customer.io via Composio",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "3711656808d7f09179aa",
+  "content_sha256": "2b10c8f7e949bcb90ef0316e55a737f1b5eb0a00c905fdd566bf464602ec8eed"
+}

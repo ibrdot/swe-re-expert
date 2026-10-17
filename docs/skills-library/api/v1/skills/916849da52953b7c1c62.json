@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/census-bureau-automation/SKILL.md",
+  "name": "census-bureau-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/census-bureau-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/census-bureau-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/census-bureau-automation/SKILL.md",
+  "description": "Automate Census Bureau tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "916849da52953b7c1c62",
+  "content_sha256": "fbcac3ef59da97b9a1104d09c3d7f2e1657e0e264a9c5d273a2b08681b87c35c"
+}

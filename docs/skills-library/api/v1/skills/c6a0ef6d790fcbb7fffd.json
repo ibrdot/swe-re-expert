@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/nextdns-automation/SKILL.md",
+  "name": "nextdns-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/nextdns-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/nextdns-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/nextdns-automation/SKILL.md",
+  "description": "Automate Nextdns tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c6a0ef6d790fcbb7fffd",
+  "content_sha256": "918f4edee11c695f698787e3b1174e587a6b9ff5609ece56e8325f7ade2716ea"
+}

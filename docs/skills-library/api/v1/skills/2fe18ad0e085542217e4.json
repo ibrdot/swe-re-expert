@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/livesession-automation/SKILL.md",
+  "name": "livesession-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/livesession-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/livesession-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/livesession-automation/SKILL.md",
+  "description": "Automate Livesession tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2fe18ad0e085542217e4",
+  "content_sha256": "d40f84f05c7c897c7780ff2b0aa65af2ee8035acd348188ceb7ef0cb40ee7c21"
+}

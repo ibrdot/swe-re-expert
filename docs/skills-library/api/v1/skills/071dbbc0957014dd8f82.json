@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dnsfilter-automation/SKILL.md",
+  "name": "dnsfilter-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dnsfilter-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dnsfilter-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dnsfilter-automation/SKILL.md",
+  "description": "Automate Dnsfilter tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "071dbbc0957014dd8f82",
+  "content_sha256": "8ec1ddad90ac0857c6cefabdefa8adc80c6b17bf7be693a725c10cb3a3ed324c"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/spondyr-automation/SKILL.md",
+  "name": "spondyr-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/spondyr-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/spondyr-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/spondyr-automation/SKILL.md",
+  "description": "Automate Spondyr tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0433c6bfc0729ad24ec3",
+  "content_sha256": "b39cd4ca9fe451ced966aad0e03e740d8164b1e0bfef3145c685641cac920be3"
+}

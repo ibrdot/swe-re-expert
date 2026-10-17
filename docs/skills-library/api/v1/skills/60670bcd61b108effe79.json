@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/to-tickets/SKILL.md",
+  "name": "to-tickets",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/to-tickets/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/to-tickets/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/to-tickets/SKILL.md",
+  "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "60670bcd61b108effe79",
+  "content_sha256": "56ec23c5b2782785d4e65bff9e315b6d3aeb4ef977c174a219e99489fada1995"
+}

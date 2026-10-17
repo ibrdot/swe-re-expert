@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/piggy-automation/SKILL.md",
+  "name": "piggy-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/piggy-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/piggy-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/piggy-automation/SKILL.md",
+  "description": "Automate Piggy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "048f99f4fb95d27b8c2f",
+  "content_sha256": "20dc4592c2bdeec21b182f32278c193ae80ea0c9e4bffbddb86874f8724049d3"
+}

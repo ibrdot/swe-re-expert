@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/helcim-automation/SKILL.md",
+  "name": "helcim-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/helcim-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/helcim-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/helcim-automation/SKILL.md",
+  "description": "Automate Helcim tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ab27357875c7fc6f85ff",
+  "content_sha256": "95956a705d38249ff2a6f54e1137989838c13aceb957fcc568afe8f61fed6774"
+}

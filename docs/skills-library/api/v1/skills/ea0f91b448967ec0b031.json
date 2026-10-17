@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/chmeetings-automation/SKILL.md",
+  "name": "chmeetings-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/chmeetings-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/chmeetings-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/chmeetings-automation/SKILL.md",
+  "description": "Automate Chmeetings tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ea0f91b448967ec0b031",
+  "content_sha256": "2d5e29246ed4919f941e9f1cc5daaf5eb232ef1c2bfb600fe7f9095142e6ff20"
+}

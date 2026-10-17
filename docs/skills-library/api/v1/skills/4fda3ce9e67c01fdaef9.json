@@ -1,0 +1,15 @@
+{
+  "id": "gws-gmail/SKILL.md",
+  "name": "gws-gmail",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Google Workspace",
+  "path": "gws-gmail/",
+  "skill_file": "gws-gmail/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/gws-gmail/SKILL.md",
+  "description": "Gmail: Send, read, and manage email.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "4fda3ce9e67c01fdaef9",
+  "content_sha256": "c0b45970dde7eac6eef8cdccaa264b51e22a19e98c48403ed19f75a83aa6bb3f"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/cincopa-automation/SKILL.md",
+  "name": "cincopa-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/cincopa-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/cincopa-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/cincopa-automation/SKILL.md",
+  "description": "Automate Cincopa tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8ee1b1b1ec63f3c1d8ea",
+  "content_sha256": "f5d67a404af517eafbe82046c10baa508077dc34ce7c07427654c4ebed1a70b5"
+}

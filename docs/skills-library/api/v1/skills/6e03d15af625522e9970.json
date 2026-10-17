@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/abstract-automation/SKILL.md",
+  "name": "abstract-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/abstract-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/abstract-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/abstract-automation/SKILL.md",
+  "description": "Automate Abstract tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6e03d15af625522e9970",
+  "content_sha256": "df50052f4cdf387822dd97c349882a94c7c7323eae7ea7919ea27cd9f8a18ee9"
+}

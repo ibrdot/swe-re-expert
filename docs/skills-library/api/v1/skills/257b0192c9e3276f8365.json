@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/shipengine-automation/SKILL.md",
+  "name": "shipengine-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/shipengine-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/shipengine-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/shipengine-automation/SKILL.md",
+  "description": "Automate Shipengine tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "257b0192c9e3276f8365",
+  "content_sha256": "826e1bc52647879edbbe19b9c84ce2cf1688e556ecc9b8e290d94bbbedafb9fe"
+}

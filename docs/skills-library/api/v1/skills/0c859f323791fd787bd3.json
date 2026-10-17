@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/listennotes-automation/SKILL.md",
+  "name": "listennotes-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/listennotes-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/listennotes-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/listennotes-automation/SKILL.md",
+  "description": "Automate Listennotes tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0c859f323791fd787bd3",
+  "content_sha256": "5bf9b45ccaa059b46cec50ef936680a9891616af915451a7f0682a5c5b869c16"
+}

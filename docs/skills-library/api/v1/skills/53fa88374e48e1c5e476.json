@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/netsuite-automation/SKILL.md",
+  "name": "NetSuite Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/netsuite-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/netsuite-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/netsuite-automation/SKILL.md",
+  "description": "NetSuite Automation: manage customers, sales orders, invoices, inventory, and records via Oracle NetSuite ERP with SuiteQL queries",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "53fa88374e48e1c5e476",
+  "content_sha256": "92f6c945114fe237ffc6a46e50535f8cec88f7fa3d5021e90beb845e0504f959"
+}

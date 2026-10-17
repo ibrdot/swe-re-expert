@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/plisio-automation/SKILL.md",
+  "name": "plisio-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/plisio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/plisio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/plisio-automation/SKILL.md",
+  "description": "Automate Plisio tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7f2e2b5deff8295f2c21",
+  "content_sha256": "a67f47854f1038f82f33b185a89db58e65c6de336f6bc3450a3d1d42426f2a1f"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dialmycalls-automation/SKILL.md",
+  "name": "dialmycalls-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dialmycalls-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dialmycalls-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dialmycalls-automation/SKILL.md",
+  "description": "Automate Dialmycalls tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "49850c6ed6c7f5a031d9",
+  "content_sha256": "06e24c6658c1a4b60dd596929901e60a47b67c108470cd4084a3f29064e805cb"
+}

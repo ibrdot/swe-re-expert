@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/all-images-ai-automation/SKILL.md",
+  "name": "all-images-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/all-images-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/all-images-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/all-images-ai-automation/SKILL.md",
+  "description": "Automate All Images AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "cd4b3c0af056f8b97a55",
+  "content_sha256": "f4153fb1fe632b8db07b3e4a31f18355f04f4e21991b6874dbd6e50e64e6e02b"
+}

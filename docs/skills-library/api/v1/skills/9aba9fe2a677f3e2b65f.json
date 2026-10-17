@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/fillout-forms-automation/SKILL.md",
+  "name": "fillout-forms-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/fillout-forms-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/fillout-forms-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/fillout-forms-automation/SKILL.md",
+  "description": "Automate Fillout tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9aba9fe2a677f3e2b65f",
+  "content_sha256": "2aa590d448769281adb82750626ca26d4e8460a508ec1b6cce77f52e28128176"
+}

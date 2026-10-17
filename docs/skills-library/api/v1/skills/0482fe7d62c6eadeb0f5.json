@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/happy-scribe-automation/SKILL.md",
+  "name": "happy-scribe-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/happy-scribe-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/happy-scribe-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/happy-scribe-automation/SKILL.md",
+  "description": "Automate Happy Scribe tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0482fe7d62c6eadeb0f5",
+  "content_sha256": "6a51a2b92b691855bc589f211f9174df8a46d4dc89dc461c76768b35539c1c78"
+}

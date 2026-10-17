@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/smartrecruiters-automation/SKILL.md",
+  "name": "smartrecruiters-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/smartrecruiters-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/smartrecruiters-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/smartrecruiters-automation/SKILL.md",
+  "description": "Automate Smartrecruiters tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "3b36e6413d25a1ac49c3",
+  "content_sha256": "9ac0945b979005861f6419a616fce3e9ecebdd29132dab81d4c761bed3e42bca"
+}

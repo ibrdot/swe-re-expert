@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ocr-web-service-automation/SKILL.md",
+  "name": "ocr-web-service-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ocr-web-service-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ocr-web-service-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ocr-web-service-automation/SKILL.md",
+  "description": "Automate OCR Web Service tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ade78bbd2fb38943d0d2",
+  "content_sha256": "fa8b9e44b44904afb033255506fe630fc5f1b9d0d45f0b853209fc71f8e1da67"
+}

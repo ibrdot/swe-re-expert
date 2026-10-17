@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/algodocs-automation/SKILL.md",
+  "name": "algodocs-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/algodocs-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/algodocs-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/algodocs-automation/SKILL.md",
+  "description": "Automate Algodocs tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "cb3429d6c1d746a49aee",
+  "content_sha256": "62896f53f8a67a302c08dcb5a4c11b9aab524bac30d400347b2d488f82448c51"
+}

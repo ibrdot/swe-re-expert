@@ -1,0 +1,15 @@
+{
+  "id": "gws-shared/SKILL.md",
+  "name": "gws-shared",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Google Workspace",
+  "path": "gws-shared/",
+  "skill_file": "gws-shared/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/gws-shared/SKILL.md",
+  "description": "gws CLI: Shared patterns for authentication, global flags, and output formatting.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "b9fa2d78c3b042fc0faa",
+  "content_sha256": "430f0d160a374d66dcfb8e03dadc35b2bb60c27c980eb511c2b8cddc83521b9b"
+}

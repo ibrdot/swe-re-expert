@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/parsehub-automation/SKILL.md",
+  "name": "parsehub-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/parsehub-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/parsehub-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/parsehub-automation/SKILL.md",
+  "description": "Automate Parsehub tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "59904dd83a5a0a63e2b8",
+  "content_sha256": "2988f665fb2c8c91b918c4a00859e11e751094558be0f70feaeabcb24933d3ac"
+}

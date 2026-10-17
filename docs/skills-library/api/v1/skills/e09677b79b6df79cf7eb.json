@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/metaads-automation/SKILL.md",
+  "name": "metaads-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/metaads-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/metaads-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/metaads-automation/SKILL.md",
+  "description": "Automate Metaads tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e09677b79b6df79cf7eb",
+  "content_sha256": "2a80980b0731a6b1d20c59606d746304cf4da08a54741fa70f1d1481a0440a09"
+}

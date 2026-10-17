@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/browserless-automation/SKILL.md",
+  "name": "browserless-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/browserless-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/browserless-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/browserless-automation/SKILL.md",
+  "description": "Automate Browserless tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "bcd59999a5a58ba5d9bd",
+  "content_sha256": "a667f342c34ee761a6dccefd74b55d7a30c0fb1232955c6a50dd519f14e36c65"
+}

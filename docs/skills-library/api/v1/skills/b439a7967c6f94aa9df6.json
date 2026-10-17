@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ipinfo-io-automation/SKILL.md",
+  "name": "ipinfo-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ipinfo-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ipinfo-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ipinfo-io-automation/SKILL.md",
+  "description": "Automate Ipinfo IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b439a7967c6f94aa9df6",
+  "content_sha256": "d009732354ff1f21e67a4b2eb9f9312f2bc57bd5545d98dd463f9acefabdc907"
+}

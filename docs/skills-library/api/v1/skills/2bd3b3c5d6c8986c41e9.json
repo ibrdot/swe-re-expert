@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/autom-automation/SKILL.md",
+  "name": "autom-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/autom-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/autom-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/autom-automation/SKILL.md",
+  "description": "Automate Autom tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2bd3b3c5d6c8986c41e9",
+  "content_sha256": "eaa40a401ff24e6e021ed53efe3b4e33b6e052dab418aaead2e2762883fb97a1"
+}

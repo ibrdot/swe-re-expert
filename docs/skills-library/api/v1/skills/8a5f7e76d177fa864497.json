@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/docsbot-ai-automation/SKILL.md",
+  "name": "docsbot-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/docsbot-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/docsbot-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/docsbot-ai-automation/SKILL.md",
+  "description": "Automate Docsbot AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8a5f7e76d177fa864497",
+  "content_sha256": "174b08d92ebe31be31cd3e8898cb07506bfe3f054849eebf2cb751fb29199462"
+}

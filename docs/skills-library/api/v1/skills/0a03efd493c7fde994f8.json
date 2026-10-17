@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/docnify-automation/SKILL.md",
+  "name": "docnify-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/docnify-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/docnify-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/docnify-automation/SKILL.md",
+  "description": "Automate Docnify tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0a03efd493c7fde994f8",
+  "content_sha256": "bb06958ad9765756906e36d61709bfe4cceb4e3b377358a4ead9fd3f2050e29a"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ip2proxy-automation/SKILL.md",
+  "name": "ip2proxy-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ip2proxy-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ip2proxy-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ip2proxy-automation/SKILL.md",
+  "description": "Automate Ip2proxy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "bc07925fdca8296693a5",
+  "content_sha256": "acf3441d40c596e87b69c413b309f58b1c28e54f30a623d8e7a5e95857e7f56c"
+}

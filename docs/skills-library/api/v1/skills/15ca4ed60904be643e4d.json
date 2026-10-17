@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/emailable-automation/SKILL.md",
+  "name": "emailable-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/emailable-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/emailable-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/emailable-automation/SKILL.md",
+  "description": "Automate Emailable tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "15ca4ed60904be643e4d",
+  "content_sha256": "2a80b75120f00f889a23f70d66c29503a1280fc0a3a29bb603d1fab986f87601"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/brand-guidelines/SKILL.md",
+  "name": "brand-guidelines",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/brand-guidelines/",
+  "skill_file": "vendor/awesome-claude-skills/brand-guidelines/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/brand-guidelines/SKILL.md",
+  "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+  "mode": "Guide",
+  "license": "Complete terms in LICENSE.txt",
+  "key": "09a4a81caa49507a8b09",
+  "content_sha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
+}

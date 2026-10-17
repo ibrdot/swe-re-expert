@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mailersend-automation/SKILL.md",
+  "name": "mailersend-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mailersend-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mailersend-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mailersend-automation/SKILL.md",
+  "description": "Automate Mailersend tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9aa4f408b1bf561c9bba",
+  "content_sha256": "a894237f246bc7f9c484133506a59018053ab37a83b957d50597b1d075df3d54"
+}

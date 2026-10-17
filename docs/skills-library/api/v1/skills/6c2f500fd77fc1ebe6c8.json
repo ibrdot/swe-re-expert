@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ravenseotools-automation/SKILL.md",
+  "name": "ravenseotools-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ravenseotools-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ravenseotools-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ravenseotools-automation/SKILL.md",
+  "description": "Automate Ravenseotools tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6c2f500fd77fc1ebe6c8",
+  "content_sha256": "220a59593ba074aa233dc76dd0de24a97cc8cf9252482cc467f06b5914098274"
+}

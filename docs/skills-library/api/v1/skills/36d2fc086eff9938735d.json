@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/pushbullet-automation/SKILL.md",
+  "name": "pushbullet-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/pushbullet-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/pushbullet-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/pushbullet-automation/SKILL.md",
+  "description": "Automate Pushbullet tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "36d2fc086eff9938735d",
+  "content_sha256": "50e38c0d7969cd889588f53b98eabc000525822f4a170e39659413fba3318b7e"
+}

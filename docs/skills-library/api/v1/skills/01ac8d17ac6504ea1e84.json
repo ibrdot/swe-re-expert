@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/breezy-hr-automation/SKILL.md",
+  "name": "breezy-hr-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/breezy-hr-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/breezy-hr-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/breezy-hr-automation/SKILL.md",
+  "description": "Automate Breezy HR tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "01ac8d17ac6504ea1e84",
+  "content_sha256": "b9f7eaf4d3fe9b940f139b8dc8f10b7a2b75f1043d35020629d0b1b77ad24503"
+}

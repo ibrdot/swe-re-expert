@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/launch-darkly-automation/SKILL.md",
+  "name": "LaunchDarkly Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/launch-darkly-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/launch-darkly-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/launch-darkly-automation/SKILL.md",
+  "description": "Automate LaunchDarkly feature flag management -- list projects and environments, create and delete trigger workflows, and track code references via the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ca42f1854233fdb034d5",
+  "content_sha256": "8e3a6cd8f5aec8614338c6b5cb576e3ca251a7c46024589d3955823140e82d77"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mails-so-automation/SKILL.md",
+  "name": "mails-so-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mails-so-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mails-so-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mails-so-automation/SKILL.md",
+  "description": "Automate Mails So tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "dedb28e0a60ac6243386",
+  "content_sha256": "dc05ee4d62f2e685345091471c5c94b3ed865fc1976e95a42bb03cfca0314700"
+}

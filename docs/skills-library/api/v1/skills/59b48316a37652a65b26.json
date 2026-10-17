@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/safetyculture-automation/SKILL.md",
+  "name": "safetyculture-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/safetyculture-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/safetyculture-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/safetyculture-automation/SKILL.md",
+  "description": "Automate Safetyculture tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "59b48316a37652a65b26",
+  "content_sha256": "a53fc6c6b1d9d7a4a15908e32691c2500437c0be1d0bbb3f08d93ea87be2bf8c"
+}

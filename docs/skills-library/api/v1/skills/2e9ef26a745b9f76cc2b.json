@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/replicate-automation/SKILL.md",
+  "name": "Replicate Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/replicate-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/replicate-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/replicate-automation/SKILL.md",
+  "description": "Automate Replicate AI model operations -- run predictions, upload files, inspect model schemas, list versions, and manage prediction history via the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2e9ef26a745b9f76cc2b",
+  "content_sha256": "3493777f2f4c160d1f4adf4e63c6bbd1fbf79dd1ff3deee2cb8c788f1bb61e9b"
+}

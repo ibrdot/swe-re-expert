@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ynab-automation/SKILL.md",
+  "name": "ynab-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ynab-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ynab-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ynab-automation/SKILL.md",
+  "description": "Automate Ynab tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ced8ff0bedc543b8ffc0",
+  "content_sha256": "9a07304e099a437666eae9afe42182dd71d0f6fc5def3439f6c046f18b1a2456"
+}

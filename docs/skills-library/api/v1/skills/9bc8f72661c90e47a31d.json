@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/gemini-automation/SKILL.md",
+  "name": "gemini-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/gemini-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/gemini-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/gemini-automation/SKILL.md",
+  "description": "Automate Gemini tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9bc8f72661c90e47a31d",
+  "content_sha256": "c1d0296bdb9ae51410a281b31e14cb0fb274db97141a94fed5af63d321b02949"
+}

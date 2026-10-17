@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/plain-automation/SKILL.md",
+  "name": "plain-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/plain-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/plain-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/plain-automation/SKILL.md",
+  "description": "Automate Plain tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c13d7f568d381d7ef6c5",
+  "content_sha256": "6902b3c674a8c1bc42939571aa96610137782bada209322e83e260a923ea4bc5"
+}

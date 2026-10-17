@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/langsmith-fetch/SKILL.md",
+  "name": "langsmith-fetch",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/langsmith-fetch/",
+  "skill_file": "vendor/awesome-claude-skills/langsmith-fetch/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/langsmith-fetch/SKILL.md",
+  "description": "Debug LangChain and LangGraph agents by fetching execution traces from LangSmith Studio. Use when debugging agent behavior, investigating errors, analyzing tool calls, checking memory operations, or examining agent performance. Automatically fetches recent traces and analyzes execution patterns. Requires langsmith-fetch CLI installed.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f10e5b91bc048b78f64f",
+  "content_sha256": "bf6a7ab27abb3b6eb0afdc5cd682175fba465183b5df35c061f1d45472d3fe97"
+}

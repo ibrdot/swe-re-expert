@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/appointo-automation/SKILL.md",
+  "name": "appointo-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/appointo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/appointo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/appointo-automation/SKILL.md",
+  "description": "Automate Appointo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "67dfb1280f622d9179b4",
+  "content_sha256": "fc2ba9e5c4364b5f9557be24233be511a6bb4173ca79ab49973d987b4eca0a6d"
+}

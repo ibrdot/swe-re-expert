@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/excel-automation/SKILL.md",
+  "name": "Excel Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/excel-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/excel-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/excel-automation/SKILL.md",
+  "description": "Excel Automation: create workbooks, manage worksheets, read/write cell data, and format spreadsheets via Microsoft Excel and Google Sheets integration",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "aadfaf5b8de78ed48101",
+  "content_sha256": "d59d8a31c5a41730b8a2fc591c10e869ee40bfc4c1876dd9c7b53eb448b14da8"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/api2pdf-automation/SKILL.md",
+  "name": "api2pdf-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/api2pdf-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/api2pdf-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/api2pdf-automation/SKILL.md",
+  "description": "Automate Api2pdf tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "954c0f76c68448ec09d9",
+  "content_sha256": "4762f40e62cc20dc41f7693d01050dd679aa5631b208168adbc5e8ff8eb9d3ea"
+}

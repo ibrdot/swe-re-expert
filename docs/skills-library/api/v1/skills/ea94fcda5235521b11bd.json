@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/winston-ai-automation/SKILL.md",
+  "name": "winston-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/winston-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/winston-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/winston-ai-automation/SKILL.md",
+  "description": "Automate Winston AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ea94fcda5235521b11bd",
+  "content_sha256": "cc4390f05bad35c54f5c94d3ff14eb86413afbe5c7deb2a1107cf6ddaf1be264"
+}

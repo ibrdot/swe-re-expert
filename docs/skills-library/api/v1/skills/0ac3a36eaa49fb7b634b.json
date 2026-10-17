@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ai-ml-api-automation/SKILL.md",
+  "name": "ai-ml-api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ai-ml-api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ai-ml-api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ai-ml-api-automation/SKILL.md",
+  "description": "Automate AI ML API tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0ac3a36eaa49fb7b634b",
+  "content_sha256": "4a03c3519e8f01f2440a69c1147e37e82ebf83bb7512bd0769de52938188625d"
+}

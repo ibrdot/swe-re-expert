@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/openrouter-automation/SKILL.md",
+  "name": "openrouter-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/openrouter-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/openrouter-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/openrouter-automation/SKILL.md",
+  "description": "Automate Openrouter tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ab51e4e2a68bcc373948",
+  "content_sha256": "c9a9c62f2e473b815564b058dcbfb7328409e2d57946d4d46c81be6a516c6c80"
+}

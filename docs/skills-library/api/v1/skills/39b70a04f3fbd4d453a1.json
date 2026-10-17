@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/similarweb_digitalrank_api-automation/SKILL.md",
+  "name": "similarweb_digitalrank_api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/similarweb_digitalrank_api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/similarweb_digitalrank_api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/similarweb_digitalrank_api-automation/SKILL.md",
+  "description": "Automate SimilarWeb tasks via Rube MCP (Composio): website traffic, rankings, and digital market intelligence. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "39b70a04f3fbd4d453a1",
+  "content_sha256": "30fee0e1af2a8d7d4d27beae020a724e06cdbc5cb982bc592cd343013d5af791"
+}

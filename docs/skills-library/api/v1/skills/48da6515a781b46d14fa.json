@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/addresszen-automation/SKILL.md",
+  "name": "addresszen-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/addresszen-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/addresszen-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/addresszen-automation/SKILL.md",
+  "description": "Automate Addresszen tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "48da6515a781b46d14fa",
+  "content_sha256": "fdce4eb90870d21c71c70f002958d5108fa010b82bbad634d35a4fdee285585f"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/perplexityai-automation/SKILL.md",
+  "name": "perplexityai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/perplexityai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/perplexityai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/perplexityai-automation/SKILL.md",
+  "description": "Automate Perplexityai tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0b7dd86db1e32e19f5c0",
+  "content_sha256": "30e71ea3990894c9a849a078061db0c743869c225652f65717cdf98b56ddc45a"
+}

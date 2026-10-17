@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/visme-automation/SKILL.md",
+  "name": "visme-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/visme-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/visme-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/visme-automation/SKILL.md",
+  "description": "Automate Visme tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c99f6ceca37121d076c5",
+  "content_sha256": "c448f846a79aab66926d0c4aeb4eeace267e878654f6537e7a994d4aa0397bcd"
+}

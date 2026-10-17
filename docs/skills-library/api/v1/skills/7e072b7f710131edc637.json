@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/googlesuper-automation/SKILL.md",
+  "name": "googlesuper-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/googlesuper-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/googlesuper-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/googlesuper-automation/SKILL.md",
+  "description": "Automate Google Super tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7e072b7f710131edc637",
+  "content_sha256": "447d0d0f9441352d8b7f1c00c460642c2e79318337016b9c677ec54d42090c2a"
+}

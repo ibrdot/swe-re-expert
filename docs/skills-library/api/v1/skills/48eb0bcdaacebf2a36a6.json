@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/webscraping-ai-automation/SKILL.md",
+  "name": "webscraping-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/webscraping-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/webscraping-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/webscraping-ai-automation/SKILL.md",
+  "description": "Automate Webscraping AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "48eb0bcdaacebf2a36a6",
+  "content_sha256": "ef0fab14a4524f2ed82436ad7a7f94929524c19091b2f1a303fe72be6b240855"
+}

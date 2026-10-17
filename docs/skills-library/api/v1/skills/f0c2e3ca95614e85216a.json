@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/api-sports-automation/SKILL.md",
+  "name": "api-sports-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/api-sports-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/api-sports-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/api-sports-automation/SKILL.md",
+  "description": "Automate API Sports tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f0c2e3ca95614e85216a",
+  "content_sha256": "5aa747ccf3f5618391e737542831ec5bd95e13d6aa29af5b703c2c6e50da080e"
+}

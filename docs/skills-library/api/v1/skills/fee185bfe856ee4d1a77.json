@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/benchmark-email-automation/SKILL.md",
+  "name": "benchmark-email-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/benchmark-email-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/benchmark-email-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/benchmark-email-automation/SKILL.md",
+  "description": "Automate Benchmark Email tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "fee185bfe856ee4d1a77",
+  "content_sha256": "100196ebefa0f996276ecd282cd958cb03c1104de2e92a43976bdda8a83e8d59"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/files-com-automation/SKILL.md",
+  "name": "files-com-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/files-com-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/files-com-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/files-com-automation/SKILL.md",
+  "description": "Automate Files Com tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c067b1db8b2dd68a4e9d",
+  "content_sha256": "377dae5261fef13d53fb57711d1e2ce42c698a41e72f5812469d660a8793cd27"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/esignatures-io-automation/SKILL.md",
+  "name": "esignatures-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/esignatures-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/esignatures-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/esignatures-io-automation/SKILL.md",
+  "description": "Automate Esignatures IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "17cb52db4ec5775b6099",
+  "content_sha256": "9320b8eb7e467920703b6342e77923dbad69b011060dc894128ec0ccb29e28f6"
+}

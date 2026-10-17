@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/agility-cms-automation/SKILL.md",
+  "name": "agility-cms-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/agility-cms-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/agility-cms-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/agility-cms-automation/SKILL.md",
+  "description": "Automate Agility CMS tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7d35687a51fa2414519e",
+  "content_sha256": "e299b8a31683729174fceae7ebbeb08ea614e9eeeeeef06da650f3b0e88adab6"
+}

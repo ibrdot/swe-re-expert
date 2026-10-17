@@ -1,0 +1,15 @@
+{
+  "id": "pptx-native/SKILL.md",
+  "name": "pptx-native",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Documents",
+  "path": "pptx-native/",
+  "skill_file": "pptx-native/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/pptx-native/SKILL.md",
+  "description": "Default PowerPoint skill. Use it whenever the user asks to create, read, inspect, import, render, edit, restyle, reconstruct, or export a PPT, PPTX, PowerPoint presentation, or slide deck, unless the user explicitly requests the output to be intentionally raster, flattened, full-slide-image, or GPT Image slides. The user does not need to say editable or native: when image mode is not explicit, default to native element-based PowerPoint with OfficeCLI so text, shapes, tables, charts, pictures, media, animations, transitions, masters, and layouts remain editable. An image-based input does not opt into image-based output: use this skill when screenshots, exported slide images, image directories, or a fully flattened PPTX must be edited or reconstructed without an explicit request to keep the output image-backed. Also use it when editable slides need AI-generated background artwork behind native elements; when an existing .pptx must be converted to replayable JSON or HTML; or when element-level CRUD, round-trip fidelity, SmartArt/Morph preservation, or OOXML passthrough is required. Use the sibling pptx skill only for explicitly requested raster or image-backed output.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "a88046fbbea2e270fe7e",
+  "content_sha256": "b60168cc547da16d7972db779418c41bab9499f313d4dbf023bdfa2ad0823962"
+}

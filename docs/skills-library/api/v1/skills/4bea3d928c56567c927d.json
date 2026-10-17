@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/misc/setup-pre-commit/SKILL.md",
+  "name": "setup-pre-commit",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Utilities",
+  "path": "vendor/mattpocock-skills/skills/misc/setup-pre-commit/",
+  "skill_file": "vendor/mattpocock-skills/skills/misc/setup-pre-commit/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/misc/setup-pre-commit/SKILL.md",
+  "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "4bea3d928c56567c927d",
+  "content_sha256": "c9819d7f1e3b198064edc1faa3154224ed67395e9f07f5d3cea4b67cf0a11a98"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/gagelist-automation/SKILL.md",
+  "name": "gagelist-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/gagelist-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/gagelist-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/gagelist-automation/SKILL.md",
+  "description": "Automate Gagelist tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "66864e350a42d4111a2f",
+  "content_sha256": "85e6f0e85aabcedb99b4afa5f589d4076a20f73eabbcafe737bd444d6076efae"
+}

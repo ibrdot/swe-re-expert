@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/taxjar-automation/SKILL.md",
+  "name": "taxjar-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/taxjar-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/taxjar-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/taxjar-automation/SKILL.md",
+  "description": "Automate Taxjar tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "44d3b539afa2b61ebf3b",
+  "content_sha256": "f9ee33c03720ad2ee73f4d073dd359a697ce4df37e7f17d1e314cb6f7bf06e8c"
+}

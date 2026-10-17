@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/countdown-api-automation/SKILL.md",
+  "name": "countdown-api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/countdown-api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/countdown-api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/countdown-api-automation/SKILL.md",
+  "description": "Automate Countdown API tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "481706d24ab96272d785",
+  "content_sha256": "b38b0b49f0056046af86d05c6ebf90753fa2d4345701b49c8b21844ccc333378"
+}

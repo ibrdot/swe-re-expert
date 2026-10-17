@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/-21risk-automation/SKILL.md",
+  "name": "-21risk-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/-21risk-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/-21risk-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/-21risk-automation/SKILL.md",
+  "description": "Automate 21risk tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7d3bf7107bb1a486d0ce",
+  "content_sha256": "eeacdabb1e844f3f52d66d3899e22c648052f0ff2ff5a16c07d3afca16bd3730"
+}

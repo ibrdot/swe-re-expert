@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sslmate-cert-spotter-api-automation/SKILL.md",
+  "name": "sslmate-cert-spotter-api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sslmate-cert-spotter-api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sslmate-cert-spotter-api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sslmate-cert-spotter-api-automation/SKILL.md",
+  "description": "Automate Sslmate Cert Spotter API tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "96aaba16c77767934d58",
+  "content_sha256": "a1275590e505b3a4f24ba4faabd041af898e22d4c404b4c036bc1f84579729de"
+}

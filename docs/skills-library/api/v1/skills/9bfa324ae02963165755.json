@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/fluxguard-automation/SKILL.md",
+  "name": "fluxguard-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/fluxguard-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/fluxguard-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/fluxguard-automation/SKILL.md",
+  "description": "Automate Fluxguard tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9bfa324ae02963165755",
+  "content_sha256": "bed8f1d38d2f1178534b6a2b90a9b5a86f99f014c352067b3463b24bf0581198"
+}

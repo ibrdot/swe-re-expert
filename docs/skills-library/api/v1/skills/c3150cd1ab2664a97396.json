@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/wiz-automation/SKILL.md",
+  "name": "wiz-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/wiz-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/wiz-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/wiz-automation/SKILL.md",
+  "description": "Automate Wiz tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c3150cd1ab2664a97396",
+  "content_sha256": "a1cb47c2f6ed40017abdd2735695612ff4a9f2e03e4e0b9384121b9dbb812f4b"
+}

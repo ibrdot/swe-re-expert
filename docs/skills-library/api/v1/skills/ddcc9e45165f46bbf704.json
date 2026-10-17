@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/screenshot-fyi-automation/SKILL.md",
+  "name": "screenshot-fyi-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/screenshot-fyi-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/screenshot-fyi-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/screenshot-fyi-automation/SKILL.md",
+  "description": "Automate Screenshot Fyi tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ddcc9e45165f46bbf704",
+  "content_sha256": "654d0f12f00c76d6102f25c087357b178b72b45933c892edd7da14284e6dc1f7"
+}

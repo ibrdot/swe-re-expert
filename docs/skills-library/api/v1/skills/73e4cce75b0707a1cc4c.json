@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/langbase-automation/SKILL.md",
+  "name": "langbase-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/langbase-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/langbase-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/langbase-automation/SKILL.md",
+  "description": "Automate Langbase tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "73e4cce75b0707a1cc4c",
+  "content_sha256": "fa36d11a6367664955dd954d3550a7f1b0833bbdbfbd1ddf23ab4bbd299260d1"
+}

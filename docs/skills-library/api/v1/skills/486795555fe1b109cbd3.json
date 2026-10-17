@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/labs64-netlicensing-automation/SKILL.md",
+  "name": "labs64-netlicensing-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/labs64-netlicensing-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/labs64-netlicensing-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/labs64-netlicensing-automation/SKILL.md",
+  "description": "Automate Labs64 Netlicensing tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "486795555fe1b109cbd3",
+  "content_sha256": "8cf478d4da525472143ef42077456e2ce810a2d1b45fa7c2ca9de9f3b7c79474"
+}

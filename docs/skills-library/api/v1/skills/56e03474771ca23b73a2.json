@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/exist-automation/SKILL.md",
+  "name": "exist-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/exist-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/exist-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/exist-automation/SKILL.md",
+  "description": "Automate Exist tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "56e03474771ca23b73a2",
+  "content_sha256": "7baddeba8533163b3e1874e813cfd92f7ffafeb31355e910c9b90ca6cfd303c6"
+}

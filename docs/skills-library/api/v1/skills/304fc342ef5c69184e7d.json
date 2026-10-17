@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/echtpost-automation/SKILL.md",
+  "name": "echtpost-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/echtpost-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/echtpost-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/echtpost-automation/SKILL.md",
+  "description": "Automate Echtpost tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "304fc342ef5c69184e7d",
+  "content_sha256": "3a0f77efacc723afd8839e179a40f656fe20032053a1b33de952a1d6d86ce07a"
+}

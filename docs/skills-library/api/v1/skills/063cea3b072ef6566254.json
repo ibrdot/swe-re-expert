@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/rkvst-automation/SKILL.md",
+  "name": "rkvst-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/rkvst-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/rkvst-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/rkvst-automation/SKILL.md",
+  "description": "Automate Rkvst tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "063cea3b072ef6566254",
+  "content_sha256": "7407d2119a0d6fe612715b053ee3595b6c345c595cfe1121c2fa586d5154a3fa"
+}

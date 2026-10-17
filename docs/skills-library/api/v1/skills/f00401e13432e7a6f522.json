@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/signwell-automation/SKILL.md",
+  "name": "signwell-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/signwell-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/signwell-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/signwell-automation/SKILL.md",
+  "description": "Automate Signwell tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f00401e13432e7a6f522",
+  "content_sha256": "65bd96db7d39825edc5fdb8cec484b8a0b1d9e5292a506a13623f44afbecdc13"
+}

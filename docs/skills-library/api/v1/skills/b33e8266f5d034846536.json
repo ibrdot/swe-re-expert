@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/memberspot-automation/SKILL.md",
+  "name": "memberspot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/memberspot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/memberspot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/memberspot-automation/SKILL.md",
+  "description": "Automate Memberspot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b33e8266f5d034846536",
+  "content_sha256": "35d89f555911639bf3311158c0811c05d3d0488c90f286918bb73965becaf7ce"
+}

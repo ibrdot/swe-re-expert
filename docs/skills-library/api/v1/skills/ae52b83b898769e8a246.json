@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/l2s-automation/SKILL.md",
+  "name": "l2s-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/l2s-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/l2s-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/l2s-automation/SKILL.md",
+  "description": "Automate L2s tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ae52b83b898769e8a246",
+  "content_sha256": "ccd57dc3a5a3d9edbaf5167978ef5e939afd63dd88c4589f5c9295562b587afa"
+}

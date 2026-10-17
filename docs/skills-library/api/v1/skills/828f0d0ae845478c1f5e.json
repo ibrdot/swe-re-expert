@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/postgrid-automation/SKILL.md",
+  "name": "postgrid-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/postgrid-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/postgrid-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/postgrid-automation/SKILL.md",
+  "description": "Automate Postgrid tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "828f0d0ae845478c1f5e",
+  "content_sha256": "be628cbfe28fa5ec38e735e315ae08d68819861b17fdb178dde76ac568356c5c"
+}

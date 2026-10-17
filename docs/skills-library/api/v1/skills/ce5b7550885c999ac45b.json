@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/implement-spec/SKILL.md",
+  "name": "implement-spec",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/implement-spec/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/implement-spec/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/implement-spec/SKILL.md",
+  "description": "Implement the result of /to-spec and /to-tickets in code.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "ce5b7550885c999ac45b",
+  "content_sha256": "7a22dd2e60b8fcece478ced9d2533582adf3520d695acd3ab715341535c9e56d"
+}

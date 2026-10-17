@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/wakatime-automation/SKILL.md",
+  "name": "wakatime-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/wakatime-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/wakatime-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/wakatime-automation/SKILL.md",
+  "description": "Automate Wakatime tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "59e92912fa8929cc6005",
+  "content_sha256": "9972a211ab2923f631b3098f44be19469a86a84cc8b20a0d530192793766c20d"
+}

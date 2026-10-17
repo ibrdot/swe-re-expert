@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bolna-automation/SKILL.md",
+  "name": "bolna-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bolna-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bolna-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bolna-automation/SKILL.md",
+  "description": "Automate Bolna tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "202236dbd9db1cda3924",
+  "content_sha256": "eebf42c38d229ec1e1e42541406a6159b2627c3456f5741b33b82454c3a69993"
+}

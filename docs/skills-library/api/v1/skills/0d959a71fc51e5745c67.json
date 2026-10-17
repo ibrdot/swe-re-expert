@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/screenshotone-automation/SKILL.md",
+  "name": "screenshotone-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/screenshotone-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/screenshotone-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/screenshotone-automation/SKILL.md",
+  "description": "Automate Screenshotone tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0d959a71fc51e5745c67",
+  "content_sha256": "4d87907ed08036e21c6f969a5dd3dde2faee944d13fc854820c64df0438c03ea"
+}

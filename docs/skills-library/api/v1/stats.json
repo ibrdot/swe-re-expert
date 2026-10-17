@@ -1,0 +1,28 @@
+{
+  "api_version": "1",
+  "revision": "3f90defe90326bc071b47eb5405380d61dbc77856b1f48221cb3a90b788258ab",
+  "counts": {
+    "total": 941,
+    "builtin": 39,
+    "awesome": 864,
+    "mattpocock": 38
+  },
+  "categories": {
+    "Analytics": 1,
+    "Browser automation": 8,
+    "Communication": 3,
+    "Creative & workflow": 28,
+    "Data": 1,
+    "Documents": 7,
+    "Engineering": 21,
+    "Experimental": 7,
+    "Google Workspace": 12,
+    "Integrations": 833,
+    "Media": 3,
+    "Observability": 1,
+    "Planning": 1,
+    "Productivity": 9,
+    "Research": 1,
+    "Utilities": 5
+  }
+}

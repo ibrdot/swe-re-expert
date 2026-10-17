@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/wachete-automation/SKILL.md",
+  "name": "wachete-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/wachete-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/wachete-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/wachete-automation/SKILL.md",
+  "description": "Automate Wachete tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "bb293ae66f1dc6b51439",
+  "content_sha256": "e90741eba79b7e04d62c986fd07c8aaf907e71f477c00855aa28c557870baade"
+}

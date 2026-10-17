@@ -1,0 +1,15 @@
+{
+  "id": "chrome-devtools/skills/a11y-debugging/SKILL.md",
+  "name": "a11y-debugging",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Browser automation",
+  "path": "chrome-devtools/skills/a11y-debugging/",
+  "skill_file": "chrome-devtools/skills/a11y-debugging/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/chrome-devtools/skills/a11y-debugging/SKILL.md",
+  "description": "Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing semantic HTML, ARIA labels, focus states, keyboard navigation, tap targets, and color contrast.",
+  "mode": "Guide",
+  "license": "Apache-2.0 (suite license)",
+  "key": "bc6798d5904f8fd7e884",
+  "content_sha256": "159587fc580e6112528bedcd89d8c69a52d2fbb54602f10c71d7d5ec8fdbf299"
+}

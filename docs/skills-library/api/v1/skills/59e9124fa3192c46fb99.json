@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/superchat-automation/SKILL.md",
+  "name": "superchat-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/superchat-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/superchat-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/superchat-automation/SKILL.md",
+  "description": "Automate Superchat tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "59e9124fa3192c46fb99",
+  "content_sha256": "6cadee39620d42db23cd36db7a6bb621bae1b676dc5ed4c331bdfc2a6529b65f"
+}

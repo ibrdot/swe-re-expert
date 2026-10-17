@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/kraken-io-automation/SKILL.md",
+  "name": "kraken-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/kraken-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/kraken-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/kraken-io-automation/SKILL.md",
+  "description": "Automate Kraken IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5203fff5941c555be37f",
+  "content_sha256": "3930c8d150ef35e11632f837c14b54a3a50b2fe6470d670f905d29b50932f029"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/lodgify-automation/SKILL.md",
+  "name": "lodgify-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/lodgify-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/lodgify-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/lodgify-automation/SKILL.md",
+  "description": "Automate Lodgify tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "45542bedbf51e6766161",
+  "content_sha256": "ec1446dfc05cf3380bc43974da4dfde20e90a3ef05a28cbdd8da6b60eafff206"
+}

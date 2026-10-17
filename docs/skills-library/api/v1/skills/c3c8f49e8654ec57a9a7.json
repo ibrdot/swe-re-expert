@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/beeminder-automation/SKILL.md",
+  "name": "beeminder-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/beeminder-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/beeminder-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/beeminder-automation/SKILL.md",
+  "description": "Automate Beeminder tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c3c8f49e8654ec57a9a7",
+  "content_sha256": "ece85527c603f2381711f5162b65e4f90640c0d8a320f38406acf51e930295c0"
+}

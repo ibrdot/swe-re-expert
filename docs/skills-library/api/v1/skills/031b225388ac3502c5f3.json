@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/fixer-io-automation/SKILL.md",
+  "name": "fixer-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/fixer-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/fixer-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/fixer-io-automation/SKILL.md",
+  "description": "Automate Fixer IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "031b225388ac3502c5f3",
+  "content_sha256": "019a2a5f70473f25d41f6a76f8e3fe5d6d72cb1dac79f6f1c7c3088dca41858d"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zylvie-automation/SKILL.md",
+  "name": "zylvie-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zylvie-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zylvie-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zylvie-automation/SKILL.md",
+  "description": "Automate Zylvie tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b44c2968f3d7202405c0",
+  "content_sha256": "c305aab4b61b0af923dc2731df8b4407f227f858ba91dce16fdcb3fe6d83c91c"
+}

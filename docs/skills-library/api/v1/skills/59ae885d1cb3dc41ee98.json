@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/in-progress/loop-me/SKILL.md",
+  "name": "loop-me",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Experimental",
+  "path": "vendor/mattpocock-skills/skills/in-progress/loop-me/",
+  "skill_file": "vendor/mattpocock-skills/skills/in-progress/loop-me/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/in-progress/loop-me/SKILL.md",
+  "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "59ae885d1cb3dc41ee98",
+  "content_sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7"
+}

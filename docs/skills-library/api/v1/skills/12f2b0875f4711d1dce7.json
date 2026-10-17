@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/fomo-automation/SKILL.md",
+  "name": "fomo-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/fomo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/fomo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/fomo-automation/SKILL.md",
+  "description": "Automate Fomo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "12f2b0875f4711d1dce7",
+  "content_sha256": "56a99784a097e651a1c7d1a1551709e9017dd5238bbf067fb23522c459028b7b"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/openperplex-automation/SKILL.md",
+  "name": "openperplex-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/openperplex-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/openperplex-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/openperplex-automation/SKILL.md",
+  "description": "Automate Openperplex tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b28e4113a2b6caa05df3",
+  "content_sha256": "a593cca50f15aa0a01b55ae998422414ca1acffad907ca2317f8133192cdee46"
+}

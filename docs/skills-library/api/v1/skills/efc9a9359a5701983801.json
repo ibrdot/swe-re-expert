@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/remarkety-automation/SKILL.md",
+  "name": "remarkety-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/remarkety-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/remarkety-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/remarkety-automation/SKILL.md",
+  "description": "Automate Remarkety tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "efc9a9359a5701983801",
+  "content_sha256": "45ffb2b5405cb0bc086ceda42d0dcc5433f99857248772792d4e845b1e37e24a"
+}

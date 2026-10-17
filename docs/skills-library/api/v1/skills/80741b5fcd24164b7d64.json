@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/apex27-automation/SKILL.md",
+  "name": "apex27-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/apex27-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/apex27-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/apex27-automation/SKILL.md",
+  "description": "Automate Apex27 tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "80741b5fcd24164b7d64",
+  "content_sha256": "0a6a2fba1a713c2f3799c5d6bdac041df0c6ae0669b35bcece612fbbe0fa27e4"
+}

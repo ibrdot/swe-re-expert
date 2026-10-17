@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/thanks-io-automation/SKILL.md",
+  "name": "thanks-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/thanks-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/thanks-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/thanks-io-automation/SKILL.md",
+  "description": "Automate Thanks IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "12c5c629bc9b882d69c9",
+  "content_sha256": "457234f06e84b0fb7f49dfe9bceb51c8becd3ca30a1f169c49033dd2263bc672"
+}

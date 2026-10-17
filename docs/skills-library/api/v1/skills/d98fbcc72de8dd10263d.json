@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/token-metrics-automation/SKILL.md",
+  "name": "token-metrics-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/token-metrics-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/token-metrics-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/token-metrics-automation/SKILL.md",
+  "description": "Automate Token Metrics tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d98fbcc72de8dd10263d",
+  "content_sha256": "f373c1195faec52db1fec4a530d2ee79b5e6f3db499966cd395c2a27dc556b81"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/plasmic-automation/SKILL.md",
+  "name": "plasmic-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/plasmic-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/plasmic-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/plasmic-automation/SKILL.md",
+  "description": "Automate Plasmic tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1d1f53d0ca1cbc6b4594",
+  "content_sha256": "d7920ac2a032847426bb0bbad5a2ea57cc3b9441560aea36d1c0b7fe90bd7859"
+}

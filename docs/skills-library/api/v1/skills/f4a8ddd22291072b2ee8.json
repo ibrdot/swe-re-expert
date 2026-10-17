@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/api-bible-automation/SKILL.md",
+  "name": "api-bible-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/api-bible-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/api-bible-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/api-bible-automation/SKILL.md",
+  "description": "Automate API Bible tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f4a8ddd22291072b2ee8",
+  "content_sha256": "5d33609135fa14048eaba868c53e285996b802472282e6f9cbee1e9d62853242"
+}

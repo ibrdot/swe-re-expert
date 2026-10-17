@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/moxie-automation/SKILL.md",
+  "name": "moxie-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/moxie-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/moxie-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/moxie-automation/SKILL.md",
+  "description": "Automate Moxie tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f211ccd75148bb6ba80b",
+  "content_sha256": "67ba9ef11ebf4ba44c79f8485b004e68be8ff9ec83d17cd782de982722b3b57e"
+}

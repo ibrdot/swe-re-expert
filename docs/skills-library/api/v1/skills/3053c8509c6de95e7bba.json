@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/y-gy-automation/SKILL.md",
+  "name": "y-gy-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/y-gy-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/y-gy-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/y-gy-automation/SKILL.md",
+  "description": "Automate Y Gy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "3053c8509c6de95e7bba",
+  "content_sha256": "e9bc03e173394737f192169d38d25b060ca36a813e180bad6beb34f4d7bbc536"
+}

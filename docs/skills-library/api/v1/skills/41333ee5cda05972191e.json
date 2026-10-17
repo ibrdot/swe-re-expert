@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/project-bubble-automation/SKILL.md",
+  "name": "project-bubble-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/project-bubble-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/project-bubble-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/project-bubble-automation/SKILL.md",
+  "description": "Automate Project Bubble tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "41333ee5cda05972191e",
+  "content_sha256": "999cd4cb26ae83420dfdc0bd1876d535951d007fd6be369921ec19ffeb8baeff"
+}

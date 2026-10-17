@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/calendarhero-automation/SKILL.md",
+  "name": "calendarhero-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/calendarhero-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/calendarhero-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/calendarhero-automation/SKILL.md",
+  "description": "Automate Calendarhero tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5bb52134cc9e046e74fc",
+  "content_sha256": "6db527f51c0665fb071cc749ee464deb6c5922d9e02408a749d3109e9c344548"
+}

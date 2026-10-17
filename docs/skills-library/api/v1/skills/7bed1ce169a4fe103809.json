@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/autobound-automation/SKILL.md",
+  "name": "autobound-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/autobound-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/autobound-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/autobound-automation/SKILL.md",
+  "description": "Automate Autobound tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7bed1ce169a4fe103809",
+  "content_sha256": "ae503675498550bb0654cb464f821b8860983afedd35f3f86eddf23430c8664d"
+}

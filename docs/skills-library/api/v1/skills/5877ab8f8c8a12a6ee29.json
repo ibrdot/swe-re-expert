@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sevdesk-automation/SKILL.md",
+  "name": "sevdesk-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sevdesk-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sevdesk-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sevdesk-automation/SKILL.md",
+  "description": "Automate Sevdesk tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5877ab8f8c8a12a6ee29",
+  "content_sha256": "a3fab5d95222ff3aa292e798b06122f92670ac1b1e2af22af816b2b7e15c2e49"
+}

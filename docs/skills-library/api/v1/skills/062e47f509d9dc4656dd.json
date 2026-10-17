@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/passcreator-automation/SKILL.md",
+  "name": "passcreator-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/passcreator-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/passcreator-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/passcreator-automation/SKILL.md",
+  "description": "Automate Passcreator tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "062e47f509d9dc4656dd",
+  "content_sha256": "50791c532aab487d4883e26b153ce2dead094924621f59a62bb9bff509aa53e0"
+}

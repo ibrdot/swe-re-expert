@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/turso-automation/SKILL.md",
+  "name": "turso-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/turso-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/turso-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/turso-automation/SKILL.md",
+  "description": "Automate Turso tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b01eee73f62623a54494",
+  "content_sha256": "16825653a646f055faf8a20e2206b1d77a80e291b61cfc30322998f2116ca9ad"
+}

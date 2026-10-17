@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/boxhero-automation/SKILL.md",
+  "name": "boxhero-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/boxhero-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/boxhero-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/boxhero-automation/SKILL.md",
+  "description": "Automate Boxhero tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "26d776b2979d11f14bda",
+  "content_sha256": "c367247ad6164eacbc8d71831bfc218985cf5183f9559321e5aab1e9df6711cd"
+}

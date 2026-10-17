@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ngrok-automation/SKILL.md",
+  "name": "ngrok-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ngrok-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ngrok-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ngrok-automation/SKILL.md",
+  "description": "Automate Ngrok tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ef61958113b29de6750c",
+  "content_sha256": "ca067737bfa1d199a00dbba273ca8c29f2c9adaf5a5cf80203cfa15a1bcc72e0"
+}

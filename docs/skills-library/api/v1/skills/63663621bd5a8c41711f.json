@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/apilio-automation/SKILL.md",
+  "name": "apilio-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/apilio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/apilio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/apilio-automation/SKILL.md",
+  "description": "Automate Apilio tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "63663621bd5a8c41711f",
+  "content_sha256": "6fc3bdd3e95e7ce38074452bee49b21837cc1c27c559b6740960bc480ebe6942"
+}

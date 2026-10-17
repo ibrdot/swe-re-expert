@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/lemlist-automation/SKILL.md",
+  "name": "Lemlist Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/lemlist-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/lemlist-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/lemlist-automation/SKILL.md",
+  "description": "Automate Lemlist multichannel outreach -- manage campaigns, enroll leads, add personalization variables, export campaign data, and handle unsubscribes via the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5c1566718df0ebca9c34",
+  "content_sha256": "dbe497daaa3755d3de99640344b6721fa599f12c9db581dc813ffcbef7d6787d"
+}

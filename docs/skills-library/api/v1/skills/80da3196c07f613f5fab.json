@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/tripadvisor-content-api-automation/SKILL.md",
+  "name": "tripadvisor-content-api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/tripadvisor-content-api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/tripadvisor-content-api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/tripadvisor-content-api-automation/SKILL.md",
+  "description": "Automate TripAdvisor tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "80da3196c07f613f5fab",
+  "content_sha256": "de8cb183e43928d938b8a1f202eb51acecc03771ed22d590b5efff967d632a88"
+}

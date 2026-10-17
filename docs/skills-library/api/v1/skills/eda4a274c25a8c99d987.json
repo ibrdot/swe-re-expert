@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sendlane-automation/SKILL.md",
+  "name": "sendlane-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sendlane-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sendlane-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sendlane-automation/SKILL.md",
+  "description": "Automate Sendlane tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "eda4a274c25a8c99d987",
+  "content_sha256": "7ed79ab76f8186a08f389bccb69b79ec8c6084735065c2ccab0a46930444b08d"
+}

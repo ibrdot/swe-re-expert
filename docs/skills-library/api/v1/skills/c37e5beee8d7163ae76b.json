@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/borneo-automation/SKILL.md",
+  "name": "borneo-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/borneo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/borneo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/borneo-automation/SKILL.md",
+  "description": "Automate Borneo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c37e5beee8d7163ae76b",
+  "content_sha256": "0a834726da8a4805886e589aece716da918ccb7b9d4ae653db25def1ce7ce03d"
+}

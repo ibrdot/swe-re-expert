@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/crustdata-automation/SKILL.md",
+  "name": "crustdata-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/crustdata-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/crustdata-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/crustdata-automation/SKILL.md",
+  "description": "Automate Crustdata tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "848c6d6ee67c1c63d3ed",
+  "content_sha256": "cdfe1f25990f4c1aee5cf8962cc8ba0f6bd543e5a14858959cbe84d4afb5fe7e"
+}

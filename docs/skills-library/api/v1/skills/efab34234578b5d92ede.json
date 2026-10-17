@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/coassemble-automation/SKILL.md",
+  "name": "coassemble-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/coassemble-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/coassemble-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/coassemble-automation/SKILL.md",
+  "description": "Automate Coassemble tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "efab34234578b5d92ede",
+  "content_sha256": "a4d646b6bb8627398b911b2435a2735a5f61431d752c238214c8ddaf9257c828"
+}

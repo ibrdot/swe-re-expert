@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/scrapegraph-ai-automation/SKILL.md",
+  "name": "scrapegraph-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/scrapegraph-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/scrapegraph-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/scrapegraph-ai-automation/SKILL.md",
+  "description": "Automate Scrapegraph AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9b8eb1896bf79cd80c02",
+  "content_sha256": "70fbd3e343b7edbfb55e781307045f0dd90438c908f148c58c4f0afb94f3b59b"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/jotform-automation/SKILL.md",
+  "name": "Jotform Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/jotform-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/jotform-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/jotform-automation/SKILL.md",
+  "description": "Automate Jotform form listing, user management, activity history, folder organization, and plan inspection through natural language commands",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1ee5250d08b8084ae4d6",
+  "content_sha256": "e1b6a6555627ee617e4c0f86fdf55c9e4000dc1c2a84b48c7d008b85c30ca9eb"
+}

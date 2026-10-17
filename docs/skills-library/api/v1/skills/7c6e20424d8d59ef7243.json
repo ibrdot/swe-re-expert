@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/uptimerobot-automation/SKILL.md",
+  "name": "uptimerobot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/uptimerobot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/uptimerobot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/uptimerobot-automation/SKILL.md",
+  "description": "Automate Uptimerobot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7c6e20424d8d59ef7243",
+  "content_sha256": "db80e7bc3006e87618d08fcda8f853d6994b1cf61d3fcd5ab963e35ef764b5b8"
+}

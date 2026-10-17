@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/claid-ai-automation/SKILL.md",
+  "name": "claid-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/claid-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/claid-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/claid-ai-automation/SKILL.md",
+  "description": "Automate Claid AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "371be4801f025621398c",
+  "content_sha256": "ce0db1eb82c77419f7efac0e4447cee42eefd19c8f7ff808b0b66caf5a402de6"
+}

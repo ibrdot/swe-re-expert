@@ -1,0 +1,15 @@
+{
+  "id": "gifgrep/SKILL.md",
+  "name": "gifgrep",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Media",
+  "path": "gifgrep/",
+  "skill_file": "gifgrep/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/gifgrep/SKILL.md",
+  "description": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "b6cff79c5c7dd06e854d",
+  "content_sha256": "412f3502c9762bfb8759fd84f027eb5b691d7239f0a3326b49ed88d3fae65165"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/hystruct-automation/SKILL.md",
+  "name": "hystruct-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/hystruct-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/hystruct-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/hystruct-automation/SKILL.md",
+  "description": "Automate Hystruct tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "34b3a1fe55bd954c0b8b",
+  "content_sha256": "4aa375fc6aa887ab40d94ce65a2cdc271f0c4e23d1a1db391eb6c323e7eb67f5"
+}

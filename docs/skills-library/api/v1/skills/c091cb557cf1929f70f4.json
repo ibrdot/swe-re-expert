@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bigpicture-io-automation/SKILL.md",
+  "name": "bigpicture-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bigpicture-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bigpicture-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bigpicture-io-automation/SKILL.md",
+  "description": "Automate Bigpicture IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c091cb557cf1929f70f4",
+  "content_sha256": "169f1ac24820cc31e02ef1f408354b04383188036bdfc843ccf1a3210325a7b7"
+}

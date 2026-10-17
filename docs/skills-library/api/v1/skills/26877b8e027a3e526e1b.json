@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zoho-mail-automation/SKILL.md",
+  "name": "zoho-mail-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zoho-mail-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zoho-mail-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zoho-mail-automation/SKILL.md",
+  "description": "Automate Zoho Mail tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "26877b8e027a3e526e1b",
+  "content_sha256": "39307a5773b290b61453c4aaafe7aad5e7b9b0f2a0e99fdcd5d3658d45ccae4f"
+}

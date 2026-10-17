@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/cdr-platform-automation/SKILL.md",
+  "name": "cdr-platform-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/cdr-platform-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/cdr-platform-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/cdr-platform-automation/SKILL.md",
+  "description": "Automate Cdr Platform tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b107433dbb276cda13bb",
+  "content_sha256": "49057e781bf55b4edda1bf04a0c31297dd0c99a262f41dfc499d67538456d86b"
+}

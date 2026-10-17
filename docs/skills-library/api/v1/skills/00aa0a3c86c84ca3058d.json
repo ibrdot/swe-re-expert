@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/grafbase-automation/SKILL.md",
+  "name": "grafbase-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/grafbase-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/grafbase-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/grafbase-automation/SKILL.md",
+  "description": "Automate Grafbase tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "00aa0a3c86c84ca3058d",
+  "content_sha256": "64cd1ffc4adb7eb248892d8126b7940cbb5bd301328e0b53a5db44caf53ac4db"
+}

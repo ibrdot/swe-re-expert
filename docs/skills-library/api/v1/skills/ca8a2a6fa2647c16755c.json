@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/passslot-automation/SKILL.md",
+  "name": "passslot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/passslot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/passslot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/passslot-automation/SKILL.md",
+  "description": "Automate Passslot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ca8a2a6fa2647c16755c",
+  "content_sha256": "814a49c77a28c919be03404833805fe55302cfc9bc24827495540651e2d1cc63"
+}

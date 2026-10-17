@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/serpdog-automation/SKILL.md",
+  "name": "serpdog-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/serpdog-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/serpdog-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/serpdog-automation/SKILL.md",
+  "description": "Automate Serpdog tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4a0b14a9e293f81d530b",
+  "content_sha256": "eaab0943eea8c344078a0c735a147b11f491829e3160b148ab808ba34bc69dce"
+}

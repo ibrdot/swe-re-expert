@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/aryn-automation/SKILL.md",
+  "name": "aryn-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/aryn-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/aryn-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/aryn-automation/SKILL.md",
+  "description": "Automate Aryn tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "48e98e50c8135f0cf959",
+  "content_sha256": "8196ef73185212ce232fddbf53f6d86026e8435c1aee954ce31e5739ef7a643b"
+}

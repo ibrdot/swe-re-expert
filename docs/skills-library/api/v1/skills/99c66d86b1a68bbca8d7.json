@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/yousearch-automation/SKILL.md",
+  "name": "yousearch-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/yousearch-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/yousearch-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/yousearch-automation/SKILL.md",
+  "description": "Automate Yousearch tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "99c66d86b1a68bbca8d7",
+  "content_sha256": "ed791b88325fce53ccae84cf7adfe97d41e9e6b62a26910a974ac159530381d8"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/gan-ai-automation/SKILL.md",
+  "name": "gan-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/gan-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/gan-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/gan-ai-automation/SKILL.md",
+  "description": "Automate Gan AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a982234af1c821fb62b0",
+  "content_sha256": "b7af8c088b56ce6d3f1d1d7a1c279f2d2c490ac9da8b92869c572561e85a3b3d"
+}

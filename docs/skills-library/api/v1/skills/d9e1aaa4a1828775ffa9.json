@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/implement/SKILL.md",
+  "name": "implement",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/implement/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/implement/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/implement/SKILL.md",
+  "description": "Implement a piece of work based on a spec or set of tickets.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "d9e1aaa4a1828775ffa9",
+  "content_sha256": "483bdc4ccf4ac31d86ac7beeaa0d0db80313e71e120bb8c59b3196ae5decd53d"
+}

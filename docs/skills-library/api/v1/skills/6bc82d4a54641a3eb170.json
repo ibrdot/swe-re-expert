@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/wit-ai-automation/SKILL.md",
+  "name": "wit-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/wit-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/wit-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/wit-ai-automation/SKILL.md",
+  "description": "Automate Wit AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6bc82d4a54641a3eb170",
+  "content_sha256": "a69d52574aa17d71ae7eb798dfbbd12c663c7c535a1a039a358dba4c23bb08a0"
+}

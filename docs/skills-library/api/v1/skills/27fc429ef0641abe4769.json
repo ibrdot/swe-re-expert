@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/revolt-automation/SKILL.md",
+  "name": "revolt-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/revolt-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/revolt-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/revolt-automation/SKILL.md",
+  "description": "Automate Revolt tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "27fc429ef0641abe4769",
+  "content_sha256": "465102abb1dd3a403393df6af3e547c7544c336f7776116e4c85409743d7f917"
+}

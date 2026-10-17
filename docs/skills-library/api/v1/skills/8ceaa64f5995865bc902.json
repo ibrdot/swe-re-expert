@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/peopledatalabs-automation/SKILL.md",
+  "name": "peopledatalabs-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/peopledatalabs-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/peopledatalabs-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/peopledatalabs-automation/SKILL.md",
+  "description": "Automate Peopledatalabs tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8ceaa64f5995865bc902",
+  "content_sha256": "f99a8bc9eccdccf9e31c46babe758de0bc0e88f444042f6bffb74aeb13c8b906"
+}

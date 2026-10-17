@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/btcpay-server-automation/SKILL.md",
+  "name": "btcpay-server-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/btcpay-server-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/btcpay-server-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/btcpay-server-automation/SKILL.md",
+  "description": "Automate Btcpay Server tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c87320f1b688911e90f5",
+  "content_sha256": "706cbe65961642d7f04457f476d5aee9b589a47503f1246c5f685d855e63cfad"
+}

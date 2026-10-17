@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/datarobot-automation/SKILL.md",
+  "name": "datarobot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/datarobot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/datarobot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/datarobot-automation/SKILL.md",
+  "description": "Automate Datarobot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4b55715787e68b5ecf6d",
+  "content_sha256": "e057c1102055768559ab8351f2f7999465e5358b5092ef6a9e74dd3e94207f06"
+}

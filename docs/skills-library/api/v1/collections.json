@@ -1,0 +1,20 @@
+{
+  "api_version": "1",
+  "collections": [
+    {
+      "id": "builtin",
+      "name": "Suite skills",
+      "count": 39
+    },
+    {
+      "id": "awesome",
+      "name": "Community collection",
+      "count": 864
+    },
+    {
+      "id": "mattpocock",
+      "name": "Engineering collection",
+      "count": 38
+    }
+  ]
+}

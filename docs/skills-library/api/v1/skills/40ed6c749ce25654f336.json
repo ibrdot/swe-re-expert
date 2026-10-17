@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/workday-automation/SKILL.md",
+  "name": "Workday Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/workday-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/workday-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/workday-automation/SKILL.md",
+  "description": "Automate HR operations in Workday -- manage workers, time off requests, absence balances, and employee data through natural language commands.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "40ed6c749ce25654f336",
+  "content_sha256": "18d7d173276651ce15aee225f99778452548adb6a0eb3773f6788fceaf841189"
+}

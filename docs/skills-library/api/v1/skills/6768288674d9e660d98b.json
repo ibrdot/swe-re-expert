@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/connect/SKILL.md",
+  "name": "connect",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/connect/",
+  "skill_file": "vendor/awesome-claude-skills/connect/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/connect/SKILL.md",
+  "description": "Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6768288674d9e660d98b",
+  "content_sha256": "b26af6b3320dd48d855d8ac54dc45ea19f6a8cccb4d214f9ec6667ebb1b79e24"
+}

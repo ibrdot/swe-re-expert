@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/streamtime-automation/SKILL.md",
+  "name": "streamtime-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/streamtime-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/streamtime-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/streamtime-automation/SKILL.md",
+  "description": "Automate Streamtime tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9ded8be35cccf8e5db71",
+  "content_sha256": "cf559beceb797d29dd38823efe60e696b7cc21f8afd5e3ae8792a0c69974f1ad"
+}

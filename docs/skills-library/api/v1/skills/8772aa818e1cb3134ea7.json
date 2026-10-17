@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/googleads-automation/SKILL.md",
+  "name": "googleads-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/googleads-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/googleads-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/googleads-automation/SKILL.md",
+  "description": "Automate Google Ads analytics tasks via Rube MCP (Composio): list Google Ads links, run GA4 reports, check compatibility, list properties and accounts. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8772aa818e1cb3134ea7",
+  "content_sha256": "f010b9e38b465bd571d0e626148f747e759b0478fb4c56cb1415bb268f2e32d3"
+}

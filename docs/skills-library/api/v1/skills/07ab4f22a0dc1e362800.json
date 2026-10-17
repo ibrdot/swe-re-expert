@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/habitica-automation/SKILL.md",
+  "name": "habitica-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/habitica-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/habitica-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/habitica-automation/SKILL.md",
+  "description": "Automate Habitica tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "07ab4f22a0dc1e362800",
+  "content_sha256": "49feb1d8a209ad84a089e4be5be9b2c1c0c3f3602c22b39236bea4c16eaf957f"
+}

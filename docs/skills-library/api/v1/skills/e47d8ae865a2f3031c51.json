@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/twitter-algorithm-optimizer/SKILL.md",
+  "name": "twitter-algorithm-optimizer",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/twitter-algorithm-optimizer/",
+  "skill_file": "vendor/awesome-claude-skills/twitter-algorithm-optimizer/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/twitter-algorithm-optimizer/SKILL.md",
+  "description": "Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit user tweets to improve engagement and visibility based on how the recommendation system ranks content.",
+  "mode": "Guide",
+  "license": "AGPL-3.0 (referencing Twitter's algorithm source)",
+  "key": "e47d8ae865a2f3031c51",
+  "content_sha256": "c02a4b7ca7f2466fb8364557f83e5ea95bd876e05acb58d72e89e58cd62c6335"
+}

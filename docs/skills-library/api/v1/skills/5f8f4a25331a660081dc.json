@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/iqair-airvisual-automation/SKILL.md",
+  "name": "iqair-airvisual-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/iqair-airvisual-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/iqair-airvisual-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/iqair-airvisual-automation/SKILL.md",
+  "description": "Automate Iqair Airvisual tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5f8f4a25331a660081dc",
+  "content_sha256": "4029feae9512020ee4af45b3927535935b8b3e17affcfabea43ad29a1270b95f"
+}

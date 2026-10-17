@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/moneybird-automation/SKILL.md",
+  "name": "moneybird-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/moneybird-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/moneybird-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/moneybird-automation/SKILL.md",
+  "description": "Automate Moneybird tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6f4f1e1e75fa25799727",
+  "content_sha256": "f46c3d097a8a8df277c758301e1290f833224ab0d225dce6d1db288b4044d2f8"
+}

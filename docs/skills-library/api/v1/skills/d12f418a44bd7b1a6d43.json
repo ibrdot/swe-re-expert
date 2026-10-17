@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/expofp-automation/SKILL.md",
+  "name": "expofp-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/expofp-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/expofp-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/expofp-automation/SKILL.md",
+  "description": "Automate Expofp tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d12f418a44bd7b1a6d43",
+  "content_sha256": "2511d55f94553ae04464c420d2464b42752302ca9415f251ab9bef8478475e88"
+}

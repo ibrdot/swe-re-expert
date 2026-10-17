@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ncscale-automation/SKILL.md",
+  "name": "ncscale-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ncscale-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ncscale-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ncscale-automation/SKILL.md",
+  "description": "Automate Ncscale tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a7a0e9e4ab8ea6addb41",
+  "content_sha256": "0a12f8a630b5c4f7de74c24b07222e4b7994858f551bae0b96aec1bdb0ee6535"
+}

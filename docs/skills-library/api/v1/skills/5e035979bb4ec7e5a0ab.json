@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/docupilot-automation/SKILL.md",
+  "name": "docupilot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/docupilot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/docupilot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/docupilot-automation/SKILL.md",
+  "description": "Automate Docupilot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5e035979bb4ec7e5a0ab",
+  "content_sha256": "8315f7b7da1a5492b9b4ed9644ab385d9108f9c02bf67ab60d6cbab03779a926"
+}

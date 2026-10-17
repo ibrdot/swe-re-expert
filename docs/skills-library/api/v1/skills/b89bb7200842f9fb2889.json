@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/printautopilot-automation/SKILL.md",
+  "name": "printautopilot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/printautopilot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/printautopilot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/printautopilot-automation/SKILL.md",
+  "description": "Automate Printautopilot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b89bb7200842f9fb2889",
+  "content_sha256": "44cb2da9e61d2684467788a72a969a22b4ae8f8015ca79ca8e67a6ec4d05f367"
+}

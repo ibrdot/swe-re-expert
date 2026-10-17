@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mboum-automation/SKILL.md",
+  "name": "mboum-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mboum-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mboum-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mboum-automation/SKILL.md",
+  "description": "Automate Mboum tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e16792126c5001ca06ed",
+  "content_sha256": "a086ede7500c641e18e1d449b4db038ec2c37a49fe2e9c70bd76f837963b20cc"
+}

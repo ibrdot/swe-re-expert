@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/battlenet-automation/SKILL.md",
+  "name": "battlenet-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/battlenet-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/battlenet-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/battlenet-automation/SKILL.md",
+  "description": "Automate Battlenet tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "eec389a3d0790d65090e",
+  "content_sha256": "f127f1724b3c6a9c9209c528c527d8fe6728806b3a6009993d3c8f61ef6d84ac"
+}

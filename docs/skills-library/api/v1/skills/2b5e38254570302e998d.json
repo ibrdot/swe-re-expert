@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/pipeline-crm-automation/SKILL.md",
+  "name": "pipeline-crm-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/pipeline-crm-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/pipeline-crm-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/pipeline-crm-automation/SKILL.md",
+  "description": "Automate Pipeline CRM tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2b5e38254570302e998d",
+  "content_sha256": "d89ce08fd118719148eed4f6a1b4c086e6b53e2852073031831f83bec4be8d12"
+}

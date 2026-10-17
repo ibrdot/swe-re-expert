@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/turbot-pipes-automation/SKILL.md",
+  "name": "turbot-pipes-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/turbot-pipes-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/turbot-pipes-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/turbot-pipes-automation/SKILL.md",
+  "description": "Automate Turbot Pipes tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ced570bf3241e362925e",
+  "content_sha256": "543551096f355a9156d57475364479f9f280150816a5ded83a0024e6c24a631b"
+}

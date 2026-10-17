@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/feathery-automation/SKILL.md",
+  "name": "feathery-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/feathery-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/feathery-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/feathery-automation/SKILL.md",
+  "description": "Automate Feathery tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8330c0558190f560b030",
+  "content_sha256": "6f3f1895c3ae7c01700a1659c68f2beb787f42f1c1d57f0ac24ab75252e403d7"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/datagma-automation/SKILL.md",
+  "name": "datagma-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/datagma-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/datagma-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/datagma-automation/SKILL.md",
+  "description": "Automate Datagma tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8967d3bb1faecbb525eb",
+  "content_sha256": "1356aeb562f971f36e8a70a45f7f876b6f413ce19c57bf8c36d292c218ebdd84"
+}

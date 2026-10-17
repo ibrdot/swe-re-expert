@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/callpage-automation/SKILL.md",
+  "name": "callpage-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/callpage-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/callpage-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/callpage-automation/SKILL.md",
+  "description": "Automate Callpage tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "13f85ccccbaa3e3ed922",
+  "content_sha256": "d08436655b79b6f308bd8a85e124d57893bab8fc1c49e5bf2006f4c69d5c2cea"
+}

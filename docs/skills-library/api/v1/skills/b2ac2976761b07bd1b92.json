@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/genderapi-io-automation/SKILL.md",
+  "name": "genderapi-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/genderapi-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/genderapi-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/genderapi-io-automation/SKILL.md",
+  "description": "Automate Genderapi IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b2ac2976761b07bd1b92",
+  "content_sha256": "1286925a37f1acf3c806e765e00f2806513259f7ea9c27ee5696f9f80539d92b"
+}

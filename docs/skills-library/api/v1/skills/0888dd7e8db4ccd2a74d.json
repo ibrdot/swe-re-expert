@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/interzoid-automation/SKILL.md",
+  "name": "interzoid-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/interzoid-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/interzoid-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/interzoid-automation/SKILL.md",
+  "description": "Automate Interzoid tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0888dd7e8db4ccd2a74d",
+  "content_sha256": "c317feb781f79cad321c6d0c98ac3669a6ddeb99371273f5e6e0ffed4a512e1a"
+}

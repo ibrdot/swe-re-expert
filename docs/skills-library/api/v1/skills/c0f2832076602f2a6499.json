@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/draftable-automation/SKILL.md",
+  "name": "draftable-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/draftable-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/draftable-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/draftable-automation/SKILL.md",
+  "description": "Automate Draftable tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c0f2832076602f2a6499",
+  "content_sha256": "fc6f6336c3b74c033178b792ab92962c392cd409bf71f03cbeba9796af78d56e"
+}

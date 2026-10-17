@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/instacart-automation/SKILL.md",
+  "name": "instacart-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/instacart-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/instacart-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/instacart-automation/SKILL.md",
+  "description": "Automate Instacart tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "54ad73a39c4bb7fd2b50",
+  "content_sha256": "dcde4038550314716815f63631513be1eac089c77f4a0e23e9f1abd2ad8066b0"
+}

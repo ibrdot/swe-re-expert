@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/microsoft-tenant-automation/SKILL.md",
+  "name": "microsoft-tenant-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/microsoft-tenant-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/microsoft-tenant-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/microsoft-tenant-automation/SKILL.md",
+  "description": "Automate Microsoft Tenant tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a6f6252e710fcb7b38bb",
+  "content_sha256": "5b663b5bfba3f7a783d6b53fcbdabe6f572ff27c4d05aed79368725632a4c6d1"
+}

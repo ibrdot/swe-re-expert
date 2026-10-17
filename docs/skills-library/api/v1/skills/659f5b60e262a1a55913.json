@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/retellai-automation/SKILL.md",
+  "name": "retellai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/retellai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/retellai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/retellai-automation/SKILL.md",
+  "description": "Automate Retellai tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "659f5b60e262a1a55913",
+  "content_sha256": "5b95db2b1a2b45935f48cd0a6ad49646f2ff309451a79f9b1b85a90136db650a"
+}

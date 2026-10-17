@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/alttext-ai-automation/SKILL.md",
+  "name": "alttext-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/alttext-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/alttext-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/alttext-ai-automation/SKILL.md",
+  "description": "Automate Alttext AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "531f50dead3586325d8c",
+  "content_sha256": "ff1ae837b6538418cee0c07813a7e3b39feb211a54b30999c580b337acd8fdb1"
+}

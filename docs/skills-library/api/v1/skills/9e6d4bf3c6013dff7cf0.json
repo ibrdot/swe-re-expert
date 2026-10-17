@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/jobnimbus-automation/SKILL.md",
+  "name": "jobnimbus-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/jobnimbus-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/jobnimbus-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/jobnimbus-automation/SKILL.md",
+  "description": "Automate Jobnimbus tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9e6d4bf3c6013dff7cf0",
+  "content_sha256": "480c2359e583e942369e6ee9770cda41bca7c38f471281949dd8cccd1e7967be"
+}

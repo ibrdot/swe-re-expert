@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/share_point-automation/SKILL.md",
+  "name": "share_point-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/share_point-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/share_point-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/share_point-automation/SKILL.md",
+  "description": "Automate SharePoint tasks via Rube MCP (Composio): document libraries, sites, lists, and content management. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ed586ec528e60819c812",
+  "content_sha256": "4d43ab22e2f79788c23d4ac29083902af38ea9f395f73abb5707e309b95e7cee"
+}

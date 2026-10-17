@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dialpad-automation/SKILL.md",
+  "name": "dialpad-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dialpad-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dialpad-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dialpad-automation/SKILL.md",
+  "description": "Automate Dialpad tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5256bf8c3352dc48f986",
+  "content_sha256": "02ec3675e778d53ec380e739267a6e44e2b0e51dabeeb0c413de43ed50641d76"
+}

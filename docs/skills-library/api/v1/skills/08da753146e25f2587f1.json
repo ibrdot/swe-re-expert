@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/neverbounce-automation/SKILL.md",
+  "name": "neverbounce-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/neverbounce-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/neverbounce-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/neverbounce-automation/SKILL.md",
+  "description": "Automate Neverbounce tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "08da753146e25f2587f1",
+  "content_sha256": "0dadd63858e03eb10fb5cfaa72ea6b78051889bec2ccf857ebcf65e369c9cea0"
+}

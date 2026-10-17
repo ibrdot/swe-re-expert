@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/onesignal-user-auth-automation/SKILL.md",
+  "name": "onesignal-user-auth-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/onesignal-user-auth-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/onesignal-user-auth-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/onesignal-user-auth-automation/SKILL.md",
+  "description": "Automate Onesignal User Auth tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d8e613c0b5658f6f3f1e",
+  "content_sha256": "528feec295237aacb872d07402b6ab72c671d5c4a9b1653a8a9636f0c24b6810"
+}

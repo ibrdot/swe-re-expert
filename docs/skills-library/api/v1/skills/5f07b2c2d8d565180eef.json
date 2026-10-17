@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/internal-comms/SKILL.md",
+  "name": "internal-comms",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/internal-comms/",
+  "skill_file": "vendor/awesome-claude-skills/internal-comms/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/internal-comms/SKILL.md",
+  "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+  "mode": "Guide",
+  "license": "Complete terms in LICENSE.txt",
+  "key": "5f07b2c2d8d565180eef",
+  "content_sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
+}

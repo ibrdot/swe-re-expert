@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/short-menu-automation/SKILL.md",
+  "name": "short-menu-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/short-menu-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/short-menu-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/short-menu-automation/SKILL.md",
+  "description": "Automate Short Menu tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d0680f5ccef2c758ccf0",
+  "content_sha256": "6ae3aedd151573802386dcbb352d87903eb6e99e5ff2308ea1a83959ccad296b"
+}

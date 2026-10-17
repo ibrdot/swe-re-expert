@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/route4me-automation/SKILL.md",
+  "name": "route4me-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/route4me-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/route4me-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/route4me-automation/SKILL.md",
+  "description": "Automate Route4me tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a52542edba3ab6424ca6",
+  "content_sha256": "40222efcde26b243b7f856898967707cbfcb4432fab339a8a4cf0a14c954193c"
+}

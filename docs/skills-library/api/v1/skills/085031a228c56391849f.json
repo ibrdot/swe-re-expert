@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/hackernews-automation/SKILL.md",
+  "name": "hackernews-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/hackernews-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/hackernews-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/hackernews-automation/SKILL.md",
+  "description": "Automate Hackernews tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "085031a228c56391849f",
+  "content_sha256": "dcac3ca17e61df417657cf18094faefa0141063c31adb8c83ba9373a2e7caf95"
+}

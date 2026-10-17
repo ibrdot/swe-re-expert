@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/backendless-automation/SKILL.md",
+  "name": "backendless-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/backendless-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/backendless-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/backendless-automation/SKILL.md",
+  "description": "Automate Backendless tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "3969b23f4c6bd6ac9421",
+  "content_sha256": "9a3ce9dee60d1c416644f3c1194066580a24bb3292275b4ee8c4e70b7ebd3755"
+}

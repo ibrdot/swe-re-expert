@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/eventbrite-automation/SKILL.md",
+  "name": "Eventbrite Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/eventbrite-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/eventbrite-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/eventbrite-automation/SKILL.md",
+  "description": "Automate Eventbrite event management, attendee tracking, organization discovery, and category browsing through natural language commands",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c0f4a36e58f36ef651c4",
+  "content_sha256": "b3ed3037e01af5788ffb5cc5343e76a06b5620ddd6b6b52816e5941904ed0979"
+}

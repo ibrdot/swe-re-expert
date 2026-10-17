@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zoho_bigin-automation/SKILL.md",
+  "name": "zoho_bigin-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zoho_bigin-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zoho_bigin-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zoho_bigin-automation/SKILL.md",
+  "description": "Automate Zoho Bigin tasks via Rube MCP (Composio): pipelines, contacts, companies, products, and small business CRM. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "08c345b75ca9ae63846f",
+  "content_sha256": "e7307b50e8373139d2b7ec2c9df13b36f954aa52c17a812891d2eda1f8c132ba"
+}

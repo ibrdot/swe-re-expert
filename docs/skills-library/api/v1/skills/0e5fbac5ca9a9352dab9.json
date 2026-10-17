@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/nasa-automation/SKILL.md",
+  "name": "nasa-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/nasa-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/nasa-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/nasa-automation/SKILL.md",
+  "description": "Automate Nasa tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0e5fbac5ca9a9352dab9",
+  "content_sha256": "1c8898a9e0f4eed7d95002efaeccf7e839f3e6ad97fc79bbb7cffd5dfab8b86a"
+}

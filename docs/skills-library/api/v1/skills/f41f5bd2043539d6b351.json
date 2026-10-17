@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zoho-desk-automation/SKILL.md",
+  "name": "Zoho Desk Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zoho-desk-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zoho-desk-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zoho-desk-automation/SKILL.md",
+  "description": "Zoho Desk automation via Rube MCP -- toolkit not currently available in Composio; no ZOHO_DESK_ tools found",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f41f5bd2043539d6b351",
+  "content_sha256": "5ed6bc67d4f80d3214cb3aa1320e7aa4e255eed9e18eb5935db709a2a72d1241"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/qualaroo-automation/SKILL.md",
+  "name": "qualaroo-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/qualaroo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/qualaroo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/qualaroo-automation/SKILL.md",
+  "description": "Automate Qualaroo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f554f2ee74af6377498b",
+  "content_sha256": "1ef149195e9b23c2eebe4df68b790ba2f6350fd7f5d4aad89b4d9d2a6afaeea3"
+}

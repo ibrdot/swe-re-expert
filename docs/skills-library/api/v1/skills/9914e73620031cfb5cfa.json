@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zeplin-automation/SKILL.md",
+  "name": "zeplin-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zeplin-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zeplin-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zeplin-automation/SKILL.md",
+  "description": "Automate Zeplin tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9914e73620031cfb5cfa",
+  "content_sha256": "330b8c4f0523f38cb729f5c9a6bd0a4dcdcf109aa3be8594ead2c7c77f269ea0"
+}

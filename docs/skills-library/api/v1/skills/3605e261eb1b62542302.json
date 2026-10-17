@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/convertapi-automation/SKILL.md",
+  "name": "convertapi-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/convertapi-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/convertapi-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/convertapi-automation/SKILL.md",
+  "description": "Automate Convertapi tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "3605e261eb1b62542302",
+  "content_sha256": "a28be5c878a94fbe77a75de665aff6f5f4e449bb5857880dbf0b6e4d9b3d93ae"
+}

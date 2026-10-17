@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/diagnosing-bugs/SKILL.md",
+  "name": "diagnosing-bugs",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/diagnosing-bugs/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/diagnosing-bugs/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/diagnosing-bugs/SKILL.md",
+  "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "488b5d908211bfe3142b",
+  "content_sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d"
+}

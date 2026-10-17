@@ -1,0 +1,15 @@
+{
+  "id": "github/SKILL.md",
+  "name": "github",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Engineering",
+  "path": "github/",
+  "skill_file": "github/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/github/SKILL.md",
+  "description": "Use this connector skill whenever the user asks an agent to work with GitHub repositories, issues, pull requests, code review, CI failures, release branches, or repo maintenance through the connector. Use it for GitHub workflows that need to inspect repository state, create or update issues and PRs, review changes, or summarize CI and review status.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "9e04aaeab80b04b8bba3",
+  "content_sha256": "7e827168e47695918983cbea43ad6768259643fbd51592e452726f2d9e17fa74"
+}

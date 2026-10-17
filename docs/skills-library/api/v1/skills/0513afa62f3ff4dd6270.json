@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/open-sea-automation/SKILL.md",
+  "name": "open-sea-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/open-sea-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/open-sea-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/open-sea-automation/SKILL.md",
+  "description": "Automate Open Sea tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0513afa62f3ff4dd6270",
+  "content_sha256": "3e5b3c33e03c598a09d41d9c95fdf0c37d0fcaa559f5890805b52facc055622b"
+}

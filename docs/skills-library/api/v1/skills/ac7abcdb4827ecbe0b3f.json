@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/pushover-automation/SKILL.md",
+  "name": "pushover-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/pushover-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/pushover-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/pushover-automation/SKILL.md",
+  "description": "Automate Pushover tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ac7abcdb4827ecbe0b3f",
+  "content_sha256": "53190a11f86513f20013c3036e4813869332e1dcc914e5e2f2825d1641ca20c2"
+}

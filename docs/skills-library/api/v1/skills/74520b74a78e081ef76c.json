@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mailcheck-automation/SKILL.md",
+  "name": "mailcheck-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mailcheck-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mailcheck-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mailcheck-automation/SKILL.md",
+  "description": "Automate Mailcheck tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "74520b74a78e081ef76c",
+  "content_sha256": "597eba28c805e14cdda98adc241f7ac4b731ef6d59743f261184cd9d468c8ee7"
+}

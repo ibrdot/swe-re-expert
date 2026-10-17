@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/yandex-automation/SKILL.md",
+  "name": "yandex-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/yandex-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/yandex-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/yandex-automation/SKILL.md",
+  "description": "Automate Yandex tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "83259f8eca91617c81d6",
+  "content_sha256": "67d18d9d9110e734e16d496b8904c8f964fc5ded8fbf58e7e2be470cdd5abce6"
+}

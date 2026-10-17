@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/braintree-automation/SKILL.md",
+  "name": "Braintree Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/braintree-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/braintree-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/braintree-automation/SKILL.md",
+  "description": "Braintree Automation: manage payment processing via Stripe-compatible tools for customers, subscriptions, payment methods, and transactions",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e4cb1ff1e7138ec04e82",
+  "content_sha256": "ba95727ed710c0efd6211e7110000178e03e11c6c36c79f87b315250159a046a"
+}

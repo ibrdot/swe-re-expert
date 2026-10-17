@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sap-successfactors-automation/SKILL.md",
+  "name": "sap-successfactors-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sap-successfactors-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sap-successfactors-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sap-successfactors-automation/SKILL.md",
+  "description": "Automate SAP SuccessFactors tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "53d177578b9ca4175736",
+  "content_sha256": "e4855e87061f0da38f371d60da9560803b54f5d7418d484d294aa984e914b777"
+}

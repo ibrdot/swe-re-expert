@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dailybot-automation/SKILL.md",
+  "name": "dailybot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dailybot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dailybot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dailybot-automation/SKILL.md",
+  "description": "Automate Dailybot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8d40f0624c843629a201",
+  "content_sha256": "2e2681487e8a7e4c1fa6345cbde0718de559aefe4214821519743637eb182a3c"
+}

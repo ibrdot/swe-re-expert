@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/clockify-automation/SKILL.md",
+  "name": "Clockify Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/clockify-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/clockify-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/clockify-automation/SKILL.md",
+  "description": "Automate time tracking workflows in Clockify -- create and manage time entries, workspaces, and users through natural language commands.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d81218d2110ca2686959",
+  "content_sha256": "0a7bd1ee11b87a72f611b1f80ed6b802afb1f49ebd918de0edc66c77836bf489"
+}

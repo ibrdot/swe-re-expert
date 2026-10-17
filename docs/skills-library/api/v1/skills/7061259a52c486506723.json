@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "name": "setup-matt-pocock-skills",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/setup-matt-pocock-skills/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "description": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "7061259a52c486506723",
+  "content_sha256": "f148858ffb7f63c03c06fca06e6fdb1d91a35c6b293244b8fdfacd5f4cc028c4"
+}

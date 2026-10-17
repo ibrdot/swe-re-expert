@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/klipfolio-automation/SKILL.md",
+  "name": "klipfolio-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/klipfolio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/klipfolio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/klipfolio-automation/SKILL.md",
+  "description": "Automate Klipfolio tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "408336fa58e3d2a415bf",
+  "content_sha256": "de2dda8731c099d9a84cbbeabccca4d5fbfb218166b853577145a57bb0136dcb"
+}

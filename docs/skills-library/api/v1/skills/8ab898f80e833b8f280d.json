@@ -1,0 +1,15 @@
+{
+  "id": "remotion/SKILL.md",
+  "name": "remotion-best-practices",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Media",
+  "path": "remotion/",
+  "skill_file": "remotion/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/remotion/SKILL.md",
+  "description": "Best practices for Remotion - Video creation in React",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "8ab898f80e833b8f280d",
+  "content_sha256": "30938aa1b06e66ab3d5faf8b3c28ba5d968ef981717c1407bb74302b097f4293"
+}
