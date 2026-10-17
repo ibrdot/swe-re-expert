@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/ibrdot/swe-re-expert?style=social)](https://github.com/ibrdot/swe-re-expert/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-# SWE + RE Expert
+<img src="docs/assets/banner.svg" alt="SWE + RE Expert - Code review meets binary analysis. Evidence, not guesswork." width="880"/>
 
 ### Code review meets binary analysis. Evidence, not guesswork.
 
@@ -21,7 +21,7 @@ and turning observations into reports you can actually verify.
 
 ---
 
-## Related skills from the same team
+## 🔗 Related skills from the same team
 
 **[ai-agent-skills](https://github.com/ibrdot/ai-agent-skills)** - a curated library of
 941 AI agent skill guides covering engineering, research, browser automation, documents,
@@ -30,11 +30,11 @@ and license, with a searchable web explorer and a versioned read-only JSON API.
 Use it to find complementary skills; use SWE + RE Expert when the task is deep
 source review or binary analysis. Contact: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).
 
-## Contents
+## 🧓 Contents
 
 [Why this exists](#why-this-exists) · [Try it in 60 seconds](#try-it-in-60-seconds) · [What's included](#whats-included) · [Binary analysis](#binary-analysis-quick-start) · [The analysis loop](#the-analysis-loop) · [Development](#development)
 
-## Why this exists
+## 🎯 Why this exists
 
 A useful analysis should tell you **what was observed, where the evidence is,
 what remains uncertain, and what to do next**. This skill gives your agent a
@@ -50,7 +50,7 @@ repeatable workflow for both sides of the problem: source code and compiled code
 **It's a skill + supporting scripts, not an autonomous scanner or a replacement
 for Ghidra, IDA, a debugger, or human verification.**
 
-## Try it in 60 seconds
+## 🚀 Try it in 60 seconds
 
 The source-code demo needs only Python 3.10+ and Git. No account or API key.
 
@@ -101,7 +101,7 @@ control flow, and likely pseudocode. Cite instructions and flag ambiguity.
 
 </details>
 
-## What's included
+## 📦 What's included
 
 | Component | What you get |
 | --- | --- |
@@ -113,7 +113,7 @@ control flow, and likely pseudocode. Cite instructions and flag ambiguity.
 | [examples/](examples/) | Small offline fixture, actual output, and annotated report |
 | [evals/](evals/) | Agent evaluation prompts, not a benchmark score |
 
-## Binary analysis quick start
+## 🔍 Binary analysis quick start
 
 ```sh
 python3 -m venv .venv
@@ -136,7 +136,7 @@ Linux tools `file` and `readelf` improve metadata/fallbacks. Mach-O paths use
 The scripts do not execute the target; the broader playbooks discuss tools that
 must be configured separately.
 
-## The analysis loop
+## 🔁 The analysis loop
 
 ```text
 SCOPE -> TRIAGE -> DEEP DIVE -> ASSESS -> REPORT
@@ -148,7 +148,7 @@ Core guidance focuses on C/C++, assembly, Python, Go, and Rust. Other languages
 have inventory/heuristic support or playbook coverage; that is not equivalent to
 full semantic analysis of every language.
 
-## Development
+## 🛠 Development
 
 ```sh
 python3 -m unittest discover -s tests -v
@@ -159,7 +159,7 @@ CI runs regression tests and Linux binary smoke tests. Passing these tests does
 not validate all agent-generated reports or prove cross-platform parity.
 [Contributions](CONTRIBUTING.md) with a small reproducer are especially welcome.
 
-## Help it reach the right people
+## 🌟 Help it reach the right people
 
 If this saved you time, star the repository and share a concrete result: the
 input, a useful finding, and how you verified it. Have a better workflow or a
