@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/placekey-automation/SKILL.md",
+  "name": "placekey-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/placekey-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/placekey-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/placekey-automation/SKILL.md",
+  "description": "Automate Placekey tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8c764b266a60cdb44156",
+  "content_sha256": "31cb3841cdaa210a69fc49b68f6b35d228d256d4fe96152389897576d46fb614"
+}

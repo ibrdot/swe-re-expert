@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/customjs-automation/SKILL.md",
+  "name": "customjs-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/customjs-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/customjs-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/customjs-automation/SKILL.md",
+  "description": "Automate Customjs tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f60635b6de21aa81b5f4",
+  "content_sha256": "94a77ebb2b07c9eddfbec1e3eda410074824e4a1cedc1bf79278c7f78106372a"
+}

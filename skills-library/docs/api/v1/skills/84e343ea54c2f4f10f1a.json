@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/timely-automation/SKILL.md",
+  "name": "timely-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/timely-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/timely-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/timely-automation/SKILL.md",
+  "description": "Automate Timely tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "84e343ea54c2f4f10f1a",
+  "content_sha256": "701fa60293e7dceaf89bcbf6a08d6371e2865d757276a7b65342484b65efb9ad"
+}

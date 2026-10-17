@@ -21,6 +21,17 @@ and turning observations into reports you can actually verify.
 
 ---
 
+## 📚 Built-in skills library (941 guides)
+
+This repository now bundles a complete AI-agent skills library in
+[`skills-library/`](skills-library/README.md): 941 indexed guides across engineering,
+research, browser automation, documents, workspace workflows, and integrations.
+
+- Full catalogue: [`skills-library/SKILLS.md`](skills-library/SKILLS.md)
+- Versioned JSON API: [`skills-library/API.md`](skills-library/api/v1/skills.json)
+- Searchable explorer (pure white, light-only): `skills-library/docs/`
+- Rebuild docs and API anytime: `cd skills-library && python3 tools/build.py`
+
 ## 🔗 Related skills from the same team
 
 **[ai-agent-skills](https://github.com/ibrdot/ai-agent-skills)** - a curated library of

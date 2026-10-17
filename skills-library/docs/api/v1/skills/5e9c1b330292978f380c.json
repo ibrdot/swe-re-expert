@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/new-relic-automation/SKILL.md",
+  "name": "New Relic Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/new-relic-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/new-relic-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/new-relic-automation/SKILL.md",
+  "description": "Automate New Relic observability workflows -- manage alert policies, notification channels, alert conditions, and monitor applications and browser apps via the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5e9c1b330292978f380c",
+  "content_sha256": "db56900360f16cb7860e26a23afc517ea56184ee8c07f22716e21efdf08b9efc"
+}

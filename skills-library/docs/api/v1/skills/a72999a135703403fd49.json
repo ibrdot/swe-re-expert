@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/pr/SKILL.md",
+  "name": "pr",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/pr/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/pr/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/pr/SKILL.md",
+  "description": "Use when writing a PR body.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "a72999a135703403fd49",
+  "content_sha256": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd"
+}

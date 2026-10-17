@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/strava-automation/SKILL.md",
+  "name": "strava-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/strava-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/strava-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/strava-automation/SKILL.md",
+  "description": "Automate Strava tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1b1501653dcdd7c90e34",
+  "content_sha256": "dae1410a0c5dfdda81e17bd13e3513982b46a8f46ddb0645365f459c7c817908"
+}

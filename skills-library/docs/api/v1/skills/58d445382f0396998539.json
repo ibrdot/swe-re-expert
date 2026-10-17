@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/rosette-text-analytics-automation/SKILL.md",
+  "name": "rosette-text-analytics-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/rosette-text-analytics-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/rosette-text-analytics-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/rosette-text-analytics-automation/SKILL.md",
+  "description": "Automate Rosette Text Analytics tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "58d445382f0396998539",
+  "content_sha256": "84538ba60d75d6b4183c8fa0636144d6ad7b33708aa27093d38ed29ea536b644"
+}

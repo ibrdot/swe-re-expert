@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/productivity/wait-what/SKILL.md",
+  "name": "wait-what",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Productivity",
+  "path": "vendor/mattpocock-skills/skills/productivity/wait-what/",
+  "skill_file": "vendor/mattpocock-skills/skills/productivity/wait-what/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/productivity/wait-what/SKILL.md",
+  "description": "Stop. That last message did not land: re-pitch it.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "2b80f6b6c6d35d63f3d6",
+  "content_sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905"
+}

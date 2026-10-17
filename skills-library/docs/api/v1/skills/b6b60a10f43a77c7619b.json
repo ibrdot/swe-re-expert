@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/esputnik-automation/SKILL.md",
+  "name": "esputnik-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/esputnik-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/esputnik-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/esputnik-automation/SKILL.md",
+  "description": "Automate Esputnik tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b6b60a10f43a77c7619b",
+  "content_sha256": "3614a1389d1e953b5c88d8aee586127b55f27e35b5a6de282dbe166c955ae407"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/browseai-automation/SKILL.md",
+  "name": "browseai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/browseai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/browseai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/browseai-automation/SKILL.md",
+  "description": "Automate Browseai tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "714e8f019fcd58d2448c",
+  "content_sha256": "52f0002caf5dd9bd5b4552dd454f72654a62ed5df82d3690c2cb45c9f2718e5e"
+}

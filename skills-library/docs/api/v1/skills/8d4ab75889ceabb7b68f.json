@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/cloudinary-automation/SKILL.md",
+  "name": "Cloudinary Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/cloudinary-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/cloudinary-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/cloudinary-automation/SKILL.md",
+  "description": "Automate Cloudinary media management including folder organization, upload presets, asset lookup, transformations, and usage monitoring through natural language commands",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8d4ab75889ceabb7b68f",
+  "content_sha256": "64c90fdcccc3376b9fe36cbc9e5b822036547febe390e66313460323b8e807bc"
+}

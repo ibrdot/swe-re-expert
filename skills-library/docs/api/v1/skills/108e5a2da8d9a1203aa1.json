@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/domain-name-brainstormer/SKILL.md",
+  "name": "domain-name-brainstormer",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/domain-name-brainstormer/",
+  "skill_file": "vendor/awesome-claude-skills/domain-name-brainstormer/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/domain-name-brainstormer/SKILL.md",
+  "description": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "108e5a2da8d9a1203aa1",
+  "content_sha256": "495707739b354f81d1e28c6188dd55b97fdf5c64ae3e3c182ba6f092b2ab782b"
+}

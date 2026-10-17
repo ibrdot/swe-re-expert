@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/onepage-automation/SKILL.md",
+  "name": "onepage-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/onepage-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/onepage-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/onepage-automation/SKILL.md",
+  "description": "Automate Onepage tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5dd38c99934fbb0caeea",
+  "content_sha256": "aa8762b5d78992ebb92a218ab8d2f39edcb02c63a6d0e6ff8c6c4317a77bf53d"
+}

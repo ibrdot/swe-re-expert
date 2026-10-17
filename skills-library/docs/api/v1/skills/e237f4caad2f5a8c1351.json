@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ipdata-co-automation/SKILL.md",
+  "name": "ipdata-co-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ipdata-co-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ipdata-co-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ipdata-co-automation/SKILL.md",
+  "description": "Automate Ipdata co tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e237f4caad2f5a8c1351",
+  "content_sha256": "3085af37ea5c4b9243543ed0f2ad552066292c37183c9d22b00fb8b2f95dcf06"
+}

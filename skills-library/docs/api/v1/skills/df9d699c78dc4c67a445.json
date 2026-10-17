@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/verifiedemail-automation/SKILL.md",
+  "name": "verifiedemail-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/verifiedemail-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/verifiedemail-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/verifiedemail-automation/SKILL.md",
+  "description": "Automate Verifiedemail tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "df9d699c78dc4c67a445",
+  "content_sha256": "88baa525f0e5e6a1efd434f3a4e45f6b02c8dfadf6de73b46a9981206c96ca84"
+}

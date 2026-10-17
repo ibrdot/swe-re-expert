@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/convolo-ai-automation/SKILL.md",
+  "name": "convolo-ai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/convolo-ai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/convolo-ai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/convolo-ai-automation/SKILL.md",
+  "description": "Automate Convolo AI tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5a1faf7f53e1d7aa16cb",
+  "content_sha256": "e1775a5f64b3e5085173a0876d76a19556f85e82734f93d740cdce185688302e"
+}

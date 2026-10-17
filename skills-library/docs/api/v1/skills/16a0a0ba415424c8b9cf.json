@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/skill-share/SKILL.md",
+  "name": "skill-share",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/skill-share/",
+  "skill_file": "vendor/awesome-claude-skills/skill-share/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/skill-share/SKILL.md",
+  "description": "A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery.",
+  "mode": "Guide",
+  "license": "Complete terms in LICENSE.txt",
+  "key": "16a0a0ba415424c8b9cf",
+  "content_sha256": "490d49b6be9169c3e992b2ddbce7c8e4f88c95a5c574a9007cef7d1b2d7937a2"
+}

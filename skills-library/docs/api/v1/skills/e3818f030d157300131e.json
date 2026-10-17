@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bench-automation/SKILL.md",
+  "name": "bench-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bench-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bench-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bench-automation/SKILL.md",
+  "description": "Automate Bench tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e3818f030d157300131e",
+  "content_sha256": "cdc27db5c193d9ec1861944a6a702dd0cdb42de407b568c8e70aff2727389bab"
+}

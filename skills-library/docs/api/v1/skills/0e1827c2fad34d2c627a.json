@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/gleap-automation/SKILL.md",
+  "name": "gleap-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/gleap-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/gleap-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/gleap-automation/SKILL.md",
+  "description": "Automate Gleap tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0e1827c2fad34d2c627a",
+  "content_sha256": "e627a58d7b8b64dea4bb204ad237988adf0e89df9ed9d339e4091f8bbeae237f"
+}

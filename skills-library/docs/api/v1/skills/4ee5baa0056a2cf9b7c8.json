@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/elevenlabs-automation/SKILL.md",
+  "name": "ElevenLabs Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/elevenlabs-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/elevenlabs-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/elevenlabs-automation/SKILL.md",
+  "description": "Automate ElevenLabs text-to-speech workflows -- generate speech from text, browse and inspect voices, check subscription limits, list models, stream audio, and retrieve history via the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4ee5baa0056a2cf9b7c8",
+  "content_sha256": "2b318e9dc5b48baf713ee76284ed81ae4144aa9d3372fe486cee959173f2edf8"
+}

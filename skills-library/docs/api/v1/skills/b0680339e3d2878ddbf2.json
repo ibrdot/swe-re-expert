@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/baserow-automation/SKILL.md",
+  "name": "baserow-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/baserow-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/baserow-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/baserow-automation/SKILL.md",
+  "description": "Automate Baserow tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b0680339e3d2878ddbf2",
+  "content_sha256": "c54e80bf1dc23d10020e6a4b71957dcd493ee731af3fb4d3d6144baa43a042d8"
+}

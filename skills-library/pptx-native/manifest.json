@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-08-13T10:52:08+08:00",
+  "content_hash": "sha256:c175e36bda99fcc716c62fe4e02a6cd713b1a7c014f93a99ed67c55cf459b1d8",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/pptx-native",
+  "name": "pptx-native",
+  "schema_version": 1,
+  "source": "official/public/skill/pptx-native/2026.08.13.034737",
+  "type": "skill",
+  "version": "2026.08.13.034737"
+}

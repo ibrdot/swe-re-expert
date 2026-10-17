@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/veo-automation/SKILL.md",
+  "name": "veo-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/veo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/veo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/veo-automation/SKILL.md",
+  "description": "Automate Veo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "51a4b8629bcff91b7096",
+  "content_sha256": "932b801a353420f682db1988e3ee0560356f81646a0b3b2fb936fa105c38e59d"
+}

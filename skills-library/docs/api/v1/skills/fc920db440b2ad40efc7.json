@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/paradym-automation/SKILL.md",
+  "name": "paradym-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/paradym-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/paradym-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/paradym-automation/SKILL.md",
+  "description": "Automate Paradym tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "fc920db440b2ad40efc7",
+  "content_sha256": "bb21723fb059f9d9b8a03070b1622c0f12706668220b7095e4a570a547148da0"
+}

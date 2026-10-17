@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/image-enhancer/SKILL.md",
+  "name": "image-enhancer",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/image-enhancer/",
+  "skill_file": "vendor/awesome-claude-skills/image-enhancer/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/image-enhancer/SKILL.md",
+  "description": "Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0b3765e38f526dddf46d",
+  "content_sha256": "57b003b9cd0c3e42861194c37e2df061061f3e1e4b03e776fa33bf27b045e40c"
+}

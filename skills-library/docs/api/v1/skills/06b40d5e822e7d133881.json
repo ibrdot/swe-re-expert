@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/aero-workflow-automation/SKILL.md",
+  "name": "aero-workflow-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/aero-workflow-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/aero-workflow-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/aero-workflow-automation/SKILL.md",
+  "description": "Automate Aero Workflow tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "06b40d5e822e7d133881",
+  "content_sha256": "71f6b8942934c0a81034f863599a1b7d830ea55f8a048c400b66533a1fccd39a"
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<title>__TITLE__</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #0a0a0a; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  #stage { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+  #stage img { max-width: 100%; max-height: 100%; object-fit: contain; box-shadow: 0 10px 60px rgba(0,0,0,.5); }
+  #hud { position: fixed; bottom: 20px; left: 0; right: 0; text-align: center; color: #888; font-size: 13px; pointer-events: none; transition: opacity .3s; font-variant-numeric: tabular-nums; }
+  #hud.hidden { opacity: 0; }
+  #hud .counter { color: #fff; margin: 0 8px; }
+  #help { position: fixed; top: 20px; right: 20px; color: #666; font-size: 12px; pointer-events: none; transition: opacity .3s; }
+  #help.hidden { opacity: 0; }
+  #help kbd { background: #222; color: #ccc; padding: 2px 6px; border-radius: 3px; font-family: inherit; font-size: 11px; }
+</style>
+</head>
+<body>
+  <div id="stage"><img id="slide" alt="slide" /></div>
+  <div id="hud"><span id="counter" class="counter">1 / __COUNT__</span> · <span id="filename"></span></div>
+  <div id="help"><kbd>←</kbd> <kbd>→</kbd> navigate &nbsp; <kbd>F</kbd> fullscreen &nbsp; <kbd>H</kbd> hide HUD &nbsp; <kbd>Home</kbd>/<kbd>End</kbd> jump</div>
+
+<script>
+const slides = __SLIDES__;
+let i = 0;
+const img = document.getElementById('slide');
+const counter = document.getElementById('counter');
+const filename = document.getElementById('filename');
+const hud = document.getElementById('hud');
+const help = document.getElementById('help');
+
+function render() {
+  img.src = slides[i];
+  counter.textContent = (i+1) + ' / ' + slides.length;
+  filename.textContent = slides[i].split('/').pop();
+}
+function go(di) { i = Math.max(0, Math.min(slides.length-1, i+di)); render(); }
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { go(1); e.preventDefault(); }
+  else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { go(-1); e.preventDefault(); }
+  else if (e.key === 'Home') { i = 0; render(); }
+  else if (e.key === 'End') { i = slides.length - 1; render(); }
+  else if (e.key === 'f' || e.key === 'F') {
+    if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+    else document.exitFullscreen();
+  }
+  else if (e.key === 'h' || e.key === 'H') {
+    hud.classList.toggle('hidden');
+    help.classList.toggle('hidden');
+  }
+});
+
+document.addEventListener('click', (e) => { go(e.clientX < window.innerWidth/2 ? -1 : 1); });
+
+render();
+</script>
+</body>
+</html>

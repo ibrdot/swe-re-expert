@@ -1,0 +1,138 @@
+/**
+ * @license
+ * Copyright 2026 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import assert from 'node:assert';
+import {describe, it} from 'node:test';
+
+import type {McpPage} from '../../src/McpPage.js';
+import {listPages, navigatePage, selectPage} from '../../src/tools/pages.js';
+import {executeWebMcpTool} from '../../src/tools/webmcp.js';
+import {html, withMcpContext} from '../utils.js';
+
+describe('webmcp', () => {
+  describe('list_webmcp_tools', () => {
+    it('list webmcp tools in navigate_page response', async () => {
+      await withMcpContext(async (response, context, args) => {
+        await navigatePage(args).handler(
+          {
+            params: {url: 'data:text/html,<html></html>'},
+            page: context.getSelectedMcpPage(),
+          },
+          response,
+          context,
+        );
+        assert.ok(response.listWebMcpTools);
+      });
+    });
+
+    it('list webmcp tools in list_pages response', async () => {
+      await withMcpContext(async (response, context, args) => {
+        await listPages(args).handler({params: {}}, response, context);
+        assert.ok(response.listWebMcpTools);
+      });
+    });
+
+    it('list webmcp tools in select_page response', async () => {
+      await withMcpContext(async (response, context, args) => {
+        const pageId = context.getSelectedMcpPage().id ?? 1;
+        await selectPage(args).handler({params: {pageId}}, response, context);
+        assert.ok(response.listWebMcpTools);
+      });
+    });
+  });
+
+  describe('execute_webmcp_tool', () => {
+    async function setupWebMcpTool(page: McpPage) {
+      await page.pptrPage.setContent(
+        html`<form
+            toolname="test_tool"
+            tooldescription="A test tool"
+            toolautosubmit
+          ></form
+          ><script>
+            document.querySelector('form').onsubmit = event => {
+              event.preventDefault();
+              event.respondWith('hello');
+            };
+          </script>`,
+      );
+    }
+
+    it('executes a tool successfully', async () => {
+      await withMcpContext(
+        async (response, context, args) => {
+          const page = context.getSelectedMcpPage();
+          const toolsAddedPromise = new Promise(resolve => {
+            page.pptrPage.webmcp.once('toolsadded', resolve);
+          });
+          await setupWebMcpTool(page);
+
+          // Wait for WebMCP tools to be registered and detected by Puppeteer
+          await toolsAddedPromise;
+
+          await executeWebMcpTool(args).handler(
+            {params: {toolName: 'test_tool', input: JSON.stringify({})}, page},
+            response,
+            context,
+          );
+          assert.strictEqual(
+            response.responseLines[0],
+            JSON.stringify({status: 'Completed', output: 'hello'}, null, 2),
+          );
+        },
+        {args: ['--enable-features=WebMCP,DevToolsWebMCPSupport']},
+        {categoryExperimentalWebmcp: true},
+      );
+    });
+
+    it('throws if tool is not found', async () => {
+      await withMcpContext(
+        async (response, context, args) => {
+          await assert.rejects(
+            async () => {
+              await executeWebMcpTool(args).handler(
+                {
+                  params: {toolName: 'missing-tool', input: JSON.stringify({})},
+                  page: context.getSelectedMcpPage(),
+                },
+                response,
+                context,
+              );
+            },
+            {message: /Tool missing-tool not found/},
+          );
+        },
+        {args: ['--enable-features=WebMCP,DevToolsWebMCPSupport']},
+        {categoryExperimentalWebmcp: true},
+      );
+    });
+
+    it('throws if input is invalid', async () => {
+      await withMcpContext(
+        async (response, context, args) => {
+          await assert.rejects(
+            async () => {
+              const page = context.getSelectedMcpPage();
+              await setupWebMcpTool(page);
+
+              await executeWebMcpTool(args).handler(
+                {params: {toolName: 'test_tool', input: 'invalid'}, page},
+                response,
+                context,
+              );
+            },
+            {
+              message:
+                /Failed to parse input as JSON: Unexpected token 'i', "invalid" is not valid JSON/,
+            },
+          );
+        },
+        {args: ['--enable-features=WebMCP,DevToolsWebMCPSupport']},
+        {categoryExperimentalWebmcp: true},
+      );
+    });
+  });
+});

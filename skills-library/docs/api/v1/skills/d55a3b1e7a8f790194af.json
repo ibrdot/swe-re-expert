@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/icypeas-automation/SKILL.md",
+  "name": "icypeas-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/icypeas-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/icypeas-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/icypeas-automation/SKILL.md",
+  "description": "Automate Icypeas tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d55a3b1e7a8f790194af",
+  "content_sha256": "448f53e0233587c87e0b3f282dfe30deb9291c383f4e180d3eb747aa362de4bb"
+}

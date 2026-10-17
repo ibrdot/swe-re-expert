@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/honeyhive-automation/SKILL.md",
+  "name": "honeyhive-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/honeyhive-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/honeyhive-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/honeyhive-automation/SKILL.md",
+  "description": "Automate Honeyhive tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d240c510738dab33b430",
+  "content_sha256": "ba30beb65f7442e91cf3bc10a90b1512703ac7eee4c30414877f7786e993097f"
+}

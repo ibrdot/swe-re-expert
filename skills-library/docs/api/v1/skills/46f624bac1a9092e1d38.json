@@ -1,0 +1,15 @@
+{
+  "id": "deep-research/SKILL.md",
+  "name": "deep-research",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Research",
+  "path": "deep-research/",
+  "skill_file": "deep-research/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/deep-research/SKILL.md",
+  "description": "Iterative deep research for competitive analysis, trend tracking, phenomenon investigation, and multi-source intelligence synthesis. Trigger when the task involves understanding root causes, tracing how something evolved, comparing alternatives, or producing a well-sourced research report.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "46f624bac1a9092e1d38",
+  "content_sha256": "1cd36793272db4c25a8082d2f953f1c88d1a805fabdd2d8b819b9c83efeec8c5"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/geocodio-automation/SKILL.md",
+  "name": "geocodio-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/geocodio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/geocodio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/geocodio-automation/SKILL.md",
+  "description": "Automate Geocodio tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b451139c45b28b7c92ab",
+  "content_sha256": "5b177b31ec7a08739adc070b1cfc05e83e84288d81dac383cfda2c16bb38f2e3"
+}

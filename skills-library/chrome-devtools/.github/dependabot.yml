@@ -1,0 +1,65 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: 'sunday'
+      time: '02:00'
+      timezone: Europe/Berlin
+    cooldown:
+      default-days: 7
+      exclude:
+        - 'puppeteer*'
+        - 'lighthouse'
+        - '@google/genai'
+    groups:
+      dependencies:
+        dependency-type: production
+        patterns:
+          - '*'
+      dev-dependencies:
+        dependency-type: development
+        exclude-patterns:
+          - 'puppeteer*'
+          - '@modelcontextprotocol/sdk'
+          - 'yargs'
+          - 'debug'
+          - 'core-js'
+        patterns:
+          - '*'
+      bundled:
+        patterns:
+          - 'puppeteer*'
+          - '@modelcontextprotocol/sdk'
+          - 'yargs'
+          - 'debug'
+          - 'core-js'
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: 'sunday'
+      time: '04:00'
+      timezone: Europe/Berlin
+    cooldown:
+      default-days: 7
+      exclude:
+        - 'googleapis/*'
+    groups:
+      all:
+        patterns:
+          - '*'
+  - package-ecosystem: 'gitsubmodule'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+      time: '06:00'
+      timezone: 'Europe/Berlin'
+    cooldown:
+      default-days: 0
+    ignore:
+      # Ignore tagged releases to fall back to branch commits.
+      # Untagged commits get versions like `0.0.0-0.<index>`.
+      - dependency-name: 'third_party/devtools-frontend'
+        versions: ['> 0.0.0']

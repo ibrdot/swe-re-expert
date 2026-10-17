@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/seqera-automation/SKILL.md",
+  "name": "seqera-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/seqera-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/seqera-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/seqera-automation/SKILL.md",
+  "description": "Automate Seqera tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c13c9ff78b5d6d35ff2a",
+  "content_sha256": "6ac4021a86d959bdf8f7f8c3ea5328f666208e0f3b6e61b53d0e22676022ecef"
+}

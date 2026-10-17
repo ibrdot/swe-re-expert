@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/recallai-automation/SKILL.md",
+  "name": "recallai-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/recallai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/recallai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/recallai-automation/SKILL.md",
+  "description": "Automate Recallai tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "26db75cd4fcc55a709fc",
+  "content_sha256": "2ce19582d477f719a85e59e42c62d1510f05c79b02876a68b7a9eeba4e610322"
+}

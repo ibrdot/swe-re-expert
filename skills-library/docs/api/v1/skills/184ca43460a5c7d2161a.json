@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ticktick-automation/SKILL.md",
+  "name": "ticktick-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ticktick-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ticktick-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ticktick-automation/SKILL.md",
+  "description": "Automate Ticktick tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "184ca43460a5c7d2161a",
+  "content_sha256": "185b8b2c3b6816877969791f2402b04296c5c82d42f61c514261155e8bca9dc6"
+}

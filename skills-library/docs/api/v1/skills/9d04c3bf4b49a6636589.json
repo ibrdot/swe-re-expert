@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/stannp-automation/SKILL.md",
+  "name": "stannp-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/stannp-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/stannp-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/stannp-automation/SKILL.md",
+  "description": "Automate Stannp tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9d04c3bf4b49a6636589",
+  "content_sha256": "28ef9f464050190d1f9f047a1fdbf561c0a1ba84657a2118cba3d6fcdca8ac8b"
+}

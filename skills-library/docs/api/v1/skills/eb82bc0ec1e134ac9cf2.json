@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dreamstudio-automation/SKILL.md",
+  "name": "dreamstudio-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dreamstudio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dreamstudio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dreamstudio-automation/SKILL.md",
+  "description": "Automate Dreamstudio tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "eb82bc0ec1e134ac9cf2",
+  "content_sha256": "73521f7c3da4ef4f58a7b6e43ff6d380a027fa3c0ddd05d60b3c5a966cfaf1c3"
+}

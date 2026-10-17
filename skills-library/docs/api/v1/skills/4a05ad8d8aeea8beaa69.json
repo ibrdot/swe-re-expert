@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/venly-automation/SKILL.md",
+  "name": "venly-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/venly-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/venly-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/venly-automation/SKILL.md",
+  "description": "Automate Venly tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4a05ad8d8aeea8beaa69",
+  "content_sha256": "22c320716e14105308ff912312207b4a0c4394f0f4450eb0e7770a96c3d16c12"
+}

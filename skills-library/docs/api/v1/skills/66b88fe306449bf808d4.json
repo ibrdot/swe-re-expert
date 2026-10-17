@@ -1,0 +1,15 @@
+{
+  "id": "gws-sheets/SKILL.md",
+  "name": "gws-sheets",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Google Workspace",
+  "path": "gws-sheets/",
+  "skill_file": "gws-sheets/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/gws-sheets/SKILL.md",
+  "description": "Google Sheets: Read and write spreadsheets.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "66b88fe306449bf808d4",
+  "content_sha256": "33683985687cc257be8c18fc5926523327b9fed5b258ab7cfd14de4803966afd"
+}

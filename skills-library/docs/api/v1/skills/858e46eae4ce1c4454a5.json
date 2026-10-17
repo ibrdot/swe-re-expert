@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mailboxlayer-automation/SKILL.md",
+  "name": "mailboxlayer-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mailboxlayer-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mailboxlayer-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mailboxlayer-automation/SKILL.md",
+  "description": "Automate Mailboxlayer tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "858e46eae4ce1c4454a5",
+  "content_sha256": "b2259050e80ad72ea6af015b8b47bf1d5e0c660c3ded24b5f4ffe7a1efa0c433"
+}

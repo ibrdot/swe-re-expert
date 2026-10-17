@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/stack-exchange-automation/SKILL.md",
+  "name": "stack-exchange-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/stack-exchange-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/stack-exchange-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/stack-exchange-automation/SKILL.md",
+  "description": "Automate Stack Exchange tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "96f7bddb0282ebe81e65",
+  "content_sha256": "3d7ea6d813c7485c4dfae9245a77bf0eb31d9c3ea6f529753a4aac35888cbd99"
+}

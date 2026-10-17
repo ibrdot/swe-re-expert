@@ -1,0 +1,54 @@
+name: publish-on-tag
+
+on:
+  push:
+    tags:
+      - 'chrome-devtools-mcp-v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish-to-npm:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for OIDC
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 2
+          submodules: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          cache: npm
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build and bundle
+        run: npm run bundle
+        env:
+          NODE_ENV: 'production'
+
+      - name: Publish chrome-devtools-mcp
+        run: |
+          npm publish --provenance --access public
+
+      - name: Publish chrome-devtools
+        run: |
+          node --input-type=module --eval '
+            import * as fs from "node:fs/promises";
+            const json = await fs.readFile("package.json", "utf8");
+            const pkg = JSON.parse(json);
+            pkg.name = "chrome-devtools";
+            await fs.writeFile("package.json", JSON.stringify(pkg, null, 2) + "\n");
+          '
+          echo 'This is the **Chrome DevTools for agents** package. Docs: https://github.com/ChromeDevTools/chrome-devtools-mcp' > README.md
+          npm publish --provenance --access public

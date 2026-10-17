@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/lever-automation/SKILL.md",
+  "name": "Lever Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/lever-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/lever-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/lever-automation/SKILL.md",
+  "description": "Automate recruiting workflows in Lever ATS -- manage opportunities, job postings, requisitions, pipeline stages, and candidate tags through the Composio Lever integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6594b702ea0a8a69a9a6",
+  "content_sha256": "35631628421aa7d7041ea423b2003057b54e9241df1db955904e6a65d55efbae"
+}

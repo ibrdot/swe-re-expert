@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/appveyor-automation/SKILL.md",
+  "name": "appveyor-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/appveyor-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/appveyor-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/appveyor-automation/SKILL.md",
+  "description": "Automate Appveyor tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e2792cf209c68ee2e713",
+  "content_sha256": "53919e9769cdd0b6d1de0ac921dd2d318541eb24227855b4b0e5ec33999467ee"
+}

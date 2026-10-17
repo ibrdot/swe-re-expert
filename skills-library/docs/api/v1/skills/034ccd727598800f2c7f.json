@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/wave_accounting-automation/SKILL.md",
+  "name": "wave_accounting-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/wave_accounting-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/wave_accounting-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/wave_accounting-automation/SKILL.md",
+  "description": "Automate Wave Accounting tasks via Rube MCP (Composio): invoices, customers, payments, and small business accounting. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "034ccd727598800f2c7f",
+  "content_sha256": "55cec882d3ea63c04e7752fa3ec4b494cf2a00ec98ce90b242c637ab3c698b0e"
+}

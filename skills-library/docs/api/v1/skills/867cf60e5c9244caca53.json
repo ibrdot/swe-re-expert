@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/intelliprint-automation/SKILL.md",
+  "name": "intelliprint-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/intelliprint-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/intelliprint-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/intelliprint-automation/SKILL.md",
+  "description": "Automate Intelliprint tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "867cf60e5c9244caca53",
+  "content_sha256": "bc80f1c405f9242249a899fe469b4381ff2800d674732cb93909248d25d9b221"
+}

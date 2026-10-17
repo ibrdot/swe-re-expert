@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/loomio-automation/SKILL.md",
+  "name": "loomio-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/loomio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/loomio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/loomio-automation/SKILL.md",
+  "description": "Automate Loomio tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "38583a8464a72ff13178",
+  "content_sha256": "4d0658cf205e399e2527b91d9b3f7dc70865cde95b79ae21ffb5ce576ca287e9"
+}

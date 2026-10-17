@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/supadata-automation/SKILL.md",
+  "name": "supadata-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/supadata-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/supadata-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/supadata-automation/SKILL.md",
+  "description": "Automate Supadata tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6b8293e6abb2bf381f63",
+  "content_sha256": "78ae1ef9a6d12f21b18db5dcfaab399c469bde4e7c90f4046ddb3c9706fc0369"
+}

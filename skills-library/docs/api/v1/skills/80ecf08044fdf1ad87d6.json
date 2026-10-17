@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/salesforce-service-cloud-automation/SKILL.md",
+  "name": "salesforce-service-cloud-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/salesforce-service-cloud-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/salesforce-service-cloud-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/salesforce-service-cloud-automation/SKILL.md",
+  "description": "Automate Salesforce Service Cloud tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "80ecf08044fdf1ad87d6",
+  "content_sha256": "156e4236985c8ef1ae62ae8a593bc0aa347be72f7aed69318da1e2859e2341dc"
+}

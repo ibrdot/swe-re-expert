@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/signaturely-automation/SKILL.md",
+  "name": "signaturely-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/signaturely-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/signaturely-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/signaturely-automation/SKILL.md",
+  "description": "Automate Signaturely tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5685fb97f9a977d0dd82",
+  "content_sha256": "f87d3125138d1ab4b0f372011c9bca40fb1081f04195372a6f8800b3430adf1b"
+}

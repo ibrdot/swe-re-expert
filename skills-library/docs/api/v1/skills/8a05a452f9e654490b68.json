@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/deadline-funnel-automation/SKILL.md",
+  "name": "deadline-funnel-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/deadline-funnel-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/deadline-funnel-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/deadline-funnel-automation/SKILL.md",
+  "description": "Automate Deadline Funnel tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8a05a452f9e654490b68",
+  "content_sha256": "d80ea79ba11da0d8209d160659369c0a42faa9dd6d02438594ddcec053903bf2"
+}

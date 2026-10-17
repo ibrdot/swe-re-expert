@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/proxiedmail-automation/SKILL.md",
+  "name": "proxiedmail-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/proxiedmail-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/proxiedmail-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/proxiedmail-automation/SKILL.md",
+  "description": "Automate Proxiedmail tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7d2120e98844832e6579",
+  "content_sha256": "fba2a7f719fc458a174fe54b5e30d5928b473e936702517a4a7be5c452d34bce"
+}

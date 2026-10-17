@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/survey_monkey-automation/SKILL.md",
+  "name": "survey_monkey-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/survey_monkey-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/survey_monkey-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/survey_monkey-automation/SKILL.md",
+  "description": "Automate SurveyMonkey tasks via Rube MCP (Composio): surveys, responses, collectors, and survey analytics. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6f0422e8e277d34d3039",
+  "content_sha256": "bf27427621df990eead75e89bd9d1cbc5dd9e2392dc83daba0f26f4aef9f40dc"
+}

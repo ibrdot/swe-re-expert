@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/canvas-automation/SKILL.md",
+  "name": "canvas-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/canvas-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/canvas-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/canvas-automation/SKILL.md",
+  "description": "Automate Canvas tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "39d6756f847a1f123dd9",
+  "content_sha256": "98a75804f03d1c524e4b24188fc09993bd64c29259718dcb5508192a60b16be1"
+}

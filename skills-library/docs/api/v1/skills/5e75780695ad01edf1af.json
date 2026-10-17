@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/pdf-api-io-automation/SKILL.md",
+  "name": "pdf-api-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/pdf-api-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/pdf-api-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/pdf-api-io-automation/SKILL.md",
+  "description": "Automate PDF API IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5e75780695ad01edf1af",
+  "content_sha256": "882a23550be5f4a3075037ba6cd63e72fd1b63bab9c825ac937db81c46c74c96"
+}

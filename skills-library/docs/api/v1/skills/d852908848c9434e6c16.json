@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/castingwords-automation/SKILL.md",
+  "name": "castingwords-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/castingwords-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/castingwords-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/castingwords-automation/SKILL.md",
+  "description": "Automate Castingwords tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d852908848c9434e6c16",
+  "content_sha256": "eb0c637b16e9ddc12556cf486c26791e4c09032c7918ab71f0418cc18446e83f"
+}

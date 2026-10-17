@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/fireberry-automation/SKILL.md",
+  "name": "fireberry-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/fireberry-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/fireberry-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/fireberry-automation/SKILL.md",
+  "description": "Automate Fireberry tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d5a071ced400efbbdace",
+  "content_sha256": "28ede4da7a74d46fb8398b1a4a29b63f38c0a4d3d6cac3f335adbac82b33c9a4"
+}

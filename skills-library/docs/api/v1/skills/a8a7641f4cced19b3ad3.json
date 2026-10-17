@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/benzinga-automation/SKILL.md",
+  "name": "benzinga-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/benzinga-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/benzinga-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/benzinga-automation/SKILL.md",
+  "description": "Automate Benzinga tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a8a7641f4cced19b3ad3",
+  "content_sha256": "bc12d2ba1532584adbda358234909cca8e7a0b04a8bb3dee59aeacd0c1a10d94"
+}

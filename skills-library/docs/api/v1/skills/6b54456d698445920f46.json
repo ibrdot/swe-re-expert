@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mailerlite-automation/SKILL.md",
+  "name": "MailerLite Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mailerlite-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mailerlite-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mailerlite-automation/SKILL.md",
+  "description": "Automate email marketing workflows including subscriber management, campaign analytics, group segmentation, and account monitoring through MailerLite via Composio",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6b54456d698445920f46",
+  "content_sha256": "d46308e74b0c628075f093d5ae1939426b3411ca8bd0e855a6895e6579f49274"
+}

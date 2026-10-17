@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/findymail-automation/SKILL.md",
+  "name": "findymail-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/findymail-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/findymail-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/findymail-automation/SKILL.md",
+  "description": "Automate Findymail tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a8d9dfc605c541248f55",
+  "content_sha256": "1033cc78e7d1a297d0634790d8574b19e6bd57366dba15e1b017db5ed74bdd15"
+}

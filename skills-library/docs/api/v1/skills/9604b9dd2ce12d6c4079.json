@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/googleslides-automation/SKILL.md",
+  "name": "googleslides-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/googleslides-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/googleslides-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/googleslides-automation/SKILL.md",
+  "description": "Automate Google Slides tasks via Rube MCP (Composio): create presentations, add slides from Markdown, batch update, copy from templates, get thumbnails. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9604b9dd2ce12d6c4079",
+  "content_sha256": "7784273e7574b88b5fdbb37774a67811f52a504b9fa6e13947e06d93b4118136"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mcp-hub/SKILL.md",
+  "name": "mcp-hub",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Integrations",
+  "path": "mcp-hub/",
+  "skill_file": "mcp-hub/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/mcp-hub/SKILL.md",
+  "description": "Use `connector-cli mcp` to discover and call user-configured remote MCP servers through the server-side proxy. Use when the user asks for data or actions that may be provided by their connected MCP servers.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "130310d52a8be6b4e8b1",
+  "content_sha256": "ac3b2341b9cd1dc2b7caf1bfdd3600856ca35ed0f3a3a7d24484ac53dc55fa65"
+}

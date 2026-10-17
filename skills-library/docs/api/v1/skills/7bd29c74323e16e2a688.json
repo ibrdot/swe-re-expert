@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/more-trees-automation/SKILL.md",
+  "name": "more-trees-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/more-trees-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/more-trees-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/more-trees-automation/SKILL.md",
+  "description": "Automate More Trees tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7bd29c74323e16e2a688",
+  "content_sha256": "757a4a24987a40674ff02d64fbca0bd6e6f2f29cfccbe42771afc5173da18fef"
+}

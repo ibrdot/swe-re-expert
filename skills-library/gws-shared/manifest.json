@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:a93f6abcdc05299c06a61a6d06f634f5003d82bdd39ab452e5ceabcaa90f2cac",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/gws-shared",
+  "name": "gws-shared",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

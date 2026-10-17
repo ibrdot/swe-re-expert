@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/botsonic-automation/SKILL.md",
+  "name": "botsonic-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/botsonic-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/botsonic-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/botsonic-automation/SKILL.md",
+  "description": "Automate Botsonic tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ef16d91ea797b8d24ae3",
+  "content_sha256": "53a1c6dc8c3e1741f7ed6bbddc465415f939f75ebd6c8ca37b4eece1e5c906c6"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/clickmeeting-automation/SKILL.md",
+  "name": "clickmeeting-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/clickmeeting-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/clickmeeting-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/clickmeeting-automation/SKILL.md",
+  "description": "Automate Clickmeeting tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e71b8872545a4cb39c41",
+  "content_sha256": "16eb7eb3ff762ce5e5c521417eae69933f400ae7c55fdd207887de6150ef7cfe"
+}

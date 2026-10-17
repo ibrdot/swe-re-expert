@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zoho_desk-automation/SKILL.md",
+  "name": "zoho_desk-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zoho_desk-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zoho_desk-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zoho_desk-automation/SKILL.md",
+  "description": "Automate Zoho Desk tasks via Rube MCP (Composio): tickets, contacts, agents, departments, and help desk operations. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d879a07ec23c69aa7fea",
+  "content_sha256": "a415fa7d9a258a29b0d979fef99fcdeb70a75da8a617cf7d72e5fc9bb75fc7ef"
+}

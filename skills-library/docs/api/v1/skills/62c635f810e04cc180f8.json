@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/eodhd-apis-automation/SKILL.md",
+  "name": "eodhd-apis-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/eodhd-apis-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/eodhd-apis-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/eodhd-apis-automation/SKILL.md",
+  "description": "Automate Eodhd Apis tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "62c635f810e04cc180f8",
+  "content_sha256": "96dad9a7e3345518fa08b83cfe2521f25c2b221950bd0f91e35b49aeec8918f2"
+}

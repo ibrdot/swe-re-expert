@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/prismic-automation/SKILL.md",
+  "name": "Prismic Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/prismic-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/prismic-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/prismic-automation/SKILL.md",
+  "description": "Automate headless CMS operations in Prismic -- query documents, search content, retrieve custom types, and manage repository refs through the Composio Prismic integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "374f48be7886cac7d299",
+  "content_sha256": "76f146e8220629ef015c04c84588c47ceae208d81996e63d804d703dd814b534"
+}

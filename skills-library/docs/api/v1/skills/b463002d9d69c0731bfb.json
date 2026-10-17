@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/chatwork-automation/SKILL.md",
+  "name": "chatwork-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/chatwork-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/chatwork-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/chatwork-automation/SKILL.md",
+  "description": "Automate Chatwork tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b463002d9d69c0731bfb",
+  "content_sha256": "a6bc738020de920697f33905b55bc3628557e0cddece3be94bd4b8db925282c7"
+}

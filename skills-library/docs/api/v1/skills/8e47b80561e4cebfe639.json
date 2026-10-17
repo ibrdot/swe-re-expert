@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zenserp-automation/SKILL.md",
+  "name": "zenserp-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zenserp-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zenserp-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zenserp-automation/SKILL.md",
+  "description": "Automate Zenserp tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8e47b80561e4cebfe639",
+  "content_sha256": "87f82af97ce39f96daf33151201591c0c3e08e574855435267ca894d8c4ca056"
+}

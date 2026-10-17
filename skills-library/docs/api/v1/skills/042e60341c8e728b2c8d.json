@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/artifacts-builder/SKILL.md",
+  "name": "artifacts-builder",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/artifacts-builder/",
+  "skill_file": "vendor/awesome-claude-skills/artifacts-builder/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/artifacts-builder/SKILL.md",
+  "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+  "mode": "Guide",
+  "license": "Complete terms in LICENSE.txt",
+  "key": "042e60341c8e728b2c8d",
+  "content_sha256": "8455a64e627d203fd7b43df64c83d8870cb98907aae21edce4ec8eeef651d850"
+}

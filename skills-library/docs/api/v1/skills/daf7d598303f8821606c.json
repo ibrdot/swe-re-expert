@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/in-progress/chief-of-staff/SKILL.md",
+  "name": "chief-of-staff",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Experimental",
+  "path": "vendor/mattpocock-skills/skills/in-progress/chief-of-staff/",
+  "skill_file": "vendor/mattpocock-skills/skills/in-progress/chief-of-staff/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/in-progress/chief-of-staff/SKILL.md",
+  "description": "Pursue a long-running goal in a single session by co-ordinating subagents.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "daf7d598303f8821606c",
+  "content_sha256": "6cc6e47ab5022f3e45e5be0fedbb0f6e645f4f0190d6b0c51c7cd60c2d7c1d98"
+}

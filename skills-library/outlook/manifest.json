@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-09-17T17:14:18+08:00",
+  "content_hash": "sha256:6fc8a9b59f6f89b1a9ab0d867cd6053fd97f1068ba3c84ce1070a0f52d980f29",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/outlook",
+  "name": "outlook",
+  "schema_version": 1,
+  "source": "official/public/skill/outlook/2026.09.17.092357",
+  "type": "skill",
+  "version": "2026.09.17.092357"
+}

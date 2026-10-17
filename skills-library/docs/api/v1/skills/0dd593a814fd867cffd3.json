@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/basin-automation/SKILL.md",
+  "name": "basin-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/basin-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/basin-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/basin-automation/SKILL.md",
+  "description": "Automate Basin tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0dd593a814fd867cffd3",
+  "content_sha256": "4d042e9e8a864db1f452bba82f69c62e34bc99917997d8d2396ffb981b41b28d"
+}

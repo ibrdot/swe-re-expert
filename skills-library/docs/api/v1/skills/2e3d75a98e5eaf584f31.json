@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ritekit-automation/SKILL.md",
+  "name": "ritekit-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ritekit-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ritekit-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ritekit-automation/SKILL.md",
+  "description": "Automate Ritekit tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2e3d75a98e5eaf584f31",
+  "content_sha256": "43869fad4b8c39fb5eb2ce56faac3f4defb20f963281b6e1e359f78978454e09"
+}

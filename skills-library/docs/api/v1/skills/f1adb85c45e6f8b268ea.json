@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/espocrm-automation/SKILL.md",
+  "name": "espocrm-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/espocrm-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/espocrm-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/espocrm-automation/SKILL.md",
+  "description": "Automate Espocrm tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f1adb85c45e6f8b268ea",
+  "content_sha256": "afc1e4fea8db2ad45f6ff1b10243d07a865724e869aa48606b8b2f588f6dc1ed"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/tapform-automation/SKILL.md",
+  "name": "tapform-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/tapform-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/tapform-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/tapform-automation/SKILL.md",
+  "description": "Automate Tapform tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2ecb8a8553ebe93fb1ce",
+  "content_sha256": "77fca76962a2d3bde80a66fdd88e658937906a9ac6bc2c6902713c9df1552870"
+}

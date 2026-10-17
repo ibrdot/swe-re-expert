@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/agentql-automation/SKILL.md",
+  "name": "agentql-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/agentql-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/agentql-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/agentql-automation/SKILL.md",
+  "description": "Automate Agentql tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "47a670b964d090722838",
+  "content_sha256": "95bfb9254094a1f00bdbb8458f502c3742077fa3ec387b11629f1cd9512e3d5a"
+}

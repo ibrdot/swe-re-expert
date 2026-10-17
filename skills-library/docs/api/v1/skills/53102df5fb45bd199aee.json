@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/capsule-crm-automation/SKILL.md",
+  "name": "Capsule CRM Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/capsule-crm-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/capsule-crm-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/capsule-crm-automation/SKILL.md",
+  "description": "Automate Capsule CRM operations -- manage contacts (parties), run structured filter queries, track tasks and projects, log entries, and handle organizations -- using natural language through the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "53102df5fb45bd199aee",
+  "content_sha256": "e9a83c371468946c3b81888d9288771bbfab4af2dc2da51a43a313e55ea67d12"
+}

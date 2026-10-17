@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/acculynx-automation/SKILL.md",
+  "name": "acculynx-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/acculynx-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/acculynx-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/acculynx-automation/SKILL.md",
+  "description": "Automate Acculynx tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f96b35ec65522ae60b45",
+  "content_sha256": "fe1aa711aecc092d7630719d7ade9b27109ee54362aa32be63d089829cee0656"
+}

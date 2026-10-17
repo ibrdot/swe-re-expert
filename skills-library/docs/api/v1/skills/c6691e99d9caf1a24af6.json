@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/misc/migrate-to-shoehorn/SKILL.md",
+  "name": "migrate-to-shoehorn",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Utilities",
+  "path": "vendor/mattpocock-skills/skills/misc/migrate-to-shoehorn/",
+  "skill_file": "vendor/mattpocock-skills/skills/misc/migrate-to-shoehorn/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/misc/migrate-to-shoehorn/SKILL.md",
+  "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "c6691e99d9caf1a24af6",
+  "content_sha256": "de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72"
+}

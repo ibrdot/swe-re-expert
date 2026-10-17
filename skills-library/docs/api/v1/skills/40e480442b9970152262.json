@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/openai-automation/SKILL.md",
+  "name": "OpenAI Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/openai-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/openai-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/openai-automation/SKILL.md",
+  "description": "Automate OpenAI API operations -- generate responses with multimodal and structured output support, create embeddings, generate images, and list models via the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "40e480442b9970152262",
+  "content_sha256": "220372a14b117e8f59b0c69ef4a72eb8efd2412d9c362cfa75750167694a0c68"
+}

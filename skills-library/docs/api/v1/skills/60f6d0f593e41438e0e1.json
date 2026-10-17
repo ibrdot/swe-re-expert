@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/connecteam-automation/SKILL.md",
+  "name": "connecteam-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/connecteam-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/connecteam-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/connecteam-automation/SKILL.md",
+  "description": "Automate Connecteam tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "60f6d0f593e41438e0e1",
+  "content_sha256": "77e45f59ea8a9d010c334c17161572aa00384e43b6e812990b3497f274acebc9"
+}

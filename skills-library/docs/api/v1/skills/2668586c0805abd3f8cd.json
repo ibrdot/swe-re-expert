@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/graphhopper-automation/SKILL.md",
+  "name": "graphhopper-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/graphhopper-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/graphhopper-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/graphhopper-automation/SKILL.md",
+  "description": "Automate Graphhopper tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2668586c0805abd3f8cd",
+  "content_sha256": "747b773537f96ad06b2e201ca4ad8ec387016b7ab73dae7dcb86e8f0e8692f45"
+}

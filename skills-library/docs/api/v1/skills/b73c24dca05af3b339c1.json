@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/missive-automation/SKILL.md",
+  "name": "missive-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/missive-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/missive-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/missive-automation/SKILL.md",
+  "description": "Automate Missive tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b73c24dca05af3b339c1",
+  "content_sha256": "b0ab59a9fc7f3c7c9de798a6c08a4f68a004e2483b8d006e6e3cc0db29c26fa0"
+}

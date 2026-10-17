@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/evenium-automation/SKILL.md",
+  "name": "evenium-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/evenium-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/evenium-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/evenium-automation/SKILL.md",
+  "description": "Automate Evenium tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "dbd0027f74b433ae3e45",
+  "content_sha256": "3b3d3146a91bd0473297efa41525bad663e4eee89745e5726fa5f78f9bb027a4"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/slackbot-automation/SKILL.md",
+  "name": "slackbot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/slackbot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/slackbot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/slackbot-automation/SKILL.md",
+  "description": "Automate Slackbot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "72570acf794203339b21",
+  "content_sha256": "e5169d33e85ccba2324bcfa5eefc8e96d25dd062e658aac2b10f84b9a44d9cfd"
+}

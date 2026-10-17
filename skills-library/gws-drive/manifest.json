@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:7d6b0d72ba76dfb81bb30cb64278e02e4d508f0343544e19d6199e4f1ca4d4c2",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/gws-drive",
+  "name": "gws-drive",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

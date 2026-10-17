@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/apify-automation/SKILL.md",
+  "name": "Apify Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/apify-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/apify-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/apify-automation/SKILL.md",
+  "description": "Automate web scraping and data extraction with Apify -- run Actors, manage datasets, create reusable tasks, and retrieve crawl results through the Composio Apify integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b84d6a85f6589b732202",
+  "content_sha256": "95d643719faabac0b273fbd77592c4122049f586934c258e4a45969d38a3f2d3"
+}

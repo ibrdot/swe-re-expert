@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/givebutter-automation/SKILL.md",
+  "name": "givebutter-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/givebutter-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/givebutter-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/givebutter-automation/SKILL.md",
+  "description": "Automate Givebutter tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "baa603f296cba0e32c44",
+  "content_sha256": "31af3f4193bd0ddb4954a6b0986a12ba5bc502ca01f3debd77e49823a28d2df3"
+}

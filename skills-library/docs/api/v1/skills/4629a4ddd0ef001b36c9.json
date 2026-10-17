@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/gist-automation/SKILL.md",
+  "name": "gist-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/gist-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/gist-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/gist-automation/SKILL.md",
+  "description": "Automate Gist tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4629a4ddd0ef001b36c9",
+  "content_sha256": "ede7a96effaf5f792bff3f06da3cb36dad49a0d1acda8cb608e2129e3232cac6"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/taggun-automation/SKILL.md",
+  "name": "taggun-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/taggun-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/taggun-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/taggun-automation/SKILL.md",
+  "description": "Automate Taggun tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f9fb38c420b4f17a61fb",
+  "content_sha256": "21fd6e2767f44d20c116e1b1ecf5a30b1753919cb1c7df166ccb9dc46aa870e6"
+}

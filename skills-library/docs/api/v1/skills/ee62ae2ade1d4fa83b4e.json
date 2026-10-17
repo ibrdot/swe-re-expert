@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/keen-io-automation/SKILL.md",
+  "name": "keen-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/keen-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/keen-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/keen-io-automation/SKILL.md",
+  "description": "Automate Keen IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ee62ae2ade1d4fa83b4e",
+  "content_sha256": "55ca17f9b09f6dca4143fbe655f1d0c9f0e92fa4e66ebfb134ddb72fff15ad3f"
+}

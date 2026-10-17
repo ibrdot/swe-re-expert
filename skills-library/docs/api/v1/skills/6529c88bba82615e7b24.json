@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/leverly-automation/SKILL.md",
+  "name": "leverly-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/leverly-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/leverly-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/leverly-automation/SKILL.md",
+  "description": "Automate Leverly tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6529c88bba82615e7b24",
+  "content_sha256": "fd5faa8ea2b0056f1699d91a079b378bc67ab51d44e376bd0277c1befd0d794b"
+}

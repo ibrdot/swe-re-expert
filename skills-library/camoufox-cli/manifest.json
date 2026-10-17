@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:09aeb94c7100d628e515ace161fc13cbf894012f249e2bd677520fdd32afab52",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/camoufox-cli",
+  "name": "camoufox-cli",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

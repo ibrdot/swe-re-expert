@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sendloop-automation/SKILL.md",
+  "name": "sendloop-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sendloop-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sendloop-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sendloop-automation/SKILL.md",
+  "description": "Automate Sendloop tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2429502140798ad3fce1",
+  "content_sha256": "7f3e94b2ac1387609ed0141afda580388d87bd0ed65ffba4ad48c9664970ef38"
+}

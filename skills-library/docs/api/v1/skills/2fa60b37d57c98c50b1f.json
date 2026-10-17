@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/page-x-automation/SKILL.md",
+  "name": "page-x-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/page-x-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/page-x-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/page-x-automation/SKILL.md",
+  "description": "Automate Page X tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2fa60b37d57c98c50b1f",
+  "content_sha256": "78422baff6fc977ee264713c6e4ce9bf25345d4bfef967b65e51d7c2c2bd2e37"
+}

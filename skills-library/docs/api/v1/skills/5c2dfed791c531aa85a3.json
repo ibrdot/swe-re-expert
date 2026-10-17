@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/npm-automation/SKILL.md",
+  "name": "npm-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/npm-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/npm-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/npm-automation/SKILL.md",
+  "description": "Automate NPM tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5c2dfed791c531aa85a3",
+  "content_sha256": "492e9d10df143610f8d896ae6ca196c0bc88231f0f418af820ce7a699bc5ced5"
+}

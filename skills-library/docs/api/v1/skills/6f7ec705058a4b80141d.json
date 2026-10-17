@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/buildkite-automation/SKILL.md",
+  "name": "buildkite-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/buildkite-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/buildkite-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/buildkite-automation/SKILL.md",
+  "description": "Automate Buildkite tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6f7ec705058a4b80141d",
+  "content_sha256": "3a2b302b291d487038b915e51578a95202250ab04607092dcbc881ee3f22d9bc"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pptx/SKILL.md",
+  "name": "pptx",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Documents",
+  "path": "pptx/",
+  "skill_file": "pptx/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/pptx/SKILL.md",
+  "description": "Create intentionally raster or image-backed slide decks with GPT Image 2, then package the generated slide images into a PPTX and HTML viewer. This is an opt-in image mode: use it only when the user explicitly asks for the output to be image-mode, raster, flattened, full-slide-image, or GPT Image slides; explicitly asks to keep an existing image-backed deck image-backed; or asks to package slide images as PowerPoint. Do not infer image mode merely because the input is screenshots, exported slides, an image directory, or a flattened PPTX. Do not use this skill for a generic request to create, read, inspect, edit, restyle, or export a PPT, PPTX, PowerPoint presentation, or slide deck. When the user does not explicitly request image-backed output, use pptx-native by default, even if they do not mention editability; pptx-native also owns reconstruction of image inputs into native slides. Trigger phrases: image-mode PPT, raster PPT output, keep this deck flattened, full-slide-image output, generate slide images, GPT Image slides, keep these rendered slides image-backed, edit a slide image as an image, package images as PowerPoint.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "d90478c6a44a44a11da2",
+  "content_sha256": "f2c5f81bd185d0f7d5b6d4dbf1f3e13631eb8bf86155380ba16ef1adf315bf72"
+}

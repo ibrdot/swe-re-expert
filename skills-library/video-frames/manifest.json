@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:797e342eaba0b1c0dce2c788838375d2a3062a404bf0a85f270ee3e9508bda6e",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/video-frames",
+  "name": "video-frames",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

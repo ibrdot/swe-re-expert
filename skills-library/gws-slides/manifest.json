@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:a61c5ca6a3004c9e649907866b211d8003d9acc49c1700157a27ca4b97fc9663",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/gws-slides",
+  "name": "gws-slides",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

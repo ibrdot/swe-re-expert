@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/coinranking-automation/SKILL.md",
+  "name": "coinranking-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/coinranking-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/coinranking-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/coinranking-automation/SKILL.md",
+  "description": "Automate Coinranking tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7d8a19b0551c220dcc2a",
+  "content_sha256": "d908e379edc42d7a5212dc12ce2f24ebd11041b9b90e961e044913fb7708d143"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dropbox-sign-automation/SKILL.md",
+  "name": "dropbox-sign-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dropbox-sign-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dropbox-sign-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dropbox-sign-automation/SKILL.md",
+  "description": "Automate Dropbox Sign tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b7ddbf1d2db33fb236a0",
+  "content_sha256": "cdf5f171b96749fddf5e290afbd1a1760013858c0508ba94cf431e1e90a32438"
+}

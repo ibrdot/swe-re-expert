@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/content-research-writer/SKILL.md",
+  "name": "content-research-writer",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/content-research-writer/",
+  "skill_file": "vendor/awesome-claude-skills/content-research-writer/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/content-research-writer/SKILL.md",
+  "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "cbdf8aa192a8ba015074",
+  "content_sha256": "27eb5c1a0a88a9c1c64f6fcd9c28782e6a6e70d5da43233c4e99ade946f74825"
+}

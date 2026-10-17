@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ninox-automation/SKILL.md",
+  "name": "ninox-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ninox-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ninox-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ninox-automation/SKILL.md",
+  "description": "Automate Ninox tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "41ff7bc61ef0a1f5912f",
+  "content_sha256": "4167293ca2dce6761ca9bf65995d04c7e80b35691157844e56605f1cd41e6e7c"
+}

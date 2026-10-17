@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:5717d9b49768bc0726c3a688cddc2c1bf2b1bed00f87dce484e594fd6b67266e",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/gws-docs",
+  "name": "gws-docs",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

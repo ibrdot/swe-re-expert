@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/cults-automation/SKILL.md",
+  "name": "cults-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/cults-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/cults-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/cults-automation/SKILL.md",
+  "description": "Automate Cults tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f1af85fc55f083086072",
+  "content_sha256": "a98c4574e7ec483a0b4641e1080d1ca7e65aafab73f03f3f6de1e23a81f6793d"
+}

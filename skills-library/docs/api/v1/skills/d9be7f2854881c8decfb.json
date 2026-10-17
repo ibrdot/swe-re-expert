@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bannerbear-automation/SKILL.md",
+  "name": "bannerbear-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bannerbear-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bannerbear-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bannerbear-automation/SKILL.md",
+  "description": "Automate Bannerbear tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d9be7f2854881c8decfb",
+  "content_sha256": "74e1a06f61a81a362de750e772c0e5b4720c87034c6cc52681c56aa0768cb858"
+}

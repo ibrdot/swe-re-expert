@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bigml-automation/SKILL.md",
+  "name": "bigml-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bigml-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bigml-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bigml-automation/SKILL.md",
+  "description": "Automate Bigml tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2308062891c6f608e177",
+  "content_sha256": "e2009581ce40df95d5181caeb63bb34bb3639074366d559e5ce3c93e28cce6bf"
+}

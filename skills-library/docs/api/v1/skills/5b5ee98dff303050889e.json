@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/polygon-automation/SKILL.md",
+  "name": "polygon-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/polygon-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/polygon-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/polygon-automation/SKILL.md",
+  "description": "Automate Polygon tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5b5ee98dff303050889e",
+  "content_sha256": "67cfc729409d1bce5bf2d1af3edc0eed1c3fe599f7b0e9893baeb456ca56adc1"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/mural-automation/SKILL.md",
+  "name": "mural-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/mural-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/mural-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/mural-automation/SKILL.md",
+  "description": "Automate Mural tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1df90724f4c7bfc28584",
+  "content_sha256": "693cd46834c0ea559c7963332bc9c9cec4ec000aa8468b365c139acfbe5830b7"
+}

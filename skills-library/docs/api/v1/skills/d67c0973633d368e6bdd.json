@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/phantombuster-automation/SKILL.md",
+  "name": "PhantomBuster Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/phantombuster-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/phantombuster-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/phantombuster-automation/SKILL.md",
+  "description": "Automate lead generation, web scraping, and social media data extraction workflows through PhantomBuster's cloud platform via Composio",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d67c0973633d368e6bdd",
+  "content_sha256": "4e246726a6438216376873b55b079175fb69deceb7ce3703ea4f4242352c09c4"
+}

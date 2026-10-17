@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/kit-automation/SKILL.md",
+  "name": "kit-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/kit-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/kit-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/kit-automation/SKILL.md",
+  "description": "Automate Kit tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d77e5ccef85dbb3adeb0",
+  "content_sha256": "40e04776d0a6244bb67c08d5976e66d101fd11fd8b2accdfc0062b9d6c1bb86f"
+}

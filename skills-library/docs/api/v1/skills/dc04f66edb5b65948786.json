@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/yelp-automation/SKILL.md",
+  "name": "yelp-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/yelp-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/yelp-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/yelp-automation/SKILL.md",
+  "description": "Automate Yelp tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "dc04f66edb5b65948786",
+  "content_sha256": "cffe24a21dd668a632b7e05a0328cad0b592dda60cb60e419aaa9b16ecc37a14"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/svix-automation/SKILL.md",
+  "name": "svix-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/svix-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/svix-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/svix-automation/SKILL.md",
+  "description": "Automate Svix tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f06c686a1d346d247042",
+  "content_sha256": "d7322eb0f47f1d5670c4361650df09207123672abe627334660cb112b779e8aa"
+}

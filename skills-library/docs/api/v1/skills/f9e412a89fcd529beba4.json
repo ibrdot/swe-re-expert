@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/onedesk-automation/SKILL.md",
+  "name": "onedesk-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/onedesk-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/onedesk-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/onedesk-automation/SKILL.md",
+  "description": "Automate Onedesk tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f9e412a89fcd529beba4",
+  "content_sha256": "f9294c36aa28aa0ec78dc1a7365f06243e351db443febfd4970000a25fad1de2"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/textcortex-automation/SKILL.md",
+  "name": "textcortex-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/textcortex-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/textcortex-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/textcortex-automation/SKILL.md",
+  "description": "Automate Textcortex tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0c293c200bd1bb38b8e6",
+  "content_sha256": "f6498ea69d07d732f89288d86b72b0b73f2676289a73828f8d18d19485be3f28"
+}

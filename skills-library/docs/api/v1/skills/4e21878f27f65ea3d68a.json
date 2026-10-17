@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/timelink-automation/SKILL.md",
+  "name": "timelink-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/timelink-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/timelink-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/timelink-automation/SKILL.md",
+  "description": "Automate Timelink tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4e21878f27f65ea3d68a",
+  "content_sha256": "62578e56c499d5318ebccd6273cc196e802943a11bd6ea180568259fa07a0471"
+}

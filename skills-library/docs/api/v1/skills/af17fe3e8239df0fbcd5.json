@@ -1,0 +1,15 @@
+{
+  "id": "linear/SKILL.md",
+  "name": "linear",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Productivity",
+  "path": "linear/",
+  "skill_file": "linear/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/linear/SKILL.md",
+  "description": "Use this connector skill whenever the user asks an agent to work with Linear issues, teams, projects, cycles, workflow states, labels, comments, assignments, or engineering planning through the connector. Use it for Linear workflows that need to inspect assigned work, create or update issues, connect code changes to Linear tickets, or summarize project execution status.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "af17fe3e8239df0fbcd5",
+  "content_sha256": "f819293e9ebb3de618f71cee4e685ca7fee9c06fdc87bd466fb6b5f97febb72d"
+}

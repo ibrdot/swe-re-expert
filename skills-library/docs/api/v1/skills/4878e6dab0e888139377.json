@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/brex-staging-automation/SKILL.md",
+  "name": "brex-staging-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/brex-staging-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/brex-staging-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/brex-staging-automation/SKILL.md",
+  "description": "Automate Brex Staging tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4878e6dab0e888139377",
+  "content_sha256": "467d80623b45d010707ce394b12e44d9bb11611aeab59551256f8645a82ddea7"
+}

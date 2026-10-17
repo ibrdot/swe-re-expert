@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/coupa-automation/SKILL.md",
+  "name": "coupa-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/coupa-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/coupa-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/coupa-automation/SKILL.md",
+  "description": "Automate Coupa tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ea8f0c11072e4fe72a14",
+  "content_sha256": "cb69f07c3f4912addd540577154818425a85fb72ff21afe5e384a05c072dc132"
+}

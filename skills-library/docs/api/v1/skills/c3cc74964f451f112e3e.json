@@ -1,0 +1,15 @@
+{
+  "id": "chrome-devtools/skills/debug-optimize-lcp/SKILL.md",
+  "name": "debug-optimize-lcp",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Browser automation",
+  "path": "chrome-devtools/skills/debug-optimize-lcp/",
+  "skill_file": "chrome-devtools/skills/debug-optimize-lcp/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/chrome-devtools/skills/debug-optimize-lcp/SKILL.md",
+  "description": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever the user asks about LCP performance, slow page loads, Core Web Vitals optimization, or wants to understand why their page's main content takes too long to appear. Also use when the user mentions \"largest contentful paint\", \"page load speed\", \"CWV\", or wants to improve how fast their hero image or main content renders.",
+  "mode": "Guide",
+  "license": "Apache-2.0 (suite license)",
+  "key": "c3cc74964f451f112e3e",
+  "content_sha256": "8898b35108b12f73cef83a08964ffff0ebfad429389ffd42cb49a423025657ae"
+}

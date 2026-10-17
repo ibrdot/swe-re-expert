@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/brightdata-automation/SKILL.md",
+  "name": "brightdata-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/brightdata-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/brightdata-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/brightdata-automation/SKILL.md",
+  "description": "Automate Brightdata tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "667a909249764d0b06de",
+  "content_sha256": "d2b7995e19b1d72f9cac6611505af6d92d72f3e0c406dba75d9a01ac866458d0"
+}

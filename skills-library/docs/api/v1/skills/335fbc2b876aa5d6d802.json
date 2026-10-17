@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/anchor-browser-automation/SKILL.md",
+  "name": "anchor-browser-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/anchor-browser-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/anchor-browser-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/anchor-browser-automation/SKILL.md",
+  "description": "Automate Anchor Browser tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "335fbc2b876aa5d6d802",
+  "content_sha256": "c98a1f77eecf9379ddb14918af5516e63daf4ad3db00687967647227d1d5c643"
+}

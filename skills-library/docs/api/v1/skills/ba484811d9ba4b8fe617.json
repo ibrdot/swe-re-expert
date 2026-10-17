@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/triage/SKILL.md",
+  "name": "triage",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/triage/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/triage/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/triage/SKILL.md",
+  "description": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "ba484811d9ba4b8fe617",
+  "content_sha256": "917b0baf74be583e74f110857ed45df2766617f75c00baf61fd136d7af515edf"
+}

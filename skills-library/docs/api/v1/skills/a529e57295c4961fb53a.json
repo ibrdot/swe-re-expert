@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/codebase-design/SKILL.md",
+  "name": "codebase-design",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/codebase-design/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/codebase-design/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/codebase-design/SKILL.md",
+  "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "a529e57295c4961fb53a",
+  "content_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
+}

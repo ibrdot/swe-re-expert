@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/better-proposals-automation/SKILL.md",
+  "name": "better-proposals-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/better-proposals-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/better-proposals-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/better-proposals-automation/SKILL.md",
+  "description": "Automate Better Proposals tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a4314a65b4ee3f8879e9",
+  "content_sha256": "1a41cdb0ddcb743026192897acf4a61599e73d496da4aaf06fc2c05078e03fa4"
+}

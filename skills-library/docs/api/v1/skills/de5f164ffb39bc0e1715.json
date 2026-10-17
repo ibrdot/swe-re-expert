@@ -1,0 +1,15 @@
+{
+  "id": "gws-tasks/SKILL.md",
+  "name": "gws-tasks",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Google Workspace",
+  "path": "gws-tasks/",
+  "skill_file": "gws-tasks/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/gws-tasks/SKILL.md",
+  "description": "Google Tasks: Manage task lists and tasks.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "de5f164ffb39bc0e1715",
+  "content_sha256": "03c9232348d570c644c6b4c005535352c1135f4ab8ec4f72dd4fa271d8538a8c"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "component": {
+    "id": "gws-gmail",
+    "type": "skill",
+    "group": "preinstalled"
+  },
+  "artifact": {
+    "source_dir": ".",
+    "title": "gws-gmail.tgz"
+  },
+  "version": {
+    "service_version": {
+      "source": "static",
+      "value": "0.0.0"
+    }
+  }
+}

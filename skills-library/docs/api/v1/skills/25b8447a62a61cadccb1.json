@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/parsera-automation/SKILL.md",
+  "name": "parsera-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/parsera-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/parsera-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/parsera-automation/SKILL.md",
+  "description": "Automate Parsera tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "25b8447a62a61cadccb1",
+  "content_sha256": "b17bc0692140ac9d529eafe07701e7e01f77b118016bddf1abe6c88c3123ddd3"
+}

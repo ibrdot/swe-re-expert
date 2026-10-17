@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/factorial-automation/SKILL.md",
+  "name": "factorial-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/factorial-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/factorial-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/factorial-automation/SKILL.md",
+  "description": "Automate Factorial tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "22d74edcfc5332de7804",
+  "content_sha256": "f752ce121b5be47d2b7d3d825a560948d2bdea5d3d9ebf33b3c4c30667e323ab"
+}

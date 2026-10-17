@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ragic-automation/SKILL.md",
+  "name": "ragic-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ragic-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ragic-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ragic-automation/SKILL.md",
+  "description": "Automate Ragic tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1f10e371c78f19bd028c",
+  "content_sha256": "6ab25c68355a290c52e9a3751a52f060098a3b2f84c37b0a62824d64d1f97631"
+}

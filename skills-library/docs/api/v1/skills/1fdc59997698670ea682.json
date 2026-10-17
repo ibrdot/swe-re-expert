@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dock-certs-automation/SKILL.md",
+  "name": "dock-certs-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dock-certs-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dock-certs-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dock-certs-automation/SKILL.md",
+  "description": "Automate Dock Certs tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1fdc59997698670ea682",
+  "content_sha256": "d42b81d35f8eb7f695f4ecd24e6cde772b63ec790be34001c9187d4151ee330b"
+}

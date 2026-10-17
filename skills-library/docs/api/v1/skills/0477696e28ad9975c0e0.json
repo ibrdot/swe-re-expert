@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/prisma-automation/SKILL.md",
+  "name": "prisma-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/prisma-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/prisma-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/prisma-automation/SKILL.md",
+  "description": "Automate Prisma tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0477696e28ad9975c0e0",
+  "content_sha256": "765c5dd1952865169d5fad09e7f24f06e5ac5d3226110c587f66d5ebcc18bf34"
+}

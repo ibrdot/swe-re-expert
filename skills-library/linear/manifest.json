@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:0efeed1a746ff12a06684bdf4960e79f22bc7e78f21e301f80bdd1ce5d827c47",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/linear",
+  "name": "linear",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

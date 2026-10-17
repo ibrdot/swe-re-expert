@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/apollo-automation/SKILL.md",
+  "name": "Apollo Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/apollo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/apollo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/apollo-automation/SKILL.md",
+  "description": "Automate Apollo.io lead generation -- search organizations, discover contacts, enrich prospect data, manage contact stages, and build targeted outreach lists -- using natural language through the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "21d23cb8822fe1fa7b90",
+  "content_sha256": "8ebd4d46135e31e5ffe54db467a2785d8d378a570acc3e15ee09913720a6f95c"
+}

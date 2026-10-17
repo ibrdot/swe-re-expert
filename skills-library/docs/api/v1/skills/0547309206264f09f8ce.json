@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/hyperbrowser-automation/SKILL.md",
+  "name": "hyperbrowser-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/hyperbrowser-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/hyperbrowser-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/hyperbrowser-automation/SKILL.md",
+  "description": "Automate Hyperbrowser tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0547309206264f09f8ce",
+  "content_sha256": "0fedcc5716fe45f90134d024985ded0d0677923f642f34e7edbb0b1a2a202358"
+}

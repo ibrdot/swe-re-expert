@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-08-13T10:52:08+08:00",
+  "content_hash": "sha256:cfdd5b082b93ef323d5bb44f7ea682284b749fdea9c0f1ac6c08b4bb3457c8d3",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/pptx",
+  "name": "pptx",
+  "schema_version": 1,
+  "source": "official/public/skill/pptx/2026.08.13.034737",
+  "type": "skill",
+  "version": "2026.08.13.034737"
+}

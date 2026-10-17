@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/templated-automation/SKILL.md",
+  "name": "templated-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/templated-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/templated-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/templated-automation/SKILL.md",
+  "description": "Automate Templated tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "ad2db3adeb890a88917f",
+  "content_sha256": "1bcaae6bdf2c5c76cfcb9de96ddde207df0d54baccd7fd378ef34c486c9ef9f9"
+}

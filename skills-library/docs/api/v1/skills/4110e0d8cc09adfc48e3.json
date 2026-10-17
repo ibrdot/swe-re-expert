@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/alchemy-automation/SKILL.md",
+  "name": "alchemy-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/alchemy-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/alchemy-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/alchemy-automation/SKILL.md",
+  "description": "Automate Alchemy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4110e0d8cc09adfc48e3",
+  "content_sha256": "5d718ddde46970b8e39f33bcf4af4442510127b05371156eae838de6c981a0be"
+}

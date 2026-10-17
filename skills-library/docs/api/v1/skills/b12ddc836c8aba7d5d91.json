@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/mcp-builder/SKILL.md",
+  "name": "mcp-builder",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/mcp-builder/",
+  "skill_file": "vendor/awesome-claude-skills/mcp-builder/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/mcp-builder/SKILL.md",
+  "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+  "mode": "Guide",
+  "license": "Complete terms in LICENSE.txt",
+  "key": "b12ddc836c8aba7d5d91",
+  "content_sha256": "b1010e90adcb8fd6bf57640df34ab6454fbf7e4216e150a4620f7caccadc4e63"
+}

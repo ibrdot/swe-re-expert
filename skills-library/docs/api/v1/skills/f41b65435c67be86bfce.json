@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/botstar-automation/SKILL.md",
+  "name": "botstar-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/botstar-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/botstar-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/botstar-automation/SKILL.md",
+  "description": "Automate Botstar tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f41b65435c67be86bfce",
+  "content_sha256": "09ccded37c55ac3065e5796b9a23505d71fd3a470f58231803d37e54f35cde4d"
+}

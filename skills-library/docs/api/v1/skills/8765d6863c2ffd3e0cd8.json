@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/appdrag-automation/SKILL.md",
+  "name": "appdrag-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/appdrag-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/appdrag-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/appdrag-automation/SKILL.md",
+  "description": "Automate Appdrag tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "8765d6863c2ffd3e0cd8",
+  "content_sha256": "fbdbf6f4746b2975bbca8ef1fe7d8f0e92db8acdb536e111011fa4c78e00608d"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/the-odds-api-automation/SKILL.md",
+  "name": "the-odds-api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/the-odds-api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/the-odds-api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/the-odds-api-automation/SKILL.md",
+  "description": "Automate The Odds API tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9a9cede4cfcba9af76f1",
+  "content_sha256": "272d4e4ae8f333e884ad5768ea840d036fc262da0a3c919fc68996ab6715b4b2"
+}

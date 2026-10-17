@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/hotspotsystem-automation/SKILL.md",
+  "name": "hotspotsystem-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/hotspotsystem-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/hotspotsystem-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/hotspotsystem-automation/SKILL.md",
+  "description": "Automate Hotspotsystem tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "860de089cfd6dbf7c2bc",
+  "content_sha256": "a0a5c735927f058d760069e56c4295208ca84837b7ff95ebcc5e06e7bbe5fa07"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/api-labz-automation/SKILL.md",
+  "name": "api-labz-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/api-labz-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/api-labz-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/api-labz-automation/SKILL.md",
+  "description": "Automate API Labz tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f6820a0fc9e57d806b8e",
+  "content_sha256": "0107ffa06db9aee57ca2529682b9851bc26ffe94f510a2c38f4f82cb712d9640"
+}

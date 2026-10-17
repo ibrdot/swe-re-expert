@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/leadoku-automation/SKILL.md",
+  "name": "leadoku-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/leadoku-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/leadoku-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/leadoku-automation/SKILL.md",
+  "description": "Automate Leadoku tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1e97dc9d6c0af2057d68",
+  "content_sha256": "8ec3292a6feb5b8b77eca8e2cf137af7a3fa7afe891d917223a1588efe64b7f3"
+}

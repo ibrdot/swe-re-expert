@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/securitytrails-automation/SKILL.md",
+  "name": "securitytrails-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/securitytrails-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/securitytrails-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/securitytrails-automation/SKILL.md",
+  "description": "Automate Securitytrails tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "55048c489ee2a4f8f3d8",
+  "content_sha256": "b10147ff08ade59aca5ae6397af72b219fac48805eb0d5240045a044586e47a9"
+}

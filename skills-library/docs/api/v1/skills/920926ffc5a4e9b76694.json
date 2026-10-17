@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/helpwise-automation/SKILL.md",
+  "name": "helpwise-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/helpwise-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/helpwise-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/helpwise-automation/SKILL.md",
+  "description": "Automate Helpwise tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "920926ffc5a4e9b76694",
+  "content_sha256": "0108b5952f6c19255f90c3afc7cfe44391960e963503c4beb826d43e16e9c390"
+}

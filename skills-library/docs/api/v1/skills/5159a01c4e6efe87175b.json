@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/test-app-automation/SKILL.md",
+  "name": "test-app-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/test-app-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/test-app-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/test-app-automation/SKILL.md",
+  "description": "Automate Test App tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5159a01c4e6efe87175b",
+  "content_sha256": "ad4164ff19a8c1229e45516137ba77fd7a9ffd3ff430f7521120b026fe567838"
+}

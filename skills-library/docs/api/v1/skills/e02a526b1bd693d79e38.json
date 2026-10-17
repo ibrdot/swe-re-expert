@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/geokeo-automation/SKILL.md",
+  "name": "geokeo-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/geokeo-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/geokeo-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/geokeo-automation/SKILL.md",
+  "description": "Automate Geokeo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "e02a526b1bd693d79e38",
+  "content_sha256": "7a2d62b75df7bfbe8dbb29b685e86b83bdb26d576b6acdcca89bb02a6433c407"
+}

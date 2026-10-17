@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/connect-apps/SKILL.md",
+  "name": "connect-apps",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Creative & workflow",
+  "path": "vendor/awesome-claude-skills/connect-apps/",
+  "skill_file": "vendor/awesome-claude-skills/connect-apps/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/connect-apps/SKILL.md",
+  "description": "Connect Claude to external apps like Gmail, Slack, GitHub. Use this skill when the user wants to send emails, create issues, post messages, or take actions in external services.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5655a8c74c19862a9f00",
+  "content_sha256": "230e0b8736a74d8df01f0b4eb52475dbcf6a2e199ec539f027ad264b324c7799"
+}

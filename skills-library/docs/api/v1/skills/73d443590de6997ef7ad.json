@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/enginemailer-automation/SKILL.md",
+  "name": "enginemailer-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/enginemailer-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/enginemailer-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/enginemailer-automation/SKILL.md",
+  "description": "Automate Enginemailer tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "73d443590de6997ef7ad",
+  "content_sha256": "8680e2e37fa756c8200b368f0e0c96555cd8c6f7a4db0a8552f11b55ad2b9e3e"
+}

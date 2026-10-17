@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/coinmarketcap-automation/SKILL.md",
+  "name": "coinmarketcap-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/coinmarketcap-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/coinmarketcap-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/coinmarketcap-automation/SKILL.md",
+  "description": "Automate Coinmarketcap tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "147e1ad311a839c87098",
+  "content_sha256": "73bf584eca41d8903fdc617583548a55137e8d08822605a8faa6ddcc1c4d5255"
+}

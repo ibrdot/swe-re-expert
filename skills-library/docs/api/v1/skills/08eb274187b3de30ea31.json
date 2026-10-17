@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/xero-automation/SKILL.md",
+  "name": "Xero Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/xero-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/xero-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/xero-automation/SKILL.md",
+  "description": "Xero Automation: manage invoices, contacts, payments, bank transactions, and accounts in Xero for cloud-based bookkeeping",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "08eb274187b3de30ea31",
+  "content_sha256": "680f64b7ff3d144f005b5d28941c288af368ced2c2b1c284e8d08210c04b2796"
+}

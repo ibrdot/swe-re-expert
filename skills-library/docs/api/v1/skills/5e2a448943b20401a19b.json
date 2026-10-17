@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/survey-monkey-automation/SKILL.md",
+  "name": "SurveyMonkey Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/survey-monkey-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/survey-monkey-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/survey-monkey-automation/SKILL.md",
+  "description": "Automate SurveyMonkey survey creation, response collection, collector management, and survey discovery through natural language commands",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5e2a448943b20401a19b",
+  "content_sha256": "0168938b6876c1f41fca3aec10c976b20b864416ab1fde5cfcb95a4c1f007233"
+}

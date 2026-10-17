@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/openweather-api-automation/SKILL.md",
+  "name": "openweather-api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/openweather-api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/openweather-api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/openweather-api-automation/SKILL.md",
+  "description": "Automate Openweather API tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d6b9b61fcb79b1040567",
+  "content_sha256": "2ae8bf51c45a1c7a439b8d58384ab1731466b25906734a056f1004dacc32f714"
+}

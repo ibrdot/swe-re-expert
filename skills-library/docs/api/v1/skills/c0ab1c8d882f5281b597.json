@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/conveyor-automation/SKILL.md",
+  "name": "conveyor-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/conveyor-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/conveyor-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/conveyor-automation/SKILL.md",
+  "description": "Automate Conveyor tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c0ab1c8d882f5281b597",
+  "content_sha256": "94cc92a68aac19aa0dfae37fa241870724ca71fb2484fda57c3c663e0403b1d2"
+}

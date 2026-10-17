@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/radar-automation/SKILL.md",
+  "name": "radar-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/radar-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/radar-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/radar-automation/SKILL.md",
+  "description": "Automate Radar tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "288eecaa6148c9c07147",
+  "content_sha256": "8f9ac54a48ecbb75b3d930b9264fecd26a7fab193ec734b5718208f4e818bcd1"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/document-skills/pdf/SKILL.md",
+  "name": "pdf",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Documents",
+  "path": "vendor/awesome-claude-skills/document-skills/pdf/",
+  "skill_file": "vendor/awesome-claude-skills/document-skills/pdf/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/document-skills/pdf/SKILL.md",
+  "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+  "mode": "Guide",
+  "license": "Proprietary. LICENSE.txt has complete terms",
+  "key": "5940b36d160b52c2883c",
+  "content_sha256": "38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb"
+}

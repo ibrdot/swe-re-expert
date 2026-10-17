@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/refiner-automation/SKILL.md",
+  "name": "refiner-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/refiner-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/refiner-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/refiner-automation/SKILL.md",
+  "description": "Automate Refiner tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "427dc7d9cf70a6422a3b",
+  "content_sha256": "aec6ce26dc212eb99a25b3d3711ec8fe2bd1a8f60a7d9779655325c01b69d20b"
+}

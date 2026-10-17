@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/waiverfile-automation/SKILL.md",
+  "name": "waiverfile-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/waiverfile-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/waiverfile-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/waiverfile-automation/SKILL.md",
+  "description": "Automate Waiverfile tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1f2e82ce8cfa2a33ea8e",
+  "content_sha256": "1ee80a078572604f52478c9039124e9df4138ada5c6371c8b97bb635669f3faf"
+}

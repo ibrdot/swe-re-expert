@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/apiverve-automation/SKILL.md",
+  "name": "apiverve-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/apiverve-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/apiverve-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/apiverve-automation/SKILL.md",
+  "description": "Automate Apiverve tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d17a275cbbbad69b1e32",
+  "content_sha256": "392d6ee7fc88d4dc86341b3fb1fba8f135516a5e7a36bad6c1a369f913f350b6"
+}

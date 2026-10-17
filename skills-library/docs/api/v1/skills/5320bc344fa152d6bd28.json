@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/agencyzoom-automation/SKILL.md",
+  "name": "agencyzoom-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/agencyzoom-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/agencyzoom-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/agencyzoom-automation/SKILL.md",
+  "description": "Automate Agencyzoom tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5320bc344fa152d6bd28",
+  "content_sha256": "0867abafe8330bb3f70ee67b715c9bbaa00bf41d5dd97f455ca4b5b6ac54ae75"
+}

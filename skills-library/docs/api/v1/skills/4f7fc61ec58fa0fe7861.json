@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/browserhub-automation/SKILL.md",
+  "name": "browserhub-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/browserhub-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/browserhub-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/browserhub-automation/SKILL.md",
+  "description": "Automate Browserhub tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4f7fc61ec58fa0fe7861",
+  "content_sha256": "2cdb1a6fc38e35975e2178d1e13ef33bb510291cf97120b004543a5cbac3072c"
+}

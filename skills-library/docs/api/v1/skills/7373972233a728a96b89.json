@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/respond-io-automation/SKILL.md",
+  "name": "respond-io-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/respond-io-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/respond-io-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/respond-io-automation/SKILL.md",
+  "description": "Automate Respond IO tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7373972233a728a96b89",
+  "content_sha256": "de4513808249324e9a380d7e7ca3900248b21ff6eaa05be49982c0ac1ec46b1a"
+}

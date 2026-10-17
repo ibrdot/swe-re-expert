@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sendfox-automation/SKILL.md",
+  "name": "sendfox-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sendfox-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sendfox-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sendfox-automation/SKILL.md",
+  "description": "Automate Sendfox tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "72563795457236552acd",
+  "content_sha256": "5438ba0994da9e45ae885a80c80d0f7a2cdc9c2b05aac21a1e005ff51844a56f"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/formdesk-automation/SKILL.md",
+  "name": "formdesk-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/formdesk-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/formdesk-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/formdesk-automation/SKILL.md",
+  "description": "Automate Formdesk tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "19d02036f6cc5d4f24da",
+  "content_sha256": "7a4dfe6378cc6b45c2cc99fe9b7e7607126d8d4bbfb62d85089493bb5096828a"
+}

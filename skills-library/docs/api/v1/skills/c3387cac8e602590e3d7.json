@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/goodbits-automation/SKILL.md",
+  "name": "goodbits-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/goodbits-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/goodbits-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/goodbits-automation/SKILL.md",
+  "description": "Automate Goodbits tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c3387cac8e602590e3d7",
+  "content_sha256": "667b13c92eacf8316d75897c493e25f1d2a50037c85a1f30c11ac13c32d197a7"
+}

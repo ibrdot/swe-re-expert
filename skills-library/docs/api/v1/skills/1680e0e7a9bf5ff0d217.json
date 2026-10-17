@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/unione-automation/SKILL.md",
+  "name": "unione-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/unione-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/unione-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/unione-automation/SKILL.md",
+  "description": "Automate Unione tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1680e0e7a9bf5ff0d217",
+  "content_sha256": "7e376dcee461f2ea864594e712c37ddce91adc50c92fdfd2a855de6b0c03b6f2"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/agiled-automation/SKILL.md",
+  "name": "agiled-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/agiled-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/agiled-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/agiled-automation/SKILL.md",
+  "description": "Automate Agiled tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "faed14ad9f19159104e5",
+  "content_sha256": "1f52da15b96fade935f6f8e6e7fa900d9dafd6942f1112751fb937f743ce900f"
+}

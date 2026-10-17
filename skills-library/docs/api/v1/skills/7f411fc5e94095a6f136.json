@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/brandfetch-automation/SKILL.md",
+  "name": "brandfetch-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/brandfetch-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/brandfetch-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/brandfetch-automation/SKILL.md",
+  "description": "Automate Brandfetch tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7f411fc5e94095a6f136",
+  "content_sha256": "80b61899cba34c30e163a029159ca8c195c459d9dc55472f4b827dace511bdda"
+}

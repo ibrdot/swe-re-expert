@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/memberstack-automation/SKILL.md",
+  "name": "memberstack-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/memberstack-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/memberstack-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/memberstack-automation/SKILL.md",
+  "description": "Automate Memberstack tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6ba420f919afc2838095",
+  "content_sha256": "edc2d0b7fc82d6834a8be8469260ec04125ee76cd07f73efdb3867c86a53f304"
+}

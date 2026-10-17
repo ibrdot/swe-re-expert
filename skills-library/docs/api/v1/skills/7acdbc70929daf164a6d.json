@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/goody-automation/SKILL.md",
+  "name": "goody-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/goody-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/goody-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/goody-automation/SKILL.md",
+  "description": "Automate Goody tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7acdbc70929daf164a6d",
+  "content_sha256": "1919297f73165e65edf327ab09fb60b166e2d45087804d75d6abb86b52e66574"
+}

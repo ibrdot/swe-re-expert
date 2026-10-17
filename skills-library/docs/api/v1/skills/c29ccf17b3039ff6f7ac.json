@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/google_search_console-automation/SKILL.md",
+  "name": "google_search_console-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/google_search_console-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/google_search_console-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/google_search_console-automation/SKILL.md",
+  "description": "Automate Google Search Console tasks via Rube MCP (Composio): search performance, URL inspection, sitemaps, and indexing status. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c29ccf17b3039ff6f7ac",
+  "content_sha256": "e684b277ba49834ba33dc03e1f2bfa3a25138575ffa43dc658cc44b9d14973c1"
+}

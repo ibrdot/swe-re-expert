@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/dripcel-automation/SKILL.md",
+  "name": "dripcel-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/dripcel-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/dripcel-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/dripcel-automation/SKILL.md",
+  "description": "Automate Dripcel tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "561f08064552de2e1f6e",
+  "content_sha256": "529e2826d15cf7cc897038ea0675f805133f55c65e8afa616d175a82baf25bb1"
+}

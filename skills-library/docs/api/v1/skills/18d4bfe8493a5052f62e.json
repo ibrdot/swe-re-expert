@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/google-address-validation-automation/SKILL.md",
+  "name": "google-address-validation-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/google-address-validation-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/google-address-validation-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/google-address-validation-automation/SKILL.md",
+  "description": "Automate Google Address Validation tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "18d4bfe8493a5052f62e",
+  "content_sha256": "dbac7067f445c968a97765463efd2b991e0785bd06ad4fc3006bbe1edf08a1b8"
+}

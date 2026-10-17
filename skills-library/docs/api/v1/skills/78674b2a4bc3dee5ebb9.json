@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/toneden-automation/SKILL.md",
+  "name": "toneden-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/toneden-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/toneden-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/toneden-automation/SKILL.md",
+  "description": "Automate Toneden tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "78674b2a4bc3dee5ebb9",
+  "content_sha256": "10436a5014351331aa7bb27a201840bf2256f30c992b30f91b48fd3520141bca"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "component": {
+    "id": "gws-sheets",
+    "type": "skill",
+    "group": "preinstalled"
+  },
+  "artifact": {
+    "source_dir": ".",
+    "title": "gws-sheets.tgz"
+  },
+  "version": {
+    "service_version": {
+      "source": "static",
+      "value": "0.0.0"
+    }
+  }
+}

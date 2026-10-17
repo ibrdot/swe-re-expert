@@ -1,0 +1,15 @@
+{
+  "id": "sentry/SKILL.md",
+  "name": "sentry",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Observability",
+  "path": "sentry/",
+  "skill_file": "sentry/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/sentry/SKILL.md",
+  "description": "Use this connector skill whenever the user asks an agent to work with Sentry organizations, projects, issues, error triage, exception investigation, issue status changes, or production incident summaries.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "eca610c8ecfc422d3fd7",
+  "content_sha256": "0b9e5ce4b314a4750831b0d545f4b7cf193dd500a0394dd321d1333927a7296d"
+}

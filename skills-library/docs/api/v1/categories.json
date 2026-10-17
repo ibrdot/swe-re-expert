@@ -1,0 +1,69 @@
+{
+  "api_version": "1",
+  "categories": [
+    {
+      "name": "Analytics",
+      "count": 1
+    },
+    {
+      "name": "Browser automation",
+      "count": 8
+    },
+    {
+      "name": "Communication",
+      "count": 3
+    },
+    {
+      "name": "Creative & workflow",
+      "count": 28
+    },
+    {
+      "name": "Data",
+      "count": 1
+    },
+    {
+      "name": "Documents",
+      "count": 7
+    },
+    {
+      "name": "Engineering",
+      "count": 21
+    },
+    {
+      "name": "Experimental",
+      "count": 7
+    },
+    {
+      "name": "Google Workspace",
+      "count": 12
+    },
+    {
+      "name": "Integrations",
+      "count": 833
+    },
+    {
+      "name": "Media",
+      "count": 3
+    },
+    {
+      "name": "Observability",
+      "count": 1
+    },
+    {
+      "name": "Planning",
+      "count": 1
+    },
+    {
+      "name": "Productivity",
+      "count": 9
+    },
+    {
+      "name": "Research",
+      "count": 1
+    },
+    {
+      "name": "Utilities",
+      "count": 5
+    }
+  ]
+}

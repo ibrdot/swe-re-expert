@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/highlevel-automation/SKILL.md",
+  "name": "highlevel-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/highlevel-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/highlevel-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/highlevel-automation/SKILL.md",
+  "description": "Automate Highlevel tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1dc18bfdb71e70842cad",
+  "content_sha256": "22a2d38d25a59ea3160d0b1834f2d9ace50ea98c9b1f3aaba842b38ecc142404"
+}

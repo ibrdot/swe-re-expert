@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/vestaboard-automation/SKILL.md",
+  "name": "vestaboard-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/vestaboard-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/vestaboard-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/vestaboard-automation/SKILL.md",
+  "description": "Automate Vestaboard tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "734173b8b7e9f46a183e",
+  "content_sha256": "87dd7e30c8d95168611d9102e1b50630b95468c0e261cb4b9de9f6797fa857a7"
+}

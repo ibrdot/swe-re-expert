@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/botbaba-automation/SKILL.md",
+  "name": "botbaba-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/botbaba-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/botbaba-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/botbaba-automation/SKILL.md",
+  "description": "Automate Botbaba tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "090790702bf13581d3ae",
+  "content_sha256": "852f4033033d425f7ee1e2a52f5c6cc45104e61c08e6f2b082286d751191f419"
+}

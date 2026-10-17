@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/fullenrich-automation/SKILL.md",
+  "name": "fullenrich-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/fullenrich-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/fullenrich-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/fullenrich-automation/SKILL.md",
+  "description": "Automate Fullenrich tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c9ec6e732a3cdbe44fc7",
+  "content_sha256": "35971099d26eefa75b13b5baf465dbacf103301118751e79eed20c65ad14288b"
+}

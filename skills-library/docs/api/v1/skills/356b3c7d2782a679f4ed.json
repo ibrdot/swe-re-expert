@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/linkup-automation/SKILL.md",
+  "name": "linkup-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/linkup-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/linkup-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/linkup-automation/SKILL.md",
+  "description": "Automate Linkup tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "356b3c7d2782a679f4ed",
+  "content_sha256": "162b01270e8fd6925db182e5b85512af25d3a40b4fd7e6e5aa3c6e4f9306240f"
+}

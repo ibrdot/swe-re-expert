@@ -1,0 +1,15 @@
+{
+  "id": "airtable/SKILL.md",
+  "name": "airtable",
+  "collection": "builtin",
+  "collection_label": "Suite skills",
+  "category": "Data",
+  "path": "airtable/",
+  "skill_file": "airtable/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/airtable/SKILL.md",
+  "description": "Use this connector skill whenever the user asks an agent to find Airtable bases, inspect table schemas, search or read records, or create and update records through the official Airtable MCP server.",
+  "mode": "Guide",
+  "license": "Not specified; verify before redistribution",
+  "key": "96ab0b651d4089e3b1b9",
+  "content_sha256": "ac2f40ca828e7a237b8e46165d9d655a7488d957b43513e1511a2516229b2c82"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ambee-automation/SKILL.md",
+  "name": "ambee-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ambee-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ambee-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ambee-automation/SKILL.md",
+  "description": "Automate Ambee tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "9b78777c558c33a66b97",
+  "content_sha256": "c8410df8aa58d762255796d58f9521fc45ddaced32af404d16d083bf189df621"
+}

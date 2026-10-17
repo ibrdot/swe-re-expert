@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/gumroad-automation/SKILL.md",
+  "name": "Gumroad Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/gumroad-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/gumroad-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/gumroad-automation/SKILL.md",
+  "description": "Automate Gumroad product management, sales tracking, license verification, and webhook subscriptions using natural language through the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "73ebcb34b865ae3a3217",
+  "content_sha256": "405ce8893e1935c1e83e335543512fb9e1a45ed9b3e209fa1e1c8faa8bf95b28"
+}

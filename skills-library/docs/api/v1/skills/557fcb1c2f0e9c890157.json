@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/spotlightr-automation/SKILL.md",
+  "name": "spotlightr-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/spotlightr-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/spotlightr-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/spotlightr-automation/SKILL.md",
+  "description": "Automate Spotlightr tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "557fcb1c2f0e9c890157",
+  "content_sha256": "4400c909232605cc7d9524638462340f394c4fc5a2a24a947342e4a08f243a03"
+}

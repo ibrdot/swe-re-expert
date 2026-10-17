@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sendspark-automation/SKILL.md",
+  "name": "sendspark-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sendspark-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sendspark-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sendspark-automation/SKILL.md",
+  "description": "Automate Sendspark tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "0dc38d5a25ea40f0ddaf",
+  "content_sha256": "199987cbc6b1e277ee6892d8c4c299b495b4f479d6c70b567718d1e75f2ceb62"
+}

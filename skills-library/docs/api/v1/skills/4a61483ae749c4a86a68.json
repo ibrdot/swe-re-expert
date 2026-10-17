@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zerobounce-automation/SKILL.md",
+  "name": "zerobounce-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zerobounce-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zerobounce-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zerobounce-automation/SKILL.md",
+  "description": "Automate Zerobounce tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4a61483ae749c4a86a68",
+  "content_sha256": "c4db2d40ce6822294308efb3ab23764a61d15bae643a4996164e054b63f52982"
+}

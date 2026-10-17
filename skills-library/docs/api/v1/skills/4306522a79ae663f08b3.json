@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bugsnag-automation/SKILL.md",
+  "name": "bugsnag-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bugsnag-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bugsnag-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bugsnag-automation/SKILL.md",
+  "description": "Automate Bugsnag tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "4306522a79ae663f08b3",
+  "content_sha256": "c00d950fd599dbe8968f909f495eb5ac90f1737908e5d58ae4d573f8d362787a"
+}

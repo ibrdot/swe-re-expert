@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/byteforms-automation/SKILL.md",
+  "name": "byteforms-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/byteforms-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/byteforms-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/byteforms-automation/SKILL.md",
+  "description": "Automate Byteforms tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "d35f69ea1a9f789aee85",
+  "content_sha256": "8fbf56b6d67de6c3dc03d1d16b605280e4b27e304f95cc2961a6667e13cc523c"
+}

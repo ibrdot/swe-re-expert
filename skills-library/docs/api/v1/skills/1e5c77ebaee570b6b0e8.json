@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/magnetic-automation/SKILL.md",
+  "name": "magnetic-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/magnetic-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/magnetic-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/magnetic-automation/SKILL.md",
+  "description": "Automate Magnetic tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "1e5c77ebaee570b6b0e8",
+  "content_sha256": "da36d6355c99162ef4f79ea7640498f2bd59c329604d14fcb2942ab6fa327f40"
+}

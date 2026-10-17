@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/keap-automation/SKILL.md",
+  "name": "keap-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/keap-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/keap-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/keap-automation/SKILL.md",
+  "description": "Automate Keap tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "bd2f09bae8da72d05994",
+  "content_sha256": "05c015635d297d42b05609067af4b75a4f7adee586f743ddde630122a871a290"
+}

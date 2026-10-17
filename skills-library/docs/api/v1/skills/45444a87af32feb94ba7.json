@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/onesignal-rest-api-automation/SKILL.md",
+  "name": "onesignal-rest-api-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/onesignal-rest-api-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/onesignal-rest-api-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/onesignal-rest-api-automation/SKILL.md",
+  "description": "Automate OneSignal tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "45444a87af32feb94ba7",
+  "content_sha256": "839b1bad19af8d1dd9355c8002175622c2076c0dd366a42bbb6b5346f293249f"
+}

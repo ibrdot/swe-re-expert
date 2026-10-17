@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/textrazor-automation/SKILL.md",
+  "name": "textrazor-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/textrazor-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/textrazor-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/textrazor-automation/SKILL.md",
+  "description": "Automate Textrazor tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6e81387398477ab65953",
+  "content_sha256": "eb2c1abc05b41e2fb1912e3649b62a2709f3b735c743153f3d910c1649cc68cc"
+}

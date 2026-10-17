@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/cutt-ly-automation/SKILL.md",
+  "name": "cutt-ly-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/cutt-ly-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/cutt-ly-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/cutt-ly-automation/SKILL.md",
+  "description": "Automate Cutt Ly tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "cefe4115b4d2e2224ba0",
+  "content_sha256": "175fb8edcd2b2e9646375985af6379c7cd4084d8abf57075f7fffe4e2f2de28b"
+}

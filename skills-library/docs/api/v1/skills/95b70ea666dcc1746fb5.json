@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sidetracker-automation/SKILL.md",
+  "name": "sidetracker-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sidetracker-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sidetracker-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sidetracker-automation/SKILL.md",
+  "description": "Automate Sidetracker tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "95b70ea666dcc1746fb5",
+  "content_sha256": "204a7364f82b1a2e499a8d57a092957b5a6de1b4424ba746289043c9628daa67"
+}

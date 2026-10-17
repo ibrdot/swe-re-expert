@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/codeinterpreter-automation/SKILL.md",
+  "name": "codeinterpreter-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/codeinterpreter-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/codeinterpreter-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/codeinterpreter-automation/SKILL.md",
+  "description": "Automate Codeinterpreter tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "fa5a775f29f37718e55b",
+  "content_sha256": "ba71b22e86ba6c69c421899a8f095df1987dde40388f573e38803cc6c7d997e9"
+}

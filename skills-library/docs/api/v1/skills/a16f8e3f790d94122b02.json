@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/lessonspace-automation/SKILL.md",
+  "name": "lessonspace-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/lessonspace-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/lessonspace-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/lessonspace-automation/SKILL.md",
+  "description": "Automate Lessonspace tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a16f8e3f790d94122b02",
+  "content_sha256": "5c664db592288f304c0d82624f044998095680bc2a207003f7d59bb7bdf2ee68"
+}

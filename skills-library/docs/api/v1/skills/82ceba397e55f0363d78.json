@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bitwarden-automation/SKILL.md",
+  "name": "bitwarden-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bitwarden-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bitwarden-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bitwarden-automation/SKILL.md",
+  "description": "Automate Bitwarden tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "82ceba397e55f0363d78",
+  "content_sha256": "4f424451ba9d5d7d5b8e3512c086971f5f898856fc8ee4de83565c081380411a"
+}

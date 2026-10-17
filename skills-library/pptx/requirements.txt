@@ -1,0 +1,3 @@
+httpx>=0.27.0
+python-dotenv>=1.0.0
+python-pptx @ git+https://github.com/maxgent-ai/python-pptx.git@e1409dd14e643d164351d096e8a95cac14314f37

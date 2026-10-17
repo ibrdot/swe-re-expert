@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/payhip-automation/SKILL.md",
+  "name": "payhip-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/payhip-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/payhip-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/payhip-automation/SKILL.md",
+  "description": "Automate Payhip tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7c127cd6bfcb260b3fea",
+  "content_sha256": "040fcd98f21cf794463f21c49bfce0eb312d9b468ee6bf2a3bd9c9a82a8d8bc5"
+}

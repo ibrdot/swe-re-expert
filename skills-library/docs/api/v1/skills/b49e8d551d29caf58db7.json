@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/capsule_crm-automation/SKILL.md",
+  "name": "capsule_crm-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/capsule_crm-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/capsule_crm-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/capsule_crm-automation/SKILL.md",
+  "description": "Automate Capsule CRM tasks via Rube MCP (Composio): contacts, opportunities, cases, tasks, and pipeline management. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "b49e8d551d29caf58db7",
+  "content_sha256": "ed3842ac9cbb63b613e39c39cf7d4fdd6fb2c8f1545de85a121477df86a60368"
+}

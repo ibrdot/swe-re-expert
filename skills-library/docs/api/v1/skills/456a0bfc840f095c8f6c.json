@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/attio-automation/SKILL.md",
+  "name": "Attio Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/attio-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/attio-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/attio-automation/SKILL.md",
+  "description": "Automate Attio CRM operations -- search records, query contacts and companies with advanced filters, manage notes, list attributes, and navigate your relationship data -- using natural language through the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "456a0bfc840f095c8f6c",
+  "content_sha256": "d4a4a547502745c971401eedfb9538c62aa55e07165fb4a8589ca9a0d2ee5e95"
+}

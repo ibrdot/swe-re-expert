@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/semanticscholar-automation/SKILL.md",
+  "name": "semanticscholar-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/semanticscholar-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/semanticscholar-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/semanticscholar-automation/SKILL.md",
+  "description": "Automate Semanticscholar tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "5e004f359761b44b0cc0",
+  "content_sha256": "d2c5eb018d6a14ca0c45780e737c8b5b0e94e43db533d22028c11a7e870ab18a"
+}

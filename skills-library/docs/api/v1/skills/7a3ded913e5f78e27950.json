@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/sendbird-ai-chabot-automation/SKILL.md",
+  "name": "sendbird-ai-chabot-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/sendbird-ai-chabot-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/sendbird-ai-chabot-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/sendbird-ai-chabot-automation/SKILL.md",
+  "description": "Automate Sendbird AI Chabot tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7a3ded913e5f78e27950",
+  "content_sha256": "16a95804b8c85829521d5588af9b47911ced03f42f4606eb000bde6e6f330b8c"
+}

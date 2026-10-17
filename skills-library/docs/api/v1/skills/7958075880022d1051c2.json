@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/aivoov-automation/SKILL.md",
+  "name": "aivoov-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/aivoov-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/aivoov-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/aivoov-automation/SKILL.md",
+  "description": "Automate Aivoov tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "7958075880022d1051c2",
+  "content_sha256": "316e8fda32eda2ca1f4fb39963971dd95d42230c96cb6058b8ac73472c7cf7ef"
+}

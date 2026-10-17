@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/linkhut-automation/SKILL.md",
+  "name": "linkhut-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/linkhut-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/linkhut-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/linkhut-automation/SKILL.md",
+  "description": "Automate Linkhut tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "f54671651545c86bd495",
+  "content_sha256": "f19ee0171971247be42b090c1f9ea61088a006701fde9420bd2cf4cd443a7352"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/process-street-automation/SKILL.md",
+  "name": "process-street-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/process-street-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/process-street-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/process-street-automation/SKILL.md",
+  "description": "Automate Process Street tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c65069c25525a65de650",
+  "content_sha256": "3a72fae85ed9b0a4d0e40406764adcd51f93894a8aac817de91358e6cc64b4e0"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ring_central-automation/SKILL.md",
+  "name": "ring_central-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ring_central-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ring_central-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ring_central-automation/SKILL.md",
+  "description": "Automate RingCentral tasks via Rube MCP (Composio): calls, messages, meetings, and unified communications. Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "c56f42b29a1e65e0ce0f",
+  "content_sha256": "0b4f60301a001639affedfdcc8489e586d79ba9966b131a312bebce820690463"
+}

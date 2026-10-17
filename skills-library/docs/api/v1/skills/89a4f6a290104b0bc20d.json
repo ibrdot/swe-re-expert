@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/realphonevalidation-automation/SKILL.md",
+  "name": "realphonevalidation-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/realphonevalidation-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/realphonevalidation-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/realphonevalidation-automation/SKILL.md",
+  "description": "Automate Realphonevalidation tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "89a4f6a290104b0bc20d",
+  "content_sha256": "784cd707d66685e7831a18e225cd57f63b983ffa7e0033773b1c74e3ee02e5db"
+}

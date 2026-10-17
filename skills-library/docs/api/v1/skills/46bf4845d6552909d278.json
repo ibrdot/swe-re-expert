@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/callerapi-automation/SKILL.md",
+  "name": "callerapi-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/callerapi-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/callerapi-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/callerapi-automation/SKILL.md",
+  "description": "Automate Callerapi tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "46bf4845d6552909d278",
+  "content_sha256": "d10c8c97dc0366dfcb7d895d97633a0a19ef584d3714e1096612d0afc85fdd3d"
+}

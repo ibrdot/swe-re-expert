@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-07-27T11:08:40+08:00",
+  "content_hash": "sha256:fccc752ebbfd8ff5ee10c506ec27784df1b813303a6433be7a2e1ef09a4b475c",
+  "group": "preinstalled",
+  "install_path": "/opt/kernel/skills/gws-sheets",
+  "name": "gws-sheets",
+  "schema_version": 1,
+  "source": "sandbox-runtime-prod/2026-07-27.1",
+  "type": "skill",
+  "version": "2026-07-27.1"
+}

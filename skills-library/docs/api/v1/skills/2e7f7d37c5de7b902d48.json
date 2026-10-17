@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/heygen-automation/SKILL.md",
+  "name": "HeyGen Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/heygen-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/heygen-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/heygen-automation/SKILL.md",
+  "description": "Automate AI video generation, avatar browsing, template-based video creation, and video status tracking through HeyGen's platform via Composio",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "2e7f7d37c5de7b902d48",
+  "content_sha256": "939ae045565a8c90fa859ff9d87b24415ccc6311431274334540d2fd4e10f998"
+}

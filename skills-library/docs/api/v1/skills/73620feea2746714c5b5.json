@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/bookingmood-automation/SKILL.md",
+  "name": "bookingmood-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/bookingmood-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/bookingmood-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/bookingmood-automation/SKILL.md",
+  "description": "Automate Bookingmood tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "73620feea2746714c5b5",
+  "content_sha256": "9281578ec0380b2e484f694552f5c616b0a52f87ddfd44d2de49f98d7e8ab422"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/ashby-automation/SKILL.md",
+  "name": "Ashby Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/ashby-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/ashby-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/ashby-automation/SKILL.md",
+  "description": "Automate recruiting and hiring workflows in Ashby -- manage candidates, jobs, applications, interviews, and notes through natural language commands.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "41abb8d89e587b45021d",
+  "content_sha256": "c22112e41fc68b746f7ae53e88cff502936718650097f04fbddd456320b91cb3"
+}

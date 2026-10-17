@@ -1,0 +1,56 @@
+name: Build and validate skill library
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: catalogue-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.ref }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate and validate all artifacts
+        run: python3 tools/build.py
+      - name: Run regression tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Install browser smoke-test dependencies
+        run: |
+          python3 -m pip install playwright==1.58.0
+          python3 -m playwright install --with-deps chromium
+      - name: Run browser smoke tests
+        run: python3 tools/test_browser.py
+      - name: Check browser JavaScript syntax
+        run: node --check docs/assets/app.js
+      - name: Ensure build is deterministic
+        run: |
+          git add docs SKILLS.md README.md vendor/README.md vendor/SKILL_INDEX.md
+          python3 tools/build.py
+          git diff --exit-code
+      - name: Publish generated changes on main
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh generated library and API'
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN commits do not trigger a branch-based Pages build automatically.
+      - name: Request Pages rebuild from main/docs
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds

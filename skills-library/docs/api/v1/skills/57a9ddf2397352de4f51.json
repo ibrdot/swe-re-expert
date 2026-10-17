@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/zoho-automation/SKILL.md",
+  "name": "zoho-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/zoho-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/zoho-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/zoho-automation/SKILL.md",
+  "description": "Automate Zoho tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "57a9ddf2397352de4f51",
+  "content_sha256": "58c7c618c51261aad1b3b0a626d698ec85adcac37c49d23e6e3a6738fdbb247e"
+}

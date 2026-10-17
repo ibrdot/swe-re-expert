@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/instantly-automation/SKILL.md",
+  "name": "Instantly Automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/instantly-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/instantly-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/instantly-automation/SKILL.md",
+  "description": "Automate Instantly cold email outreach -- manage campaigns, sending accounts, lead lists, bulk lead imports, and campaign analytics -- using natural language through the Composio MCP integration.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "6e5e62870bbaece64b5a",
+  "content_sha256": "cc3ed720d783639357d92cc860ab62140c6af51009a32829c865b95c8bb9542c"
+}

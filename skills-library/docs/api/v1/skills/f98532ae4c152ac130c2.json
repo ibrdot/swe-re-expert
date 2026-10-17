@@ -1,0 +1,15 @@
+{
+  "id": "vendor/mattpocock-skills/skills/engineering/wizard/SKILL.md",
+  "name": "wizard",
+  "collection": "mattpocock",
+  "collection_label": "Engineering collection",
+  "category": "Engineering",
+  "path": "vendor/mattpocock-skills/skills/engineering/wizard/",
+  "skill_file": "vendor/mattpocock-skills/skills/engineering/wizard/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/mattpocock-skills/skills/engineering/wizard/SKILL.md",
+  "description": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+  "mode": "Guide",
+  "license": "MIT",
+  "key": "f98532ae4c152ac130c2",
+  "content_sha256": "bdf31d48211ea559878f95a4f344aeabf8d85897488ba564382bab0b000daac1"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vendor/awesome-claude-skills/composio-skills/flutterwave-automation/SKILL.md",
+  "name": "flutterwave-automation",
+  "collection": "awesome",
+  "collection_label": "Community collection",
+  "category": "Integrations",
+  "path": "vendor/awesome-claude-skills/composio-skills/flutterwave-automation/",
+  "skill_file": "vendor/awesome-claude-skills/composio-skills/flutterwave-automation/SKILL.md",
+  "url": "https://github.com/ibrdot/ai-agent-skills/blob/main/vendor/awesome-claude-skills/composio-skills/flutterwave-automation/SKILL.md",
+  "description": "Automate Flutterwave tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+  "mode": "Guide",
+  "license": "See upstream and per-skill terms",
+  "key": "a87153d361a3e6e809e4",
+  "content_sha256": "cda2166ca949d06e76bceae68061ee5be4c2b1303ac73aa0d02efc2789f0bed3"
+}
