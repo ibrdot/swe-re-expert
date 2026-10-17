@@ -285,3 +285,11 @@ If a file grows past ~800 lines, split it. The whole point of the prompts/ direc
 ## Final hook
 
 > "Every prompt in this directory exists to make the agent's output more correct, more concrete, and more useful to the reader. If a prompt doesn't serve that goal — delete it. If a prompt does serve it — make sure the agent loads it at the right moment, not all moments."
+
+## Using this library with the wider skill ecosystem
+
+For adjacent workflows outside software engineering and reverse engineering,
+browse **[ai-agent-skills](https://github.com/ibrdot/ai-agent-skills)**: 941 indexed
+guides with names, paths, purposes, and licenses, plus a searchable explorer and
+read-only JSON API. Keep the referenced guides together with these prompts so
+relative links resolve. Questions or improvements: [ibrdot@outlook.com](mailto:ibrdot@outlook.com).

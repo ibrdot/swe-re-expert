@@ -15,40 +15,24 @@ Without uncertainty markers, the reader assumes high confidence. When they disco
 
 ---
 
-## The 5 Uncertainty Markers
+## The 7 Uncertainty Markers
 
 Use these markers consistently across all analysis. Each has a specific meaning and triggers specific actions.
 
 | Marker | Confidence Range | Meaning | Reader Action | Analyst Action |
 |--------|------------------|---------|---------------|----------------|
-| `CONFIRMED` | 95-100% | Verified through multiple methods | Act immediately | Document verification steps |
-| `VERIFIED` | 90-95% | Strong evidence, single verification | Act with high priority | Note what was verified |
-| `SUSPECTED` | 70-90% | Strong signals, needs confirmation | Investigate further | State what would confirm |
-| `HYPOTHESIS` | 50-70% | Plausible but unproven | Test hypothesis | Define confirm/refute test |
-| `UNVERIFIED` | 30-50% | Needs external verification | Gather more evidence | Specify verification method |
-| `BLOCKED` | 0-30% | Evidence unavailable | Unblock analysis | Explain blocking factor |
+| `CONFIRMED` | Verified through multiple independent methods | Act immediately | Document verification steps |
+| `VERIFIED` | Strong evidence, single verification path | Act with high priority | Note what was verified |
+| `SUSPECTED` | Strong signals, confirmation pending | Investigate further | State what would confirm |
+| `HYPOTHESIS` | Plausible but unproven | Test the hypothesis | Define a confirm/refute test |
+| `UNVERIFIED` | Plausible, not yet checked | Gather evidence | Specify the verification method |
+| `BLOCKED` | Required evidence unavailable | Resolve the blocker | Explain the blocking factor |
 | `INCONCLUSIVE` | N/A | Conflicting evidence | Resolve conflict | List both sides |
 
-**Confidence Scale Visualization**:
+**Marker Ordering**:
 ```
-100% ┤ CONFIRMED
-     │
-95%  ┤ VERIFIED
-     │
-90%  ┤
-     │
-70%  ┤ SUSPECTED
-     │
-50%  ┤ HYPOTHESIS
-     │
-30%  ┤ UNVERIFIED
-     │
-0%   ┤ BLOCKED
-     │
-     └───────────────────────────
-     INCONCLUSIVE (conflicting)
-```
-
+CONFIRMED  >  VERIFIED  >  SUSPECTED  >  HYPOTHESIS  >  UNVERIFIED  >  BLOCKED
+(evidence available; order reflects verification depth, not a percentage scale)
 ---
 
 ## When to Use Each Marker
