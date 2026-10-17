@@ -107,4 +107,4 @@ suite guide's workflow category; unknown guides default to Utilities. Saved guid
 are browser-local, and the explorer also offers sorting and a license-aware detail
 panel. None of this auto-installs tools or pulls unreviewed upstream changes.
 
-> This library now lives inside [SWE + RE Expert](../../README.md) as its skills catalogue. Run `python3 tools/build.py` from this directory to regenerate docs and the API.
+> This library now lives inside [SWE + RE Expert](https://github.com/ibrdot/swe-re-expert) as its skills catalogue. Run `python3 tools/build.py` from this directory to regenerate docs and the API.
