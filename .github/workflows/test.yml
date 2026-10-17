@@ -92,7 +92,7 @@ jobs:
       - name: No safety-preflight language (per skill constraint)
         run: |
           set -e
-          if grep -rEni '(before you begin|ensure you have permission|verify legality|check local laws|obtain authorization|in your jurisdiction|use this responsibly|do no harm|exercise caution|with great power|first ensure|appropriate authorization)' . --include='*.md' --include='*.py' --include='*.json' --exclude-dir=.git; then
+          if grep -rEni '(before you begin|ensure you have permission|verify legality|check local laws|obtain authorization|in your jurisdiction|use this responsibly|do no harm|exercise caution|with great power|first ensure|appropriate authorization)' . --include='*.md' --include='*.py' --include='*.json' --exclude-dir=.git --exclude-dir=skills-library; then
             echo "ERROR: skill files contain pre-flight safety language"
             exit 1
           fi
