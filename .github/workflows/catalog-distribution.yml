@@ -1,0 +1,114 @@
+name: Catalog distribution
+
+on:
+  workflow_dispatch:
+    inputs:
+      revision:
+        description: 'Immutable catalog revision (SemVer, independent of runtime version)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalog-distribution
+  cancel-in-progress: false
+
+jobs:
+  candidate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.10'
+      - name: Verify immutable protected source and catalog compatibility
+        env:
+          REVISION: ${{ inputs.revision }}
+        run: |
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+          npm ci --ignore-scripts --audit=false
+          node -e 'require("./tools/lib/aas-v1/cache/identity").validatePackageVersion(process.env.REVISION)'
+          node -e 'const {compatible}=require("./tools/lib/aas-v1/cache/catalog-release"); const v=require("./package.json").version; if(!compatible({schemaVersion:1,runtimeMajor:Number(v.split(".")[0]),minimumRuntime:Number(v.split(".")[0]) === 19 ? "19.10.0" : String(Number(v.split(".")[0]))+".0.0"},v)) throw new Error("Publish the compatible runtime before catalog distribution")'
+          test "$(npm view "agentic-awesome-skills@$(node -p "require('./package.json').version")" version)" = "$(node -p "require('./package.json').version")"
+          pip install -r tools/requirements.txt
+          npm run chain
+          npm run validate:references
+          npm run security:docs
+          npm run check:warning-budget
+          npm run check:aas-v1-catalog
+      - name: Build independent catalog and verify installed bytes
+        env:
+          REVISION: ${{ inputs.revision }}
+        run: |
+          node tools/scripts/catalog_distribution.cjs "$REVISION" "$RUNNER_TEMP/catalog"
+          node tools/scripts/catalog_distribution_verify.cjs "$RUNNER_TEMP/catalog"
+      - name: Build site against this catalog revision
+        env:
+          VITE_BASE_PATH: /
+          SEO_SITE_URL: https://github.com/ibrdot/swe-re-expert
+        run: |
+          npm run sync:web-assets
+          npm run app:install
+          npm run app:test:coverage
+          npm run app:build
+          cp apps/web-app/dist/index.html apps/web-app/dist/404.html
+          touch apps/web-app/dist/.nojekyll
+          node -e 'const fs=require("fs"),crypto=require("crypto"); const p=process.env.RUNNER_TEMP+"/catalog/catalog-release.json"; const d=JSON.parse(fs.readFileSync(p)); d.sitemapDigest="sha256-"+crypto.createHash("sha256").update(fs.readFileSync("apps/web-app/dist/sitemap.xml")).digest("hex"); d.pluginCount=JSON.parse(fs.readFileSync("data/editorial-bundles.json")).bundles.length; fs.writeFileSync(p,JSON.stringify(d,null,2)+"\n")'
+          cp "$RUNNER_TEMP/catalog/catalog-release.json" apps/web-app/dist/catalog-release.json
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: catalog-release
+          path: ${{ runner.temp }}/catalog/*
+          if-no-files-found: error
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: apps/web-app/dist
+
+  publish:
+    needs: candidate
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: catalog-release
+          path: catalog
+      - name: Publish catalog assets without changing npm runtime
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REVISION: ${{ inputs.revision }}
+        run: |
+          test "$(jq -r .sourceCommit catalog/catalog-release.json)" = "$GITHUB_SHA"
+          test "$(jq -r .revision catalog/catalog-release.json)" = "$REVISION"
+          if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/catalog-v$REVISION" >/dev/null 2>&1; then
+            echo "Catalog revision already exists; choose a new immutable revision" >&2
+            exit 1
+          fi
+          gh release create "catalog-v$REVISION" catalog/catalog.tgz catalog/catalog-release.json --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Catalog $REVISION" --notes "Independent catalog revision for compatible AAS runtimes. Exact integrity and compatibility are in catalog-release.json." --latest=false
+
+  deploy:
+    needs: [candidate, publish]
+    runs-on: ubuntu-24.04
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5
+        id: deploy

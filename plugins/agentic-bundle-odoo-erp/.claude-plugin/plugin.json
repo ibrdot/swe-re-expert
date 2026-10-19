@@ -1,0 +1,19 @@
+{
+  "name": "agentic-bundle-odoo-erp",
+  "version": "19.11.0",
+  "description": "Editorial \"Odoo ERP\" bundle for Claude Code from Agentic Awesome Skills.",
+  "author": {
+    "name": "ibrdot and contributors",
+    "url": "https://github.com/ibrdot/swe-re-expert"
+  },
+  "homepage": "https://github.com/ibrdot/swe-re-expert",
+  "repository": "https://github.com/ibrdot/swe-re-expert",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "bundle",
+    "odoo-erp",
+    "agentic-awesome-skills"
+  ]
+}

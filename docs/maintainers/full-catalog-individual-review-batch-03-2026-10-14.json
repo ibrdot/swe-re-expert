@@ -1,0 +1,63 @@
+{
+  "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+  "scope_total": 2689,
+  "previous_review_receipts": 90,
+  "additional_trees_batches_01_02": 17,
+  "this_batch": 1,
+  "pending_direct_reviews": 2581,
+  "records": [
+    {
+      "id": "eas-workflows",
+      "status": "repair-prepared",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "broken_frontmatter"
+        ],
+        "note": "allowed-tools contiene \"version: 1.0.0 license: MIT License\" inglobati nella stringa; risk: unknown"
+      },
+      "files": [
+        {
+          "path": "skills/eas-workflows/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "01c7c7c66c2addced0558f3c474f19674ca507368e0c1634ea80f1cee12816bf"
+        },
+        {
+          "path": "skills/eas-workflows/agents/openai.yaml",
+          "git_mode": "100644",
+          "sha256": "ac390a96ec1f9d5f38f4199a3a34dbdf598fe1bdbaa34fb5e5379f2a83033fd9"
+        },
+        {
+          "path": "skills/eas-workflows/scripts/fetch.js",
+          "git_mode": "100644",
+          "sha256": "f36e554cf1b08115949073389b7cdc85559f72e67eb810537acb7953c2b2ea32"
+        },
+        {
+          "path": "skills/eas-workflows/scripts/package.json",
+          "git_mode": "100644",
+          "sha256": "609158e6c5fbc237939fa3ddf7faab80ab690bdc0c8d584414a885130103c4e8"
+        }
+      ],
+      "tree_sha256": "da1670ff6e33c3bc4940c8aa64dc0c593cb4ed73349de128c7a9e7a1342d0509",
+      "report_disposition": {
+        "malformed_allowed_tools": "Version/license separation already repaired on base; new tool grants match inspected local helper and pinned CLI validation rather than moving npx executables.",
+        "risk_unknown": "Direct semantic review classifies critical for YAML changes, dynamic project/CLI execution, authenticated validation and potential separately-authorized job launches.",
+        "placeholder_when": "Task-specific workflow YAML/trigger/job/validation cases and actual manual-build draft added."
+      },
+      "additional_repairs": [
+        "Current schema envelope.data; jobs required/on optional and run_name/expression contexts clarified.",
+        "No universal paid-store-account assertion; current service pricing reference, draft/validation/launch distinguished; external feedback only explicitly requested.",
+        "Fetch fixed public sources only, no redirects, time/body bounds, UTF-8/HTTP errors, private-owned cache outside bundle, capped TTL/no-store, atomic/no-follow cache handling.",
+        "Node22-compatible CLI entry detection and local explicit ES-module package scope; root package untouched."
+      ],
+      "verification": {
+        "targeted_tests": 11,
+        "full_suite_groups": 140,
+        "live_public_reference": "Actual corrected helper fetched 233142 characters; current schema required jobs.",
+        "schema_sample": "Documented draft and manual-only/no-on sample pass structural validation; missing jobs fails. URI format checks not configured, samples contain no URI fields; not server validation.",
+        "cli_source": "Official current expo/eas-cli workflow/validate.ts inspected; confirms logged-in/linked project and server validator. No authenticated CLI invocation, job, build, submission or feedback executed."
+      }
+    }
+  ]
+}

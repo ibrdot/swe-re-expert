@@ -1,0 +1,19 @@
+{
+  "name": "agentic-bundle-aas-data-engineering-platform",
+  "version": "19.11.0",
+  "description": "Editorial \"AAS Data Engineering Platform\" bundle for Claude Code from Agentic Awesome Skills.",
+  "author": {
+    "name": "ibrdot and contributors",
+    "url": "https://github.com/ibrdot/swe-re-expert"
+  },
+  "homepage": "https://github.com/ibrdot/swe-re-expert",
+  "repository": "https://github.com/ibrdot/swe-re-expert",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "bundle",
+    "aas-data-engineering-platform",
+    "agentic-awesome-skills"
+  ]
+}

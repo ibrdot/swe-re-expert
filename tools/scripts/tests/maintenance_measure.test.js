@@ -1,0 +1,11 @@
+const assert=require("node:assert/strict");
+const {summarize,compare}=require("../maintenance_measure.cjs");
+const fixture=(id,start,end,conclusion="success")=>({run:{id,path:"ci",head_sha:"a".repeat(40),status:"completed",conclusion,created_at:`2026-10-18T10:00:${start}.000Z`},jobs:[{status:"completed",started_at:`2026-10-18T10:00:${start}.000Z`,completed_at:`2026-10-18T10:00:${end}.000Z`}]});
+const old=summarize([fixture(1,"00","20"),fixture(2,"15","40")],"editorial");
+assert.equal(old.elapsedMs,40000);assert.equal(old.runs.reduce((n,r)=>n+r.runnerMs,0),45000);
+const next=summarize([fixture(3,"00","10")],"editorial");assert.equal(compare(next,old).reductionPercent,75);
+assert.throws(()=>compare({...next,scope:"catalog"},old),/Incomparable/);
+assert.throws(()=>compare(summarize([fixture(4,"00","10","failure")],"editorial"),old));
+assert.throws(()=>summarize([{...fixture(1,"00","20"),jobs:[]}],"editorial"),/Incomplete/);
+assert.equal(next.agentInterventions,null);
+console.log("Whole-cycle timing distinguishes overlap, failures and incomparable scopes");

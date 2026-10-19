@@ -1,0 +1,4529 @@
+{
+  "base_sha": "c062f9f9a104d9ebf88cefcacc0993e101db5e7c",
+  "reviewed_trees": 175,
+  "new_complete_tree_reviews": 85,
+  "revalidated_prior_reviews": 90,
+  "scope": "first consolidated original-report reconciliation batch; remaining catalog pending",
+  "runtime_limits": "External/cloud/application examples not executed unless explicitly noted. Missing historical upstream runtimes remain stated limitations; source identity preserved. No release or host changes.",
+  "records": [
+    {
+      "skill": "acceptance-orchestrator",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "subskill_refs"
+        ],
+        "note": "verifica esistenza sub-skill citate (create-issue-gate, closed-loop-delivery)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Required create-issue-gate, closed-loop-delivery, verification-before-completion entrypoints exist. Four optional legacy IDs absent: corrected to project capabilities. Dev label no longer grants deployment. Risk critical matches end-to-end shared operations."
+      },
+      "files": [
+        {
+          "path": "skills/acceptance-orchestrator/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "743552fa25960b5f8b5799bd4140c4834929734690b0516c0a7a6a9a80a0f3c6"
+        }
+      ],
+      "tree_sha256": "ddcc4fe57be0b3a9f6694e340485ab8ff8506bc482c2e16bc20b0ef5c0c708b5"
+    },
+    {
+      "skill": "accessibility-compliance-accessibility-audit",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_placeholder"
+        ],
+        "note": "usa \"$ARGUMENTS\" vuoto; riferimento a resources/implementation-playbook.md da verificare"
+      },
+      "disposition": {
+        "placeholder_placeholder": "Arguments are host-supplied inputs, not an unresolved template. Current procedure requires declared target/WCAG scope and bundled playbook exists; example keyboard checkout concrete."
+      },
+      "files": [
+        {
+          "path": "skills/accessibility-compliance-accessibility-audit/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "2a0de39f16d96cccb6da2950395e73d69d6de942a837779a64670c9005bb7ef1"
+        },
+        {
+          "path": "skills/accessibility-compliance-accessibility-audit/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "dd2898808f986c64c22be8d91c291902dc3a271d4fea78e55756edc3db690afd"
+        }
+      ],
+      "tree_sha256": "9b6db1931aae03fc479f39621031a99623150e021ca736229c23d2bad17a6496"
+    },
+    {
+      "skill": "accesslint-scan",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Replace repeated description trigger with concrete audit intents. Verify upstream current scan subcommand and npm binary metadata (chrome0.2.0,cli0.13.0), no packages executed. Complete JSON parsing and project-pinned prerequisite, explicit no-edit boundary, no broad session teardown or full-conformance claim. Working repair."
+      },
+      "files": [
+        {
+          "path": "skills/accesslint-scan/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "4046dbec34ff32e7bbca57d8d74de95c10b6ca53a5328dcb41b2ee5e5055986f"
+        }
+      ],
+      "tree_sha256": "313eb9cae2ed6f3f39563bbb8fbb887ea5ba1889721f758dd564545cf95114bb"
+    },
+    {
+      "skill": "accint-solve",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "contenuto sensato"
+      },
+      "disposition": {
+        "individual_semantic_review": "Retain: bounded routing protocol through solve/continue/outcome rather than invented completion; critical runtime classification and upstream context preserved."
+      },
+      "files": [
+        {
+          "path": "skills/accint-solve/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "57dd3f45e0c93e7ee0d38e79ab2033f6618f49b5016e2318d5c1b9a36339eee2"
+        }
+      ],
+      "tree_sha256": "f2f6ec5549e9be93c07876e4fc2bcda90fc7cba60e49074138d0fcf1b53906d6"
+    },
+    {
+      "skill": "address-github-comments",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use generico + skill molto scarna (solo 4 passi)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Replace generic trigger; distinguish conversation comments from paginated inline review threads and explicit resolution. Scope fixes to authorized feedback, verify changed head, post only when authorized."
+      },
+      "files": [
+        {
+          "path": "skills/address-github-comments/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "1ee3ffe2a310b8e2cb07b0db75acf54cce1f9b7714ec92fb966e0f8877a243e8"
+        }
+      ],
+      "tree_sha256": "38777ba0c576041dfb43478cf6f15ab5a502b9fc15fa306afde650cdb9064af4"
+    },
+    {
+      "skill": "advanced-evaluation",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "approfondito e ben referenziato"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing weighted calculations and per-minute cost handling retained; benchmark inputs and provider prices remain supplied evidence, not fixed market facts."
+      },
+      "files": [
+        {
+          "path": "skills/advanced-evaluation/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "d8d95c65eb448780fead495dd49b5f88239cd17e0a72f5d9eaeb4c54f9e3a14a"
+        }
+      ],
+      "tree_sha256": "be611c32fd0cc70ff6b76530478aab4bf15b6675af2166a2b5dbf2c92d2f234a"
+    },
+    {
+      "skill": "agent-evaluation-reporting",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "metrics rigorose"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Report workflow preserves measured evidence, dataset/model identity and unknown outcomes; no fabricated evaluator execution."
+      },
+      "files": [
+        {
+          "path": "skills/agent-evaluation-reporting/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "800b27a3d99da18961afaadb8678450f14552313f9f9380b255c893f68f5ee88"
+        }
+      ],
+      "tree_sha256": "e018c5b453ef5536a4532d4e442e25737eb03764957615cfc5042b71b38dd63e"
+    },
+    {
+      "skill": "agent-harness-fault-injection",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "eccellente: fault matrix, contratti, evidenze"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Bounded authorized fault-injection planning retained; no target or mutation inferred from historical fixtures."
+      },
+      "files": [
+        {
+          "path": "skills/agent-harness-fault-injection/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "b64b7afa7bbc840eaa3628ad3e365766139de9172bcb053e8ad5dbfda7f5def2"
+        }
+      ],
+      "tree_sha256": "7b571cf708b9c7d0a8c241f745c34c8c29be3d0138ae063766a6ecae520c01cd"
+    },
+    {
+      "skill": "agent-manager-skill",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "thin_skill"
+        ],
+        "note": "conciso ma molto scarno; cron promesso in description non documentato"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: historical upstreamunavailable, CLI notbundled/pathmismatch. Preserve historicalshapes inert until realreviewedinstallation; remove undocumentedcronpromise, explicitauthorized targets/task result evidence and isolatedsession teardown."
+      },
+      "files": [
+        {
+          "path": "skills/agent-manager-skill/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "1e40e875ec8cbfed3b459d3c91dfc074987cca1fb0e1a3f0c646c70d075c4628"
+        }
+      ],
+      "tree_sha256": "c96135c8e23c957275b9b704eae6fb83a22c594be6b94ca15c2e5925545578a1"
+    },
+    {
+      "skill": "agent-memory",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "sezione When to Use templata/stub"
+      },
+      "disposition": {
+        "individual_semantic_review": "Unsafe ambient npm install lacked source directory/revision. Align setup with same upstream pinned review workflow from agent-memory-mcp; preserve original attribution and tool examples. Bound imports and persistent writes."
+      },
+      "files": [
+        {
+          "path": "skills/agent-memory/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "29fd91ec79cb43aa826af576fe762a7f71f42714e68f624131b75d2c5b9092ae"
+        }
+      ],
+      "tree_sha256": "ee61ed6492933a2c9b498ffc14cfc86311b6efb1158ee4fe5178042e40b368b9"
+    },
+    {
+      "skill": "agent-memory-mcp",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Specific trigger and quoted workspace path; inspect import/storage scope, treat memory as data, authorize persistent writes and dashboard exposure. Preserve existing reviewed upstream pin and installation boundary."
+      },
+      "files": [
+        {
+          "path": "skills/agent-memory-mcp/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "37e373a6daddeaeed4c967116d9865a9c19e911c81c37ac66f4c8d8567de23fa"
+        }
+      ],
+      "tree_sha256": "b449fc5ce98f12451ac8fcd7961caa8b93d902ce0c613f5642aef7ad2ddf3ec8"
+    },
+    {
+      "skill": "agent-memory-systems",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "templated_triggers"
+        ],
+        "note": "When to Use a keyword-list; Example stub; verifica reference"
+      },
+      "disposition": {
+        "templated_triggers": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. Replace invented MemoryStore, tenantless extraction and destructive consolidation; preserve originals, namespace identity and conflicts; model migration uses separate collection and source recovery. Entrypoint now has an actionable description, procedure and two-tenant example after Tessl feedback."
+      },
+      "files": [
+        {
+          "path": "skills/agent-memory-systems/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "22f3841f3ad976551744589eec8da488bfd0be46fe15c78b1db59447e4532586"
+        },
+        {
+          "path": "skills/agent-memory-systems/references/detailed-guide.md",
+          "git_mode": "100644",
+          "sha256": "b9ed216249bd70a93c12178b7afb6a4e269aeb98a1a8f0b9efede6ca8c780ec4"
+        }
+      ],
+      "tree_sha256": "e49e750de81a3018c8d5ae76875aa37cb85f62dbfbd92d79e0345644ce4b2ccb"
+    },
+    {
+      "skill": "agent-orchestrator",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "placeholder_when_missing_scripts"
+        ],
+        "note": "When to Use placeholder; script agent-orchestrator/scripts/*.py citati come prerequisito ma il percorso non esiste nella repo"
+      },
+      "disposition": {
+        "individual_semantic_review": "All seven tracked files directly reviewed. Original missing scripts flag obsolete on current base. Repair actual auto-activation/delegation, in-bundle storage, swallowed invalid caches/projects, duplicate-name truncation, zero-score primary, invalid scores/metadata, empty plans and unknown CLI flags. Explicit private storage, bounded metadata-only inventory, inert advisory plan and primary-source/error distinctions. Six regression methods pass. Full batch validation/currenthead merge review pending, no trust guarantee or complete inventory claim."
+      },
+      "files": [
+        {
+          "path": "skills/agent-orchestrator/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "332a3052787bfe2b08ae75117099d64fd174f93eaf8640053bac9043ae0d58fe"
+        },
+        {
+          "path": "skills/agent-orchestrator/references/capability-taxonomy.md",
+          "git_mode": "100644",
+          "sha256": "179655670241d86187381efe2ff4d68c34beff916c606270b7f9259121063ff5"
+        },
+        {
+          "path": "skills/agent-orchestrator/references/orchestration-patterns.md",
+          "git_mode": "100644",
+          "sha256": "f8037216eaf891bfabc7862c1f630cebcbbb9fd89fc62702a19502a725f559d7"
+        },
+        {
+          "path": "skills/agent-orchestrator/scripts/match_skills.py",
+          "git_mode": "100644",
+          "sha256": "0ec327ebfa47b392892fcbf50aa90fa6313eb3fec25a15c548eaab72a6f7b58d"
+        },
+        {
+          "path": "skills/agent-orchestrator/scripts/orchestrate.py",
+          "git_mode": "100644",
+          "sha256": "be25749103d4298250debf2b1b59993e6ce37fd1664a1772c1970d27629f7990"
+        },
+        {
+          "path": "skills/agent-orchestrator/scripts/requirements.txt",
+          "git_mode": "100644",
+          "sha256": "8cfc3197b86bf23f2454918d3a0e212585c9cc70f8eee9ee36518311a93c7eb9"
+        },
+        {
+          "path": "skills/agent-orchestrator/scripts/scan_registry.py",
+          "git_mode": "100644",
+          "sha256": "1594ebc9f679e7518464e264840adf8b52614b9519740d8e3b7cffa8181adb81"
+        }
+      ],
+      "tree_sha256": "f7942de670bdbd43d2b34e8e46e9a7e070663070b2c6d8459edc39c92cc11b83"
+    },
+    {
+      "skill": "agent-qa-debug-fix",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "eccellente: evidenza prima del patch"
+      },
+      "disposition": {
+        "individual_semantic_review": "Retain evidence-first classification as hypothesis, actual tool list, scoped patch and narrow verification, no invented selectors or hidden product defects, explicit execution boundaries."
+      },
+      "files": [
+        {
+          "path": "skills/agent-qa-debug-fix/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a3faa542300caa8ac2836e8122cc0670cc97f9ba5defd07aacf855d23e9d39af"
+        }
+      ],
+      "tree_sha256": "6427f84fdf52d56803d6b821314d33593607e305552d808c390ad35294df69ad"
+    },
+    {
+      "skill": "agentfolio",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "duplicate_when"
+        ],
+        "note": "due \"When to Use\" (topica + finale); per il resto ok"
+      },
+      "disposition": {
+        "individual_semantic_review": "Original duplicate heading finding no longer applies: one When to Use heading on current source. Retain useful discovery workflow; remove implied neutral endorsement and verify primary evidence before vendor recommendation."
+      },
+      "files": [
+        {
+          "path": "skills/agentfolio/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3633d538ce5e2bbef175c2d637b6130d2c5b0ddd90eb4f77ab08672ee1acc2a4"
+        }
+      ],
+      "tree_sha256": "dacbd897173452cc36c527ece8e3d3ceb87cad7f35178468acb5fec1479b0b42"
+    },
+    {
+      "skill": "ai-agent-tool-routing",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "domain_mismatch"
+        ],
+        "note": "registro web3/Stellar (RPC, relayer, smart contract) in una skill generica \"AI agent tool routing\"; esempi e note fuori dominio"
+      },
+      "disposition": {
+        "domain_mismatch": "Resolved by domain-specific source repair; see individual verdict and actual example tests."
+      },
+      "files": [
+        {
+          "path": "skills/ai-agent-tool-routing/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "c83227fece5c073fdb850b86ba82ecff997c23182ab1f4e0663060ee8881b77d"
+        }
+      ],
+      "tree_sha256": "cb374e3f63c2ee1b534f43578f0709cd61974803b8934064a08743384429e0ec"
+    },
+    {
+      "skill": "ai-code-generation-guardrails",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "domain_mismatch",
+          "generic_boilerplate"
+        ],
+        "note": "boilerplate di registro web3/Soroban; esempi fuori dominio (firma transazioni, RPC on-chain) per un tema AST Python/Rust generico"
+      },
+      "disposition": {
+        "domain_mismatch": "Resolved by domain-specific source repair; see individual verdict and actual example tests.",
+        "generic_boilerplate": "Resolved by domain-specific source repair; see individual verdict and actual example tests."
+      },
+      "files": [
+        {
+          "path": "skills/ai-code-generation-guardrails/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "7af53b6bbdfcea906f84ce3c7da8c299258c50aad3f85644d5cca5064ea67ad6"
+        }
+      ],
+      "tree_sha256": "f6738f65717757ad3b1e523ca309a17c4feb8b6323073c73ac9794353075cacd"
+    },
+    {
+      "skill": "ai-prompt-regression-testing",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "domain_mismatch",
+          "generic_boilerplate"
+        ],
+        "note": "boilerplate web3/Soroban (firma transazioni, RPC on-chain) per un tema prompt-regression; modelli datati"
+      },
+      "disposition": {
+        "domain_mismatch": "Resolved by domain-specific source repair; see individual verdict and actual example tests.",
+        "generic_boilerplate": "Resolved by domain-specific source repair; see individual verdict and actual example tests."
+      },
+      "files": [
+        {
+          "path": "skills/ai-prompt-regression-testing/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "178bf2b9ac6ca9133eb9e00ab7b1dfd7d4d268aac6de0bd35300fadb02155aad"
+        }
+      ],
+      "tree_sha256": "359df126ceb561af67eb80092244aa784cc496870d1e770c165c355863236cfe"
+    },
+    {
+      "skill": "ai-security-hardening",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "solido: threat model AI, controlli, riferimenti"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Regex is advisory; verify JWT issuer/audience/expiry and complete signed model inventory instead of invented aggregate hashes."
+      },
+      "files": [
+        {
+          "path": "skills/ai-security-hardening/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "44dd3cc662568dce88f5b233db5b1520d71b94a8bb2b042d3c711b71a72eb137"
+        }
+      ],
+      "tree_sha256": "4bae1566900091642622667a5210dbafc9f4849b86497027897b05d2cd00e740"
+    },
+    {
+      "skill": "ai-sre-incident-response",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "incident response SRE per LLM (qualita, costo, failover); nota docs-only"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Remove direct push rollback, unenforced freeze claims, production-as-offline evaluation, shared private caches and production chaos examples."
+      },
+      "files": [
+        {
+          "path": "skills/ai-sre-incident-response/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "88764883b8bb3bdca7a4bf03a0b49b03588b4e7adcf2d0e8eb9a97da22c4c532"
+        }
+      ],
+      "tree_sha256": "4f29d2678bca328ad2be1eb713e80ec152e3d4e452cfee6e60833be3a9aa2baa"
+    },
+    {
+      "skill": "akf-trust-metadata",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "conciso, chiaro"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full one-file semantic review completed with actual upstream README and CLI signatures: read, inspect, audit --regulation, stamp --agent/--evidence/--label supported. Critical file mutation/privacy and exact evidence boundaries repaired; metadata stamps remain declarations, not compliance or independent truth. No AKF executable or regulatory assessment run."
+      },
+      "files": [
+        {
+          "path": "skills/akf-trust-metadata/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "af8b433851271a86e4fecfde325ac8e2744c35e8bbc42b068da9fbd9e3468ff0"
+        }
+      ],
+      "tree_sha256": "59916433e413978bd7a8c07602c1a996febd3f86920ccf398b28f2f226e42a33"
+    },
+    {
+      "skill": "alerting-oncall",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "solido: alerting/on-call, safety note"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Close broken fence; remove generic PostgreSQL pod deletion; actual on-call infrastructure remains a prerequisite."
+      },
+      "files": [
+        {
+          "path": "skills/alerting-oncall/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "ee50b0cf28915fda13dcd8b8ab1a6610b9ecbccf6b2f3d4148de5468ec012884"
+        },
+        {
+          "path": "skills/alerting-oncall/references/details.md",
+          "git_mode": "100644",
+          "sha256": "75e190b812794b7dd43c40aa8c8360d54635110df3e34f60c6add423c130c876"
+        }
+      ],
+      "tree_sha256": "909e3ec4efefeafd979883684fb0fb48b795f74b359c3b49f2d885d9f988e4da"
+    },
+    {
+      "skill": "andrej-karpathy",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "eccellente: semplicità, cambi chirurgici, criteri verificabili"
+      },
+      "disposition": {
+        "individual_semantic_review": "Retain: specific triggers, surgical change guidance, verifiable criteria and practical examples; provenance/licensing identity preserved, no executed bundled files."
+      },
+      "files": [
+        {
+          "path": "skills/andrej-karpathy/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "0516f187326dac943d338c17f8f408925bc64783da043c5fcc42082a50b6b01f"
+        }
+      ],
+      "tree_sha256": "c7ffa3b5cbc6c632f968a2c5a18ea9b2a2c9914464940440ed402d462c135a12"
+    },
+    {
+      "skill": "animejs-animation",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "tone_mandate"
+        ],
+        "note": "regola \"ABSOLUTE MANDATE ... MUST\" troppo imperativa/assoluta; per il resto ok"
+      },
+      "disposition": {
+        "individual_semantic_review": "Remove universal aesthetic mandate; preserve useful v3 timeline sample with explicit import/version and existing DOM prerequisites. Official current timeline is v4 createTimeline, documented mismatch. Reduced motion, immediate keyboard states, cleanup and measured performance limits added."
+      },
+      "files": [
+        {
+          "path": "skills/animejs-animation/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "e4f1cc63b2e23faef10f2af97b4a5912912a94361a456bed67edb252bf822eb1"
+        }
+      ],
+      "tree_sha256": "85f6c3e659f5e8eaa38b5f8babea5cfde765634f9885f22b977ad4b4c90f175a"
+    },
+    {
+      "skill": "anti-deception",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "buono: separa evidenza da persuasione, degrada senza API"
+      },
+      "disposition": {
+        "individual_semantic_review": "Original truncated When to Use still present despite report ok: replaced with complete concrete trigger. Remote context transmission requires authorization/sanitization; remove unsupported one-second latency promise. Retain native fallback and evidence discipline."
+      },
+      "files": [
+        {
+          "path": "skills/anti-deception/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "26904c57c507888ea7ed3c848be17ec07ab9f84df7b8506c3c9feea3bd754359"
+        }
+      ],
+      "tree_sha256": "cf4335c7d245e69199c315c6ca05000fdd4fba9622e695e3b2b4b817aeeeb207"
+    },
+    {
+      "skill": "anti-sleep",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "pratico: caffeinate, verifica con pgrep, gotcha chiari"
+      },
+      "disposition": {
+        "individual_semantic_review": "Useful timer/process-bound commands retained; replace broad pkill with recorded task PID and incorrect grep deny with actual assertion inspection. Do not terminate unrelated sessions."
+      },
+      "files": [
+        {
+          "path": "skills/anti-sleep/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "aa52573d8238b5b1ce49ad3bc2a7b8d8133bb0d622ff726bda5b4854a5ee0145"
+        }
+      ],
+      "tree_sha256": "fca71cc46f8383afb1f206a911dc53633dbcd33bfae30f34342945f68152ac0f"
+    },
+    {
+      "skill": "anti-ui-slop",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "eccellente: design system prima, UIZZE opzionale, limiti"
+      },
+      "disposition": {
+        "individual_semantic_review": "Retain product-first workflow, optional actual two-tool MCP, no fabricated metrics/assets, responsive state/render checks and explicit limits. Marketing corpus size is vendor assertion, not audit guarantee."
+      },
+      "files": [
+        {
+          "path": "skills/anti-ui-slop/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8ff04df7f8bcce91ecd62bc33660c31f903d319d652faa38c9d005e5e8dc3b36"
+        }
+      ],
+      "tree_sha256": "c55d8457f76b0de58007cc5e72f7ace074976a4433a64069011adb6cc4db266d"
+    },
+    {
+      "skill": "antigravity-design-expert",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "design direction chiara; reduced-motion e performance"
+      },
+      "disposition": {
+        "individual_semantic_review": "Report ok overlooked mandatory delayed focus/active feedback and GPU guarantee. Correct immediate feedback and native scrolling, preserve reduced-motion rule, qualify measured will-change use."
+      },
+      "files": [
+        {
+          "path": "skills/antigravity-design-expert/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "bce43c7e0140abea6b37d424da3b87530afe2b7ae630407ee9905b337d6c4e74"
+        }
+      ],
+      "tree_sha256": "c65f6926de82e70aabde34741aa1d86872ab197e5416e1ab0569336befafc1b0"
+    },
+    {
+      "skill": "antigravity-maintainer-batch-release",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "References are repository-root maintainer docs, workflows and actual scripts, not promised missing supporting files in this skill tree. Exact-base contract read; no gate modified."
+      },
+      "files": [
+        {
+          "path": "skills/antigravity-maintainer-batch-release/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "195c7ed22ad37e9e8ddcc6bf70662d4b97401d8fb9eace2dbace62ceda90a775"
+        },
+        {
+          "path": "skills/antigravity-maintainer-batch-release/agents/openai.yaml",
+          "git_mode": "100644",
+          "sha256": "c5cc02fb8ed9ed00a1b8ed9ca2a24ed25a88993f1576e2ad8129ae3861a71f42"
+        }
+      ],
+      "tree_sha256": "34f060d5a43cadea78c99daef3b64062e3513dbe63c8e4169e26f8e0648f588b"
+    },
+    {
+      "skill": "api-contract-testing",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "eccellente: provider/consumer, fixture sintetiche, autorizzazione"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing self-contained fixture-based contract workflow retained, with explicit target and version binding."
+      },
+      "files": [
+        {
+          "path": "skills/api-contract-testing/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "204dad386d8bb1321255d3fda8517aec6a920004ca39da599e4f1abc7905b082"
+        }
+      ],
+      "tree_sha256": "2df05752dd2756066997809f81a655dd953ee6acda9dfdcd9c19c7bf2d5da360"
+    },
+    {
+      "skill": "api-integration",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "solido: webhook firma, saga, outbox, checklist"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing optimized-Python webhook rejection retained; actual service credentials/provisioning are outside the read-only review."
+      },
+      "files": [
+        {
+          "path": "skills/api-integration/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "98fd29a42ed584a224b20afbebd1fea4807ef9b3d1d9bccc4b784cf0bbb627db"
+        }
+      ],
+      "tree_sha256": "3442c6fac7a6a1e419be89aaa25fc21f5993f014dc5ea7aafd4af8fe152d5887"
+    },
+    {
+      "skill": "api-rate-limit-handler",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "forte: backoff+jitter, Retry-After, limiter distribuito"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing classified retries and unshortened provider wait retained; replay safety and deadline inputs remain explicit."
+      },
+      "files": [
+        {
+          "path": "skills/api-rate-limit-handler/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "d179524c365af8b17accf86d14a6641ce7192512946033671d3190630ef6a865"
+        }
+      ],
+      "tree_sha256": "f467ee3adb3a1ce4c5d20895bc07781086136288a996e9bf41c0fc310c50f76d"
+    },
+    {
+      "skill": "api-security-best-practices",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "eccellente: confini identità→authz→validazione, riferimenti OWASP/RFC"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Authorized defensive design and API controls retained; no live authentication or provider tests claimed."
+      },
+      "files": [
+        {
+          "path": "skills/api-security-best-practices/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "f01d39fb4e2a134f4ae416dc03701d99b5e703d49472376a7ce488cfdd55328f"
+        }
+      ],
+      "tree_sha256": "f4f7cfa56ec0b3514dc7dea4c557bfeff006cccabda233a3bf73621a43b5e36f"
+    },
+    {
+      "skill": "api-testing-observability-api-mock",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "conciso; rimanda a resources/implementation-playbook.md"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Add complete isolated fixture resolver; fix synchronous await and documentation generator syntax; no credential-header recording; remaining framework adapters explicitly not bundled."
+      },
+      "files": [
+        {
+          "path": "skills/api-testing-observability-api-mock/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3906bd024724ae871f4bb94e6e33caffa467c66bea554b19bbf692948c707744"
+        },
+        {
+          "path": "skills/api-testing-observability-api-mock/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "69bc32f9870b9d742e41e0be23307e2d542f22f77cd538c6a395894fadc792c1"
+        }
+      ],
+      "tree_sha256": "115a180aa4351a757d8a51c23e878ae47ae45cb6cabcce3a7652203a7ce6097a"
+    },
+    {
+      "skill": "audit-logging",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "audit logging/SIEM, retention; nota docs-only"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Remove fictional standards retention minima, raw exception logs, automatic alerts and checksum-as-immutability claims; declare privileged Linux scope correctly."
+      },
+      "files": [
+        {
+          "path": "skills/audit-logging/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8b7bce1137c4771e1526a8947c51f799df20896ab378b863608d278c711cace4"
+        }
+      ],
+      "tree_sha256": "ad1758b6fe1cda8afb8d1d8219834231bb2cf7c352954d2afd414620846c05c2"
+    },
+    {
+      "skill": "avoid-ai-writing",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "utile: 21 categorie, tabella 43 sostituzioni, esempio"
+      },
+      "disposition": {
+        "individual_semantic_review": "Report ok overlooked missing promised43entry table. Qualify actual bundled scope, remove false metadata promise, preserve useful pattern summary/example, add source fidelity and audit-only mode. Upstream richer editing contract inspected; no unreviewed script imported."
+      },
+      "files": [
+        {
+          "path": "skills/avoid-ai-writing/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "9af93460b71b786680446ea1810d0862e791722fcce48ad996cab94fcd73fb61"
+        }
+      ],
+      "tree_sha256": "951aca7ec2de4fdf06b2743f241908d843113b387d3334fdd314fba5f81b6d4c"
+    },
+    {
+      "skill": "awareness-stage-mapper",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "vedi batch successivo"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/awareness-stage-mapper/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "34d8343ca953d31c0e97abc478a685714946ac8e29cb435118b7c2c1aa4c8d3d"
+        }
+      ],
+      "tree_sha256": "ea8d47aafaf44b5e23c60a71305109c99505765a411f7fecd7a73e265d4af49b"
+    },
+    {
+      "skill": "aws-skills",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "placeholder_content"
+        ],
+        "note": "contenuto quasi vuoto/templato; descrive se stesso e rimanda alla repo, nessuna procedura reale"
+      },
+      "disposition": {
+        "placeholder_content": "Original malformed/thin import already corrected on current base; remaining findings handled through the individual disposition and explicit limitations."
+      },
+      "files": [
+        {
+          "path": "skills/aws-skills/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a0dd69fc9af31532fcd700497c45db621adbfab146243880699a5d5f4ee44aa6"
+        }
+      ],
+      "tree_sha256": "28d691afac1bf96cc1b16d4f9bbfcb2129521ab5b8545d2db5b38fff4546883d"
+    },
+    {
+      "skill": "awt-e2e-testing",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "E2E YAML+Playwright, visual matching; auto-promo ma trasparente"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full one-file review plus actualupstream README and YAMLscenario/CLI shapes: aat runtime, declarativescenarios, currentadvertised functions. Added installedruntime/schema/scopedfixture/cost/privacy boundaries; no fake execution or auto-globalinstall. No real checkout/cloudbrowser run."
+      },
+      "files": [
+        {
+          "path": "skills/awt-e2e-testing/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8ea145ab00c769e3ae3e1e58b9d594ad634c215818989e54fb612daac365ca85"
+        }
+      ],
+      "tree_sha256": "d0ae93bf764612d4d8cd50171113f953ed2b6e39ab9965ff16053791128533d3"
+    },
+    {
+      "skill": "azd-deployment",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs",
+          "placeholder_when"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Current Local Resources explicitly states no Bicep/schema/troubleshooting bundle and requires installed azd project validation. Concrete deployment trigger already present.",
+        "placeholder_when": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. Existing local project/identity prerequisites and authorized deployment boundary retained; no Azure deployment executed."
+      },
+      "files": [
+        {
+          "path": "skills/azd-deployment/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "d5143b81c4a9d87e156a829c17d364611a0aae87e4d96a29cccd80a6c4a923ff"
+        }
+      ],
+      "tree_sha256": "aa772e388cc7a1f7ea5a76282b055d9862f18acf5a160b52a62e9b8aad328533"
+    },
+    {
+      "skill": "azure-ai-transcription-py",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Beyond placeholder: Microsoft current primary SDK confirms AzureKeyCredential and DefaultAzureCredential, transcribe method; prior begin/stream APIs fabricated for this client. Correct compact file example and actual scope; no Azure execution."
+      },
+      "files": [
+        {
+          "path": "skills/azure-ai-transcription-py/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "9d1be977398664a03dbd7fe607619e4c268bf06a93e46b6e81246ed7315b4e45"
+        }
+      ],
+      "tree_sha256": "c40d8a7014382359bc75bc8622d3d0685a39f69b8e65d7bbaa55326ce27a8930"
+    },
+    {
+      "skill": "beautiful-prose",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Prior repair removed missing test-case dependency; existing English prose examples and limitations retained."
+      },
+      "files": [
+        {
+          "path": "skills/beautiful-prose/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "4f1a05a7b23b11315877584d151fa63db56528f69f705959a125509a4cde6538"
+        }
+      ],
+      "tree_sha256": "6bb388d7cf52f3f2a0d90e010472dc84453af5dc6cfa86e811d6aa1bde27ebc7"
+    },
+    {
+      "skill": "billing-automation",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "billing ricorrente, dunning, proration, tax"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Replace unsafe incomplete charging skeleton with stable tenant/invoice/action keys, Decimal proration, actual billing anchors, unknown-tax rejection and reconciliation contract."
+      },
+      "files": [
+        {
+          "path": "skills/billing-automation/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "fd9f1d36fa5d18ac1ad5037f4ab9c73e6ef926b422ea7c77dba07b94ee49f666"
+        },
+        {
+          "path": "skills/billing-automation/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "a6a413989a9dba33fc04bbf7397fbaa0948fa2e87651ed0b0878573eab5127aa"
+        }
+      ],
+      "tree_sha256": "ce4647609669868d51c5ec2fd94f9d75fd0be1971039f026d40e1e41741884b8"
+    },
+    {
+      "skill": "brain-to-docs",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "intervista→README/ADR"
+      },
+      "disposition": {
+        "individual_semantic_review": "Preserve interview-to-ADR workflow; reduce mandatory5question load, use host-supported interface, preserve tentative decisions/unanswered questions and README operational sections, honor user language."
+      },
+      "files": [
+        {
+          "path": "skills/brain-to-docs/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "af52413c103bce27c1d70f0e375e4f65ab08f4f6cc37a5f8faa92e39e618e296"
+        }
+      ],
+      "tree_sha256": "748bb7b523b29e9cf09d7a98af9ea3be8b2b70f56a14cea27f61127eed86be36"
+    },
+    {
+      "skill": "brand-perception-psychologist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "psicologia/semiotica brand"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/brand-perception-psychologist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "4079e44634341f7c781673de77eda4faba32042d57a7ef3581f4040d65d6e397"
+        }
+      ],
+      "tree_sha256": "ab23684c6d2e9a960117ab7abc91a5f0c3827df31ff519c4d87cbabb1a6d9bdc"
+    },
+    {
+      "skill": "build",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "broken_frontmatter/dup_frontmatter"
+        ],
+        "note": "la description contiene un secondo blocco frontmatter annidato (name/description duplicati) al posto della descrizione"
+      },
+      "disposition": {
+        "broken_frontmatter/dup_frontmatter": "Original malformed/thin import already corrected on current base; remaining findings handled through the individual disposition and explicit limitations."
+      },
+      "files": [
+        {
+          "path": "skills/build/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "61779c57fb5130379e62bbffa0ff6adc0086d612c14186b4053731d49d8e8f3e"
+        },
+        {
+          "path": "skills/build/references/detailed-guide.md",
+          "git_mode": "100644",
+          "sha256": "b089a8d92ec575be4977e265100b0401f874a3636c29ec281debb34797c57d95"
+        }
+      ],
+      "tree_sha256": "9058b83ea4f2bbfd0c0e8baa76520f7959027f5d2c10f0e37ddf6dc11b1b216c"
+    },
+    {
+      "skill": "build-ui",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "workflow UI con check finale"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing component implementation workflow and real project inputs retained; no fabricated generated UI proof."
+      },
+      "files": [
+        {
+          "path": "skills/build-ui/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "2f671c1f811564e28a81dfe7b76deceadcf0905d8a4058f7a795988dc433b057"
+        }
+      ],
+      "tree_sha256": "de06392a71aaadeee15b61ccf961c4c69fbc2bd0ede26423fda463580f79d4d2"
+    },
+    {
+      "skill": "busybox-on-windows",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full one-file review and actualpublisher HTML: allfour architecturevariants and Unicodeconstraints match, SHA256SUM and detachedGPGsignature/keypublished. Correct PowerShell invocation and require authenticatedexpected digest/privateoutput beforeexecution; no binary downloaded or executed."
+      },
+      "files": [
+        {
+          "path": "skills/busybox-on-windows/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "7883e071f6f41db36f6c9f5996a25d1a3dff596dd3789f783bebe117bf6a8965"
+        }
+      ],
+      "tree_sha256": "67d6dc8bc26c6de9abfa07d951b277f38e5de74a6ab5c5118d59515de0ba8772"
+    },
+    {
+      "skill": "c-pro",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Report dangling refs no longer present on current tree. Repair actually truncated description and generic triggers; clarify owned versus borrowed allocations and truthful memory-check evidence."
+      },
+      "files": [
+        {
+          "path": "skills/c-pro/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "65284a231f9ae8d0d068a2fb52a0333dc920afedb7b191b2a22b1d6e97bec824"
+        }
+      ],
+      "tree_sha256": "4ff31f4e6b78ec85b357d9e9f5364c25dfa003fa2ba24d2d30edb743d47676c1"
+    },
+    {
+      "skill": "cdk-patterns",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "CDK patterns L2/L3"
+      },
+      "disposition": {
+        "individual_semantic_review": "Report ok missed undefined cdk import. Add import and real asset/synth/diff prerequisites; construct sketch is not complete deployable app or authorization. Existing runtime version left illustrative pending installed target verification."
+      },
+      "files": [
+        {
+          "path": "skills/cdk-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "473bf01f5efb3ffc3cc69c10a8878c8446a9be308f3a135f1617afa72f97c1d7"
+        }
+      ],
+      "tree_sha256": "dc4f2e335533e5de04dacdfdbb6f26d29fd723c6289c55d7cd286afec7004504"
+    },
+    {
+      "skill": "ci-cd-and-automation",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "CI/CD setup"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Shell rollback input moved to validated environment value; deployment token quoted; define locked tools, protected environments and untrusted-PR boundary."
+      },
+      "files": [
+        {
+          "path": "skills/ci-cd-and-automation/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "eaeea00cb6eb6344fb18b485e531257c00d0c07a066fdd8b41343d7595065756"
+        }
+      ],
+      "tree_sha256": "adb8228a346d0da99b158e1495f80e770a62fa6c99b8dce6fd12a17d8f4193a3"
+    },
+    {
+      "skill": "claude-ally-health",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "risk_label"
+        ],
+        "note": "assistente salute medica etichettato risk: safe; dovrebbe avere disclaimer medico piu forte/critical"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree and current upstreamredirect inspected; replace emptywrapper with local sourced symptom/record timeline workflow, missingfacts unknown, criticalrisk/privacy, no diagnosis/treatment/certification claim."
+      },
+      "files": [
+        {
+          "path": "skills/claude-ally-health/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "d32d9069dcaf5f965bdb2690bb97f5bed62c86acab219b5ef723b52642780e73"
+        }
+      ],
+      "tree_sha256": "60bbd5970b8c87515c9f49d42cdece8921357575e75e1b1f9b3fb588c30b1472"
+    },
+    {
+      "skill": "claude-code-guide",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Replace generic trigger; template explicitly illustrative and project commands verified before use. Remove magical reasoning keywords and forget-instructions advice; preserve task state, loaded rules, scoped file edits and official memory verification."
+      },
+      "files": [
+        {
+          "path": "skills/claude-code-guide/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3f904de13181cf6b082d10ebeeb3a304ed9e30481ee9bfba71c0f4648ee3f8f5"
+        }
+      ],
+      "tree_sha256": "8c95c604587c8d929856c18bf686066d6d29e32516f4404de9d860d30e22f05f"
+    },
+    {
+      "skill": "claude-scientific-skills",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "scientific research skills"
+      },
+      "disposition": {
+        "individual_semantic_review": "Report ok overlooked content-free wrapper. Restore useful bounded discovery workflow without importing entire scientific library. Verified upstream redirects/rename, preserved provenance identity and original URL."
+      },
+      "files": [
+        {
+          "path": "skills/claude-scientific-skills/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6973886c5cf954dd24a24d27e555f0d9e938db58e8a465eaf5c01b979c97b4f3"
+        }
+      ],
+      "tree_sha256": "2dbc5d431e5b47c13b1fb8cce0096ad2853599bf1b323185d2499282d5641bf8"
+    },
+    {
+      "skill": "claude-speed-reader",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "speed reader RSVP"
+      },
+      "disposition": {
+        "individual_semantic_review": "Report ok overlooked content-free wrapper. Verified upstream /speed usage, distinguish AAS guide from absent runtime, require actual rendered text and comfortable speed, no comprehension guarantee or automatic installation."
+      },
+      "files": [
+        {
+          "path": "skills/claude-speed-reader/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "4e37ffc8543cd2ee38b82720e7ffd42ecd99d94a8b1660ae06168146eb01b3e2"
+        }
+      ],
+      "tree_sha256": "b332b042548c09c50cfaca28b4d6464052e88ab52d42c7c715743915ed8038fb"
+    },
+    {
+      "skill": "claude-win11-speckit-update-skill",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "gestione Windows 11"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree plus upstreamREADME inspected: actual archivedSpecKit updater not generalWindowsadministration. Correct purpose/prereqs/localcustomization review and drymigrationplan without absentupdaterexecution."
+      },
+      "files": [
+        {
+          "path": "skills/claude-win11-speckit-update-skill/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "29e13347e71301802dcaebf0128c4d47ab5f617c3555ca93587121aca285b664"
+        }
+      ],
+      "tree_sha256": "813fb2c0eb8ecb98323850ae3d2b3fd626af5018b4e226d0e9e2240b55bd8d04"
+    },
+    {
+      "skill": "codex-review",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "review + CHANGELOG auto"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree and upstreamrepo inspected: upstreamintegration not bundled, no globalimplicitinstall or unverifiedslashcommand. Pin diffandhead/current findings, actualchangelogdiff, privateprovider/cost and advisoryvsmerge boundary."
+      },
+      "files": [
+        {
+          "path": "skills/codex-review/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "51c62d46c3705531ca044127f3c8eb380d64e39f23bdb7d977b1824a974e4e42"
+        }
+      ],
+      "tree_sha256": "272266ff016282722ad3d1dfd7556fc8bc07c0f62049aefd320a08fecd06ea93"
+    },
+    {
+      "skill": "commit",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "commit Sentry; sottoposto a branch protection"
+      },
+      "disposition": {
+        "individual_semantic_review": "Complete Sentry convention guide read. Report ok missed universalALWAYS takeover, admin/directmain exception conflictingAASpolicy, implicit unavailablecreatebranch and universalClaude attribution. Correct scoped invocation, actualpolicy/staging/messageonly boundaries and truthful attribution; preserve useful formatting examples."
+      },
+      "files": [
+        {
+          "path": "skills/commit/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "cd41d93ac92b0e4c3272c359d95415211e8b0820e7a0026f76f2a5b5aafb1ec1"
+        }
+      ],
+      "tree_sha256": "40269f84be93eb816ba095b474744ec9b5d3814501915c7d78b9c90aececa4e8"
+    },
+    {
+      "skill": "concise-planning",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: fix boilerplatetrigger, checklistMarkdown and arbitrary6–10step mandate; keep boundedquestions, atomicplan and validation."
+      },
+      "files": [
+        {
+          "path": "skills/concise-planning/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "156ff677d4f496b5ee4faf85900505f356afd21adf0a10494da82e4fac7d41db"
+        }
+      ],
+      "tree_sha256": "0adb09bf355ea10b7d6cb8bed8c8b9d1949e0424502c945d8254648830a760e2"
+    },
+    {
+      "skill": "content-strategy",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "content strategy/cluster"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing valid eval JSON and headless-CMS guidance retained; examples stay hypothetical and input-driven."
+      },
+      "files": [
+        {
+          "path": "skills/content-strategy/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6a7aab7fb7f6df49084f895c7ed8da05a246089607fc4ea26366ba0e35468815"
+        },
+        {
+          "path": "skills/content-strategy/evals/evals.json",
+          "git_mode": "100644",
+          "sha256": "eb330d1f3baefe0bab560e3ce42201a4e1e2cae4da530fb3d2a6314816772d2e"
+        },
+        {
+          "path": "skills/content-strategy/references/headless-cms.md",
+          "git_mode": "100644",
+          "sha256": "0b74c48d36570b52737fd4f66e94572b1d543988fdaa1336a3f2167fffc78074"
+        }
+      ],
+      "tree_sha256": "8b7bc82cc66cc70e3b88cad6f7c8c0a5dd0c10b9f266a8d0fe4cf2f9717c3b78"
+    },
+    {
+      "skill": "context7-auto-research",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Context7 docs fetch"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: configuredconnector preferred overglobalinstall, resolve actuallibrary/version, smallestfetch/sourcecitations, no invented toolresult or privatecodeupload."
+      },
+      "files": [
+        {
+          "path": "skills/context7-auto-research/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "0ca79bfaedea57837844f44918207d6a43d8cf2cecc03ff481513a0fa670b351"
+        }
+      ],
+      "tree_sha256": "2fea4b9bcebae05f0cc7de4dcd86aea8c6c284a37c3a25464f63ec2c57d501f5"
+    },
+    {
+      "skill": "copy-editing",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "copy editing"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Synthetic numeric copy must be supported before publication; retained evidence-first editing workflow."
+      },
+      "files": [
+        {
+          "path": "skills/copy-editing/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "f707f76bd257eee019ec258dedd56055cf5828f000382af0c4a3839cb19f876e"
+        }
+      ],
+      "tree_sha256": "7f2d413ea98266dec40fade482122a9353a0c5d53454241f13251cf87150bd3d"
+    },
+    {
+      "skill": "copywriting-psychologist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "psicologia persuasione copy"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/copywriting-psychologist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "af367b2feb129f527578e77408557eff2a8348db011736efdd84cec6f67af5e1"
+        }
+      ],
+      "tree_sha256": "36bb44cf598ff88582de42f80c79d6e17bca0235a52b5ea8672f6cecd2dd4566"
+    },
+    {
+      "skill": "create-pr",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "alias di pr-writer"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full alias tree: actualpr-writer canonicalentry exists; missinginstalleddependency explicit and repositorymaintainergates preserved."
+      },
+      "files": [
+        {
+          "path": "skills/create-pr/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6e2e6a2bf019fe57c9ee1913730af262f3598579f31dba496414e12e2ec7d82f"
+        }
+      ],
+      "tree_sha256": "4dc68d275bcd9656bab2cb0c6514cc8f7d19c198884aa1f6bb3d494a721244ed"
+    },
+    {
+      "skill": "cross-platform-contract-propagation-audit",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "audit propagazione contratto cross-platform"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Canonical long ID retained; host qualified-name limit is compatibility scope, not a reason to delete or rename the skill."
+      },
+      "files": [
+        {
+          "path": "skills/cross-platform-contract-propagation-audit/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "f1d88ed129d60fdf0781f1e6585afaaf219d685957988a6be59779b7b5097cdf"
+        }
+      ],
+      "tree_sha256": "66ce8fc95957ee4a16bb49a84e0bdd32305fc6538fe9d668ae637420c8d3a9bb"
+    },
+    {
+      "skill": "customer-psychographic-profiler",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "profilo psicografico cliente"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/customer-psychographic-profiler/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "d1ecfff09e47384c09b00efff0d29bc8c60580505ca8f7ad9a539c50e5216d62"
+        }
+      ],
+      "tree_sha256": "8a3241070a3902f75a8d959e0a240f896161c7245023434ef865a21beaadf53c"
+    },
+    {
+      "skill": "data-privacy-controls",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "registro privacy/GDPR"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve unknown consent applicability and absent review dates in SQL/JSON/Notion; no forced false/recorded-review defaults."
+      },
+      "files": [
+        {
+          "path": "skills/data-privacy-controls/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "5751f43e6cce1d8c0bcd614d6eb2cc1750bf529a1690fc4bb20f94dc12cb93c3"
+        }
+      ],
+      "tree_sha256": "c0221fbbd1d3ef56c4a4fcf370f91e2848475295364c40c7d8dc077b5f88c3a9"
+    },
+    {
+      "skill": "data-storytelling",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "data storytelling"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing weighted arithmetic and confidence qualifiers retained; observed data remains distinct from narrative proposals."
+      },
+      "files": [
+        {
+          "path": "skills/data-storytelling/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "9df5ab7c0546020b986587e4a448e4768ec0c0b51b68b0f8e946921aa5af2bc3"
+        }
+      ],
+      "tree_sha256": "3a1a2eec3224dc04f9398a874ace51aae8c0f774ba3f62b1c012d0e810eb6271"
+    },
+    {
+      "skill": "database-design",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "placeholder_when": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. Missing/unsupported/regex-only schema inspection exits nonzero and never certifies validity; correct stale PlanetScale/Prisma comparisons; all eight files inspected."
+      },
+      "files": [
+        {
+          "path": "skills/database-design/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "83c571590a5ae3a19bd4dfdd7e8d160a9c93457add2800e21adb0a7752d67d0a"
+        },
+        {
+          "path": "skills/database-design/database-selection.md",
+          "git_mode": "100644",
+          "sha256": "6517da101e8eacc02e485444d8a8520c27249f3b2b02b01b5b02e4f7886b260c"
+        },
+        {
+          "path": "skills/database-design/indexing.md",
+          "git_mode": "100644",
+          "sha256": "eec8ce01e7c1c8ec2aed7a96d260a52b12d90c2996288e32814a8d9cf29cc22a"
+        },
+        {
+          "path": "skills/database-design/migrations.md",
+          "git_mode": "100644",
+          "sha256": "b5b9e518f18264cdd946f4914d73c2355065ba712cb61db01ba59bacb95423a2"
+        },
+        {
+          "path": "skills/database-design/optimization.md",
+          "git_mode": "100644",
+          "sha256": "10a6f484fdae9973957030d8ef47bad4ffba9f7709e9c824883a97f92925a722"
+        },
+        {
+          "path": "skills/database-design/orm-selection.md",
+          "git_mode": "100644",
+          "sha256": "823722dc58247415b0d1ca596de629f656a40adefcbef8e69381c566aefacc0c"
+        },
+        {
+          "path": "skills/database-design/schema-design.md",
+          "git_mode": "100644",
+          "sha256": "0a83addd1e9963e3d958eb00474d7dc72881c4290a97bac03bf09553607e3f6f"
+        },
+        {
+          "path": "skills/database-design/scripts/schema_validator.py",
+          "git_mode": "100644",
+          "sha256": "04f513a0c467e7fe63dd2fb97b447c0bdbdc191b8b8ff1a1fe9931be40f2bfb2"
+        }
+      ],
+      "tree_sha256": "04e20e9354bee78106b415b524b5cb2cf4b31bf10e4e5aa0f573dac8cf765516"
+    },
+    {
+      "skill": "database-migrations-sql-migrations",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "migrazioni SQL zero-downtime"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Backfill real verification evidence before defaults; remove arbitrary identifier/query interpolation and automatic snapshot restoration; concurrent indexes outside transactions; no invented plugins."
+      },
+      "files": [
+        {
+          "path": "skills/database-migrations-sql-migrations/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a6bffd7c63a178cda13a609df689ad16717c551a72b579d839ad43575e9f1c03"
+        },
+        {
+          "path": "skills/database-migrations-sql-migrations/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "d23ac436218fdeabbc866e3bbae91eae1b79ef24f9841280a8a5d87ae8c47030"
+        }
+      ],
+      "tree_sha256": "4a6c4adff6c378621b8a90302413a315fc64878432761a96c02b979258543357"
+    },
+    {
+      "skill": "debugger",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: olddanglingrefs absentcurrentbase, concrete failure/reproductiontrigger and actualprojecttools, privacy and scopedinstrumentation, no phantom supportbundle."
+      },
+      "files": [
+        {
+          "path": "skills/debugger/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "cdc55839d22a4d16b0510e3e3633ff4f663eaf71d554ee7f95701b3a0ba472bd"
+        }
+      ],
+      "tree_sha256": "853eb9ea3a6f9264a7917b3631dbd7ec8a9a4ebba90af7dbc836b529192883d4"
+    },
+    {
+      "skill": "debugging-toolkit",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "alias di debugging-toolkit-smart-debug"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full alias tree: wrongvaultpath fixed to actualrelative canonicaltarget, riskalignscriticalprocedure, absentinstallation explicit."
+      },
+      "files": [
+        {
+          "path": "skills/debugging-toolkit/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "dd3c57f054747779ba90aa49c4b62b353472ad66cd838c4e5edbf1bad2e7126b"
+        }
+      ],
+      "tree_sha256": "1b9c8523ccdf1d67736c22d2b5a5e6919aa9686d7a92d3c1b368bec5f56d4ae0"
+    },
+    {
+      "skill": "debugging-toolkit-smart-debug",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full alias tree individually inspected. Same flawed smart-debug body corrected consistently while retaining callableID, provenance and risk; no supporting scripts present."
+      },
+      "files": [
+        {
+          "path": "skills/debugging-toolkit-smart-debug/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "d4b7eafbe46ba218e518d7bf4be23d14ea3cfc178acff4d370d4678c93ab5e33"
+        }
+      ],
+      "tree_sha256": "9e4f098aaa9ccdf40c51d81d03681b7a8c510abe7bfe8325de1a4621d26535d5"
+    },
+    {
+      "skill": "defuddle",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "estrazione markdown da web"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: quoteURLs, no globalinstalldefault, actualCLIhelp required, pageinstructions inert, extraction omissions/sourcecitation and scopedfilewrites."
+      },
+      "files": [
+        {
+          "path": "skills/defuddle/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "ebaf3f2d3da481fd17c27f2d127b91f08df3af299943b695b58969d55127714b"
+        }
+      ],
+      "tree_sha256": "b7c4b63ef44bac9aa63a0e44bd72f638a6509e4b0bcb44102c0d93bd01496537"
+    },
+    {
+      "skill": "dependency-management-deps-audit",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "audit dipendenze"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Remove forced updates and user lockfile restoration; remove fake universal license matrix/clean provider failures; document incomplete scanning, locked CI and opt-in notifications."
+      },
+      "files": [
+        {
+          "path": "skills/dependency-management-deps-audit/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "f85d775db3278fd403071b1f06d8f32ddef76617691e4ca5da6c3dfda3d3a127"
+        },
+        {
+          "path": "skills/dependency-management-deps-audit/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "41ea202b6b5223cfd124620f195cd18583545bea516772e79abb9ae354b69ffa"
+        }
+      ],
+      "tree_sha256": "b7bb85b00a4c298e14f65418dc2e325d1e7ab1619fe53a4dd7d81f78ccf49746"
+    },
+    {
+      "skill": "deployment-pipeline-design",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Prior complete review removed nonexistent templates; only actual inline pipeline guidance retained with metrics/approval limitations."
+      },
+      "files": [
+        {
+          "path": "skills/deployment-pipeline-design/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "baad0ec676b78401545b1d3414215d0f81b263461d4561b4d5ba4889b1e39c41"
+        }
+      ],
+      "tree_sha256": "4c1e35584635cb52ee32f03ee74598be2adbf01e5405f71758d8e9554b6f187f"
+    },
+    {
+      "skill": "deprecation-and-migration",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "deprecazione/migrazione"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve archived migration notices instead of deleting guidance users still need."
+      },
+      "files": [
+        {
+          "path": "skills/deprecation-and-migration/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "d9ca8d6f3341e621f81c456ca0d4c3c67160c3b841319aef86c804bab1662f0e"
+        }
+      ],
+      "tree_sha256": "a4ed650f3209bc66e1d86e813a7002aed9cc45b916021eff3d4f349efd6640d7"
+    },
+    {
+      "skill": "django-access-review",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "broken_frontmatter"
+        ],
+        "note": "titolo/description duplicati: frontmatter contiene un secondo blocco \"--- name: django-access-review ... --- LICENSE\" incorporato nella description"
+      },
+      "disposition": {
+        "broken_frontmatter": "Original malformed/thin import already corrected on current base; remaining findings handled through the individual disposition and explicit limitations."
+      },
+      "files": [
+        {
+          "path": "skills/django-access-review/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "4f9c7ce3d74f61e908752433c4d56f20085bc70b8d53e26eaea38867af5be52f"
+        }
+      ],
+      "tree_sha256": "896dcad8024cf603e0b829a307b451d39a15cf1c2f31297090688388123d0623"
+    },
+    {
+      "skill": "doc-coauthoring",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "placeholder_when": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. Existing collaborative document/source workflow retained; external writes require actual requested destination."
+      },
+      "files": [
+        {
+          "path": "skills/doc-coauthoring/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "ae3655b1974aff4bf861c8b67979130fc93a25ff1ef82909532eadca1ca1dd57"
+        }
+      ],
+      "tree_sha256": "43d987b088dd104926b85ccdffe1dd9fa389bc79e09a44d7891944f3670f734a"
+    },
+    {
+      "skill": "docker-compose",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Docker Compose; nota docs-only"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full one-file tree read. Report ok missed hardcoded/shared fixture password, broad default port exposure, destructive volume deletion guidance, ro socket API privileges, unrelated kubectl example and obsolete Compose version. Correct those, distinguish snippets from complete apps and per-service secrets from env vault. Fifteen YAML fragments parse; no daemon/runtime execution."
+      },
+      "files": [
+        {
+          "path": "skills/docker-compose/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "5e2d0d6730b3c04763ddb35b03989d50a2266c489b979b9e4552f3072f59edc4"
+        }
+      ],
+      "tree_sha256": "fb8e4f291d740c4f9f7ab2c7d5a6dc2ed47c2b6d96b37e1c7805760af35d1e9d"
+    },
+    {
+      "skill": "docker-expert",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full one-file tree read. Repair generic trigger, unavailable expert/subagent suggestions, old Node18 images, missing user group, nonexistent production target, unsupported local external-secret assumption, POSTGRES_USER interpolation mismatch, absent curl, broken trailing build-secret shell and hidden stderr. Independent fragment prerequisites and scope explicit. Three YAML fragments parse; source required assets not bundled, actual container validation still pending."
+      },
+      "files": [
+        {
+          "path": "skills/docker-expert/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "92ecdd1c0a7f4079dabf51d7338210bb3bec85761fbaf83edc1834add835820b"
+        }
+      ],
+      "tree_sha256": "70df250d6b7bfed3dfc5d66259aaf46d23757c83963ef89ab0dbfccc00e454fe"
+    },
+    {
+      "skill": "docker-management",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Docker build/optimize; nota docs-only"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full one-file tree read. Report ok missed npm omit-dev before build, missing user group selection, unquoted bind path, absent curl healthcheck and broad prune recommendation. Correct build/install/prune order, Node builtin healthcheck, context/side effect/privacy and destructive-action boundaries; Compose YAML parses, no image build claimed."
+      },
+      "files": [
+        {
+          "path": "skills/docker-management/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "2ad5d0c9a765693183f1fdcbd946bad52b54c6ff8981792eb7bd87b34a11a7b9"
+        }
+      ],
+      "tree_sha256": "8c0ac7f9534358b0a48a74255bb2d30dde26198ff6228677d8f9ced1b360ecdf"
+    },
+    {
+      "skill": "documentation",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "bundle workflow docs"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full workflow tree read; all referenced IDs checked, scope only needed phases and authorized publication. Useful composition retained with boundary repair."
+      },
+      "files": [
+        {
+          "path": "skills/documentation/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6b71d990af7c733b2eaf3c66798a9568bb432583757af23389f5e112f8020474"
+        }
+      ],
+      "tree_sha256": "402956b1f2bb3ca59f658b984b055b6001daa56136e744ac7376ac89d8d87e0a"
+    },
+    {
+      "skill": "documentation-and-adrs",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "ADR/documentazione decisioni"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree read; correct false sliding-window comment, fictional ADR alternatives/universalSQLite rejection, Proposed status and existing repository location, excerpt versus executable distinction."
+      },
+      "files": [
+        {
+          "path": "skills/documentation-and-adrs/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "fee8998ec052b42890647121a5e0105beafa27cf605747afbc59770dc2dd369a"
+        }
+      ],
+      "tree_sha256": "c1058cb2edf081dba3c47ad3ddcbebd903316bafaaf927d63f641c90ee184992"
+    },
+    {
+      "skill": "documentation-templates",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = boilerplate/placeholder in tutte le righe"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree read; repair generic trigger, missing-link syntax inllms template, MIT assignment and invented facts; preserve actual license/paths and pending decisions."
+      },
+      "files": [
+        {
+          "path": "skills/documentation-templates/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a8b8e08d2a14945656b8fe023308835f869d6b3620113c3a5788d945159b30a8"
+        }
+      ],
+      "tree_sha256": "5a897ae163ab30a415c5784264b1f60bb3eb7450ca4162a5c2a81fe0647e82dd"
+    },
+    {
+      "skill": "eas-workflows",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "broken_frontmatter"
+        ],
+        "note": "allowed-tools contiene \"version: 1.0.0 license: MIT License\" inglobati nella stringa; risk: unknown"
+      },
+      "disposition": {
+        "malformed_allowed_tools": "Version/license separation already repaired on base; new tool grants match inspected local helper and pinned CLI validation rather than moving npx executables.",
+        "risk_unknown": "Direct semantic review classifies critical for YAML changes, dynamic project/CLI execution, authenticated validation and potential separately-authorized job launches.",
+        "placeholder_when": "Task-specific workflow YAML/trigger/job/validation cases and actual manual-build draft added."
+      },
+      "files": [
+        {
+          "path": "skills/eas-workflows/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "01c7c7c66c2addced0558f3c474f19674ca507368e0c1634ea80f1cee12816bf"
+        },
+        {
+          "path": "skills/eas-workflows/agents/openai.yaml",
+          "git_mode": "100644",
+          "sha256": "ac390a96ec1f9d5f38f4199a3a34dbdf598fe1bdbaa34fb5e5379f2a83033fd9"
+        },
+        {
+          "path": "skills/eas-workflows/scripts/fetch.js",
+          "git_mode": "100644",
+          "sha256": "f36e554cf1b08115949073389b7cdc85559f72e67eb810537acb7953c2b2ea32"
+        },
+        {
+          "path": "skills/eas-workflows/scripts/package.json",
+          "git_mode": "100644",
+          "sha256": "609158e6c5fbc237939fa3ddf7faab80ab690bdc0c8d584414a885130103c4e8"
+        }
+      ],
+      "tree_sha256": "da1670ff6e33c3bc4940c8aa64dc0c593cb4ed73349de128c7a9e7a1342d0509"
+    },
+    {
+      "skill": "emotional-arc-designer",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "arco emotivo narrativa/campagna"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/emotional-arc-designer/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a63fca192e311a71ff4c23ed0d0b13375dabce5ff80640eca2f38c5381a03ee4"
+        }
+      ],
+      "tree_sha256": "4e7a055113aeb109fd86a57961e4920c3502826ccb8c60cf981b5330ae8a42a8"
+    },
+    {
+      "skill": "error-debugging-multi-agent-review",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "description boilerplate; limiti buoni"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full editorial procedure read and retained, precise description replaces placeholder. Direct reproduction/central evidence, scope and authorized delegation already good."
+      },
+      "files": [
+        {
+          "path": "skills/error-debugging-multi-agent-review/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "4adf0a285933332de06ff9becd05bf9820ea56519d42eaec6f1b7b3fc3892ee8"
+        }
+      ],
+      "tree_sha256": "cff662067834d1f563ca4b09995bf53e1e6445f8c99dc9f65e9351e0e6b7b1c5"
+    },
+    {
+      "skill": "error-detective",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree reviewed; prior dangling refs absent on current source. Actual generic triggers repaired with observed error/log scope, causality versus temporal correlation, missing telemetry and privacy boundaries."
+      },
+      "files": [
+        {
+          "path": "skills/error-detective/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a3998123b2c43d61621fb5e9a3a48577dab87d48d0c6bc08180a18f33c6296ab"
+        }
+      ],
+      "tree_sha256": "9c64cbcf5dfbb83aa1459e3be832001c6a8a6fe6c7b645b1651eb534653bfa6b"
+    },
+    {
+      "skill": "error-diagnostics-smart-debug",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree reviewed. Fix generic description/triggers, implicit debugger delegation, invented probability/calibrated confidence, automatic production chaos/canary assumptions, hypothetical helper/70percent result presented as sketch and payment telemetry identifiers. No local support bundled."
+      },
+      "files": [
+        {
+          "path": "skills/error-diagnostics-smart-debug/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "c0d66cbaa582638abceddd7c557efdb499e0cc0009d916c1c1f01f11f7bd0ebc"
+        }
+      ],
+      "tree_sha256": "f915461bfe2387e80af8030dee5b34c1fcc5586c3bb2e8ca0086bf50f0297e40"
+    },
+    {
+      "skill": "error-handling-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "pattern gestione errori"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Replay-safe classified retries; half-open failure reopens circuit; remove raw error logs, arbitrary financial-rate fallback and unsafe payment skeleton; no phantom support files."
+      },
+      "files": [
+        {
+          "path": "skills/error-handling-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "c4b2fbee1a26d446f342d1c6d5d25c1a0352c99422964cba0f449c8dc5a195d9"
+        },
+        {
+          "path": "skills/error-handling-patterns/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "facd93f1c99af0ce982cd8c145a405a8216f888e076c1e17aa085f20977a9ac0"
+        }
+      ],
+      "tree_sha256": "bcb4cb6436ce64bcc046f13e6445ff491b0e7f4c56a56817cf9d3ebc245d0a26"
+    },
+    {
+      "skill": "exa-search",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "ricerca semantica Exa"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: preferactualconnector, no clientbundled/automaticglobalinstall, authorizedqueryscope/privateinputs/cost and primarysource verification ratherthan ranks."
+      },
+      "files": [
+        {
+          "path": "skills/exa-search/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "5724550291515995fb8f32aac5bc03ad6587e5e0bfa42fb78fcfe667b863b51d"
+        }
+      ],
+      "tree_sha256": "9d4d94be7ee783a662ba54a84fafc3338b8ef892b5e14ce8023f4fe6be991bb2"
+    },
+    {
+      "skill": "extract-document-data",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "estrazione campi con citazioni, abstention, privacy"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Grounded extraction retained; hosted upload/cost authorization remains explicit, and plugin omission does not invalidate the skill."
+      },
+      "files": [
+        {
+          "path": "skills/extract-document-data/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "c6ea96df6372dd4c064a6f1948793325c009273fb1463f9f235f4ece819199fa"
+        }
+      ],
+      "tree_sha256": "cb9c6e9bd6dd3ab282fd6b9e6f0ce4235eade0eacdf120db424e5370a328e5a6"
+    },
+    {
+      "skill": "fal-audio",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Fal audio"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree/historicalsource fetch attempted: oldpath unavailablecurrentupstreamtree. Replace emptywrapper with boundedactualintegration speechjob procedure, consent/voice/audio privacy/schema/status/cost; preserve attribution no inventedAPI."
+      },
+      "files": [
+        {
+          "path": "skills/fal-audio/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a647d34fdffb7340ba17403ebd903a4231ad79b96eca51219294e814343c6755"
+        }
+      ],
+      "tree_sha256": "2401dfdb03ad0106e95f7ebc44a585c2cd04014b25a5cf854dab7f5439e074d3"
+    },
+    {
+      "skill": "fal-generate",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Fal generate"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree/historicalpath404/currentupstreamtree inspected. Restore scopedmediajob spec, actualmodelschema/status/jobidentity/outputverification; no automaticSDKinstall or fabricatedmodelid/result."
+      },
+      "files": [
+        {
+          "path": "skills/fal-generate/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8a71b2a7cc7200a9b26e099949d5fd26309ce774cc1198dd25ffc3ec4101caec"
+        }
+      ],
+      "tree_sha256": "9405f106d11a539c2ccc7dd6180c0629aab7bc1732c123e28814799f032ac62c"
+    },
+    {
+      "skill": "fal-image-edit",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Fal image edit"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree/historicalpath404/currentupstreamtree inspected. Actualsourceimage/constraints/modelinput/context and privacy/cost/reviewpreservation; unavailableintegration draftnotcompleted."
+      },
+      "files": [
+        {
+          "path": "skills/fal-image-edit/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "dc4225cfa64b6411db6acf473f53e4ae079f8ed9ed7e8d0b536ab0a2054ac9ee"
+        }
+      ],
+      "tree_sha256": "a08caf1a9f68886569a6578f5ffaa32feb1cf8d0430677b4ce77a08975843789"
+    },
+    {
+      "skill": "fal-platform",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Fal platform"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper inspected/currentFal tree confirms historical path absent. Restore bounded actualaccount/model/pricing/usage observations, units/timestamp/missing evidence, read-only versus key/billingmutation, criticalclassification no inventedendpoint."
+      },
+      "files": [
+        {
+          "path": "skills/fal-platform/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "1a452c94495290e11d665055faa5ffe412e94edbdd4caa8c8d10acf9c55e871c"
+        }
+      ],
+      "tree_sha256": "664f0d095133df8e19905f4afd7dfaab2427af71b5285d03d218f4bdb52cb999"
+    },
+    {
+      "skill": "fal-upscale",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Fal upscale"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper/currentupstreamtree inspected. Restore suppliedasset/scale/format/budget/schema/job/outputdimension/preservation workflow, no recovereddetailguarantee or absentruntime claim."
+      },
+      "files": [
+        {
+          "path": "skills/fal-upscale/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "31cf403f7f37f5c3890b19a8da2b8e4a505c23c4269db3d1f93a4e2b11a1c73b"
+        }
+      ],
+      "tree_sha256": "89a995795932f4a42492eb9c10390f4f829b0ec10c59b3b3fae67bb3e2be2cd4"
+    },
+    {
+      "skill": "fal-workflow",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Fal workflow"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper plus richer current originalsource recovered: actual JSONnode/reference/dependency/schema rules and portablevsCLI modes. Add small explicitlypartialgraph example; no unbundledreferencepromise/modelproduction guarantee."
+      },
+      "files": [
+        {
+          "path": "skills/fal-workflow/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "649a44ad0183de7a60c2887efefc18e4cb0da465be4065a08630aa00965a1be0"
+        }
+      ],
+      "tree_sha256": "01256619abbeb7b1ca91b58bef6a02a61c21457f7828fc9455f85f13756b1a97"
+    },
+    {
+      "skill": "ffuf-claude-skill",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "risk_label"
+        ],
+        "note": "web fuzzing (offensive) etichettato risk: safe; dovrebbe essere offensive con disclaimer"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper: criticalrisk and authorizedboundedtestscope, actualinstalledtool/wordlist, baselinecomparison and requestlimits, no traffic frominvocation or vulnerabilityproofbystatus."
+      },
+      "files": [
+        {
+          "path": "skills/ffuf-claude-skill/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a29b65553b38ae61c6920ce7b7e39829899bacbe9d14a86693613fea73a125ae"
+        }
+      ],
+      "tree_sha256": "371e825fb8eb28edc6028cbdd920f8c0a222ae617846acdebf361d32e3f89b3b"
+    },
+    {
+      "skill": "firecrawl-scraper",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Firecrawl scraping"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper: configuredconnector, boundedURLs/depth/cost/privacy/currenttool, sourcecompleteness/untrusteddata and no globalinstalldefault."
+      },
+      "files": [
+        {
+          "path": "skills/firecrawl-scraper/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "e83e812342c790e6ef69975f497b81d302ed2b54a845a3dbe3d867c0b26fc258"
+        }
+      ],
+      "tree_sha256": "1da4b3e1257876b6313a81be66ce73efc1711ee9a261004407a4430c8fb17907"
+    },
+    {
+      "skill": "frontend-api-integration-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "ottimi limiti (non-idempotent retry)"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Mutations do not retry by default; classified transient errors only; captured request identity prevents stale result publication."
+      },
+      "files": [
+        {
+          "path": "skills/frontend-api-integration-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a4e1a4781bc9758394d1a0a47d5d105ce84480e63ae51149362c8291d785e34b"
+        }
+      ],
+      "tree_sha256": "90b6eaf3ba73e6c75b4ded10400a808c9cca0175d4bc7cb7cf9f17095aa64121"
+    },
+    {
+      "skill": "frontend-data-contracts",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "typed network boundary"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Runtime JSON parsing and branded types are distinct; document real adapters and error handling, repair truncated trigger."
+      },
+      "files": [
+        {
+          "path": "skills/frontend-data-contracts/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3f29d5ea8d5ce8809208d9d1ab47c962b60fd804557d81762cba71b2694ff51f"
+        }
+      ],
+      "tree_sha256": "ccfe11c3e38898ed53a4c401191faa61815d4a4bbc4dce7462be78afa97cc8a4"
+    },
+    {
+      "skill": "gh-review-requests",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "review requests GitHub"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: missing fetch_review_requests.py, hardcodedgetsentry and inferredteam slug broken. Replace with existing authenticated paginated notifications/reviewers/members flow, distinguish team-authored from assigned, errors incomplete and no markread mutation."
+      },
+      "files": [
+        {
+          "path": "skills/gh-review-requests/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "53b8f32c5753fed11c547cf73dad9a07127a2991748632323fad8459d8072977"
+        }
+      ],
+      "tree_sha256": "ad1ed77c8c243b2c9afb1fb8c319b04a7a3e6dd27cce0f683b795f75843365d5"
+    },
+    {
+      "skill": "git-advanced-workflows",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Git avanzato"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full9331byte tree reviewed. Preserve useful rebase/bisect/cherry-pick/worktree mechanisms, repair directmain hotfix, staging-all conflict handling, destructive reset demonstrations and guaranteed90day recovery/lease safety claims. Protect uncommitted work separately from backup refs and honor repository gates."
+      },
+      "files": [
+        {
+          "path": "skills/git-advanced-workflows/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "0fcb4726dc987f1a07ff44998299c85ec54c7120ac1326107d4bba38e234f265"
+        }
+      ],
+      "tree_sha256": "d5e2b40fba83e7b353e5b2b7ee70353489d4118f77643ee4d5a2b1c61b36cef7"
+    },
+    {
+      "skill": "git-commit-message",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "commit message, non committa da solo"
+      },
+      "disposition": {
+        "individual_semantic_review": "Complete one-file review: inspect actual staged diff beyond stat; user-supplied diff legitimate when no staging. Fix shell interpolation risk in generated command and provide message-file path for multiline text. Preserve no automatic commit boundary."
+      },
+      "files": [
+        {
+          "path": "skills/git-commit-message/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "bbecf680440f786f66aee1225d9d82676c13534e818d25910076bbcc0a52531d"
+        }
+      ],
+      "tree_sha256": "2e11cdf8d1a0b0cdea76563def3987c1c9aee5f18f9ae7b29d45d0cb41603fe9"
+    },
+    {
+      "skill": "git-pr-review",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "PR description da commit history"
+      },
+      "disposition": {
+        "individual_semantic_review": "Complete one-file semantic review: commit-message-only/ignore-docs recipe could omit actual final scope. Net diff now required before final description, actual target base and pending checks truthful; preserve untrusted-input rules and concise template."
+      },
+      "files": [
+        {
+          "path": "skills/git-pr-review/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "25d4714c0a7c6f3f8632da96904b4c37ae5c89f03ecaf6bcca0a4866dd12aadf"
+        }
+      ],
+      "tree_sha256": "beaafe9510e3ce4b94cf9ec8213f28cfa6172522dfda14d74430cac3a2b7fd9d"
+    },
+    {
+      "skill": "git-pr-workflows-git-workflow",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "workflow PR con guardrail"
+      },
+      "disposition": {
+        "individual_semantic_review": "Retain complete one-file guarded workflow: policy discovery/currenthead evidence, preserve dirty work, authorize any parallel agents, no generic merge substitution in AAS, required checks and truthful PR metadata. Explicit scope/release limits match maintainer contract."
+      },
+      "files": [
+        {
+          "path": "skills/git-pr-workflows-git-workflow/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "298a5c3f70a5fe6bb08602d317be822d1337c3a5f58f8e2f9d49ece16a605372"
+        }
+      ],
+      "tree_sha256": "ad4544285c43413860eb5ffef882f9b2a4f4da57a0d6a6560b24ae55c5ebe4c9"
+    },
+    {
+      "skill": "github-actions",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "GH Actions; nota privilegi"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: identify independent job fragments and owncheckout/dependencies/artifactprereqs, remove shell expression injection/fullcontext dumps and historical runnerdownload, requiredchecks not continueonerror; supportedNode range, no untrustedcode privilegedrunner, no runtimeclaim."
+      },
+      "files": [
+        {
+          "path": "skills/github-actions/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "bcca90112477f58ff32b7199c5c5c2351e18ea8fc06d4cdbac88d105a190c4f2"
+        }
+      ],
+      "tree_sha256": "1577b9ba64fc3b7d9e2951666b483acb5ed1294bb09559a028e64417ac490b66"
+    },
+    {
+      "skill": "github-actions-debugger",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "debug GH Actions, limiti secrets"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: bind actualrun/attempt/head/workflow/scripts, criticalclassification, no universal latestv4 advice, immutable reviewed actionpins, no blind sideeffectful reruns/gateweakening."
+      },
+      "files": [
+        {
+          "path": "skills/github-actions-debugger/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "629a4032430879b58f0be19ea1ef2324d60b97471ae1450f45736975e30bdae1"
+        }
+      ],
+      "tree_sha256": "aa3e42ef719f7f28722aef569c50abea6148fdf5f8af7ccddf70d8e129beb1d3"
+    },
+    {
+      "skill": "github-issue-creator",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "issue GitHub da input grezzo"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: fix nestedMarkdown fences and attachment syntax, projectrelative issue location, falseAzure/region product inference, drafting distinct from authorized publication."
+      },
+      "files": [
+        {
+          "path": "skills/github-issue-creator/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "17225c27a10a6a90aed314d551c2986f970a948bde2397d3fc4060e55c856d83"
+        }
+      ],
+      "tree_sha256": "cb07fec45fce31f6ff4007141605f485347643db26fb5bcc848f4d0337271e49"
+    },
+    {
+      "skill": "gitlab-ci-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Self-contained pipeline guidance with actual inline prerequisites; prior complete review removed missing templates and fixed TLS/security examples."
+      },
+      "files": [
+        {
+          "path": "skills/gitlab-ci-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6a938988281a2418e985835cf7dcd03896ae772325b2f420eeaacd94023dfdcb"
+        }
+      ],
+      "tree_sha256": "29fd754f797c75a773703cdeeaec378d59feccfd8415d108898b8d6a5ad4f90d"
+    },
+    {
+      "skill": "google-calendar-automation",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Current entrypoint discovers an already configured connector, no local scripts promised; explicit calendar read/write scope retained."
+      },
+      "files": [
+        {
+          "path": "skills/google-calendar-automation/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a647e27db19b9413529f7c279e86633b941856bee0cc45204a2e5b3a8610f337"
+        }
+      ],
+      "tree_sha256": "d1517b5a56ea097c3fa0eda6ca557b80f161fc7d1980cfb76f5b68613e74d433"
+    },
+    {
+      "skill": "grill-me",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "intervista senza codebase (Matt Pocock)"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper: verify actualgrilling entrypoint exists, directinterview fallback not magiccommand, purpose/assumptions/dependencies/stopcriteria restored."
+      },
+      "files": [
+        {
+          "path": "skills/grill-me/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3546c05901dfda40dbaa8e9a7f3c44fca0d28b79cbd6796332792a9a1cd9bef1"
+        }
+      ],
+      "tree_sha256": "7a823d5d21b543751d68de497f66febbfc6520b343af3da3ce33a9a7ad8321ce"
+    },
+    {
+      "skill": "grill-with-docs",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "intervista con docs"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper: actualgrilling anddomainmodeling entrypoints verified; onequestion, existingADR/glossary, confirmedvsProposed and scopedwriting, no mandatoryunknowncommand."
+      },
+      "files": [
+        {
+          "path": "skills/grill-with-docs/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "da0c0a922695b65c7abcfe29bc8965ba392fa364cdc1757f16b84235cea1388c"
+        }
+      ],
+      "tree_sha256": "4db3e2a61a86d2fb67b11dd2c7b036c4b4cdec983de28fd7d5b431ed6a14e513"
+    },
+    {
+      "skill": "grilling",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "grilling"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree retained question-by-question/code-discovery method; removeunboundedrelentless completion in favorof actualcriteria/userstop, preservesource."
+      },
+      "files": [
+        {
+          "path": "skills/grilling/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "e4707c78ef4489746d9b49f23be495cc4a94530d6465e649db47daec49e7efaf"
+        }
+      ],
+      "tree_sha256": "f5046b7146b11310bc8ac10ba553e2d2ab491e6c7e732ebef2d97be4db33f2c7"
+    },
+    {
+      "skill": "headline-psychologist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "psicologia headline"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/headline-psychologist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "eb4faa4ccb6d9bf7a325173a7d6ce0bf4abce2e6898f574ac40b1193d5025de7"
+        }
+      ],
+      "tree_sha256": "b0412213040d901667f71c43e4d4e1d2bccd8080363a1fc0ec9eb47cae03e070"
+    },
+    {
+      "skill": "identity-mirror",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "psicologia identita audience"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/identity-mirror/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "583fbf4ef42e54a836ba9cc233d9dd8ec74682cb715c460e1ded479a72f34104"
+        }
+      ],
+      "tree_sha256": "16becf73843470504069e3b74e067f3c40711ef5472085cefbb8cd895c2deb5c"
+    },
+    {
+      "skill": "implement",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "implement da PRD/issue"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: actualtest/review adapters not inventedslashcommands, preserveattachedplan, scopedtopiccommits vs protecteddefaultbranch."
+      },
+      "files": [
+        {
+          "path": "skills/implement/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8150f8185ff020a213538f5009eca06c8940d68cb931ac9eab9ebffcb044014b"
+        }
+      ],
+      "tree_sha256": "7cb1eb0fe9d86787982150198878ae80446fe9d6cfc94c4d11a2fe53366367fd"
+    },
+    {
+      "skill": "incident-runbook-templates",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Actual resources are external incident-management documentation; prior full tree repair removed nonexistent local template promise and unscoped recovery actions."
+      },
+      "files": [
+        {
+          "path": "skills/incident-runbook-templates/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "ed8b50dd810d2e3955a14c8b9cebf9ee7d7f42b7f036c754c924e730433dcb79"
+        }
+      ],
+      "tree_sha256": "516b9d8d82e65c492ffdf47033a097b220e74eb90bb2df3b091010bc99c7f020"
+    },
+    {
+      "skill": "infinite-gratitude",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "multi-agent research"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree andoriginalrepo inspected: tenroles vendor design not qualityproof. Restore boundedresearchperspectives, source/evidence/conflict synthesis; no implicitagents/paidcalls."
+      },
+      "files": [
+        {
+          "path": "skills/infinite-gratitude/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "5e600a48395970ca2c9c36365e5f460d65ea4b893da509ff74fa9336ffc169ff"
+        }
+      ],
+      "tree_sha256": "f6554036e02182ec37f0c5f1f7955a675ca137f9aaf6564a548a6dbdf8bcb017"
+    },
+    {
+      "skill": "ios-developer",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "iOS Swift/SwiftUI"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing Swift/platform scope and short playbook inspected; no iOS build, signing or provisioning claimed."
+      },
+      "files": [
+        {
+          "path": "skills/ios-developer/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "05cf24fabd0acc80c410eb1e1c33a5fda416a812103df97d2baeb3644938be19"
+        },
+        {
+          "path": "skills/ios-developer/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "f68a0cbab92d8b9ccf4efb06a198c769db15c1896f652d5106ca688762839221"
+        }
+      ],
+      "tree_sha256": "da0d277c719a8e009748fc3e23962f9591a3d7881f6f5ba60ba10bc1d094760b"
+    },
+    {
+      "skill": "ios-screens",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "screen iPhone native, limiti"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing architecture and screen states retained with actual app inputs; not duplicate plugin expansion."
+      },
+      "files": [
+        {
+          "path": "skills/ios-screens/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "1efda929f5efba25d95b101ebb07b8ae4d99ed592824df6c20b8a599148751ea"
+        }
+      ],
+      "tree_sha256": "e99831c7c920901dd1f2a862f8f989184bfcb692b344150e12a978b80512f887"
+    },
+    {
+      "skill": "llm-evaluation",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Bundled bounded reference now actually exists and prior complete-tree receipt covers it; framework adapters explicitly illustrative and unknown outcomes incomplete."
+      },
+      "files": [
+        {
+          "path": "skills/llm-evaluation/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "9abf92538721f388eedf9ddf76fcdfe5855967e9d15f4be5c0ae95441d1c70b7"
+        },
+        {
+          "path": "skills/llm-evaluation/references/benchmarking.md",
+          "git_mode": "100644",
+          "sha256": "af9b16ab441e09eed0e46379cd7689778b82d24a9d5ff95ca92f726ef15689cb"
+        }
+      ],
+      "tree_sha256": "0b449b19b117a0b7fc42866af49d13c0dd4efb8085e2807e06e1aa3f6a4cfe86"
+    },
+    {
+      "skill": "loss-aversion-designer",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "tone_mandate"
+        ],
+        "note": "engineer the pain of inaction without fear-mongering: framing manipolativo, borderline"
+      },
+      "disposition": {
+        "tone_mandate": "Prior complete review preserves loss framing only with credible evidence, ethical limitations and optional chaining; no clinical identity or invented authority. Existing concrete offer example retained."
+      },
+      "files": [
+        {
+          "path": "skills/loss-aversion-designer/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "03764c4dfa9e7f482aa4bb1356fed858a32a66faf093c590c6dd4dada923f2f1"
+        }
+      ],
+      "tree_sha256": "2b75f8f9b4cdd34130d199a526f89fbe969b354bcdbe2d7f395042dd9d380ac6"
+    },
+    {
+      "skill": "makepad-skills",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "Makepad skills"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper/originalrepo inspected. Usefuldirectory workflow with actualinstalledRust/Makepadrevision, three existingcanonicalIDs, build/render evidence and scopedpackaging."
+      },
+      "files": [
+        {
+          "path": "skills/makepad-skills/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "c871833d11bc877a66cfb550290685d23028f9901ef56242b327a4ac84d5d6c9"
+        }
+      ],
+      "tree_sha256": "7dd4b38bb7da0949c256073d27f385d5a5c70e6d2da6a7f722cb18de239c4caa"
+    },
+    {
+      "skill": "market-sizing-analysis",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita file di riferimento locali assenti (references/scripts/resources)"
+      },
+      "disposition": {
+        "dangling_refs": "Current local resources are actual references/data-sources.md and examples/saas-market-sizing.md; all other missing templates explicitly not bundled."
+      },
+      "files": [
+        {
+          "path": "skills/market-sizing-analysis/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "2ac236546a2bba4deda575fb9919af1af1c293abdb747c9eb87b7022a64525a8"
+        },
+        {
+          "path": "skills/market-sizing-analysis/examples/saas-market-sizing.md",
+          "git_mode": "100644",
+          "sha256": "e44069c8a8de52c1102ea5906a1d89c94373a4e37416adb56a774cfa0d99aa73"
+        },
+        {
+          "path": "skills/market-sizing-analysis/references/data-sources.md",
+          "git_mode": "100644",
+          "sha256": "88965ae8b52b7916c13b8f5c7f36048549ec241db24179c2ac8d36c5800d84b5"
+        }
+      ],
+      "tree_sha256": "bb99219c5c5da79c094af3ecf8d976bbd3e0395582ed23517b5394f923c4e46b"
+    },
+    {
+      "skill": "mcp-server-security",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "sicurezza MCP server; nota scope"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Realpath containment rejects sibling/link escapes and returns canonical path; fixed query IDs bind values; stderr audit omits payload values, URL origin checks distinguish DNS/redirect enforcement; incomplete namespace sandbox removed. Stdio uses reviewed local runtimes; bearer payload requires nonempty subject and expiry."
+      },
+      "files": [
+        {
+          "path": "skills/mcp-server-security/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a975a57890e38a1882ebceb33036977d16c148aed3f7dbc03b457470c95e8fa0"
+        },
+        {
+          "path": "skills/mcp-server-security/references/details.md",
+          "git_mode": "100644",
+          "sha256": "add5d03be670089d01a8453c55765541a6cac3eaa45e35752c05410b7a5f6c2f"
+        }
+      ],
+      "tree_sha256": "d892a63577333f93f194eaf6fddb790aa189491cd41fa237bdfe336895e91d88"
+    },
+    {
+      "skill": "nanobanana-ppt-skills",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "generazione PPT Nano Banana"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper/originalrepo inspected. Restore sources-first outline and representative slide/fullrender inspection, actualruntime/upload/cost/export/ editabletext boundaries, no fakePPTartifact."
+      },
+      "files": [
+        {
+          "path": "skills/nanobanana-ppt-skills/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "1e92268354a6c464115b88ea29960a27c50458d5783096cfaf7f20057081f826"
+        }
+      ],
+      "tree_sha256": "03c417884be0538dd406129e8e9941df6881c311b213c72a301ba0f48656c5d6"
+    },
+    {
+      "skill": "native-data-fetching",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "data fetching native (official Expo)"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Authenticate and authorize before balance fetch, verify outbound origin before sending token, bound replay-safe retries/cancellation; recover four screen states from current Expo source and distinguish SDK 55–57 from 58+ loaders."
+      },
+      "files": [
+        {
+          "path": "skills/native-data-fetching/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "bedae975b03096b278684b8a39b6d002a72ad29ddcd5cbbf68f748e762644db7"
+        },
+        {
+          "path": "skills/native-data-fetching/agents/openai.yaml",
+          "git_mode": "100644",
+          "sha256": "fac4963b9e8a548760d2712f15b65e7e60be6e38a6b49bcbfdd7a7ef67f1edda"
+        },
+        {
+          "path": "skills/native-data-fetching/references/detailed-guide.md",
+          "git_mode": "100644",
+          "sha256": "edfc36e80fd3c99947109d24376c1bb874e588dc3e6aaa9b43a9f931dea06c23"
+        },
+        {
+          "path": "skills/native-data-fetching/references/expo-router-loaders.md",
+          "git_mode": "100644",
+          "sha256": "f24c92235b64bc324ccdc2d3e8d2ed1ebdf70f9d684b824e1ccb155a29c07f45"
+        }
+      ],
+      "tree_sha256": "9f0d660077d995e0e6dacdcb4faca83b2394f75b85d4f0e7c6d83134166d642d"
+    },
+    {
+      "skill": "objection-preemptor",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "gestione obiezioni"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/objection-preemptor/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "a2c0ab81742752d0803e6b6a326bdd3c4cb9859751930dcfede8048bd9e7e599"
+        }
+      ],
+      "tree_sha256": "51735f9f6284a43e05eae1f57243e392bd9e3413a09d0bcaf9e4fed10b011f94"
+    },
+    {
+      "skill": "on-call-handoff-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "generic_limitations"
+        ],
+        "note": "contenuto buono (template handoff); limitations boilerplate"
+      },
+      "disposition": {
+        "generic_limitations": "Entrypoint length is not complete-tree usefulness. Prior full review includes all real support files, specific procedure and scope: Fix nested Markdown fence; preserve handoff evidence and explicit responder ownership."
+      },
+      "files": [
+        {
+          "path": "skills/on-call-handoff-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "bd7e07d6514c92d6261816428abd7a3faaa4e2813920145d6c73dbcd0b7289fd"
+        }
+      ],
+      "tree_sha256": "b43f7c2744ad00ed5cc02d1f3554f557bc8b4ee444b8a95430cf5f0239e1b449"
+    },
+    {
+      "skill": "onboarding-cro",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = 'This skill is applicable to execute the workflow...'"
+      },
+      "disposition": {
+        "placeholder_when": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. Existing hypothesis-driven onboarding and measurable inputs retained; no invented conversion guarantee."
+      },
+      "files": [
+        {
+          "path": "skills/onboarding-cro/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3285a6ef6373985569d00bfbf217c5e9d70a9c332a6f74307ad25a171822f19c"
+        }
+      ],
+      "tree_sha256": "7d0ff2cfccd3d518b043c017b2cb00de62e687d57685f2ddf07cec181e9a4117"
+    },
+    {
+      "skill": "page-cro",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = placeholder"
+      },
+      "disposition": {
+        "placeholder_when": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. Remove mandatory fake 0–100 readiness gate before context; evidence-driven assessment and bounded experiment inputs, close malformed fence. Concrete trial-page experiment example retained."
+      },
+      "files": [
+        {
+          "path": "skills/page-cro/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "21a99a8b6abcf9b19c86e1135428c15cf831e95a87261700872d10bca9cc67da"
+        }
+      ],
+      "tree_sha256": "261edfafc889d742e86cbb8d0b3ae531ab23ea617ce22b2d3ff5adfb2bf6d0b2"
+    },
+    {
+      "skill": "performance-testing-review-multi-agent-review",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 52L"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full compatibility alias directly reviewed. Body same useful bounded review, placeholder description synchronized, riskcritical preserved; alias is compatibility not extra capability."
+      },
+      "files": [
+        {
+          "path": "skills/performance-testing-review-multi-agent-review/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "eeed83b11b515da47ccead6e2cd08d239bd33050da700b2ec1eb641301c96ca7"
+        }
+      ],
+      "tree_sha256": "6a3fef670b3cc190549d1218de5bd5625380b5635856c49927d79ee1ff8511cc"
+    },
+    {
+      "skill": "pitch-psychologist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "psicologia del pitch, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/pitch-psychologist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "661cbf9ba0f9b687017aae5fc64d66a16060132a7505fbc8ad0b9a7deccdc286"
+        }
+      ],
+      "tree_sha256": "5bfe45daa5997ce8703e645620ae9420b8306b687f87d1df432d61e28f5c8c6d"
+    },
+    {
+      "skill": "presentation-deck",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "evidence-linked, template vuoto, limitations specifiche"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Self-contained intake instead of mandatory external shared contract/Notion routing; repair nested relative link and distinguish templates from workspace writes."
+      },
+      "files": [
+        {
+          "path": "skills/presentation-deck/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8359716146885302f3191638568bb2e599e7779734b26a3f3baef9e3c28ea898"
+        },
+        {
+          "path": "skills/presentation-deck/references/related-skills.md",
+          "git_mode": "100644",
+          "sha256": "4979204156544035496eef04587a9642ecb696390044b8c69943b7b8998deb87"
+        },
+        {
+          "path": "skills/presentation-deck/references/reusable-prompt.md",
+          "git_mode": "100644",
+          "sha256": "1979a5c8ed0f73681805992fc67fbc1e3a06c5ffb99eb8d0ad020cafa7d37d94"
+        }
+      ],
+      "tree_sha256": "c2d9af8d56e74ed05fb4574d8ccaab3930814554d735ff6276f62b6ba46b2669"
+    },
+    {
+      "skill": "price-psychology-strategist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "trigger specifici, etica del prezzo"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/price-psychology-strategist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "24d866dd854ff1e2212539dcc82551bc3cc1d166368d8ac7037bbc7a8205c63f"
+        }
+      ],
+      "tree_sha256": "1b05c0f2076e4ae73f2cb7fc161f6c337ab7c2f02e80488859101ef600bdcf34"
+    },
+    {
+      "skill": "product-marketing-context",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "trigger specifici, output file chiaro"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing actual context and eval JSON retained; missing business evidence stays unknown."
+      },
+      "files": [
+        {
+          "path": "skills/product-marketing-context/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "84b23d8d0a8bbd38a1d9d38cacf4b797858830735f586d37f05855275cea714e"
+        },
+        {
+          "path": "skills/product-marketing-context/evals/evals.json",
+          "git_mode": "100644",
+          "sha256": "e4a1dc56aedb94e00f6a0a6df1f660e94a63839f95e1d50bd9b1a43449c88d14"
+        }
+      ],
+      "tree_sha256": "c4dbb6bd8caea54d29d36a5869be24ad01b847bf02a2647ede606978849f4521"
+    },
+    {
+      "skill": "pypict-skill",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "templated_triggers"
+        ],
+        "note": "When to Use = 'need to work with pairwise test generation'"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full wrapper: concrete factors/constraints/candidatevalidation workflow plus actual4rowbinarymatrix checked independentlycoversall12pairs; higherorderinteractions andexpectedoutcomes explicit."
+      },
+      "files": [
+        {
+          "path": "skills/pypict-skill/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "913252f87e4cb4985daad28d09914b44918a70aa1797188528e99b28028e677a"
+        }
+      ],
+      "tree_sha256": "a536afa68db7e1ed683e3a580d6a940f988ea3d3b29cb6fa8935ea60787dabd1"
+    },
+    {
+      "skill": "python-testing-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 45L; trigger e limitations corretti"
+      },
+      "disposition": {
+        "thin_content": "Entrypoint length is not complete-tree usefulness. Prior full review includes all real support files, specific procedure and scope: Import os in marker example, skip intentionally unimplemented test skeletons rather than report them passed; retain repaired async/negative fixtures."
+      },
+      "files": [
+        {
+          "path": "skills/python-testing-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "467fdbc399027e09da7df551c2088dad0e2fa7cba590be3059b40bfcbc63794a"
+        },
+        {
+          "path": "skills/python-testing-patterns/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "e34a68f352332c60b6092483a572e53f38f1bfcf4a6ea45a2a73f7e2fc2c0de7"
+        }
+      ],
+      "tree_sha256": "2f7bcb8e0474c6b6b396203f1e638d65e5947aceed98c32dc341bccbb01751db"
+    },
+    {
+      "skill": "read-all-adrs",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "leggi tutti gli ADR, trigger esplicito"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: removeunimplementedTODO and universalfolderassumption, discoveractualADRinventory/readfull/status/supersession and unreadrecords; contentnotexecution authority."
+      },
+      "files": [
+        {
+          "path": "skills/read-all-adrs/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "4d88ad1a158c34276b98d03ade3246e0af442d76eae130f39999a65ad042fb61"
+        }
+      ],
+      "tree_sha256": "536a572ea62afea21e5a06ccdd061010386972e522435d2270333125e5451126"
+    },
+    {
+      "skill": "scarcity-urgency-psychologist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "scarsità onesta, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/scarcity-urgency-psychologist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "e980fd62ae8d557e2d944a09062bba31eacfdcb584d1699df7d2391441078ade"
+        }
+      ],
+      "tree_sha256": "3e0fca5056af927a216d34e360b43b4ad31bdb2d807a4d9d58491999eb5bd001"
+    },
+    {
+      "skill": "score-eval",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "stub_import"
+        ],
+        "note": "skill importata con description placeholder ('Imported skill... from upstream source'), risk: unknown, 35L"
+      },
+      "disposition": {
+        "stub_import": "Original malformed/thin import already corrected on current base; remaining findings handled through the individual disposition and explicit limitations.",
+        "risk_unknown": "Reclassified critical by direct semantic review of supplied-code execution and mutable results; no lexical heuristic or scanner score used."
+      },
+      "files": [
+        {
+          "path": "skills/score-eval/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "5353a4478d6ee57fbfe400e517013a64c49c2fd79451c51ace430ca0a817ec58"
+        }
+      ],
+      "tree_sha256": "8c5a3f66164b07aa3e748efe5ee5fa4fcd322fe8006dac54119caa0a43302411"
+    },
+    {
+      "skill": "secrets-management",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 47L; scope autorizzato chiaro"
+      },
+      "disposition": {
+        "thin_content": "Entrypoint length is not complete-tree usefulness. Prior full review includes all real support files, specific procedure and scope: All three tracked files inspected; actual vault/provider identity and authorization required, no credential values read or changed."
+      },
+      "files": [
+        {
+          "path": "skills/secrets-management/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8552d8af621ae0f94fa2a9ad01361fa9573585745bee40646e344326d033de95"
+        },
+        {
+          "path": "skills/secrets-management/references/github-secrets.md",
+          "git_mode": "100644",
+          "sha256": "6abde57992d7aa038efddc0582f1e679e8df98240c7038c2654ef6c49323c0d9"
+        },
+        {
+          "path": "skills/secrets-management/references/vault-setup.md",
+          "git_mode": "100644",
+          "sha256": "2470cc29e67a830b1a3ab57bed6292c2c497d7f67e6161e078c472102ca84c87"
+        }
+      ],
+      "tree_sha256": "c8220531b7f87d7f7286a5e22cbbb1e129a44edfb178ff2d99c473daf0ba86e2"
+    },
+    {
+      "skill": "security-compliance-compliance-check",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "GDPR/HIPAA/SOC2/PCI, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Unknown evidence register instead of fictional dashboard; digest not tamper-proof storage; no erasure completion before all destinations, no missing-factor MFA, no invented DPO or universal PCI deadlines."
+      },
+      "files": [
+        {
+          "path": "skills/security-compliance-compliance-check/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "1888a0e3b4f375b9ee4efacd39089bec2537e8b2d7443e03529ac479475b4c8a"
+        },
+        {
+          "path": "skills/security-compliance-compliance-check/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "c3bc00b186dae66b8a5b07c5b64b6ccefefa12000f2d849b1ed13ce43a4fc970"
+        }
+      ],
+      "tree_sha256": "aa35d89dc4faa1f66a95736c95f5d6957842664bec3688a6be2aa2b18b0f154a"
+    },
+    {
+      "skill": "security-requirement-extraction",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 41L"
+      },
+      "disposition": {
+        "thin_content": "Entrypoint length is not complete-tree usefulness. Prior full review includes all real support files, specific procedure and scope: Unknown threat ratings fail instead of guessed priority; mapping counts never certify control coverage; framework edition/applicability still needs qualified evidence."
+      },
+      "files": [
+        {
+          "path": "skills/security-requirement-extraction/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "bdcb50621b8b36f698969c5605fa5a815d65b8d1dc6471f4e63a870b48ebcc61"
+        },
+        {
+          "path": "skills/security-requirement-extraction/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "9c84f01a4640a8da00e5bac9005f6054a52e8f258c4dce9a254bb20f724fcf36"
+        }
+      ],
+      "tree_sha256": "4d8cf95a28d2a396ee165c52b27695a1c8bef85113379d4815f407acd8ce56de"
+    },
+    {
+      "skill": "senior-fullstack",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = placeholder"
+      },
+      "disposition": {
+        "placeholder_when": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. All seven files inspected; existing helpers are intentionally limited scaffolds and do not claim deployment/quality certification."
+      },
+      "files": [
+        {
+          "path": "skills/senior-fullstack/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6e3c85c8567a3ea6ddbb511add855aa1182768c580730e807d9362f07773e1a8"
+        },
+        {
+          "path": "skills/senior-fullstack/references/architecture_patterns.md",
+          "git_mode": "100644",
+          "sha256": "5c3911bd79f7636c93bcc43e76bfaae104a3f12014ea1aa43f80e0c7ca4e1d25"
+        },
+        {
+          "path": "skills/senior-fullstack/references/development_workflows.md",
+          "git_mode": "100644",
+          "sha256": "125c20379218bf2f37528ac22ea079fb879a02d828b81962992610c213975d6f"
+        },
+        {
+          "path": "skills/senior-fullstack/references/tech_stack_guide.md",
+          "git_mode": "100644",
+          "sha256": "c011cad150a9323e500c35326b62515bba6600b131f7322a525706419de72cb5"
+        },
+        {
+          "path": "skills/senior-fullstack/scripts/code_quality_analyzer.py",
+          "git_mode": "100644",
+          "sha256": "64c340842f4ef81a34ce2b3a36510ab7a985b46bf9892821f1c24afbb1fcd299"
+        },
+        {
+          "path": "skills/senior-fullstack/scripts/fullstack_scaffolder.py",
+          "git_mode": "100644",
+          "sha256": "22920f68cccdefb082792da39037d16dd6bcbaa63d88e420f604d4854ba04496"
+        },
+        {
+          "path": "skills/senior-fullstack/scripts/project_scaffolder.py",
+          "git_mode": "100644",
+          "sha256": "042ca27e8c9d1d27fa5722e83e75fdc01b665b85c040ce6c7feb061d502d8941"
+        }
+      ],
+      "tree_sha256": "98e958c21d6851355fdc4ac885beb317bbda22c25c0e073b6c8c6c8fc0d8bbad"
+    },
+    {
+      "skill": "seo-cannibalization-detector",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita resources/implementation-playbook.md assente"
+      },
+      "disposition": {
+        "dangling_refs": "Current tree no longer promises missing playbook; self-contained candidate investigation guidance retained, no ranking harm certainty."
+      },
+      "files": [
+        {
+          "path": "skills/seo-cannibalization-detector/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "7c7e02b1e0aba24d3454677b1a2417045ff60ce624950a85943d5f6c8d19e7ab"
+        }
+      ],
+      "tree_sha256": "6e1d207a9cbc21f2068491d542986fea4eb214eecaf3c2412ea1a1c7f286dfb8"
+    },
+    {
+      "skill": "seo-content-auditor",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita resources/implementation-playbook.md assente"
+      },
+      "disposition": {
+        "dangling_refs": "Current tree no longer promises missing playbook; editorial scoring clearly distinguished from Google ranking certification."
+      },
+      "files": [
+        {
+          "path": "skills/seo-content-auditor/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "2947f407fd480ee861c70d8c7290a7476e275523f3ed997c2c35cbc19527f4b6"
+        }
+      ],
+      "tree_sha256": "fe396a332603748f20e8365f7a8d4d2352cef0c00cf709918673bbd2da33e0f5"
+    },
+    {
+      "skill": "seo-content-refresher",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "refresh contenuti, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing truthful refresh dates/source checks retained; no site publication implied."
+      },
+      "files": [
+        {
+          "path": "skills/seo-content-refresher/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "e0814e17526e322ffc042bbd154c05186f166cd16e1cc7cb11a8d7d2a1a3daf1"
+        }
+      ],
+      "tree_sha256": "723c070d00041def176a2e4663e4e0569c04a8ea59266de7b0fcf6cc73dafba3"
+    },
+    {
+      "skill": "seo-structure-architect",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita resources/implementation-playbook.md assente"
+      },
+      "disposition": {
+        "dangling_refs": "Current tree no longer promises missing playbook; scope explicitly content-valid markup, no guaranteed rich results."
+      },
+      "files": [
+        {
+          "path": "skills/seo-structure-architect/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6f7f0d01ef2aae922bde52c30e27a59e76a7835dcf193c37f3646f562f4de843"
+        }
+      ],
+      "tree_sha256": "badacb751a1ac66b32beb8fa82142b7404570ed0f74838d2e7e1f3b5384266da"
+    },
+    {
+      "skill": "sequence-psychologist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "sequenza email, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/sequence-psychologist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "863fd6ec0c992ca4f454fdbee81060dbbe5558e9459142cb4c4a168182a0516f"
+        }
+      ],
+      "tree_sha256": "4fd4533aa9a10504770afcb8f9703b7aa3d1967639de9a85a8151c18b079fe2f"
+    },
+    {
+      "skill": "skill-security-audit",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "audit pre-install, trigger concreti"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing scoped inert bundle inspection retained; heuristic findings are not authority or an execution request."
+      },
+      "files": [
+        {
+          "path": "skills/skill-security-audit/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3bc5dc649a062b7380fc88dca46bf892bff02a774d82852f778236253669b00c"
+        }
+      ],
+      "tree_sha256": "67376a691f0c187d4501f47c6bfc465b5bf6a5c04ae64ec855233a9c75eae109"
+    },
+    {
+      "skill": "skill-seekers",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "stub_import"
+        ],
+        "note": "description e body sono la description upstream ripetuta con trattino iniziale; 'When to Use' malformato; 34L"
+      },
+      "disposition": {
+        "stub_import": "Original malformed/thin import already corrected on current base; remaining findings handled through the individual disposition and explicit limitations."
+      },
+      "files": [
+        {
+          "path": "skills/skill-seekers/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8c910e1dd24f1258c4a9390b5869062a9168f1f42fa39cb4ee861e8964bce6ca"
+        }
+      ],
+      "tree_sha256": "1e2c855daadfa07005d501a58c9334f1e8f87cdcea8b350d5ec4d1da8a38c0f4"
+    },
+    {
+      "skill": "social-proof-architect",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "social proof, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/social-proof-architect/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "accb34957b60aba8011bb019f8ffba59d2f7e80b0c5288bba2f384f72b6d020c"
+        }
+      ],
+      "tree_sha256": "d7d11805eacf498325e21bc738efce35e7957dca0e0106c105dca81fa27c3170"
+    },
+    {
+      "skill": "speed",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 54L; trigger e scope chiari"
+      },
+      "disposition": {
+        "individual_semantic_review": "Full tree: missingreaderasset/hardcodedhostpath mutabletemplate andscriptinjection risk. Requireactualreviewedtemplate, separatepreview, JSONserialization withless-than escape, noshellsourceexecution, renderedproof not fakeopened."
+      },
+      "files": [
+        {
+          "path": "skills/speed/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "9d3b5a1cb389bc0a0fb38380f61040789c1cf05d9bcdf54bff51803ba30ea20a"
+        }
+      ],
+      "tree_sha256": "9353e8e5bdb91c88c255d4151b8b7f664ccf5270240248cabd178929c8b220a2"
+    },
+    {
+      "skill": "sql-optimization-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 47L; trigger e scope chiari"
+      },
+      "disposition": {
+        "thin_content": "Entrypoint length is not complete-tree usefulness. Prior full review includes all real support files, specific procedure and scope: Existing engine-specific query/index guide inspected; actual plans, workload and authorized changes required."
+      },
+      "files": [
+        {
+          "path": "skills/sql-optimization-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "e5e212280c58e04ed35df715b093f6e95ef0c382235104e3b4477fd9920bbd03"
+        },
+        {
+          "path": "skills/sql-optimization-patterns/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "a42a1614aafa56f50dac45735a87b982a1c437ca57d876b570dcbd072d09c648"
+        }
+      ],
+      "tree_sha256": "a6e7afca7be9c553fd7ba0cc41194f80eedd0849c34eab535cb44aeb2775315e"
+    },
+    {
+      "skill": "startup-financial-modeling",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita 3 references/*.md + resources/implementation-playbook.md assenti; When to Use = stub"
+      },
+      "disposition": {
+        "dangling_refs": "Current Local Resources explicitly no spreadsheet/reference/executable bundle. Prior complete review covers corrected cash and scenario math."
+      },
+      "files": [
+        {
+          "path": "skills/startup-financial-modeling/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "fadae630b1b1cbda2cd22859b90d22a3c177cf7734e77f27a8a58349d46e3b75"
+        }
+      ],
+      "tree_sha256": "e7b85b427ed9fb9803ff0cd5dfc2c1fd43835075b9daf106db40aaddd961fa2d"
+    },
+    {
+      "skill": "subject-line-psychologist",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "subject line, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/subject-line-psychologist/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3409a355581bd3cf45b1fc760d5d39335cdd385e2f551a30b82ddd1fb70ef9c7"
+        }
+      ],
+      "tree_sha256": "f5891e2bcb25f91b499b13b08a844d69f49a4ad7f868792427fbfe556fc71c8f"
+    },
+    {
+      "skill": "superpowers-lab",
+      "review_basis": "new complete-tree individual review",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "stub_import"
+        ],
+        "note": "34L, description 'Lab environment for Claude superpowers', When to Use generico"
+      },
+      "disposition": {
+        "stub_import": "Original malformed/thin import already corrected on current base; remaining findings handled through the individual disposition and explicit limitations."
+      },
+      "files": [
+        {
+          "path": "skills/superpowers-lab/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "33940624ef8a0333b0b17e31be8f67f39504186a33fe596d4842859e0c9d42c5"
+        }
+      ],
+      "tree_sha256": "ad18f983f6e04fdd4a2b57491bb864742015e4cc3a3cd630fd874b6b61998bf4"
+    },
+    {
+      "skill": "supply-chain-security",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "lang_zh"
+        ],
+        "note": "body in cinese (titolo/trigger EN)"
+      },
+      "disposition": {
+        "lang_zh": "Chinese is the intended source audience, not a broken capability. Preserve complete useful Chinese method and actual supporting references; prior repair removed unsafe installs/unsupported percentages."
+      },
+      "files": [
+        {
+          "path": "skills/supply-chain-security/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "3cbea9c30a1b97eda2e2c75cae84cb00d51114884e83a8c99f4698adf9320c14"
+        },
+        {
+          "path": "skills/supply-chain-security/references/cicd-pipeline-security.md",
+          "git_mode": "100644",
+          "sha256": "84dc27681929745524c61d64bdca269731f1f1df530b0d7435a6050c2ba971da"
+        },
+        {
+          "path": "skills/supply-chain-security/references/sbom-sca-methodology.md",
+          "git_mode": "100644",
+          "sha256": "97c54111804c7539f1ddb5e9c06cd0fc6287c825a5dfb5abce3416d951ee8722"
+        }
+      ],
+      "tree_sha256": "7f0cd686a631f59177f1a75a11ac9ef2b84604e5af6537f928c9286767be2929"
+    },
+    {
+      "skill": "swiftui-ui-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "pattern SwiftUI, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: All 32 files inspected; cancellation/races, per-destination sheet identity, form save failures, toast identity, media errors, keypath formatting and false live client closures repaired."
+      },
+      "files": [
+        {
+          "path": "skills/swiftui-ui-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8cfc06077ad579926d5882976d07bdcd3c8163704713c700e53fa1bd5769d076"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/agents/openai.yaml",
+          "git_mode": "100644",
+          "sha256": "25a1a4c8a8843cb959c18ef651f41a9665e6dfa15985722b077fced55f7ed247"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/app-wiring.md",
+          "git_mode": "100644",
+          "sha256": "1bc324647990b52b79cf577820b78a92193c533e7c7d5b0aec9143b507899804"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/async-state.md",
+          "git_mode": "100644",
+          "sha256": "5983c8473fea0757bf759463a3c92e082fae9838565f89f9ef2a8c5ca4c92db7"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/components-index.md",
+          "git_mode": "100644",
+          "sha256": "a2808ff1c2a038a29e71efb56fce214da15b9352cc2cfc136105c60cf769cea5"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/controls.md",
+          "git_mode": "100644",
+          "sha256": "5365b395c343bfc3daee1f6d2dd0f5e8aa58733f2992d088a578babe1d32d21a"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/deeplinks.md",
+          "git_mode": "100644",
+          "sha256": "eb9317a02c38b941d51c0e724537942ea26af1f6a1b65f55e0aad0bbf5b4fe63"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/focus.md",
+          "git_mode": "100644",
+          "sha256": "918c9b5d66c096c790f713f94682f0516e41ebf6f1ea8cfbe3a1691c160641d7"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/form.md",
+          "git_mode": "100644",
+          "sha256": "22097a730068a696c98a13070bb6e0eba67a11b2f7b7325ed5048d2c8b9cca84"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/grids.md",
+          "git_mode": "100644",
+          "sha256": "6156536603c0e1d47123941a7dabcd146558094d3481153c475b075ff2afb9fc"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/haptics.md",
+          "git_mode": "100644",
+          "sha256": "b24eb42d469be2547471417923b211a2567c1b10fcf1936fda08d05bfe33d89e"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/input-toolbar.md",
+          "git_mode": "100644",
+          "sha256": "4704b09633f24fa0b8f5f1be31f887ca5d03d32f7a885d17c11010631b406c1d"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/lightweight-clients.md",
+          "git_mode": "100644",
+          "sha256": "08ce95e50806d24fa918b1293cda78ca2f8f26025dc723775ec6627681814f9c"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/list.md",
+          "git_mode": "100644",
+          "sha256": "a8660f6cf158578de72d62a496a44d10c82d357927006eeb43f7e7393b473147"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/loading-placeholders.md",
+          "git_mode": "100644",
+          "sha256": "d8e181e3e59c4e6b440be7615c1384f6a18eff7942680add7c548edbbb6ab391"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/macos-settings.md",
+          "git_mode": "100644",
+          "sha256": "f86a86bfbf2aa6aee99fca111b4a62cbc37949cea558f40bbdeb795a0f5212b3"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/matched-transitions.md",
+          "git_mode": "100644",
+          "sha256": "4e4cc722b2bcbddc428ee8b11644f58bfd04fe9593cb9a94e99a776fc0108292"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/media.md",
+          "git_mode": "100644",
+          "sha256": "0851f2b776d96a80bf2cfede62bafe1b7157aca30d5bce0daf6c2a115236e818"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/menu-bar.md",
+          "git_mode": "100644",
+          "sha256": "969083aafd71220edbae2152b1e1a46cb9e2f2d9225afb5a618ab23f8ecafca6"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/navigationstack.md",
+          "git_mode": "100644",
+          "sha256": "b49ae75c66b22116947447f1ed66e6467d65b38be6db31cfe8a413ff95f24440"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/overlay.md",
+          "git_mode": "100644",
+          "sha256": "173504938e9f6f2a3c64f092cdd7ac6a3b7d468b54597195703dd4afd68ad8d5"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/performance.md",
+          "git_mode": "100644",
+          "sha256": "4842b6857457fa79087d668df2a8f3fd266b43c151b4086aef168145146e59be"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/previews.md",
+          "git_mode": "100644",
+          "sha256": "ef4684e27b0e398b7b3d0a50ea17509db499d749041448975aa661ca00711b14"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/scroll-reveal.md",
+          "git_mode": "100644",
+          "sha256": "b02a6e794f3e37f235a5d74d31922a5c274fc6ca7be834ccc7c8b051b96a9a1c"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/scrollview.md",
+          "git_mode": "100644",
+          "sha256": "fe30a174fd58408523b9321a25dd155389e1d0fbb45c0d4c2834fcd6f69d6040"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/searchable.md",
+          "git_mode": "100644",
+          "sha256": "dac36e9cc90499229a8f7335073b45be19cc10577d70f30c3e69dc034937dc62"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/sheets.md",
+          "git_mode": "100644",
+          "sha256": "7a599501cb49dc40aab8db850a27380ae7f830c749d1f4d250d1b51310e8e78b"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/split-views.md",
+          "git_mode": "100644",
+          "sha256": "17a734ac7758fbc42cdd137f4d63a80814dbcde6d14d3b600d54cf147db4c94a"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/tabview.md",
+          "git_mode": "100644",
+          "sha256": "0e1d8143b3481e9b862cc2b2a6f0ac388cea97cb3eda9252f33349b5dd16879d"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/theming.md",
+          "git_mode": "100644",
+          "sha256": "cbf2bac6a2e115fe0d2ef55e943736e74d5652baef620ac10cd6cbc689e07981"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/title-menus.md",
+          "git_mode": "100644",
+          "sha256": "64dc98d720d848b49423adc8960116e225a28a0a527bc9c3b16b10a1268d2765"
+        },
+        {
+          "path": "skills/swiftui-ui-patterns/references/top-bar.md",
+          "git_mode": "100644",
+          "sha256": "3b98471adcb3f5b13dff4a35bf2cebcd5c36b1f0cafa9f12ad149178998ce1d7"
+        }
+      ],
+      "tree_sha256": "3b28661f7a3f4e535e88c7506956d02f1a526d435433b6380c6ed82633164df9"
+    },
+    {
+      "skill": "systematic-debugging",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "debug sistematico, trigger espliciti"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: All 11 files inspected; replace domain polling that could leave timer exceptions/unbounded invalid timeouts with bounded rejecting helper; historical pressure fixtures remain historical."
+      },
+      "files": [
+        {
+          "path": "skills/systematic-debugging/CREATION-LOG.md",
+          "git_mode": "100644",
+          "sha256": "8e303984dbbecb064fdd5fb7a4179ad6448605152a8508a30a6a47bfbc347050"
+        },
+        {
+          "path": "skills/systematic-debugging/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "2043610969aecd8cb2c9526c1b1a07419721c5f6ba436d0954a18fd5af25ffc8"
+        },
+        {
+          "path": "skills/systematic-debugging/condition-based-waiting-example.ts",
+          "git_mode": "100644",
+          "sha256": "3b3c9a69cdcb0d1432a9415355017708d263c46ce40e1b342c7153f54ce35e15"
+        },
+        {
+          "path": "skills/systematic-debugging/condition-based-waiting.md",
+          "git_mode": "100644",
+          "sha256": "8216dfa7b998a26db6e7d8a6ca402b54007e85935bbbce9d10dea5c85f6ef696"
+        },
+        {
+          "path": "skills/systematic-debugging/defense-in-depth.md",
+          "git_mode": "100644",
+          "sha256": "699a39eea90a7ba67c854dd30cb7792ab9be45079dbf465b43bd4664ea9d2814"
+        },
+        {
+          "path": "skills/systematic-debugging/find-polluter.sh",
+          "git_mode": "100644",
+          "sha256": "d05b4922ce3909ed1abd85a60a6dfce3b57ab41434b001375df4a6bd35a7eecd"
+        },
+        {
+          "path": "skills/systematic-debugging/root-cause-tracing.md",
+          "git_mode": "100644",
+          "sha256": "ca7445f1351528083d394c5f333d4e78c52274a2a469fb8e65474a2b37cb3a2a"
+        },
+        {
+          "path": "skills/systematic-debugging/test-academic.md",
+          "git_mode": "100644",
+          "sha256": "1e4ac55ef3069e7fba7d68f3c361d4f281e211d7b3ebb32e57d7bde0fe978681"
+        },
+        {
+          "path": "skills/systematic-debugging/test-pressure-1.md",
+          "git_mode": "100644",
+          "sha256": "fb898817b4c6cc9aeab8facb558f760708baf94e79916b534bafc5a7fc947faa"
+        },
+        {
+          "path": "skills/systematic-debugging/test-pressure-2.md",
+          "git_mode": "100644",
+          "sha256": "56cf0ae6a7330d57fd56fdccde739e8d6375852b8931ade40c185417e299ab9b"
+        },
+        {
+          "path": "skills/systematic-debugging/test-pressure-3.md",
+          "git_mode": "100644",
+          "sha256": "980963c46434e54181b885998a4ec5640cb28a14b6dae86da108d5801b257366"
+        }
+      ],
+      "tree_sha256": "ed532866c4ab225033af32979aaaca8f11ab90b300e8d3a6440c09bf83e8f2f4"
+    },
+    {
+      "skill": "testing-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "placeholder_when"
+        ],
+        "note": "When to Use = placeholder"
+      },
+      "disposition": {
+        "placeholder_when": "Reconciled current actionable trigger and procedure; generic repeated trigger repaired in this batch where present. Incomplete Jest scaffolds use it.todo; missing waitFor import supplied, existing negative cases retained."
+      },
+      "files": [
+        {
+          "path": "skills/testing-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "b51a8e25ee4baefb255146af24c93d9b0b9e86e71eaa60db600b2953e9382375"
+        }
+      ],
+      "tree_sha256": "d8f2778eaa6a81137f5ad59f076b0dbf62ac5bcd508d6ac79d4811dafa91c25c"
+    },
+    {
+      "skill": "threat-modeling-expert",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 74L"
+      },
+      "disposition": {
+        "thin_content": "Entrypoint length is not complete-tree usefulness. Prior full review includes all real support files, specific procedure and scope: Existing threat scope/assumptions and authorized review workflow retained; no offensive commands or live target scans executed."
+      },
+      "files": [
+        {
+          "path": "skills/threat-modeling-expert/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "31664ad81d1f2db231c3654053d14758cc960889994c041fc17b4a71acca6e42"
+        }
+      ],
+      "tree_sha256": "c1ede04425870431206751e1cb492fc79fc84d89f63458391a4fde1c2215dfa9"
+    },
+    {
+      "skill": "trust-calibrator",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "calibrazione del proof, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/trust-calibrator/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "7f575e500b00e993388e62c3e64917547a1e85727024289f32f4596c61e6f7cd"
+        }
+      ],
+      "tree_sha256": "f833f5613ae758ca72a9a60c5442eadd6bd7e7e07c3c44327543e373e539f66e"
+    },
+    {
+      "skill": "ui-from-screenshot",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "screenshot->UI, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing image-driven implementation scope retained, supplied image/design remains necessary input."
+      },
+      "files": [
+        {
+          "path": "skills/ui-from-screenshot/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "f88cea2b4a4f81d05202f54200b86e7505b5ebb488ca77be1799862a0377bebc"
+        }
+      ],
+      "tree_sha256": "c9170eb117926c9ba37ef227ebbf54e52d2e7b9f1108d6ae731e3873dc39c0c6"
+    },
+    {
+      "skill": "ui-states",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "stati UI dimenticati, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing loading, empty, failure, saved-content workflow retained; no fabricated browser verification."
+      },
+      "files": [
+        {
+          "path": "skills/ui-states/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "eb233cb2dd05d3a169b39c6e9f5b1ff9c16ec23d950184b511624f176a03f911"
+        }
+      ],
+      "tree_sha256": "a881f791da0deb6b3e2f261ffd116c818caaf71409a7368dbb0233061a935aab"
+    },
+    {
+      "skill": "usage-based-pricing",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "duplicate_phrase"
+        ],
+        "note": "When to Use: 'Use this skill when you need design pricing models...'"
+      },
+      "disposition": {
+        "duplicate_phrase": "Fixed missing to in trigger sentence, preserving actual pricing procedure and three-file bundle."
+      },
+      "files": [
+        {
+          "path": "skills/usage-based-pricing/README.md",
+          "git_mode": "100644",
+          "sha256": "654bbc4056634329bfd95287aff2b6cbb767405ad284419d4333c61b6943017d"
+        },
+        {
+          "path": "skills/usage-based-pricing/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "cbab3da7e9342c97eae9b854f8c4b9cc189d9065178b7c2e598c25f8bd1cd2ce"
+        },
+        {
+          "path": "skills/usage-based-pricing/references/detailed-guide.md",
+          "git_mode": "100644",
+          "sha256": "749ce42323375569218f1b12171c3a8207d20ad9029ea68d57f989e6f38e3b34"
+        }
+      ],
+      "tree_sha256": "b70221f017276497e35c4d5c87d60a73d4a1ca7ddb6a151fc8ae217b34361f23"
+    },
+    {
+      "skill": "ux-persuasion-engineer",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "friction decisionale, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/ux-persuasion-engineer/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "6fca0037a45b5753b45113fd74deffbcc3f1967f4bcb4b5b2180ae03ab6c4e97"
+        }
+      ],
+      "tree_sha256": "54c0973d63dc16b3cc32b0b8d1b40073a21a2225ad362e2c5cd811b8961a8f2a"
+    },
+    {
+      "skill": "visual-emotion-engineer",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "direzione visiva, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Preserve the specific persuasion workflow and add a concrete output example; remove claimed clinical identity, qualify inherited unsupported citations as hypotheses and make chaining optional without prerequisite cycles. Original contribution and immutable author snapshot linked in the skill."
+      },
+      "files": [
+        {
+          "path": "skills/visual-emotion-engineer/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "68113bc82639c04c75cbf508ec56c3627313e289badc1187128cfffb45237486"
+        }
+      ],
+      "tree_sha256": "ffe8f1f02fbfee2a6f1de0c38ce59d00b0deed97842e67bf451db206f504848b"
+    },
+    {
+      "skill": "wcag-audit-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "nano",
+        "codes": [
+          "thin_content"
+        ],
+        "note": "solo 49L; trigger impliciti"
+      },
+      "disposition": {
+        "thin_content": "Entrypoint length is not complete-tree usefulness. Prior full review includes all real support files, specific procedure and scope: Repair nested snippet fences and inert custom widget examples; use native semantics, distinguish exact media criteria and jurisdiction-dependent applicability."
+      },
+      "files": [
+        {
+          "path": "skills/wcag-audit-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "f1ae46b2e7eeece4ae2bedae1af536b3d37af2d9c680c4424a04c3996a72885d"
+        },
+        {
+          "path": "skills/wcag-audit-patterns/resources/implementation-playbook.md",
+          "git_mode": "100644",
+          "sha256": "62f647da78f3533a07308b65c128b41ce77a565f8577035adb304b1f9a86fe93"
+        }
+      ],
+      "tree_sha256": "7ab32601fd39a21e047391dfe0785b17d40f78dbde52404de1154791eae6974e"
+    },
+    {
+      "skill": "workflow-orchestration-patterns",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dangling_refs"
+        ],
+        "note": "cita resources/implementation-playbook.md assente"
+      },
+      "disposition": {
+        "dangling_refs": "Current resources external official Temporal docs, missing local implementation playbook no longer promised; prior complete review covers SDK-bound guidance."
+      },
+      "files": [
+        {
+          "path": "skills/workflow-orchestration-patterns/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "22cb3a3c7acb44baa216ded195c2bda99cce49aa950bbc3d5eba3f24465aa933"
+        }
+      ],
+      "tree_sha256": "2ca7214561ce40e6fc2074ead05f6c44231feabc3cccbc090dacfcfbeae2e620"
+    },
+    {
+      "skill": "write-design-md",
+      "review_basis": "prior complete-tree review revalidated and report reconciled",
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "DESIGN.md, trigger specifici"
+      },
+      "disposition": {
+        "-": "Original retained verdict reconciled with the prior complete-tree semantic review: Existing requirements-to-design procedure retained; no absent design source or implementation proof invented."
+      },
+      "files": [
+        {
+          "path": "skills/write-design-md/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "dd9bc643482061f4c04c8331c4ba2ee5fbb9eb88df387fbc586ce3fa6a86f590"
+        }
+      ],
+      "tree_sha256": "efe05bee24922c1ebf0def7e39084355b9086b1554dc030c93533d2849823d6d"
+    }
+  ]
+}

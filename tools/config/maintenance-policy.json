@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "fallback": "full",
+  "requiredChecks": ["pr-policy", "pr-evidence", "source-validation", "artifact-preview"],
+  "editorialFiles": ["CHANGELOG.md", "walkthrough.md"],
+  "editorialPrefixes": ["docs/users/", "docs_zh-CN/users/", "docs/vietnamese/"],
+  "operationalSkills": ["antigravity-maintainer-batch-release", "antigravity-workflows"],
+  "runtimePrefixes": ["tools/bin/", "tools/lib/aas-v1/"],
+  "webPrefixes": ["apps/web-app/src/"],
+  "snapshotPolicy": "release-only",
+  "personalClientsBlockPublicRelease": false
+}

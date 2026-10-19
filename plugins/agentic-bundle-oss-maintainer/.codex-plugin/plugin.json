@@ -1,0 +1,38 @@
+{
+  "name": "aasb-oss-maintainer",
+  "version": "19.11.0",
+  "description": "Install the \"OSS Maintainer\" workflow plugin from Agentic Awesome Skills.",
+  "author": {
+    "name": "ibrdot and contributors",
+    "url": "https://github.com/ibrdot/swe-re-expert"
+  },
+  "homepage": "https://github.com/ibrdot/swe-re-expert",
+  "repository": "https://github.com/ibrdot/swe-re-expert",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "oss-maintainer",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OSS Maintainer",
+    "shortDescription": "Maintainer & OSS · 10 curated skills",
+    "longDescription": "For shipping clean changes in public repositories. Not for: Use a different pack when the project does not match this domain.. Covers Commit, Create Branch, and 8 more skills.",
+    "developerName": "ibrdot and contributors",
+    "category": "Maintainer & OSS",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/ibrdot/swe-re-expert/",
+    "privacyPolicyURL": "https://github.com/ibrdot/swe-re-expert/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/ibrdot/swe-re-expert/blob/main/TERMS.md",
+    "brandColor": "#111827",
+    "defaultPrompt": [
+      "Use the OSS Maintainer pack for this project. Select only relevant skills, inspect the existing stack, and report observed checks and limitations. Prepare drafts before external actions."
+    ]
+  }
+}

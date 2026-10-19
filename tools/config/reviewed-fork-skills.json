@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "pr": 1337,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "twoicewoo/agentic-awesome-skills",
+      "skill_root": "skills/break-ai-fix-loops",
+      "reviewed_head": "d37495c6854ecc9d94751899eb3d5e2662dd7723",
+      "tree_oid": "1e5184dcd44eb1130d7f32ff246e424cba21a23f"
+    },
+    {
+      "pr": 1413,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "Pranav-Nexus/agentic-awesome-skills",
+      "skill_root": "skills/skill-porter",
+      "reviewed_head": "43b06dfdf31482297fc140a8cf7adc31194adc33",
+      "tree_oid": "accbfb34570362bb4422985bd487f22d2f2c7acb"
+    },
+    {
+      "pr": 1756,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "gongdear/agentic-awesome-skills",
+      "skill_root": "skills/cline-pilot",
+      "reviewed_head": "8010a79f20b923504002c44dc3dcd974624cfe30",
+      "tree_oid": "33d10138e8346e45611671fe2d2f1f033ca5a15b",
+      "reviewed_support_paths": [
+        "skills/cline-pilot/.gitignore",
+        "skills/cline-pilot/README.md"
+      ]
+    },
+    {
+      "pr": 1838,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "stas4000/agentic-awesome-skills",
+      "skill_root": "skills/tastegate",
+      "reviewed_head": "6c644174654c778e4ccaefc29124515189ab422e",
+      "tree_oid": "a0c276935ee6b3f608d22a663a83ce0fd2b91702"
+    },
+    {
+      "pr": 1838,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "stas4000/agentic-awesome-skills",
+      "skill_root": "skills/what-could-break",
+      "reviewed_head": "6c644174654c778e4ccaefc29124515189ab422e",
+      "tree_oid": "42db8ca5bd1cd664b4bdf3908205f554d20fd0c3"
+    },
+    {
+      "pr": 1944,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "moooai/agentic-awesome-skills-ibrdot",
+      "skill_root": "skills/movie-coupon",
+      "reviewed_head": "86d016467f0b4810dc526cca2d8dbc4d73f8e2d0",
+      "tree_oid": "55936e835827e850806385a9493ceec3a74e4785"
+    },
+    {
+      "pr": 1944,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "moooai/agentic-awesome-skills-ibrdot",
+      "skill_root": "skills/obtain-coupons-all-in-one",
+      "reviewed_head": "86d016467f0b4810dc526cca2d8dbc4d73f8e2d0",
+      "tree_oid": "01bcabb11e4d3db27d0e6cca2d9c738bd1347f8d"
+    },
+    {
+      "pr": 1944,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "moooai/agentic-awesome-skills-ibrdot",
+      "skill_root": "skills/parcel-coupon",
+      "reviewed_head": "86d016467f0b4810dc526cca2d8dbc4d73f8e2d0",
+      "tree_oid": "ae6a829d1c62f8f61b76ad8e4dca63cfa8e7deeb"
+    },
+    {
+      "pr": 1944,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "moooai/agentic-awesome-skills-ibrdot",
+      "skill_root": "skills/takeout-coupon",
+      "reviewed_head": "86d016467f0b4810dc526cca2d8dbc4d73f8e2d0",
+      "tree_oid": "22ae60a5abff767344288f4bf471232fd06bdda5"
+    },
+    {
+      "pr": 1944,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "moooai/agentic-awesome-skills-ibrdot",
+      "skill_root": "skills/trip-coupon",
+      "reviewed_head": "86d016467f0b4810dc526cca2d8dbc4d73f8e2d0",
+      "tree_oid": "9396c76c66fed335823d2e4fad2a51677dee82c4"
+    },
+    {
+      "pr": 1938,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "UmarSiddiqui/agentic-awesome-skills",
+      "skill_root": "skills/obsess",
+      "reviewed_head": "524865fea3039c387779895e2999a030b5d1e94a",
+      "tree_oid": "198d6b6bb47c8e5e3798665e98b550ad51dce0f4"
+    },
+    {
+      "pr": 1939,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "huyanxius/agentic-awesome-skills",
+      "skill_root": "skills/logo-to-stickers",
+      "reviewed_head": "2f1a82193081e820cd2076dc43503a2945028a4d",
+      "tree_oid": "93622c694de6b4743eb0e1d33b4b984357e6c2e0"
+    },
+    {
+      "pr": 1943,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "berkantay/openhook-agentic-awesome-skills",
+      "skill_root": "skills/openhook",
+      "reviewed_head": "97655e3dbc61258dde9d50d0823b574ecb970fb8",
+      "tree_oid": "6528a68f95d521292a48b49911ba362b93ab50e1"
+    },
+    {
+      "pr": 1965,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "moez552/agentic-awesome-skills",
+      "skill_root": "skills/outreachgenie-list-audit",
+      "reviewed_head": "f60dc4014843482de29c771809d3d266ad928012",
+      "tree_oid": "f6b368e01714bea44d7599643e41ef3011f7b9fd"
+    },
+    {
+      "pr": 1968,
+      "base_repository": "ibrdot/swe-re-expert",
+      "head_repository": "JaclynFitzpatrick/agentic-awesome-skills",
+      "skill_root": "skills/project-memory-log",
+      "reviewed_head": "ca54fb20815f57e5e96a5b3acbb2c5d214facdda",
+      "tree_oid": "2d64633b10968daa12ecda8a86506e1be1964dce"
+    }
+  ]
+}

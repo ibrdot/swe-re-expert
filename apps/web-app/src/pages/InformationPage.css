@@ -1,0 +1,12 @@
+.information-page { max-width: 68rem; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+.information-page__eyebrow { color: var(--accent-solid); font-size: .85rem; font-weight: 700; }
+.information-page h1 { max-width: 48rem; font-size: var(--page-title-size); line-height: var(--page-title-leading); letter-spacing: var(--page-title-tracking); margin: 1rem 0; }
+.information-page__lede { max-width: 44rem; color: var(--text-secondary); font-size: 1.15rem; line-height: 1.7; }
+.information-page__outline { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin: 2rem 0; padding-bottom: 1.5rem; border-bottom: 1px solid var(--stroke-subtle); }
+.information-page a { color: var(--accent-solid); text-underline-offset: 4px; }
+.information-page__sections { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 3rem; }
+.information-page section { scroll-margin-top: 7rem; }
+.information-page h2 { font-size: 1.25rem; margin: 0 0 .75rem; }
+.information-page section p { color: var(--text-secondary); line-height: 1.8; }
+.information-page__links { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; margin-top: 1rem; }
+@media (max-width: 700px) { .information-page__sections { grid-template-columns: 1fr; } }

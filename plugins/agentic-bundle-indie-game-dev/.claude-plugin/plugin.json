@@ -1,0 +1,19 @@
+{
+  "name": "agentic-bundle-indie-game-dev",
+  "version": "19.11.0",
+  "description": "Editorial \"Indie Game Dev\" bundle for Claude Code from Agentic Awesome Skills.",
+  "author": {
+    "name": "ibrdot and contributors",
+    "url": "https://github.com/ibrdot/swe-re-expert"
+  },
+  "homepage": "https://github.com/ibrdot/swe-re-expert",
+  "repository": "https://github.com/ibrdot/swe-re-expert",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "bundle",
+    "indie-game-dev",
+    "agentic-awesome-skills"
+  ]
+}

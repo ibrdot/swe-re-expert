@@ -1,0 +1,19 @@
+{
+  "name": "agentic-awesome-skills",
+  "version": "19.11.0",
+  "description": "Plugin-safe Claude Code distribution of Agentic Awesome Skills with 2,652 supported skills.",
+  "author": {
+    "name": "ibrdot and contributors",
+    "url": "https://github.com/ibrdot/swe-re-expert"
+  },
+  "homepage": "https://github.com/ibrdot/swe-re-expert",
+  "repository": "https://github.com/ibrdot/swe-re-expert",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "agentic-skills",
+    "plugin-safe",
+    "productivity"
+  ]
+}

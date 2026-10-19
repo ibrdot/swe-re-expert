@@ -1,0 +1,41 @@
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const os = require("node:os");
+const path = require("node:path");
+const { openStore } = require("../../lib/maintenance-state");
+const directory = fs.mkdtempSync(path.join(fs.realpathSync(os.tmpdir()), "aas-state-"));
+const repository = fs.mkdtempSync(path.join(fs.realpathSync(os.tmpdir()), "aas-repo-"));
+try {
+  const first = openStore(directory, repository);
+  const fingerprint = { digest: "a".repeat(64), skills: [{ id: "example", tree: "b".repeat(40) }], context: [] };
+  first.saveReview({ reviewedHead: "1".repeat(40), fingerprint, reviewer: "owner", evidence: "bundle reviewed", outcome: "approved" });
+  first.writeEvidence("test", { blocking: false, reasons: [] });
+  assert.equal(first.readEvidence("test").blocking, false);
+  assert.equal(first.readEvidence("other"), null);
+  first.writeBatch("example", { prs: [12], results: [{ prNumber: 12, status: "blocked" }] });
+  const resumed = openStore(directory, repository);
+  assert.equal(resumed.reuseReview(fingerprint, "2".repeat(40)).reusedFrom, "1".repeat(40));
+  assert.equal(resumed.readBatch("example").results[0].status, "blocked");
+  assert.equal(resumed.reuseReview({ ...fingerprint, digest: "c".repeat(64) }, "2".repeat(40)), null);
+  const cached = path.join(directory, "evidence.test.json");
+  const altered = JSON.parse(fs.readFileSync(cached)); altered.result.blocking = true; fs.writeFileSync(cached, JSON.stringify(altered));
+  assert.throws(() => resumed.readEvidence("test"), /authentication/);
+  const receipt = path.join(directory, `review.${fingerprint.digest}.json`);
+  const tampered = JSON.parse(fs.readFileSync(receipt));
+  tampered.receipt.reviewer = "forged";
+  fs.writeFileSync(receipt, JSON.stringify(tampered));
+  assert.throws(() => resumed.reuseReview(fingerprint, "2".repeat(40)), /authentication/);
+  fs.chmodSync(receipt, 0o644);
+  assert.throws(() => resumed.reuseReview(fingerprint, "2".repeat(40)), /Unsafe/);
+  fs.unlinkSync(receipt);
+  fs.symlinkSync(path.join(directory, "review.key"), receipt);
+  assert.throws(() => resumed.reuseReview(fingerprint, "2".repeat(40)));
+  assert.throws(() => resumed.writeBatch("../escape", {}), /Invalid/);
+  assert.throws(() => openStore(repository, repository), /outside/);
+  fs.mkdirSync(path.join(directory, ".git"));
+  assert.throws(() => openStore(directory, repository), /any Git checkout/);
+} finally {
+  fs.rmSync(directory, { recursive: true, force: true });
+  fs.rmSync(repository, { recursive: true, force: true });
+}
+console.log("Persistent review authentication and private state tests passed");

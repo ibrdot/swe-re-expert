@@ -1,0 +1,164 @@
+[
+  {
+    "path": "/teams/",
+    "title": "For teams",
+    "description": "Evaluate reusable agent skills with a small pilot, reviewable selections, and clear adoption boundaries.",
+    "intro": "Give your team a shared starting point.",
+    "lede": "Reusable playbooks for the coding agents you already use. Start with one workflow, inspect the instructions, and keep your team in control.",
+    "sections": [
+      {
+        "title": "Choose a practical first workflow",
+        "body": "Explore focused packs for building web apps, reviewing security, testing software, or automating repetitive work. A pack is a starting point: inspect its skills and requirements before adopting it.",
+        "links": [
+          {
+            "label": "Compare domain packs",
+            "href": "/plugins/"
+          },
+          {
+            "label": "Browse individual skills",
+            "href": "/core/"
+          }
+        ]
+      },
+      {
+        "title": "Run a small pilot",
+        "body": "Pick one task in a non-sensitive project. Read the relevant SKILL.md files, check external tools and credentials, and follow the guide for your agent. Review proposed actions and judge the result against your own acceptance criteria.",
+        "links": [
+          {
+            "label": "Getting started",
+            "href": "/docs/getting-started/"
+          },
+          {
+            "label": "Agent setup guides",
+            "href": "/docs/"
+          }
+        ]
+      },
+      {
+        "title": "Share a reviewable selection",
+        "body": "Use the catalog shortlist to compare skills and share their exact IDs with colleagues. Shared links include the catalog version and IDs only; they are not private links or snapshots of old skill content. Keep project details out of the URL.",
+        "links": [
+          {
+            "label": "Build a shortlist",
+            "href": "/core/"
+          }
+        ]
+      },
+      {
+        "title": "Make adoption repeatable",
+        "body": "Record the exact skill IDs and catalog version in your team workflow. With AAS Core, your agent selects the skills; validation checks the manifest and catalog, and planning produces a reviewable artifact. The Workbench inspects imported artifacts in browser memory.",
+        "links": [
+          {
+            "label": "Core workflow and boundaries",
+            "href": "/docs/aas-core/"
+          },
+          {
+            "label": "Review in the Workbench",
+            "href": "/workbench/"
+          }
+        ]
+      },
+      {
+        "title": "What to check before wider use",
+        "body": "Review each skill\u2019s source, license, declared risk, limitations, and required services. AAS is community-maintained open source; it does not provide a service-level agreement, compliance certification, or guaranteed agent outcomes. Model providers and optional services have their own terms and costs.",
+        "links": [
+          {
+            "label": "Trust & transparency",
+            "href": "/trust/"
+          },
+          {
+            "label": "Ask the community",
+            "href": "https://github.com/ibrdot/swe-re-expert/discussions/new?category=q-a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/trust/",
+    "title": "Trust & transparency",
+    "description": "Understand AAS sources, licenses, privacy, review boundaries, and security reporting.",
+    "intro": "Know what you are adopting.",
+    "lede": "AAS is an independent, community-curated project. Inspect the source and decide whether each skill fits your environment.",
+    "sections": [
+      {
+        "title": "Source and review",
+        "body": "The GitHub repository is the canonical source. Skill details expose recorded source, requirements, and declared risk where available. Metadata and schema validation are useful checks; they do not certify security, compliance, or fitness for your project. Review the instructions and bundled files before use.",
+        "links": [
+          {
+            "label": "Source repository",
+            "href": "https://github.com/ibrdot/swe-re-expert"
+          },
+          {
+            "label": "Contribution standards",
+            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/CONTRIBUTING.md"
+          }
+        ]
+      },
+      {
+        "title": "Licenses and attribution",
+        "body": "Original code and tooling use MIT. Original documentation and other non-code written content use CC BY 4.0 unless a more specific upstream notice applies. Imported skills may carry additional license and attribution requirements. Check the relevant files before redistribution or commercial adoption.",
+        "links": [
+          {
+            "label": "Code license",
+            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/LICENSE"
+          },
+          {
+            "label": "Content license",
+            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/LICENSE-CONTENT"
+          },
+          {
+            "label": "Sources & attribution",
+            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/docs/sources/sources.md"
+          }
+        ]
+      },
+      {
+        "title": "Browser data and analytics",
+        "body": "Saved skills and shortlists stay in this browser\u2019s local storage. Workbench imports stay in memory. Shared links contain selected IDs and a catalog version, and anyone with the link can read them. The hosted catalog uses Vercel Web Analytics for aggregate visit statistics; AAS removes query strings and fragments from analytics URLs. The catalog also requests public aggregate skill-save counts from Supabase.",
+        "links": [
+          {
+            "label": "Privacy policy",
+            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/PRIVACY.md"
+          },
+          {
+            "label": "Vercel analytics privacy",
+            "href": "https://vercel.com/docs/analytics/privacy-policy"
+          }
+        ]
+      },
+      {
+        "title": "Local tools and third parties",
+        "body": "Skills-only plugins are local instruction bundles and do not independently collect telemetry. AAS Core\u2019s local catalog discovery is read-only and offline-capable. Your agent client, model provider, and any services you enable handle data under their own policies. A skill mentioning a service does not grant access or include its fees.",
+        "links": [
+          {
+            "label": "Core reference",
+            "href": "/docs/aas-core/"
+          },
+          {
+            "label": "Terms of use",
+            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/TERMS.md"
+          }
+        ]
+      },
+      {
+        "title": "Report a problem",
+        "body": "Use GitHub issues for reproducible bugs and Discussions for support. Send sensitive vulnerability reports through private security reporting; do not include credentials or private project information in public posts.",
+        "links": [
+          {
+            "label": "Report a bug",
+            "href": "https://github.com/ibrdot/swe-re-expert/issues/new/choose"
+          },
+          {
+            "label": "Private security report",
+            "href": "https://github.com/ibrdot/swe-re-expert/security/advisories/new"
+          },
+          {
+            "label": "Security policy",
+            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/SECURITY.md"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+  "scope_total": 2689,
+  "previous_verified": 90,
+  "newly_read": 8,
+  "pending_after_this_batch": 2591,
+  "records": [
+    {
+      "id": "00-andruia-consultant",
+      "status": "repair-prepared",
+      "verdict": "Read sole full entrypoint: diagnosis useful; corrected unconditional file overwrites/language override, unverified skill IDs and prompt-only mixed-language example. Source-only change awaiting gates. First Tessl attempt scored67 on this entrypoint; actionable missing output-validation/format and activation-description feedback repaired. Provenance uncertainty retained, not removed to improve a score.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/00-andruia-consultant/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "19da24dfa9e6f704fba9137a9a83a8ca89e1bcecc86e9798243780c28a30a74b"
+        }
+      ],
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "meta_source",
+          "lang"
+        ],
+        "note": "source:personal non standard + manca source_type; contenuto OK"
+      },
+      "report_disposition": {
+        "meta_source": "source_type is optional in exact-base validator; source: personal remains historical attribution, not replaced with invented ownership. Added immutable earliest AAS copy and explicit lack of independently verified upstream origin/license.",
+        "lang": "Spanish is the intended Andru.ia audience, not a semantic defect. Preserve it and honor user language overrides; replace the mixed-language prompt with an actual Spanish output example."
+      }
+    },
+    {
+      "id": "10-andruia-skill-smith",
+      "status": "repair-prepared",
+      "verdict": "Read sole full entrypoint: practical authoring flow retained; concrete activation/example/output, repo-specific names, no mandatory private reasoning, publication boundary and truthful limitations corrected. Awaiting gates. Second Tessl attempt scored71 here after consultant82; concrete current-base validation commands/failure-retry loop and activation description improved. No provenance/canonical-sync boundary removed.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/10-andruia-skill-smith/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "0c207cea2ea482e8235125016001351a6f25ee92f0f0e194da387934200d3cf3"
+        }
+      ],
+      "original_report": {
+        "verdict": "fix",
+        "severity": "major",
+        "codes": [
+          "placeholder_when",
+          "hardcoded_path",
+          "wrong_artifact"
+        ],
+        "note": "When to Use placeholder vuoto; path Windows D:\\; crea README.md invece di SKILL.md"
+      },
+      "report_disposition": {
+        "placeholder_when": "Fixed in this batch with concrete authoring trigger.",
+        "hardcoded_path": "Already removed on current main; procedure resolves repository root rather than a personal Windows path.",
+        "wrong_artifact": "Already corrected on current main: canonical SKILL.md, source-only PR and generated-sync boundary. Concrete worked design added."
+      }
+    },
+    {
+      "id": "20-andruia-niche-intelligence",
+      "status": "repair-prepared",
+      "verdict": "Read sole full entrypoint: useful niche dossier retained; removed duplicate usage heading, simulated credentials and private-reasoning demand; jurisdiction/source/applicability distinctions plus dental worked example. Awaiting gates. Latest Tessl70 identified missing concrete dossier/source method; added official-source verification method and inline evidence/output table without inventing legal facts.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/20-andruia-niche-intelligence/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "5aba9ba51c7ba509d57a8b36e798c9cb7b29e0c8a3f25086f43febb3011ba10b"
+        }
+      ],
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "dup_when_section"
+        ],
+        "note": "due sezioni When to Use; H1 fuori ordine"
+      },
+      "report_disposition": {
+        "dup_when_section": "Removed duplicate usage section. Retained the existing activation-before-title arrangement; heading placement alone does not break a skill. Added explicit legal applicability and evidence workflow."
+      }
+    },
+    {
+      "id": "aas-compose-stack",
+      "status": "reviewed-retained",
+      "verdict": "Read full sole entrypoint and confirmed native-plugin packager supplies runtime/aas-core.cjs and complete catalog. Agent-owned exact IDs, project-declaration limits, preview-only planning, same-session evidence and secrets boundary are accurate. Requires local native plugin, does not perform installation.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/aas-compose-stack/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "b786acd050f1522104a16fba0ba4df8e68103428439ecf5580d12ec868567ea2"
+        }
+      ],
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "coerente, confini chiari"
+      },
+      "report_disposition": {
+        "-": "Original ok verdict confirmed by direct full-entrypoint review; native-runtime packager or actual sample-size example independently checked."
+      }
+    },
+    {
+      "id": "aas-discover",
+      "status": "reviewed-retained",
+      "verdict": "Read full sole entrypoint: explicit-task discovery, pagination and supporting-file inspection, metadata not eligibility, no invented scoring or automatic execution. Verified three native entrypoints versus full MCP bundled catalog in packager.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/aas-discover/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "62b4c7d89b8810498a869ee90957ef6101426c7ac04348f0330c597a54213e74"
+        }
+      ],
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "coerente"
+      },
+      "report_disposition": {
+        "-": "Original ok verdict confirmed by direct full-entrypoint review; native-runtime packager or actual sample-size example independently checked."
+      }
+    },
+    {
+      "id": "aas-review-stack",
+      "status": "reviewed-retained",
+      "verdict": "Read full sole entrypoint and actual server/packager Workbench paths: local session artefacts, in-memory import/digest checks distinguished from semantic validity; correct fallback and apply/upload boundary. No source defect identified.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/aas-review-stack/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8a3dbe5317f774a059399555acd67ee9b29dbe270547d0208a743e46698153bd"
+        }
+      ],
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "coerente"
+      },
+      "report_disposition": {
+        "-": "Original ok verdict confirmed by direct full-entrypoint review; native-runtime packager or actual sample-size example independently checked."
+      }
+    },
+    {
+      "id": "3d-web-experience",
+      "status": "repair-prepared",
+      "verdict": "Read complete sole entrypoint. Correct missing Canvas/useRef imports and meaningless mesh/fallback placeholders; actual Canvas fallback and project error-boundary requirement; register GSAP plugin with mount/cleanup context; pinned local tooling rather than global mutable install; triangle/transfer/FPS budgets illustrative, actual device testing and accessible DOM/reduced motion required. Verified primary R3F Canvas and glTF Transform docs. No live GPU test claimed. Verified related workflow IDs against actual catalog and replaced nonexistent spawner-local labels with existing IDs; caller must still read applicability.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/3d-web-experience/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "8e74355fda466bc5f80ce068c5082558ad118ab6f5e0c7d706613a422767600b"
+        }
+      ],
+      "original_report": {
+        "verdict": "fix",
+        "severity": "minor",
+        "codes": [
+          "templated_triggers"
+        ],
+        "note": "When to Use = solo trigger templati"
+      },
+      "report_disposition": {
+        "templated_triggers": "Replaced keyword template with actual product-configurator, performance-diagnosis, stack-choice and accessible scroll-scene tasks; also corrected all documented snippet imports/fallback placeholders."
+      }
+    },
+    {
+      "id": "ab-test-setup",
+      "status": "reviewed-retained",
+      "verdict": "Read complete sole entrypoint. Experiment hypothesis, alpha/power/MDE, sampling unit, SRM/tracking and fixed-horizon vs sequential distinction coherent. Executed literal Python math-only example, observed 14745 per variant as documented. No live experiment/analytics or causal certainty claimed; no defect found.",
+      "base": "119af813d0ee0571d7c6e1fb5d0aa342ec4ee9f0",
+      "files": [
+        {
+          "path": "skills/ab-test-setup/SKILL.md",
+          "git_mode": "100644",
+          "sha256": "f5376f3e111a5c244bb894d984068d78c40ce973c69d59d90cb01b5f07a67539"
+        }
+      ],
+      "original_report": {
+        "verdict": "ok",
+        "severity": "none",
+        "codes": [
+          "-"
+        ],
+        "note": "rigoroso e completo"
+      },
+      "report_disposition": {
+        "-": "Original ok verdict confirmed by direct full-entrypoint review; native-runtime packager or actual sample-size example independently checked."
+      }
+    }
+  ],
+  "original_report_base": "af9e67a3c276096ea0787319cecf9a6bd01f5782"
+}

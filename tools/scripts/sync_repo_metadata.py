@@ -1,0 +1,607 @@
+#!/usr/bin/env python3
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+from plugin_compatibility import compatibility_by_skill_id, load_plugin_compatibility
+from sync_editorial_bundles import load_editorial_bundles, render_bundles_doc
+from update_readme import (
+    VERSION_TOKEN_PATTERN,
+    configure_utf8_output,
+    core_release_boundary,
+    core_release_status,
+    find_repo_root,
+    load_metadata,
+    update_readme,
+)
+
+
+ABOUT_DESCRIPTION_RE = re.compile(r'"description"\s*:\s*"([^"]*)"')
+GITHUB_HOMEPAGE_URL = "https://github.com/ibrdot/swe-re-expert/"
+RECOMMENDED_TOPICS = [
+    "antigravity",
+    "antigravity-skills",
+    "claude-code",
+    "claude-code-skills",
+    "cursor",
+    "cursor-skills",
+    "codex-cli",
+    "codex-skills",
+    "gemini-cli",
+    "gemini-skills",
+    "kiro",
+    "ai-agents",
+    "ai-agent-skills",
+    "agent-skills",
+    "agentic-skills",
+    "developer-tools",
+    "skill-library",
+    "ai-workflows",
+    "ai-coding",
+    "mcp",
+]
+README_TAGLINE_RE = re.compile(
+    r"^> \*\*(?:Local, agent-owned skill stacks for coding agents—from complete catalog access to a reproducible, reviewable plan\.|A complete local skill catalog for coding agents—from project inspection and agent-owned selection to a reproducible, reviewable plan\.|Local, deterministic skill-stack composition for coding agents—from an explicit project profile to a reviewable plan before any target change\.|AAS Core is the local, agent-first control plane for composing explainable, reproducible skill stacks from a catalog of \d[\d,]*\+ agentic skills\.|Installable GitHub library of \d[\d,]*\+ agentic skills for Claude Code, Cursor, Codex CLI, (?:Autohand Code, )?Gemini CLI, Antigravity, and other AI coding assistants\.)\*\*$",
+    re.MULTILINE,
+)
+README_TITLE_RE = re.compile(
+    r"^# (?:🌌 Agentic Awesome Skills: .*|AAS Core — Agentic Awesome Skills)$",
+    re.MULTILINE,
+)
+README_RELEASE_RE = re.compile(
+    rf"^\*\*Current release: V{VERSION_TOKEN_PATTERN}\.\*\* .*?$",
+    re.MULTILINE,
+)
+README_BROAD_COVERAGE_RE = re.compile(
+    r"^- \*\*Broad coverage with real utility\*\*: \d[\d,]*\+ skills across development, testing, security, infrastructure, product, and marketing\.$",
+    re.MULTILINE,
+)
+README_NEW_HERE_RE = re.compile(
+    r"^\*\*Agentic Awesome Skills\*\* \(Release [\d.]+\) is a large, installable skill library.*$",
+    re.MULTILINE,
+)
+README_INLINE_BROWSE_RE = re.compile(
+    r"\[📚 Browse \d[\d,]*\+ Skills\]\(#browse-\d+-skills\)"
+)
+README_TOC_BROWSE_RE = re.compile(
+    r"^- \[Browse \d[\d,]*\+ Skills\]\(#browse-\d+-skills\)$",
+    re.MULTILINE,
+)
+README_AGENT_SELECTION_PARAGRAPH_RE = re.compile(
+    r"^Codex or Claude inspects your project(?:, enumerates its primary capabilities, searches and compares candidates across| and chooses exact skills from) the complete local AAS catalog.*$",
+    re.MULTILINE,
+)
+README_SUPPORTING_PLAYBOOKS_RE = re.compile(
+    r"^The (?:\d[\d,]*\+ )?reusable `SKILL\.md` playbooks, specialized plugins, bundles, workflows, and direct installers remain important\..*$",
+    re.MULTILINE,
+)
+README_CAPABILITY_COVERAGE_RE = re.compile(
+    r"^- \*\*(?:Require|Guide) capability coverage\.\*\* MCP session instructions require the agent to evaluate the full project surface.*$",
+    re.MULTILINE,
+)
+GETTING_STARTED_TITLE_RE = re.compile(
+    r"^# Getting Started with (?:Agentic Awesome Skills \(V[\d.]+\)|AAS Core)$", re.MULTILINE
+)
+BUNDLES_FOOTER_RE = re.compile(
+    r"^_Last updated: .*? \| Total Skills: \d[\d,]*\+ \| Total Bundles: \d+_$",
+    re.MULTILINE,
+)
+
+
+def build_about_description(metadata: dict) -> str:
+    return (
+        "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, "
+        f"stack validation, and planning, backed by {metadata['total_skills_label']} agentic skills. "
+        "Includes CLI, local MCP, catalog, plugins, and Workbench."
+    )
+
+
+def build_about_topics() -> list[str]:
+    return list(RECOMMENDED_TOPICS)
+
+
+def run_cli_command(args: list[str], dry_run: bool = False) -> None:
+    if dry_run:
+        print(f"[dry-run] {' '.join(args)}")
+        return
+
+    subprocess.run(args, check=True)
+
+
+def sync_github_about(
+    metadata: dict,
+    dry_run: bool,
+    runner=run_cli_command,
+) -> None:
+    description = build_about_description(metadata)
+    repo = metadata["repo"]
+
+    runner(
+        [
+            "gh",
+            "repo",
+            "edit",
+            repo,
+            "--description",
+            description,
+            "--homepage",
+            GITHUB_HOMEPAGE_URL,
+        ],
+        dry_run=dry_run,
+    )
+
+    topic_command = [
+        "gh",
+        "api",
+        f"repos/{repo}/topics",
+        "--method",
+        "PUT",
+    ]
+    for topic in build_about_topics():
+        topic_command.extend(["-f", f"names[]={topic}"])
+    runner(topic_command, dry_run=dry_run)
+
+    if not dry_run:
+        print(f"[ok] Synced GitHub About settings for {repo}")
+
+
+def replace_if_present(content: str, pattern: re.Pattern[str], replacement: str) -> tuple[str, bool]:
+    updated_content, count = pattern.subn(replacement, content, count=1)
+    return updated_content, count > 0
+
+
+def count_documented_bundles(content: str) -> int:
+    return len(re.findall(r'^### .*".*" Pack$', content, flags=re.MULTILINE))
+
+
+def sync_readme_copy(content: str, metadata: dict) -> str:
+    version = metadata["version"]
+    release_status = core_release_status(metadata)
+    replacements = [
+        (
+            README_TITLE_RE,
+            "# AAS Core — Agentic Awesome Skills",
+        ),
+        (
+            README_TAGLINE_RE,
+            (
+                "> **Local, agent-owned skill stacks for coding agents—from complete catalog access to a "
+                "reproducible, reviewable plan.**"
+            ),
+        ),
+        (
+            README_RELEASE_RE,
+            (
+                f"**Current release: V{version}.** AAS Core supports local catalog inspection, "
+                "agent-owned selection, stack validation, and plan preview. Apply and recovery remain "
+                "experimental. [Read the AAS Core preview guide]"
+                f"(https://github.com/ibrdot/swe-re-expert/blob/v{version}/docs/users/aas-core.md) "
+                "for setup and exact trust boundaries."
+                if re.search(r"^Agentic Awesome Skills is a library of \d[\d,]*\+", content, re.MULTILINE)
+                else (
+                    f"**Current release: V{version}.** {release_status}Apply and recovery remain experimental "
+                    "and outside the supported preview path."
+                )
+            ),
+        ),
+        (
+            README_AGENT_SELECTION_PARAGRAPH_RE,
+            (
+                "Codex or Claude inspects your project and chooses exact skills from the complete local AAS catalog. "
+                "AAS Core does not rank or recommend them: its read-only `compose_stack` tool validates the "
+                "agent-owned selection in memory, and a client or the `aas` CLI can persist it as `aas-stack.json` "
+                "and produce an immutable plan before any target change."
+            ),
+        ),
+        (
+            README_SUPPORTING_PLAYBOOKS_RE,
+            (
+                "The reusable `SKILL.md` playbooks, specialized plugins, bundles, workflows, and direct installers "
+                "remain important. They are the content, curation, distribution, and compatibility layers around "
+                "AAS Core—not competing primary products."
+            ),
+        ),
+        (
+            README_CAPABILITY_COVERAGE_RE,
+            (
+                "- **Guide capability coverage.** MCP session instructions require the agent to evaluate the full "
+                "project surface—from architecture, domain behavior, data and integrations through testing, "
+                "security, UX, deployment, and maintenance—then search each applicable capability, compare "
+                "multiple candidates, cover it with a non-redundant skill or report a catalog gap, and avoid "
+                "stopping at a minimal shortlist. Core records and validates the resulting selection, but it "
+                "does not certify semantic completeness."
+            ),
+        ),
+        (
+            README_BROAD_COVERAGE_RE,
+            (
+                f"- **Broad coverage with real utility**: {metadata['total_skills_label']} skills across "
+                "development, testing, security, infrastructure, product, and marketing."
+            ),
+        ),
+        (
+            README_NEW_HERE_RE,
+            (
+                f"**Agentic Awesome Skills** (Release {metadata['version']}) is a large, installable "
+                f"skill library for AI coding assistants. It packages {metadata['total_skills_label']} reusable "
+                "`SKILL.md` playbooks, specialized plugins, bundles, workflows, generated catalogs, and a CLI "
+                "installer so Claude Code, Codex CLI, Autohand Code, Cursor, Gemini CLI, Antigravity, and similar tools can "
+                "reuse proven operating instructions instead of one-off prompts."
+            ),
+        ),
+        (
+            README_INLINE_BROWSE_RE,
+            f"[📚 Browse {metadata['total_skills_label']} Skills](#browse-{metadata['total_skills']}-skills)",
+        ),
+        (
+            README_TOC_BROWSE_RE,
+            f"- [Browse {metadata['total_skills_label']} Skills](#browse-{metadata['total_skills']}-skills)",
+        ),
+    ]
+
+    for pattern, replacement in replacements:
+        content, _ = replace_if_present(content, pattern, replacement)
+
+    compact_readme = re.search(r"^Agentic Awesome Skills is a library of \d[\d,]*\+", content, re.MULTILINE)
+    if compact_readme:
+        content = re.sub(
+            r"(--package=agentic-awesome-skills@)" + VERSION_TOKEN_PATTERN,
+            rf"\g<1>{version}",
+            content,
+        )
+        content = re.sub(
+            r"(--release )" + VERSION_TOKEN_PATTERN,
+            rf"\g<1>{version}",
+            content,
+        )
+
+    core_guide_url = (
+        "https://github.com/ibrdot/swe-re-expert/"
+        f"blob/v{version}/docs/users/aas-core.md"
+    )
+    content = re.sub(
+        r"https://github\.com/ibrdot/swe-re-expert/blob/(?:main|v[^/]+)/docs/users/aas-core\.md",
+        core_guide_url,
+        content,
+    )
+
+    return content
+
+
+def sync_getting_started(content: str, metadata: dict) -> str:
+    content, _ = replace_if_present(
+        content,
+        GETTING_STARTED_TITLE_RE,
+        "# Getting Started with AAS Core",
+    )
+    return content
+
+
+def render_agent_setup_block(host: str, version: str, phase: str) -> str:
+    """One command source for both agent guides; sync keeps release pins aligned."""
+    if host not in {"codex", "claude"}:
+        raise ValueError("Unsupported setup host")
+    prefix = f"npm exec --yes --ignore-scripts --package=agentic-awesome-skills@{version} --"
+    config = '$HOME/.codex/config.toml' if host == 'codex' else '$HOME/.claude.json'
+    configure = (f'{prefix} aas mcp configure \\\n'
+                 f'  --host {host} --scope user --version {version} \\\n'
+                 '  --config "$AAS_CONFIG" --cache-root "$AAS_CACHE" \\\n'
+                 '  --backup-dir "$AAS_BACKUP"')
+    if phase == 'preview':
+        command = (f'AAS_CONFIG="{config}"\n'
+                   'AAS_CACHE="$HOME/.cache/aas"\n'
+                   'AAS_BACKUP="$HOME/.aas-mcp-backups"\n'
+                   'mkdir -p "$(dirname "$AAS_CONFIG")"\n\n' + configure)
+    elif phase == 'approve':
+        command = 'AAS_APPROVAL="PASTE_THE_PREVIEW_APPROVAL_DIGEST"\n' + configure + ' \\\n  --approve "$AAS_APPROVAL"'
+    elif phase == 'plan':
+        command = ('AAS_PROJECT="$PWD"\n'
+                   'AAS_INTEGRITY="PASTE_RUNTIME_INTEGRITY_FROM_CONFIGURATION"\n\n'
+                   f'{prefix} aas stack validate --manifest "$AAS_PROJECT/aas-stack.json"\n\n'
+                   f'{prefix} aas stack plan \\\n'
+                   '  --manifest "$AAS_PROJECT/aas-stack.json" \\\n'
+                   f'  --target {host}:project --target-root "$AAS_PROJECT" \\\n'
+                   '  --cache-root "$AAS_CACHE" --runtime-integrity "$AAS_INTEGRITY" \\\n'
+                   '  --out "$AAS_PROJECT/aas-plan.json"')
+    elif phase == 'install':
+        command = (f'{prefix} aas stack install-preview \\\n'
+                   '  --manifest "$AAS_PROJECT/aas-stack.json" --cache-root "$AAS_CACHE" \\\n'
+                   f'  --destination "$AAS_PROJECT/{".agents" if host == "codex" else ".claude"}/skills"')
+    else:
+        raise ValueError("Unsupported setup phase")
+    return '```bash\n' + command + '\n```'
+
+
+def sync_agent_setup_guide(content: str, metadata: dict) -> str:
+    pattern = re.compile(
+        r'(<!-- aas-agent-setup:(codex|claude):(preview|approve|plan|install) -->)'
+        r'.*?(<!-- /aas-agent-setup -->)', re.DOTALL,
+    )
+    return pattern.sub(lambda match: match[1] + '\n' + render_agent_setup_block(
+        match[2], metadata['version'], match[3],
+    ) + '\n' + match[4], content)
+
+
+def sync_aas_core_guide(content: str, metadata: dict) -> str:
+    if metadata["core_included"]:
+        content = re.sub(
+            r"--package=agentic-awesome-skills@(?:X\.Y\.Z|[^\s\\]+)",
+            f"--package=agentic-awesome-skills@{metadata['version']}",
+            content,
+            count=1,
+        )
+    return content.replace(
+        "searchable, readable, selectable, and usable",
+        "searchable, readable, and available for agent selection",
+    )
+
+
+def sync_web_index_shell(content: str, metadata: dict) -> str:
+    skill_label = metadata["total_skills_label"]
+    return sync_regex_text(
+        content,
+        [
+            (r"\d[\d,]*\+ installable agentic skills", f"{skill_label} installable agentic skills"),
+            (r"\d[\d,]*\+ AI coding skills", f"{skill_label} AI coding skills"),
+            (r"backed by \d[\d,]*\+ skills", f"backed by {skill_label} skills"),
+            (r"\d[\d,]*\+ cataloged skills", f"{skill_label} cataloged skills"),
+        ],
+    )
+
+
+def sync_llms_text(content: str, metadata: dict) -> str:
+    skill_label = metadata["total_skills_label"]
+    return sync_regex_text(
+        content,
+        [
+            (r"(?m)^- Current release: V[^\n]+$", f"- Current release: V{metadata['version']}."),
+            (r"Release boundary: .*", core_release_boundary(metadata)),
+            (r"\d[\d,]*\+ agentic SKILL\.md playbooks", f"{skill_label} agentic SKILL.md playbooks"),
+            (r"Skill count: \d[\d,]*\+\.", f"Skill count: {skill_label}."),
+            (r"\d[\d,]*\+ reusable SKILL\.md playbooks", f"{skill_label} reusable SKILL.md playbooks"),
+            (r"\d[\d,]*\+ skill catalog", f"{skill_label} skill catalog"),
+            (
+                r"Catalog access: (?:all \d[\d,]* current skills|every current catalog skill) remain individually searchable, readable, and selectable\.",
+                "Catalog access: every current catalog skill remains individually searchable, readable, and selectable.",
+            ),
+        ],
+    )
+
+
+def sync_bundles_doc(content: str, metadata: dict, base_dir: str | Path | None = None) -> str:
+    root = Path(base_dir) if base_dir is not None else Path(find_repo_root(__file__))
+    manifest_path = root / "data" / "editorial-bundles.json"
+    template_path = root / "tools" / "templates" / "editorial-bundles.md.tmpl"
+    if manifest_path.is_file() and template_path.is_file():
+        bundles = load_editorial_bundles(root)
+        compatibility = compatibility_by_skill_id(load_plugin_compatibility(root))
+        return render_bundles_doc(root, metadata, bundles, compatibility)
+
+    bundle_count = count_documented_bundles(content)
+    if bundle_count == 0:
+        bundle_count = 36
+    content, _ = replace_if_present(
+        content,
+        BUNDLES_FOOTER_RE,
+        f"_Last updated: June 2026 | Total Skills: {metadata['total_skills_label']} | Total Bundles: {bundle_count}_",
+    )
+    return content
+
+
+def sync_jetski_cortex(content: str, metadata: dict) -> str:
+    skill_label = metadata["total_skills_label"]
+    replacements = [
+        (r"\d[\d,.]*\+ skill", f"{skill_label} skill"),
+        (r"\d[\d,.]* skill", f"{skill_label} skill"),
+    ]
+    return sync_regex_text(
+        content,
+        replacements,
+    )
+
+
+def sync_simple_text(content: str, replacements: list[tuple[str, str]]) -> str:
+    for old_text, new_text in replacements:
+        content = content.replace(old_text, new_text)
+    return content
+
+
+def sync_regex_text(content: str, replacements: list[tuple[str, str]]) -> str:
+    for pattern, replacement in replacements:
+        content = re.sub(pattern, replacement, content)
+    return content
+
+
+def update_text_file(path: Path, transform, metadata: dict, dry_run: bool) -> bool:
+    if not path.is_file() or path.is_symlink():
+        return False
+
+    original = path.read_text(encoding="utf-8")
+    updated = transform(original, metadata)
+    if updated == original:
+        return False
+
+    if dry_run:
+        print(f"[dry-run] Would update {path}")
+        return True
+
+    path.write_text(updated, encoding="utf-8", newline="\n")
+    print(f"[ok] Updated {path}")
+    return True
+
+
+def sync_curated_docs(base_dir: str, metadata: dict, dry_run: bool) -> int:
+    root = Path(base_dir)
+
+    regex_text_replacements = [
+        (
+            root / "docs" / "users" / "claude-code-skills.md",
+            [
+                (r"\d[\d,]*\+ skills", f"{metadata['total_skills_label']} skills"),
+            ],
+        ),
+        (
+            root / "docs" / "users" / "gemini-cli-skills.md",
+            [
+                (r"\d[\d,]*\+ files", f"{metadata['total_skills_label']} files"),
+            ],
+        ),
+        (
+            root / "docs" / "users" / "usage.md",
+            [
+                (r"\d[\d,]*\+ skill files", f"{metadata['total_skills_label']} skill files"),
+                (r"\d[\d,]*\+ tools", f"{metadata['total_skills_label']} tools"),
+                (r"all \d[\d,]*\+ skills", f"all {metadata['total_skills_label']} skills"),
+                (r"have \d[\d,]*\+ skills installed locally", f"have {metadata['total_skills_label']} skills installed locally"),
+            ],
+        ),
+        (
+            root / "docs" / "users" / "visual-guide.md",
+            [
+                (r"\d[\d,]*\+ skills live here", f"{metadata['total_skills_label']} skills live here"),
+                (r"\d[\d,]*\+ total", f"{metadata['total_skills_label']} total"),
+                (r"\d[\d,]*\+ SKILLS", f"{metadata['total_skills_label']} SKILLS"),
+            ],
+        ),
+        (
+            root / "docs" / "users" / "kiro-integration.md",
+            [
+                (r"\d[\d,]*\+ specialized areas", f"{metadata['total_skills_label']} specialized areas"),
+            ],
+        ),
+        (
+            root / "docs" / "maintainers" / "repo-growth-seo.md",
+            [
+                (r"\d[\d,]*\+ agentic skills", f"{metadata['total_skills_label']} agentic skills"),
+                (r"\d[\d,]*\+ Agentic Skills", f"{metadata['total_skills_label']} Agentic Skills"),
+            ],
+        ),
+        (
+            root / "docs" / "maintainers" / "skills-update-guide.md",
+            [
+                (r"All \d[\d,]*\+ skills from the skills directory", f"All {metadata['total_skills_label']} skills from the skills directory"),
+            ],
+        ),
+        (
+            root / "docs" / "integrations" / "jetski-gemini-loader" / "README.md",
+            [
+                (r"\d[\d,]*\+ skills", f"{metadata['total_skills_label']} skills"),
+            ],
+        ),
+    ]
+
+    updated_files = 0
+    updated_files += int(update_text_file(root / "README.md", sync_readme_copy, metadata, dry_run))
+    updated_files += int(update_text_file(root / "docs" / "users" / "getting-started.md", sync_getting_started, metadata, dry_run))
+    updated_files += int(update_text_file(root / "docs" / "users" / "aas-core.md", sync_aas_core_guide, metadata, dry_run))
+    for slug in ["codex-cli-skills", "claude-code-skills"]:
+        updated_files += int(update_text_file(root / "docs" / "users" / f"{slug}.md", sync_agent_setup_guide, metadata, dry_run))
+    updated_files += int(update_text_file(root / "apps" / "web-app" / "index.html", sync_web_index_shell, metadata, dry_run))
+    updated_files += int(update_text_file(root / "apps" / "web-app" / "public" / "llms.txt", sync_llms_text, metadata, dry_run))
+    updated_files += int(
+        update_text_file(
+            root / "docs" / "users" / "bundles.md",
+            lambda content, current_metadata: sync_bundles_doc(content, current_metadata, root),
+            metadata,
+            dry_run,
+        )
+    )
+    updated_files += int(update_text_file(root / "docs" / "integrations" / "jetski-cortex.md", sync_jetski_cortex, metadata, dry_run))
+
+    for path, replacements in regex_text_replacements:
+        updated_files += int(
+            update_text_file(
+                path,
+                lambda content, current_metadata, repl=replacements: sync_regex_text(content, repl),
+                metadata,
+                dry_run,
+            )
+        )
+
+    return updated_files
+
+
+def update_package_description(base_dir: str, metadata: dict, dry_run: bool) -> bool:
+    package_path = os.path.join(base_dir, "package.json")
+    with open(package_path, "r", encoding="utf-8") as file:
+        content = file.read()
+
+    new_description = (
+        "AAS Core: complete local skill discovery, agent-owned selection, stack validation, and planning, "
+        f"backed by {metadata['total_skills_label']} agentic skills."
+    )
+    updated_content = ABOUT_DESCRIPTION_RE.sub(
+        f'"description": "{new_description}"', content, count=1
+    )
+
+    if updated_content == content:
+        return False
+
+    if dry_run:
+        print(f"[dry-run] Would update package description in {package_path}")
+        return True
+
+    with open(package_path, "w", encoding="utf-8", newline="\n") as file:
+        file.write(updated_content)
+    print(f"[ok] Updated package description in {package_path}")
+    return True
+
+
+def print_manual_github_about(metadata: dict) -> None:
+    description = build_about_description(metadata)
+    print("\nManual GitHub repo settings update:")
+    print(f"- About description: {description}")
+    print(f"- Homepage: {GITHUB_HOMEPAGE_URL}")
+    print(f"- Suggested topics: {', '.join(build_about_topics())}")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Synchronize repository metadata across README and package.json."
+    )
+    parser.add_argument("--dry-run", action="store_true", help="Preview updates without writing files.")
+    parser.add_argument(
+        "--refresh-volatile",
+        action="store_true",
+        help="Refresh live star count and updated_at when syncing README metadata.",
+    )
+    parser.add_argument(
+        "--apply-github-about",
+        action="store_true",
+        help="Apply the GitHub About description, homepage, and topics to the remote repository via gh CLI.",
+    )
+    return parser.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    base_dir = find_repo_root(os.path.dirname(__file__))
+    metadata = load_metadata(base_dir, refresh_volatile=args.refresh_volatile)
+
+    print("Repository metadata")
+    print(json.dumps(metadata, indent=2))
+
+    readme_metadata = update_readme(
+        dry_run=args.dry_run, refresh_volatile=args.refresh_volatile
+    )
+    package_updated = update_package_description(base_dir, metadata, args.dry_run)
+    docs_updated = sync_curated_docs(base_dir, metadata, args.dry_run)
+    if args.apply_github_about:
+        sync_github_about(metadata, dry_run=args.dry_run)
+    print_manual_github_about(readme_metadata)
+
+    if args.dry_run and not package_updated:
+        print("\n[dry-run] No package.json description changes required.")
+    if args.dry_run and docs_updated == 0:
+        print("[dry-run] No curated docs changes required.")
+
+    return 0
+
+
+if __name__ == "__main__":
+    configure_utf8_output()
+    sys.exit(main())

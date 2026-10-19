@@ -1,3 +1,0 @@
-exports[`slim > navigates to correct page 1`] = `
-Navigated to data:text/html,<div>Hello MCP</div>.
-`;

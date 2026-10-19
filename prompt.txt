@@ -1,1 +1,0 @@
-Read all files and execute https://github.com/ibrdot/swe-re-expert 

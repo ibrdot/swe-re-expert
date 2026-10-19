@@ -1,0 +1,913 @@
+## Full-catalog review: second 175-tree cohort (October 14, 2026)
+
+Individually reviewed 175 additional canonical skill trees against the original 2,689-tree report, including unchanged entries and their bundled files. Corrected examples, triggers, safety and permission boundaries, and unsupported claims; recovered missing Deep Research, Imagen and OSINT resources with immutable provenance and licenses. See the [cohort receipt](docs/maintainers/full-catalog-large-batch-02-2026-10-14.md) and its JSON file for every disposition and file fingerprint.
+
+Validation/generation, references, documentation security, the 0/0 warning budget and all 148 unsharded local test groups passed. Network/provider and native integration limitations are explicit; protected CI and semantic review remain pending. This source-only PR excludes generated distribution state. Further review and merging are paused after PR creation at the user’s request.
+
+## TypeScript contributor integration (October 14, 2026)
+
+Reviewed the complete five-file TypeScript skill tree and Wen Castillo’s diagnostic regression test from PR #1930. Its exact changes are preserved in owner-authored PR #1931 because the external-fork execution gate refuses Python support/test paths. No policy was weakened; the five targeted tests pass. Final exact-head full CI remains mandatory.
+
+## Complete individual skill report review (October 14, 2026)
+
+Reviewed all 90 named canonical skill trees and their 177 tracked files (176 at the task base), including deferred candidates and unchanged helpers/references. Corrected 60 trees across two source batches; retained 30 after direct review. The [point-by-point ledger](docs/maintainers/individual-skill-review-2026-10-14.md) and complete path/mode/SHA-256 receipt record each disposition, original-source recovery and remaining runtime boundaries. Sixteen new inert regressions plus existing pure examples passed; the full unsharded repository suite passed all 139 groups, along with chain, references, documentation security, warning budget and documentation consistency. Exact-head protected CI and maintainer review remain required before merge; generated state follows the canonical-sync PR. No release or deployment was requested.
+
+## Individual report skill repairs, batch one (October 14, 2026)
+
+Corrected 31 canonical skill trees identified in the prior setup/expansion/consolidation reports, including deferred security, migration, billing, memory, networking and delivery candidates. The [batch-one review](docs/maintainers/report-skill-repairs-batch-one-2026-10-14.md) records each repair and the ten inert regressions consuming actual examples. Remaining named trees and the complete review receipt follow in the second source batch. Plugin membership, public releases and user host configurations are outside this source correction.
+
+## Complete agent setup and skill-page corrections (October 12, 2026)
+
+Completed the Codex and Claude Code guides through configuration preview, digest-bound approval with backups, client connection checks, first agent-owned selection, validation/plan review and a separate direct-installer preview. Shared command generation keeps both guides pinned to the same release. Corrected 18 template descriptions without changing their bodies or IDs and added a narrow regression gate to the existing validator.
+
+Skill instructions now precede related content. Copy SKILL.md copies the original file without optional prompt context; catalog-return navigation preserves query and filters, including subsequent similar-skill navigation. Topic cards use public summaries instead of internal editorial intent.
+
+Validation: 132 repository test groups, 312 web tests/coverage, production build/prerender, typecheck, changed-source lint, references/security, 0/0 warning budget and zero root dependency vulnerabilities. Published 19.5.0 was exercised with both temporary host configurations and actual MCP stdio through reading, composition, validation, planning and installer-preview preparation. No native agent session or user configuration was changed. See [the scoped review](docs/maintainers/agent-setup-catalog-review-2026-10-12.md) for exact fingerprints, checks and residual corpus debt. Generated distributions remain owned by canonical sync.
+
+## Core-first UX, selected visual direction (October 11, 2026)
+
+Implemented the user's third displayed design as the Core homepage: one primary setup action, a navigable recorded example, and contextual Codex/Claude setup links. The example renders actual committed historical manifest/plan data and discloses its v16.7.0 catalog when inspected; it performs no live AI or project writes. The homepage is outside CatalogRouteProvider, avoiding initial catalog requests and persistence initialization.
+
+Reduced primary navigation to Catalog, Docs, and For teams. Catalog now separates skills, packs, workflows, and named collections; repeated product/technical/FAQ sections were removed from skill search. Core/CLI/MCP reference and the plan reviewer are accessible through documentation and contextual actions. Preserved /aas-core/ and its old section anchors through redirects; sitemap removes the duplicate overview and prerender/SEO copy now reflects the product/catalog distinction. Existing filters, saved selections, collections and public routes remain supported. No dependency or runtime service is added.
+
+Validation: 301 web tests in 52 files, coverage, typecheck, production build/prerender, 27-guide and production SEO verification, changed-source lint, chain, reference/documentation security checks and 132 local repository test groups passed. Design QA compared the selected image and browser render at 1487 x 1058 and tested 390px mobile reflow. See design-qa.md for comparison iterations, assets, purposeful behavior and evidence limits. Generated sitemap is excluded from the source PR.
+
+## Catalog discovery, collections, and Core overview (October 11, 2026)
+
+The catalog now groups and searches every category without hiding canonical categories, collapses advanced matching/risk/source controls, and keeps the selected count and review links available while browsing. Optional workflow and outcome explorers follow results. A guided goal/agent path links existing editorial packs and workflows without automatic selection. Browser-local named collections preserve version labels and exact IDs, support notes and explicit file import/export, reject invalid or oversized data, and report storage failures. Imports append new identities without overwriting saved lists; unavailable IDs remain inspectable and cannot be added to the working shortlist.
+
+The single /aas-core/ page explains Core, the CLI, and local stdio MCP together, including agent-owned choice, persistence, non-applying planning, Workbench review, and separate installation boundaries. It links canonical technical guides and appears in the primary navigation and sitemap. New informational routes remain outside the legacy migration set. Privacy describes local collection notes and export/import. No dependency, model call, database, account, or runtime service is added.
+
+Validation: 297 web tests across 52 files, coverage, typecheck, production build/prerender and documentation verification passed. All 132 local repository test groups, skill/reference validation and documentation security passed. Changed-source lint passed; full-app lint retains the two pre-existing Workbench effect errors. Browser checks verified catalog search, save/edit/reload/export of a named collection, import preview, guided agent/goal links and focused workflow opening, the Core overview, and 390px mobile layouts without horizontal overflow. Generated sitemap is excluded from the source PR.
+
+## Team adoption and transparency (October 11, 2026)
+
+Added a three-step Start here section, static /teams/ and /trust/ pages, Catalog navigation, and visible Privacy/Terms/Security links. Team guidance links existing setup and Core documentation without adding installation commands or services. New informational routes stay outside the legacy bridge, preserving its existing curated route lock; a regression verifies their exclusion. Both pages share their copy with the static prerender and appear in the sitemap. Corrected MIT/CC BY 4.0 distinctions and hosted privacy disclosures for Vercel, Supabase public counts, local persistence, and shared links. Analytics URLs omit searches and fragments; no custom events or new dependencies were added.
+
+# Homepage discovery and shareable shortlists - 2026-10-11
+
+- Added a homepage search form, explicit goal/category links, and an agent-specific setup-guide selector using the existing catalog and documentation routes.
+- Added [shared selections](apps/web-app/src/pages/SharedSelection.tsx) with bounded, versioned URL fragments containing only canonical skill IDs. No accounts, database, new dependencies, or paid external services were added.
+- Shared links are inspected in memory. Saving is explicit and merges with the existing browser shortlist; missing IDs and catalog-version drift remain visible. Project goals, targets, and imported artifacts are excluded from shared URLs. These are discovery selections, not validated Core stacks.
+- Added malformed/oversized-link, clipboard-fallback, stale-link, explicit-save, storage-failure, and existing-shortlist-preservation tests.
+- Validation: repository validation and reference checks, documentation security, 132 repository test groups, web coverage suite, type checking, production build, and lint on changed source files. Full-app lint still reports the two unchanged `set-state-in-effect` errors in Workbench and PluginWorkbench.
+- Browser verification: homepage search to the catalog, selection-link creation and opening, desktop layout, and a 390px mobile viewport. Publication and live production verification are separate from this implementation evidence.
+
+# Top skills contributors - 2026-09-27
+
+- Added a second Top Contributors ranking for canonical skills introduced, alongside the existing commit ranking.
+- Counted each current `skills/**/SKILL.md` once at its first introduction in repository history, resolved commit authors to GitHub accounts, and excluded the requested accounts.
+
+# README structure refresh - 2026-09-27
+
+- Shortened the README entry path while retaining the introduction video, dynamic skill count, sponsors, source credits, top contributors, repository contributors, and star history.
+- Preserved the existing installation anchors used by user guides and updated README metadata sync to keep the new release copy and examples current.
+- Verified heading hierarchy, table-of-contents anchors, repository documentation links, source-credit preservation, validation, docs security, consistency, and the full test suite.
+
+# README Top Contributors - 2026-09-27
+
+- Added a Top Contributors section beside the repository contributor gallery, with linked GitHub avatars and profiles.
+- Ranked the ten eligible accounts by GitHub contributor commit counts observed on September 27, 2026.
+- Simplified the section introduction after feedback so the README focuses on thanking contributors.
+
+# Catalog category completion - 2026-09-27
+
+- Audited the exact `main` catalog at commit `c6c0677`; it contains 2,472 skills, including 359 `uncategorized` entries.
+- Used Jev as an advisory structured classifier with a closed vocabulary of existing catalog categories, then manually reviewed low-confidence and placeholder-description cases.
+- Added `data/category-overrides.json` with 359 maintainer-reviewed assignments and applied it during index generation.
+- Regenerated the index/catalog validation snapshot: 2,472 records and 0 `uncategorized` entries.
+- Passed `npm run validate`, `npm run validate:references`, `npm run security:docs`, and `npm run check:aas-v1-catalog`.
+
+# Documentation experience — 2026-09-26
+
+- Added full-text guide search with highlighted excerpts, individual guide loading, clipboard feedback, accessible code scrolling, breadcrumbs, an active outline, and contextual next steps.
+- Exposed Git-derived dates and exact source links, plus paths for users, contributors, maintainers, Core reference, and troubleshooting.
+- Added article/breadcrumb structured data, real guide sitemap dates, and social images for Getting Started, AAS Core, and FAQ.
+- Made local Markdown targets, images, heading anchors, static route content, and social image checks part of the web build.
+- See the [verification record](docs/maintainers/site-documentation-experience-2026-09-26.md) for checks, accessibility scope, and the external Mintlify limitation.
+- This change does not change the package version or create a release.
+
+# Public AAS info endpoint - 2026-09-25
+
+- Added a generated `apps/web-app/public/api/info.json` endpoint for public AAS name, links, release version, feature list, and current skill count.
+- Generate the count from the canonical `skills_index.json` during the existing web asset setup, so development and Pages builds use the same current catalog without a manually maintained number.
+- Keep the generated endpoint out of source PRs; the Pages build publishes it at `https://github.com/ibrdot/swe-re-expert/api/info.json`.
+
+# Jev Social skill intake - 2026-09-21
+
+- Added [`skills/jev-social/SKILL.md`](skills/jev-social/SKILL.md), adapted from the MIT-licensed [`socai-io/jev-social`](https://github.com/socai-io/jev-social) Agent Skill.
+- Kept the workflow read-only and capability-gated: it checks local readiness, uses typed Jev routing and the socai CLI, distinguishes search cards from opened evidence, and stops at login, verification, challenge, or rate-limit boundaries.
+- Pinned executable examples to the full commit behind `v0.1.2` (`794aac59dbef0929ec57f2650504f4231fef598e`), excluded its moving `releases/latest` onboarding installer, and documented download approval, credential, browser-session, prompt-injection, and output-redaction requirements.
+- Added the required community source credit in [`README.md`](README.md). Generated catalogs, indexes, plugin mirrors, and marketplace artifacts remain excluded from the contributor diff.
+
+# Full Snyk group reconciliation — 2026-09-06
+
+- Exported all 551 analytics rows and read all live project/issue records; distinguished stale CLI snapshots, mirror copies, and current findings.
+- Require fixed qs 6.16.x in Telegram and WhatsApp Node templates, because Express 4 still resolves a vulnerable qs minor line.
+- Set manifest-local Python 3.14 for Shopify and WhatsApp SCM scans; their existing zipp security floor was omitted under Python 3.7.
+- Raise the GIF template setuptools security floor to 83.0.0 for the additional Unicode-handling advisory found in the group inventory.
+- No security findings are suppressed by these changes.
+
+# Snyk contextual file-safety remediation — 2026-09-06
+
+- Reproduced destructive hard-link writes in VideoDB and founder-profile export, incorrect parent-directory chmod in Instagram/NotebookLM, and insecure existing VideoDB file modes before fixing them.
+- Validate opened regular-file descriptors and link counts before truncation; preserve append content, repair private modes, and open nonblocking to reject named pipes safely.
+- Restrict state permission repair to the configured private tree, reject linked state files/directories, and propagate protection failures.
+- Reject non-regular source files in the bounded annotation inventory so a named pipe cannot stall a scan.
+- Added `tools/scripts/tests/test_snyk_file_boundaries.py` regression coverage. No new Snyk exclusions or ignore rules.
+- Reviewed the 29 canonical-source Snyk Code results: the remaining DOM anchor uses the active document URL with React escaping; the local viewer returns request-derived metadata as JSON; three secret findings are deliberate test canaries; PostgreSQL accepts whole SQL and database configuration from its local operator and sets a read-only session. Other remaining path findings accept operator-selected local paths rather than remote names. These contextual dispositions do not claim a scanner count of zero or a comprehensive audit of all bundled integrations.
+- Earlier dependency fixes (#1401, canonical #1402) raised Pillow to 12.3.0 and SoupSieve to 2.8.4. The two live EU CLI dependency scans found no security vulnerabilities; certifi's MPL-2.0 license-policy warning requires a license decision, not a dependency downgrade. Added manifest-local `.snyk` Python 3.14 settings for these two projects, matching the interpreter used in the successful scans, so SCM retests do not inherit the obsolete organization-wide Python 3.7 default. The organization setting is unchanged.
+
+# Discovery and installation handoff follow-up - 2026-09-05
+
+- Fixed explicit English/Italian exclusions and grouped declared compatibility aliases while preserving explicit ID selection.
+- Added a text-only, exact-version direct-installer preview to shortlist comparison and Workbench, with shell quoting, an explicit destination, and invalid/inconsistent-artifact guards.
+- Corrected stale release-status guidance after verifying GitHub and npm 16.8.0 publication.
+- Reviewed and repaired the complete `lint-and-validate` and `sql-optimization-patterns` bundles. Added six runnable regression cases; see the scoped content review for evidence and limits.
+
+# Outcome discovery and clearer selection evidence - 2026-09-05
+
+- Added optional goal-based candidate discovery to catalog and Workbench, with explained term relevance and full-catalog access.
+- Exposed provenance, license, author-declared risk and setup gaps without assigning reliability scores or hiding canonical skill IDs.
+- Connected candidates to the existing comparison and agent-brief workflow, including an explicit action to reuse the discovery goal.
+- Kept Workbench artifact review independent of catalog downloads; discovery downloads public data only when opened. Goals and imported artifacts are never sent.
+- Removed the unshipped usage-history experiment at the user's request. No installation/reuse measurement or collection was added.
+
+# TypeScript 6 migration and configuration checks - 2026-09-05
+
+- Upgraded the compiler to TypeScript 6.0.3, within typescript-eslint's supported range; TypeScript 7 remains outside that range.
+- Removed deprecated `baseUrl` and made the `@/` alias relative to the configuration file. Explicitly loaded Node types required by the existing tests and build configuration.
+- Added `npm run typecheck` to production builds so Vite and Vitest configuration are checked alongside application sources. Declared the JavaScript refresh plugin's default Vite plugin contract and kept incremental compiler state under ignored node_modules.
+- Preserved strict checks, test assertions, timeouts, and coverage thresholds.
+
+# Web test toolchain migration - 2026-09-05
+
+- Upgraded Vitest and its V8 coverage provider to 5, jsdom to 30, jest-dom to 7, and ESLint globals to 17.
+- Aligned Node type definitions with the Node 22 CI runtime and declared the web development toolchain's supported Node versions in its private package.
+- Preserved all test cases, assertions, isolation settings, and coverage thresholds. After a clean install, all 201 web tests pass on Node 22.23.1 and Node 26 with unchanged coverage (86.89% statements, 91.34% lines); the production build and lint also pass.
+- Kept the TypeScript compiler migration separate from the test-environment upgrade.
+
+# Long skill modularization - 2026-09-05
+
+- Reduced all 211 oversized `SKILL.md` entrypoints below the 500-line quality threshold.
+- Moved their detailed procedures and reference material into local `references/detailed-guide.md` files without deleting source content.
+- Kept activation rules, examples, limitations, prerequisites, and dedicated safety or security sections in the root skill; each root now directs agents to load the detailed guide before execution.
+- Rewrote relative Markdown links for their new document location and preserved cross-links between root and detailed sections.
+- Reduced the strict objective audit to 0 warnings and 0 errors across all 2,111 skills.
+
+# Actionable skill examples - 2026-09-05
+
+- Added a concise, task-specific user request to every canonical skill that lacked a real example.
+- Normalized the existing `Code_example` headings in `algolia-search` and `clerk-auth` so the examples are recognized consistently.
+- Reduced the strict skill-audit baseline from 507 warnings across 491 skills to 211 warnings across 211 skills; `missing_examples` is now zero.
+- Kept the remaining `skill_too_long` findings visible for the next modularization batch.
+
+# Real skill example recognition - 2026-09-05
+
+- Updated the structural audit to recognize example headings nested below level
+  two, non-empty files in a bundled `examples/` directory, and concrete examples
+  inside bundled Markdown, reStructuredText, or text support documents.
+- Kept symlinked and empty example files from satisfying the audit so external
+  paths and placeholder bundles cannot hide missing documentation.
+- Reclassified existing examples without changing canonical skill content.
+
+# Truncated skill description cleanup - 2026-09-05
+
+- Repaired all 134 catalog descriptions that ended in an ellipsis: 126 now
+  retain only their existing complete source sentences, while eight descriptions
+  were rewritten against their skill content where no complete sentence existed.
+- Updated the repair utility to prefer a complete frontmatter sentence over a
+  synthesized body fallback, with regression coverage for that behavior.
+- Lowered the strict audit budget from 805 observed warnings to 671 and added a
+  zero-tolerance budget for future truncated descriptions.
+- Kept the cleanup source-only; protected canonical synchronization owns
+  generated registries and plugin mirrors.
+
+# Dependency advisory remediation - 2026-09-03
+
+- Raised the bundled `fast-uri` runtime floor to 3.1.6 to resolve the current
+  host-confusion and SSRF advisories in the published package dependency tree.
+- Raised the Loki example backend's `qs` override floor to 6.16.0 so fresh
+  installs and its committed lockfile avoid the bracket-key and `isBuffer`
+  denial-of-service advisories.
+- Kept the canonical skill bundle as the source of truth; protected canonical
+  synchronization owns the corresponding Claude plugin mirror update.
+
+# Codex security findings remediation - 2026-08-31
+
+- Re-evaluated all 14 exported Codex Security records against the current
+  protected `main`: 13 remained actionable and the graceful-shutdown counter
+  fix was already present and byte-identical in both plugin mirrors.
+- Replaced executable theme-manifest validation with a bounded static parser;
+  removed moving package and pipe-to-shell fallbacks; confined Atlas artifacts;
+  made favicon replacement symlink-safe and atomic; capped network frames before
+  allocation; rejected raw URL controls; and pinned model/dataset inputs by full
+  reviewed Hub revisions.
+- Corrected the risk metadata for Atlas, autonomous PR babysitting, and all 17
+  write-capable delegate skills, with focused regression coverage for each
+  affected trust boundary.
+- Kept the repair source-only. Generated registries, catalog metadata, and both
+  plugin distributions remain owned by protected canonical synchronization.
+
+# FLOSS/fund sustainability application - 2026-08-31
+
+- Added a public `funding.json` manifest using the current v1.1.0 schema for a
+  one-time USD 25,000 AAS sustainability request.
+- Tied the request to a concrete 12-month allocation covering maintainer and
+  reviewer time, security and provenance work, CI and catalog infrastructure,
+  and documentation and community support.
+- Kept the plan description within the directory's 500-character validation
+  limit while retaining the complete allocation.
+- Kept bank details and funding history out of the public manifest; payment and
+  tax documentation remain private follow-up items if the application is
+  selected.
+
+# Multi-source evidence integrity repair - 2026-08-20
+
+- Ported the executable follow-up from community PR #1204 onto the protected
+  maintainer lane, preserving contributor credit while keeping fork code out of
+  the direct source-merge path.
+- Made every claim classify cited evidence as supporting or contradicting, and
+  made conflict state fail closed against that classification.
+- Canonicalized URL identity for fragment, host-case, and default-port variants
+  before duplicate-source checks, with focused offline regression coverage.
+
+# Multi-source research ledger import - 2026-08-20
+
+- Ported community PR #1200 from the Apache-2.0 SandBase source at immutable
+  upstream commit `fc25b2ed4548b1bb91621661e82d07d4bbd285a1` because the fork could
+  not merge executable Python under the repository's approval policy.
+- Preserved the bounded, provider-optional research workflow and offline
+  evidence ledger while pinning its licence reference and distinguishing it
+  from post-run evidence auditing.
+- Adapted the upstream validator tests into the repository suite and added an
+  ISO-date check for time-sensitive search metadata. Generated registries and
+  plugin mirrors remain owned by protected canonical synchronization.
+
+# Stack artifact cross-audit - 2026-08-20
+
+- Ported the maintainer-only portions of community PRs #1187 and #1188 into one
+  coherent review path: `aas stack audit` for local CLI checks and paired
+  stack/plan comparison in the browser-local Workbench.
+- Kept both surfaces read-only. They compare manifest digests, catalog
+  identities, target bindings, and exact selected skill sets without applying
+  a stack or reading project files in the browser.
+- Preserved the contributor's CLI and web regression coverage and kept all
+  generated catalog state outside the source PR.
+
+# YouTube transcript compatibility repair - 2026-08-20
+
+- Ported the canonical-source portion of community PR #1194 while leaving both
+  plugin mirrors to protected canonical synchronization.
+- Updated the bundled extractor and documented examples for both the legacy
+  class API and the current instance API in `youtube-transcript-api`, including
+  URL parsing and UTF-8 console output.
+- Added isolated regression coverage for common YouTube URL forms, invalid
+  URLs, legacy transcript retrieval, and modern raw-data retrieval without
+  making network requests.
+
+# Community skill import - 2026-08-14
+
+- Imported the Apache-2.0-licensed `using-lwc` skill from
+  [JanYork/using-lwc](https://github.com/JanYork/using-lwc) at immutable upstream
+  commit `7bd8052e6fa012786e50eee09f46df06b0cda1b8`.
+- Preserved the complete 22-file bundle while adding catalog metadata, explicit
+  triggers, limitations, critical-risk classification, consent gates for CLI
+  and global-memory initialization, and source credit required by this
+  repository.
+- Kept the contribution source-only; generated registries and plugin mirrors
+  remain owned by protected canonical synchronization.
+
+# Maintenance Walkthrough - 2026-08-09
+
+- Resolved the dangling `resources/implementation-playbook.md` instruction in
+  `context-driven-development` by pointing readers to the complete workflow and
+  validation material already bundled in the skill.
+- Restored Markdown rendering for every reported TypeScript example in
+  `conversation-memory` and `context-window-management` with balanced,
+  language-labelled code fences.
+- Made the intended Brazilian Portuguese operating language explicit and
+  internally consistent in `context-agent` and `context-guardian`, while
+  retaining the English discovery and limitations headings required by catalog
+  validation.
+- Corrected both context skills from `safe` to `critical` because their bundled
+  commands write local state and can archive or remove old context artifacts;
+  added exact approval, backup, path, and platform limitations without changing
+  the bundled runtime scripts.
+- Kept the repair source-only. Generated catalogs and plugin mirrors remain
+  owned by the protected canonical synchronization lane.
+
+# Secur0 coordinated remediation - 2026-07-30
+
+- Re-evaluated all 35 Secur0 reports against current protected `main`: 22 were
+  open and 13 already closed or duplicated; rejected scanner-only claims that
+  do not bypass exact-head semantic review and recovered three valid closed
+  findings covering CSV formula injection and npm release provenance.
+- Added source fixes for protected npm publication, read-only Supabase RLS,
+  authenticated Telegram webhooks, Loki permission/dashboard boundaries,
+  private credential storage, catalog read integrity, path and temporary-file
+  confinement, safe external links, Vercel exclusion handling, pinned 2slides
+  downloads, and spreadsheet-safe CSV exports.
+- Added focused regression contracts, ran the required skill/reference/docs and
+  workflow gates, regenerated the complete catalog once as validation, and
+  removed generated registries and plugin mirrors from this source-only branch.
+- Production Supabase migration, report status/comments, public PR, and any
+  release remain separate approval gates; no coordinated-disclosure material
+  was published by this local remediation pass.
+
+# Maintenance Walkthrough - 2026-07-30
+
+- Changed only the Antigravity direct-install default: a bare Antigravity target
+  now stops before cloning or writing unless exact skills, metadata filters, or
+  the explicit `--all` override are supplied.
+- Added copyable guidance for an MCP-enabled Codex or Claude agent to inspect the
+  project, choose exact AAS skill IDs, and preview the resulting Antigravity
+  install while preserving AAS MCP's read-only boundary.
+- Added regression coverage proving the blocked path performs no clone or target
+  mutation, explicit selections and `--all` continue, and non-Antigravity hosts
+  retain their existing behavior.
+
+# Maintenance Walkthrough - 2026-07-29
+
+- Hardened the legacy full-catalog installer without breaking its historical
+  default: it now displays the selected risk distribution and provides a
+  read-only `audit --skills` mode that recursively reports sensitive behavior,
+  symlinks, and binary payloads before installation.
+- Added a documented trust and antivirus-response model that distinguishes a
+  signature match in instruction text from evidence of execution while treating
+  loaded skills as untrusted instructions with real agent-tool consequences.
+- Replaced thread-identified moving-branch installs with inspect-first,
+  full-commit-pinned workflows and removed blanket safety claims, hidden writes,
+  destructive rollback advice, and a developer-specific absolute path.
+- Enforced an exact authorized-use disclaimer and a per-action target, scope,
+  command, effect, and confirmation gate across every offensive-risk skill.
+- Revalidated all 15 exported Codex Security findings against current protected `main` instead of treating historical scanner anchors as current code.
+- Removed BrowserAct's mutable provider-served guide from the supported operating path; the pinned local CLI help may describe syntax, while the checked-in skill remains the complete policy.
+- Enforced full-SHA GitHub blob URLs for linked FindMate profiles on both Moltbook drafts and GitHub thread parsing, with regression coverage for mutable branches, foreign hosts, query strings, and traversal-shaped paths.
+
+# Maintenance Walkthrough - 2026-07-28
+
+- Added a fail-closed provenance exception ledger for maintainer-verified upstream repository renames. The initial Modellix entry records that `Modellix/modellix-skill` and `Modellix/modellix-plugin` resolve to GitHub repository ID `1150322983`; only the exact recorded transition is allowed, while unrelated provenance changes remain blocked.
+- Traced a live Search Console `Pagina con reindirizzamento` report to the
+  slashless `/plugins` URL, which GitHub Pages correctly redirects to the
+  indexable `/plugins/` route.
+- Normalized every runtime link to workbench, plugin, topic, and skill pages
+  through the existing trailing-slash route helper so crawlers are no longer
+  invited to request redirecting URL variants.
+- Added focused web-app assertions for trailing-slash navigation targets; the
+  sitemap, canonical metadata, and public route remain aligned on `/plugins/`.
+
+# Maintenance Walkthrough - 2026-07-26
+
+- Imported the MIT-licensed `fedora-hyprland-installer` contribution from
+  [maleksaadi0109/hyprfedora](https://github.com/maleksaadi0109/hyprfedora) at
+  upstream commit `3ec6d4fc5eecdb188613dd841dce9926ae5c8319`.
+- Hardened its privileged Fedora workflow with explicit critical-risk metadata,
+  provenance, limitations, consistent NVIDIA guidance, isolated tests, and
+  claims bounded to the behavior implemented by the bundled scripts.
+- Added the MIT-licensed `find-complementary-founders` skill from
+  [merc1305/findMate](https://github.com/merc1305/findMate).
+- Preserved its own-owner-only invariant, offline evidence assessment,
+  hash-bound publication approvals, expiring profiles, and stop-at-101 star
+  rule while adapting metadata, triggers, provenance, and limitations to the
+  AAS quality contract.
+- Included the complete source skill directory without generated registry
+  artifacts, private owner data, credentials, or publication receipts.
+- Synced the five actionable review fixes from canonical FindMate release
+  `v1.3.4`: consent-free private drafts, temporal consent validation,
+  one-sided seeking cards, source-identity self-exclusion, and the bundled
+  Russian onboarding reference. The canonical suite passes 40 tests and the
+  portable release resolves to commit `c78a78b0280f4168294b72f38aa39317e7b7d7b8`.
+- Synced the privacy-preserving G35 publication path from immutable canonical
+  release `v1.3.5` at
+  `d23cd66d0ee324c0ed7e85156606d8814250c1f8`: one exact owner-approved GitHub
+  comment may now carry bounded inline JSON, the existing immutable linked
+  source remains supported, and deleting or unmarking the source removes its
+  current validation receipt. The owner is warned that the publishing login
+  and proof/contact links may connect the alias to a real identity and that
+  public edit history or copies prevent any promise of complete erasure.
+- Preserved the AAS catalog metadata, usage guidance, provenance, limitations,
+  source-only contract, and all owner consent boundaries while updating the
+  five compatible reference/script files. The canonical FindMate suite passes
+  47 tests; no owner profile, credential, generated registry, or plugin mirror
+  is included in this contributor update.
+- Added the MIT-licensed `orchestrate` skill from
+  [provencher/codex-skills](https://github.com/provencher/codex-skills) at
+  upstream commit `8aa6c42b73781c905c55f8a1253a18127079ac21`.
+- Preserved its concise Codex-native delegation policy and UI metadata while
+  adding the repository-required usage guidance, limitations, immutable
+  provenance, and user-held approval boundaries.
+- Kept the source PR limited to canonical skill content, source credit, and this
+  maintenance evidence; generated registries and plugin mirrors remain owned by
+  protected canonical synchronization.
+- Consolidated the two open UIZZE contribution paths into one protected maintainer repair, preserving the actionable public-catalog research, design-contract, implementation, and hard finish-gate workflow contributed by [@samuelbushi](https://github.com/samuelbushi) in PR `#929` together with the bounded preview introduced by PR `#983`.
+- Kept the free `check_ui_slop` preview optional while requiring explicit approval before persistent MCP configuration or external HTML/CSS transmission.
+- Added the official MIT license metadata and organizational author while preserving the existing immutable source identity; GitHub redirects the historical upstream URL to the transferred official repository.
+- Left generated registries and plugin mirrors out of the source PR so the protected canonical synchronization workflow remains their sole owner.
+- Merged the consolidated source through PR [#985](https://github.com/ibrdot/swe-re-expert/pull/985), then converged generated state and plugin mirrors through protected PR [#986](https://github.com/ibrdot/swe-re-expert/pull/986).
+
+# Maintenance Walkthrough - 2026-04-17
+
+- Imported 8 frontend/design skills from [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) into `skills/`:
+  - `design-taste-frontend`
+  - `gpt-taste`
+  - `redesign-existing-projects`
+  - `high-end-visual-design`
+  - `minimalist-ui`
+  - `industrial-brutalist-ui`
+  - `stitch-design-taste`
+  - `full-output-enforcement`
+- Normalized the imported skill metadata to repository conventions:
+  - folder names match `name`
+  - `risk`, `source`, `source_repo`, `source_type`, `author`, and `date_added` are present
+  - descriptions are shortened for validation
+  - `## When to Use` sections were added where the upstream files did not have one
+- Preserved the upstream `stitch-design-taste/DESIGN.md` artifact.
+- Added source attribution for `Leonxlnx/taste-skill` in `README.md` and `docs/sources/sources.md`.
+
+# Maintenance Walkthrough - 2026-04-05
+
+- Merged community PR batch `#487`, `#488`, `#489`, and `#490` on GitHub with squash, following the maintainer GitHub-only merge contract instead of local integration.
+- Used the repository batch shortcut for the initial pass, then switched to the manual maintainer playbook when fork metadata drift produced stale `pr-policy` failures on reopened PRs.
+- Repaired PR `#488` on the contributor branch by adding the missing `fruitwyatt/puzzle-activity-planner` source credit to `README.md`, then pushed the maintainer fix back to the fork and re-ran the fork workflows.
+- Normalized PR `#490` by patching the body to include the required `## Quality Bar Checklist ✅` section, then closed and reopened it to force fresh `pull_request` checks against the updated metadata.
+- Approved the pending fork workflow runs for PRs `#487` through `#490` after each reopen/push cycle so `Skills Registry CI`, `Skill Review & Optimize`, `Dependency Review`, and `CodeQL` could execute on the contributor heads.
+- Ran the mandatory post-merge `npm run sync:contributors` follow-up after each successful merge and pushed the resulting README contributor-sync commits directly to `main` when the sync changed tracked files.
+- Prepared the `v9.12.0` release notes in `CHANGELOG.md` to cover the Rayden UI additions, puzzle activity planning, skill diagnostics, and the `sales-automator` YAML repair before starting the release workflow.
+
+- Closed issues `#455` and `#456` with maintainer comments explaining what a follow-up submission must include before reopening:
+  - concrete repo diff or implementation PR
+  - source-only contributor branch
+  - Quality Bar checklist and maintainer validations from `.github/MAINTENANCE.md`
+- Reviewed open issues `#455` and `#456` during the maintainer sweep; neither had a matching accepted PR and both remain open pending a source-quality contributor submission.
+- Triaged PR `#454` as superseded by `#457` because `#457` rebuilds the Windows validation/test fixes on top of current `main` and includes the follow-up batch activation fix requested in review.
+- Verified PR `#457` locally on the contributor head with:
+  - `npm run validate`
+  - `npm run validate:references`
+  - `npm run check:warning-budget`
+  - `npm run check:readme-credits -- --base origin/main --head HEAD`
+  - `npm run test`
+  - `npm run app:test:coverage`
+  - `npm run app:build`
+- Cleaned PR `#457` back to the repository's source-only PR contract by dropping maintainer-owned generated registry artifacts before merge review.
+- Normalized the PR metadata so the required Quality Bar Checklist is present before re-triggering the fork-based GitHub Actions checks.
+
+# Maintenance Walkthrough - 2026-03-30
+
+- Merged PR #418 on GitHub with squash after approving the pending fork workflow run and waiting for `pr-policy`, `source-validation`, and `artifact-preview` to finish green.
+- Repaired PR #423's stale metadata state by updating the PR body to include the required Quality Bar Checklist, then closed and reopened it to force fresh `pull_request` runs before squash merging it on GitHub.
+- Synced local `main` after the PR merge batch so release preparation starts from the canonical remote state.
+- Resolved issue #421 by ensuring the `README.md` Community Contributed Skills section includes `SoulPass` on `main`.
+- Resolved issue #419 by tightening the `github-issue-creator` frontmatter description and "When to Use" guidance for better discoverability.
+- Prepared the `v9.3.0` release notes in `CHANGELOG.md` and recorded the maintainer actions here before running the release flow.
+
+# Maintenance Walkthrough - 2026-03-29
+
+- Re-triaged the full 2026-03-15 security finding set against current `main` and wrote a fresh current-head report in `docs/maintainers/security-findings-triage-2026-03-29-refresh.md`.
+- Added a matching machine-readable export at `docs/maintainers/security-findings-triage-2026-03-29-refresh.csv` so the refreshed statuses are available in both markdown and CSV form.
+- Kept the old `2026-03-15` markdown/CSV as historical baseline input, preserved the smaller `2026-03-29` addendum as a transition note, and pointed both docs at the new refresh as the current source of truth.
+- The refreshed triage currently lands at:
+  - `0` findings still present and exploitable
+  - `0` findings still present but low practical risk
+  - `26` obsolete/not reproducible on current HEAD
+  - `7` duplicates
+- The refresh folds in the hardening shipped today and earlier in the session:
+  - symlink/path safety in maintainer/install/web copy flows
+  - frontmatter parser robustness
+  - removal of shared frontend star writes
+  - secure Office unpack behavior
+  - migration away from predictable `/tmp` state files
+
+- Fixed the remaining production/documentation drift introduced by the web-app and CI hardening work:
+  - clarified that the hosted GitHub Pages app runs in static public-catalog mode
+  - documented that `Sync Skills` is development-only unless explicitly enabled in local maintainer runs
+  - documented that web-app save/star interactions are intentionally browser-local today
+- Hardened the maintainer documentation so release and CI expectations now match the live workflows:
+  - release docs now mention the shared `tools/requirements.txt` install path, the web-app coverage gate, and blocking `npm audit --audit-level=high` on publish
+  - maintainer docs now document the narrow canonical-artifact auto-sync contract on `main`
+- Expanded the documented risk-maintenance workflow after the new automation landed:
+  - `audit:skills` exposes `suggested_risk`
+  - `sync:risk-labels` supports conservative high-confidence legacy cleanup
+  - offensive auto-promotions now also insert the canonical `AUTHORIZED USE ONLY` notice
+- Updated user-facing install docs to mention that the npm installer now uses a shallow clone for lighter first-run installs.
+- Updated the onboarding/trust docs to reflect the real `risk` taxonomy (`unknown`, `none`, `safe`, `critical`, `offensive`) instead of the older simplified wording.
+
+# Maintenance Walkthrough - 2026-03-25
+
+- Imported 14 skills from [Dimillian/Skills](https://github.com/Dimillian/Skills) into `skills/`:
+  - `app-store-changelog`
+  - `github`
+  - `ios-debugger-agent`
+  - `macos-menubar-tuist-app`
+  - `macos-spm-app-packaging`
+  - `orchestrate-batch-refactor`
+  - `project-skill-audit`
+  - `react-component-performance`
+  - `simplify-code`
+  - `swift-concurrency-expert`
+  - `swiftui-liquid-glass`
+  - `swiftui-performance-audit`
+  - `swiftui-ui-patterns`
+  - `swiftui-view-refactor`
+- Normalized the imported skill metadata to match repository validation requirements:
+  - shortened oversized frontmatter descriptions
+  - added `risk`, `source`, and `date_added`
+  - added `## When to Use` sections so the imported batch does not increase the warning budget
+- Added source attribution for `Dimillian/Skills` in:
+  - `README.md` under `Credits & Sources`
+  - `docs/sources/sources.md`
+- Merged PR `#395` via GitHub squash merge after maintainer refresh of forked workflow approvals and PR body normalization; this added the new `snowflake-development` skill.
+- Merged PR `#394` via GitHub squash merge after converting the contributor branch back to source-only, normalizing the PR checklist body, and shortening an oversized `wordpress-penetration-testing` description so CI passed.
+- Patched `skills/snowflake-development/SKILL.md` on `main` with a `## When to Use` section so the repository stayed within the frozen validation warning budget after the PR merge batch.
+- Reworked `/apply-optimize` automation to address GitHub code scanning alert `#36`: the public `issue_comment` trigger now only queues a trusted workflow, while the privileged branch checkout/apply logic runs in a separate `workflow_dispatch` path limited to same-repository branches.
+- Ran the required direct-`main` maintainer sync flow after touching `skills/`:
+  - `npm run chain`
+  - `npm run check:warning-budget`
+  - `npm run catalog`
+- Synced maintainer-owned generated artifacts and metadata to the new `1,325+` skill count:
+  - `README.md`
+  - `package.json`
+  - `skills_index.json`
+  - `CATALOG.md`
+  - `data/catalog.json`
+  - `data/bundles.json`
+  - curated user/maintainer docs updated by `sync_repo_metadata.py`
+
+# Maintenance Walkthrough - 2026-03-21 Follow-up Import Sync
+
+- Imported and normalized a new batch of external skills into `skills/`, covering Anthropic Claude API/internal comms entries, marketing workflows, SEO orchestration/sub-skills, and Obsidian-focused file-format/CLI skills.
+- Added and standardized the following imported skill families:
+  - `claude-api`, `internal-comms`
+  - `ad-creative`, `ai-seo`, `churn-prevention`, `cold-email`, `content-strategy`, `lead-magnets`, `product-marketing-context`, `revops`, `sales-enablement`, `site-architecture`
+  - `seo`, `seo-competitor-pages`, `seo-content`, `seo-dataforseo`, `seo-geo`, `seo-hreflang`, `seo-image-gen`, `seo-images`, `seo-page`, `seo-plan`, `seo-programmatic`, `seo-schema`, `seo-sitemap`, `seo-technical`
+  - `defuddle`, `json-canvas`, `obsidian-bases`, `obsidian-cli`, `obsidian-markdown`
+- Preserved the existing `docx`, `pdf`, `pptx`, and `xlsx` aliases as the repository's symlinked `*-official` entries instead of duplicating those directories.
+- Normalized imported frontmatter so the new skills align with repository validation expectations:
+  - shortened oversized descriptions
+  - added missing `risk`, `source`, and `date_added` fields where needed
+  - added `## When to Use` sections across the new imports
+  - removed or rewrote imported dangling links that referenced non-existent upstream paths in this repository
+- Added maintainer provenance notes in `docs/maintainers/skills-import-2026-03-21.md` so the source repository for each imported skill group is documented for future maintenance.
+- Regenerated maintainer-owned derived artifacts after the import:
+  - `README.md`
+  - `skills_index.json`
+  - `CATALOG.md`
+  - `data/catalog.json`
+  - `data/bundles.json`
+- Verified the direct-`main` maintenance flow with:
+  - `npm run validate`
+  - `npm run index`
+  - `npm run catalog`
+  - `npm run chain`
+
+# Maintenance Walkthrough - 2026-03-18
+
+- Fixed issue `#344` by correcting `.claude-plugin/marketplace.json` so the marketplace plugin entry uses `source: "./"` instead of `"."`, matching Claude Code's relative-path schema requirement for marketplace entries.
+- Added `tools/scripts/tests/claude_plugin_marketplace.test.js` and wired it into the local test suite so invalid marketplace `source` paths fail fast in CI/maintainer verification.
+- Merged PRs `#333`, `#336`, `#338`, `#343`, `#340`, `#334`, and `#345` via GitHub squash merge after maintainer refresh of forked workflows and PR metadata.
+- Closed PR `#337` and PR `#342` as superseded by `#338`, then closed issue `#339` manually after confirming the accepted fix path; issue `#335` auto-closed from the merged PR body.
+- Closed issue `#344` with a follow-up comment after shipping the plugin marketplace fix on `main`, and left PR `#341` open with a blocking review comment because the submitted skill content is corrupted even though CI is green.
+- Documented a new maintainer edge case in `.github/MAINTENANCE.md`: forked runs in `action_required`, `pr-policy` failures caused by stale PR bodies, the REST API fallback when `gh pr edit` fails with the Projects Classic GraphQL error, and the need to `close`/`reopen` a PR when a plain rerun does not pick up updated metadata.
+- Refreshed the release-facing docs for `8.2.0` across `README.md`, `docs/users/getting-started.md`, `docs/users/walkthrough.md`, and `CHANGELOG.md`.
+- Published release `v8.2.0` on `main` with:
+  - `npm run release:preflight`
+  - `npm run security:docs`
+  - `npm run release:prepare -- 8.2.0`
+  - `npm run release:publish -- 8.2.0`
+
+# Maintenance Walkthrough - 2026-03-17
+
+- Synced `main` after the six merged community PRs and re-verified all forked PR workflows through GitHub before final release prep.
+- Reopened/approved forked GitHub Actions runs where needed, normalized missing PR quality checklists, and merged PRs `#331`, `#330`, `#326`, `#324`, `#325`, and `#329` with GitHub squash merge.
+- Patched `skills/vibers-code-review/SKILL.md` on the contributor branch for PR `#325` so the skill had valid YAML frontmatter, a `When to Use` section, and explicit limitations; reran CI and merged after green checks.
+- Closed issue `#327` with a release comment pointing to `#331`, and closed issue `#328` as a duplicate of `#269` with links to the README recovery guidance and `docs/users/windows-truncation-recovery.md`.
+- Updated release-facing docs before cutting `v8.1.0`:
+  - `README.md`
+  - `docs/users/getting-started.md`
+  - `CHANGELOG.md`
+  - `walkthrough.md`
+- Refreshed the README contributor acknowledgements to include the latest merged contributors from the maintenance batch.
+- Release workflow to run for `8.1.0`:
+  - `npm run release:preflight`
+  - `npm run security:docs`
+  - `npm run release:prepare -- 8.1.0`
+  - `npm run release:publish -- 8.1.0`
+
+# Maintenance Walkthrough - 2026-03-12
+
+- Merged PRs `#277`, `#272`, `#275`, `#278`, and `#271` via GitHub squash merge after bringing contributor branches into a mergeable state and refreshing PR bodies against the quality checklist in `.github/MAINTENANCE.md`.
+- Verified PR `#271` locally with `npm run validate:references` and `npm run test` before merge; confirmed `#269` auto-closed from the merged PR body.
+- Added a user-facing Windows truncation recovery guide at `docs/users/windows-truncation-recovery.md`, linked it from `README.md`, `docs/users/faq.md`, `docs/users/getting-started.md`, and `docs/integrations/jetski-cortex.md`, and credited the workflow to issue `#274`.
+- Updated `skills/metasploit-framework/SKILL.md` to remove the remote installer flow, require an existing Metasploit installation, and add the required offensive-skill warning.
+- Refreshed `README.md` to remove stale `7.2.0` / `7.4.0` onboarding copy, align the star badge with the current milestone, and fix the TOC link for `## Contributing`.
+- Normalized the active English docs (`README.md`, user guides, Kiro guide, and evergreen maintainer docs) to the current `7.6.0` / `1,250+ skills` state and removed emoji from H2 headers where maintenance rules require clean anchors.
+- Ran the required maintenance validations after the direct fixes:
+  - `npm run validate`
+  - `npm run validate:references`
+  - `npm run chain`
+  - `npm run catalog`
+- Final release prep, issue closure comments, and verification were completed on `main`.
+
+# Maintenance Walkthrough - 2026-03-13
+
+- Fixed `tools/scripts/update_readme.py` so normal `npm run readme` runs preserve the existing `registry-sync` star/timestamp values instead of rewriting them on every execution, which was causing non-deterministic PR drift failures in CI.
+- Updated `tools/scripts/sync_repo_metadata.py` to expose the same explicit `--refresh-volatile` behavior for live star/timestamp refreshes, keeping release/metadata refresh flows available without destabilizing contributor PR checks.
+- Updated `.github/workflows/ci.yml` so generated registry drift is informational on pull requests but still strict on `main`, with auto-sync remaining the canonical path for shared artifacts after merge.
+- Updated `.github/MAINTENANCE.md`, `docs/maintainers/ci-drift-fix.md`, and `docs/maintainers/merging-prs.md` to document the lower-friction merge flow: validate source changes on PRs, keep `main` for generated conflicts, and let `main` auto-sync the final artifact set.
+- Verified the fix with:
+  - `python3 tools/scripts/update_readme.py --dry-run`
+  - `python3 tools/scripts/sync_repo_metadata.py --dry-run`
+  - `npm run readme`
+  - `npm run validate:references`
+- Added `tools/config/generated-files.json` as the single contract for derived registry artifacts so CI, maintainer scripts, and docs share the same file list.
+- Added scripted workflow entrypoints: `npm run pr:preflight`, `npm run release:preflight`, `npm run release:prepare -- X.Y.Z`, and `npm run release:publish -- X.Y.Z`.
+- Split PR CI into `pr-policy`, `source-validation`, and `artifact-preview` so PRs stay source-only, policy failures are explicit, and generated drift is previewed separately from source validation.
+- Updated `CONTRIBUTING.md` and `.github/PULL_REQUEST_TEMPLATE.md` so contributors are told not to commit derived files and to enable `Allow edits from maintainers`.
+
+# Maintenance Walkthrough - 2026-03-14
+
+- Added root Claude Code plugin marketplace support via `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, exposing the repository as a single plugin entry that points at the existing `skills/` tree.
+- Updated the user onboarding trinity (`README.md`, `docs/users/getting-started.md`, `docs/users/faq.md`) so Claude Code users can install via `/plugin marketplace add ibrdot/antigravity-awesome-skills` in addition to the existing `npx` installer flow.
+- Merged PRs `#302`, `#301`, `#299`, `#297`, `#296`, `#287`, `#298`, and `#293` via GitHub squash merge after maintainer preflight, including a maintained follow-up commit on the contributor branch for `#298` and a maintainer conflict-resolution refresh on `#293`.
+- Verified the issue-driven fixes locally before merge:
+  - `#301`: `python3 -m py_compile skills/notebooklm/scripts/browser_utils.py`
+  - `#299`: `node -c tools/bin/install.js`
+- Verified the skill/docs PRs locally before merge:
+  - `#297`, `#296`, `#287`, `#298`: `npm run validate`
+  - `#293`, `#298`: `npm run validate:references`
+- Closed issues `#288`, `#300`, `#286`, and `#281` from the merged fixes and release notes flow; documented `#294` as a release follow-up because the support already exists in the current catalog.
+- Removed stale Windows `core.symlinks=true` / Developer Mode guidance from the user docs after the `#299` installer fix, keeping the Windows path on the standard clone/install flow.
+- Ran the post-merge maintainer sync on `main`:
+  - `npm run chain`
+  - `npm run catalog`
+- Refreshed `CHANGELOG.md`, `README.md`, `docs/users/getting-started.md`, `docs/users/faq.md`, and the contributor acknowledgements to prepare the single `7.8.0` release cut.
+
+# Maintenance Walkthrough - 2026-03-21 Initial Import Batch
+
+- Imported the missing external skill coverage identified from `travisvn/awesome-claude-skills`, `anthropics/skills`, `coreyhaines31/marketingskills`, `AgriciDaniel/claude-seo`, and `kepano/obsidian-skills`, bringing the indexed registry to `1,304` skills on `main`.
+- Added maintainer attribution notes in `docs/maintainers/skills-import-2026-03-21.md` and refreshed the generated registry artifacts after the import batch.
+- Re-aligned the public documentation surface to the current repository state:
+  - `README.md`
+  - `package.json`
+  - `docs/users/getting-started.md`
+  - `docs/users/usage.md`
+  - `docs/users/claude-code-skills.md`
+  - `docs/users/gemini-cli-skills.md`
+  - `docs/users/visual-guide.md`
+  - `docs/users/bundles.md`
+  - `docs/users/kiro-integration.md`
+  - `docs/integrations/jetski-cortex.md`
+  - `docs/maintainers/repo-growth-seo.md`
+  - `docs/maintainers/skills-update-guide.md`
+- Updated the changelog `Unreleased` section so the post-`v8.4.0` main branch state documents both the imported skill families and the docs/About realignment.
+- Automated the recurring docs metadata maintenance by extending `tools/scripts/sync_repo_metadata.py`, wiring it into `npm run chain`, and adding a regression test so future skill-count/version updates propagate through the curated docs surface without manual patching.
+- Added a remote GitHub About sync path (`npm run sync:github-about`) backed by `gh repo edit` + `gh api .../topics` so the public repository metadata can be refreshed from the same source of truth on demand.
+- Added maintainer automation for repo-state hygiene: `sync:contributors` updates the README contributor list from GitHub contributors, `check:stale-claims`/`audit:consistency` catch drift in count-sensitive docs, and `sync:repo-state` now chains the local maintainer sweep into a single command.
+- Hardened automation surfaces beyond the local CLI: `main` CI now runs the unified repo-state sync, tracked web artifacts are refreshed through `sync:web-assets`, release verification now uses a deterministic `sync:release-state` path plus `npm pack --dry-run`, the npm publish workflow reruns those checks before publishing, and a weekly `Repo Hygiene` GitHub Actions workflow now sweeps slow drift on `main`.
+- Added two maintainer niceties on top of the hardening work: `check:warning-budget` freezes the accepted `135` validation warnings so they cannot silently grow, and `audit:maintainer` prints a read-only health snapshot of warning budget, consistency drift, and git cleanliness.
+
+# Maintenance Walkthrough - 2026-07-16 Android Overheating Diagnostics
+
+- Audited the cached third-party `adb-performance` skill and rejected a direct import because its linked source repository is unavailable, its license cannot be verified, and it mixes weak snapshot heuristics with unguarded device mutations.
+- Added the clean-room canonical `diagnose-android-overheating` skill, grounded in current Android and AOSP documentation.
+- Replaced generic “optimization” commands with a read-only-first evidence workflow, controlled comparisons, OEM-aware interpretation, confidence labels, privacy handling, explicit approval gates, rollback requirements, and a hardware-safety stop.
+- Added `references/evidence-and-interpretation.md` for symptom-specific ADB evidence, thermal status interpretation, correlation rules, Batterystats capture discipline, and bugreport privacy.
+
+# Maintenance Walkthrough - 2026-07-16 Tessl Workspace Repair
+
+- Corrected the Skill Review workflow and trusted review helper to use the token-visible `antigravity-awesome-skills` Tessl workspace instead of the renamed repository slug.
+- Added a repository-variable override so future Tessl workspace migrations can be handled through `TESSL_WORKSPACE` without another workflow patch.
+- Updated the review command regression test to lock the corrected workspace argument.
+
+# Maintenance Walkthrough - 2026-07-16 Tessl Credit Guard
+
+- Added a deterministic fingerprint over the changed `SKILL.md` content and active review policy.
+- Reuse a previously successful review for identical content, avoiding Tessl setup and another charged review after unrelated PR pushes or base refreshes.
+- Route an explicit Tessl credit/quota failure to `manual-review-required` with exact-head attestation; unrelated Tessl failures still fail closed.
+- Added regression coverage for fingerprint invalidation, GitHub Actions cache wiring, quota classification, and truthful review outcomes.
+# Maintenance Walkthrough - 2026-07-17 Legacy Redirect Infrastructure
+
+- Preserved the Google Search Console HTML verification file on the legacy Pages path and the Bing Webmaster Tools meta token on the legacy root redirect.
+- Made redirect generation follow the current `skills_index.json` count while retaining the curated sitemap-count lock and exact route-set validation.
+- Added `pages:redirect-verify` for byte-exact managed-tree validation plus bounded or full live route probing.
+- Versioned the redirect manifest contract as schema `3`, including webmaster-verification evidence consumed by the protected sync.
+- Added explicit source-repository provenance to the live manifest and used that change to exercise the complete protected auto-sync cycle.
+- Documented the protected cross-repository synchronization contract for `ibrdot/ibrdot.github.io`.
+- Added regression coverage for webmaster tokens, reserved-path collisions, dynamic skill counts, local drift, stale files, and live manifest/route verification.
+
+# Maintenance Walkthrough - 2026-07-22 Security Findings and Windows Preview
+
+- Remediated the live dependency advisories for `fast-uri`, `brace-expansion`, and `body-parser` in their affected lockfiles.
+- Hardened AAS Core cache ancestry, transaction durability, bounded MCP manifest state, exact-search behavior, redirect-tree reads, release-PR selection, and maintainer merge authorization.
+- Expanded skill-review fingerprints and workflow triggers to cover bundled support files, and tightened unsafe guidance in the affected canonical skills.
+- Fixed native Windows ACL inspection for AAS preview by making PowerShell path handling explicit and returning bounded phase/path diagnostics for unresolved ACL identities.
+- Added regression coverage for every confirmed code-path finding and documented the Windows 10/11 Codex CLI preview contract from discussion `#956`.
+
+# Maintenance Walkthrough - 2026-08-06 Agent Plugins 1.0 Portability
+
+- Added a standard root `plugin.json` to every editorial bundle that passes the existing Codex/Claude safety gates and the Agent Plugins immediate-child skill-layout rule.
+- Kept the host-specific full-library roots separate, flattened qualified paths only inside generated packages, and normalized AAS provenance/risk fields into standard string metadata without changing instruction bodies.
+- Pinned offline validation to an attributed snapshot of the official Agent Plugins 1.0.0 JSON Schema, added deterministic Codex prompt fallbacks, and covered closed-schema, fixed-discovery, pilot-bundle, and release-alignment regressions.
+- Updated the user onboarding trinity, plugin/bundle guides, maintainer contract, and release checklist while leaving the active release-notes PR untouched.
+
+# Maintenance Walkthrough - 2026-09-02 Source and Dependency Sweep
+
+- Merged the documentation overview and the safe `email-issue-fixer` skill after exact-head policy, evidence, source-validation, artifact-preview, and semantic-review gates passed.
+- Updated the Supabase and Highlight.js dependency lines through their contributor pull requests.
+- Repaired the `agents-md` contribution before merge so its evidence-first guidance remains source-only and contains no promotional link or unrelated walkthrough change.
+- Updated the web app lockfile from vulnerable `browserslist` `4.28.4` to `4.28.8`, including its lockfile-resolved browser-data dependencies; `npm audit` then reported zero known vulnerabilities for the web app.
+- Kept generated registries and contributor credits in the protected canonical-sync lane. No release was requested or published during this sweep.
+
+# Maintenance Walkthrough - 2026-09-05 Funding Target
+
+- Reduced the one-time FLOSS/fund request from USD 25,000 to USD 10,000, the minimum published at https://floss.fund/faq, and revised the proposed allocation to total USD 10,000.
+- Set the README immediate community-support target to EUR 100 per month with an explicit recurring Buy Me a Coffee route. This monthly target is separate from the annual grant proposal.
+- Preserved the existing project identifiers, funding channel, and dated adoption evidence.
+
+Validation: production build/typecheck and 281 web tests (47 files) passed, as did repository validation, reference checks, documentation security, and the full local test suite. Changed-source lint passed. Browser checks verified both informational pages and a 390px layout without horizontal overflow.
+
+## 2026-09-05 — Complete skill metadata dates
+
+- Added the historical Git introduction date to every canonical skill that lacked `date_added`.
+- Derived all 216 values from each file's first addition commit; every affected skill entered the repository on 2026-09-04.
+- Removed the remaining optional metadata advisories without changing skill behavior.
+
+## 2026-09-05 — Refresh compatible web dependencies
+
+- Updated the web app lockfile to the newest versions allowed by its existing dependency ranges; npm audit remains at zero vulnerabilities.
+- Rewrote the unsafe-path control-character check to satisfy the stricter linter while preserving rejection behavior, with a regression test for NUL-containing paths.
+- Made the Vitest Vite-config import explicit so the native config-loader compatibility warning is gone.
+
+## 2026-09-05 — Substantive input-boundary audit
+
+- Corrected archive entry accounting and normalized ancestor collision checks, installer manifest hardlink handling and replacement, duplicate Workbench JSON keys, stale skill navigation results, and premature clipboard success.
+- Added reproductions and regression tests; checked the syntax of all 877 tracked Python, shell and JavaScript skill scripts without executing them.
+- Full scope, evidence and limits: [deep input-boundary audit](docs/maintainers/deep-input-boundary-audit-2026-09-05.md).
+- Source maintenance only; no release or deployment.
+
+## 2026-09-05 — Specialized plugin review
+
+- Reviewed all 21 specialized compositions, refreshed output-oriented descriptions and starter briefs, and clarified neighboring scopes.
+- Added browser verification to Web App Builder and data-quality checks to Data Analytics; narrowed Privacy & Compliance Engineering to five relevant defensive workflows and removed an incomplete support-file dependency from Secure App Builder.
+- Replaced the stale 14-entry web list with the canonical editorial definitions, exposed all included skills and starter briefs, and bound links to the catalog release.
+- Removed fixed 15-plugin counts from prerendering and live verification; added source parity and stale-count regressions.
+- Scope and composition rationale: [Specialized Plugins](docs/users/specialized-plugin-roadmap.md). No release or deployment.
+
+## Specialized plugin support-file completion
+
+- Supplied every previously reported missing support file and checked all selected entrypoints for prose-declared resource paths.
+- Removed imaginary OAuth/script clients, routed template references to actual inline procedures, and repaired the hardening checklist.
+- Added resource/mirror parity and executable chunking/KPI/SLO regressions; corrected unsafe or misleading examples encountered during the content review.
+- Updated the [plugin review](docs/users/specialized-plugin-roadmap.md) with resolved findings and explicit verification scope. No release or deployment.
+
+## Repository documentation consistency — 2026-09-06
+
+Audited 205 repository Markdown documents outside skill content and generated plugin copies for references and commands; cross-checked operational guidance with exact-base implementation. Corrected protected-workflow contradictions, stale translations, update/rollback claims, plugin status and navigation. Added a repeatable regression with explicit historical exceptions. Full scope and limitations: [audit report](docs/maintainers/documentation-consistency-2026-09-06.md). No publication is included.
+
+## MCP and CLI pipeline audit — 2026-09-06
+
+Reviewed the supported package-to-plan pipeline and repaired MCP overload correlation, notification responses and invalid envelope handling. Added negative and real-stdio regressions; verification includes the isolated installed-candidate smoke and the existing Core/repository suites. Scope and limits: [pipeline audit](docs/maintainers/mcp-cli-pipeline-audit-2026-09-06.md). No release or host configuration change is included.
+
+## Agent-owned CLI workflow — 2026-09-06
+
+Added a [manifest-to-installation preview](docs/users/aas-core.md#use-the-reviewed-selection), unique verified runtime lookup, and actionable bounded error guidance. Selection and project analysis remain exclusively agent-owned. Verification details are recorded in [the workflow audit](docs/maintainers/agent-owned-cli-workflow-2026-09-06.md). No publication or real host configuration changes.
+
+## Complete CLI handoff verification — 2026-09-06
+
+Exercised native Codex MCP selection through an actual published-release installation, checked installed file digests, and extended candidate tests through real copying, repetition, pruning and negative paths. Fixed inconsistent destination validation and the direct installer's unhandled path error. See [the end-to-end report](docs/maintainers/workflow-e2e-verification-2026-09-06.md). No publication or real MCP configuration changes.
+
+## Windows and PowerShell workflow verification
+
+The packed preview matrix now includes Windows with PowerShell execution and real Git against an isolated local candidate release fixture. Linux and Windows receipts are both required; a missing Windows receipt fails aggregation. Publication and real host configuration are outside this check.
+
+## PowerShell 5.1 and 16.9.0 readiness
+
+The Windows packed verification now repeats the complete installation lifecycle under Windows PowerShell 5.1, alongside PowerShell 7, with version-bound receipts and fail-closed aggregation. The 16.9.0 changelog covers the accumulated agent-owned CLI handoff, MCP fixes and Specialized Plugin refresh. Native Windows app interaction remains outside the observed coverage.
+
+## Atomic CLI JSON input reads — 2026-09-06
+
+CLI JSON inputs are now opened without following leaf symlinks or blocking on raced FIFOs, checked against the pre-open file identity, read through the same descriptor with a fixed byte budget, and rechecked before parsing. Focused regressions replace the file after inspection, substitute a FIFO and grow it past the configured limit; all cases fail closed without changing normal manifest, plan, selection or evidence behavior.
+
+## README Star History embeds
+
+Added the official theme-aware Star History chart and live global-rank badge to the existing [Star History section](README.md#star-history), retaining the direct chart link. Rank is fetched from Star History rather than hardcoded.
+
+## README project support
+
+Moved [Support the Project](README.md#support-the-project) directly below the opening badges. Added a concise invitation for sponsors, with GitHub Sponsors and Buy Me a Coffee links, a compact banner, and the existing Snyk tooling attribution. Removed monetary targets and contribution calculations.
+
+## Snyk EU Python dependency remediation (2026-09-06)
+
+- Raise slack-gif-creator Pillow minimum to 12.3.0 to exclude the vulnerable 12.2.x series (SNYK-PYTHON-PILLOW-17972377).
+- Require SoupSieve 2.8.4 or newer alongside BeautifulSoup in junta-leiloeiros to exclude CVE-2026-49477.
+- Generated plugin mirrors are validated locally and remain owned by protected canonical synchronization.
+- Validation: repository chain, reference validation and docs security passed; Pillow 12.3.0 GIF creation/reopening and SoupSieve 2.8.4 selector smoke passed. Snyk EU found no security vulnerabilities in either resolved requirements set; junta-leiloeiros retains a certifi MPL-2.0 license-policy finding.
+
+# AAS social preview refresh — 2026-09-24
+
+- Replaced `apps/web-app/public/social-card.png` with the first generated AAS Core social preview, matching the live site's dark and cyan visual identity and current Search → Choose → Validate → Preview flow.
+- Kept the existing Open Graph and Twitter image URL stable so shared links resolve to the refreshed asset after deployment.
+- Resampled the social card to the site's required 1200 × 630 pixel dimensions after the first deployment validation flagged the generated source dimensions.
+- Updated the provenance record and SEO verifier to bind the selected image's actual visible copy and SHA-256.
+
+# AAS introduction video — 2026-09-25
+
+- Added the 40-second AAS presentation to the README through a GitHub video attachment, rendered inline by GitHub.
+- Added a self-hosted HTML video player to the catalog landing page, with a poster and no automatic download or playback.
+- Added a README link to the site's player as a fallback for GitHub playback stalls.
+
+
+## Homepage outage repair (2026-09-27)
+
+The landing route used useSkills outside CatalogRouteProvider, crashing the deployed homepage. Move it inside the existing provider route and exercise the real App homepage without mocking the context.
+
+
+## Shared site style (2026-09-27)
+
+Use the landing black/cyan palette on every route, share Outfit/JetBrains Mono with Tailwind and Markdown, load the title weight, unify responsive page headings, and keep header/footer appearance stable across navigation.
+
+## Vercel OSS site migration (2026-09-28)
+
+Configure the repository root as the Vercel project root. `vercel.json` installs both
+package trees, runs the existing web asset setup and build, serves the generated
+`apps/web-app/dist` directory, and falls back to the SPA entry for routes that
+are not prerendered. The Vercel Open Source Program badge is in the README.
+
+Keep `https://github.com/ibrdot/swe-re-expert/` as the public canonical URL. Deploy and check a
+Vercel preview first, attach the domain to the Vercel project, then update its
+DNS records. Keep the existing GitHub Pages custom-domain setting and verify
+that `https://ibrdot.github.io/agentic-awesome-skills/` and representative
+deep links still redirect to the canonical URL after the DNS change. If GitHub
+Pages stops redirecting them, publish a dedicated redirect artifact there
+before considering the migration complete.
+
+## Unified AAS local plugin preparation (2026-10-02)
+
+Bundle three native workflow skills, the complete catalog and supporting files,
+read-only stdio Core, an offline artifact CLI, and single-file Workbench. Runtime
+requires only Node.js 22 or later on the user computer. No endpoint, cloud database,
+credentials, npm download, or hosted fallback is used. Local runtime identities
+bind bundled bytes; they do not assert verification of an npm release tarball.
+
+The experimental Upstash resource and all three previews containing the hosted
+MCP were removed. Production and DNS were never changed. Source configuration
+returns the existing website to its baseline build without a plugin Function.
+
+Validation includes a relocated package with networking denied: real SDK stdio
+catalog reading, composition/inspection, evidence, process isolation, Workbench
+resource, offline planning and audit. Focused Workbench browser tests pass with
+no fetch and no installer handoff. Root validation, references, documentation
+security, warning budget and full repository tests pass. Codex CLI installation passed with a temporary isolated configuration; native
+UI rendering remains unverified. Generated outputs stay excluded from
+this source PR and belong to protected canonical synchronization.
+
+
+## Core homepage introduction and maintainer restoration (2026-10-11)
+
+Restore the existing locally hosted 40-second introduction video after Core setup, with native controls, its original poster, and no preloading or autoplay. Restore the bottom Maintained by @ibrdot strip, existing local avatar, original licensing notice and GitHub star link. Keep the Core-first hero and navigation intact; responsive styles stack the strip on mobile. No new external service or dependency is added.
+
+## Specialized plugin expansion — 2026-10-13
+
+Reviewed the 2,687-entry metadata inventory and all 21 specialized compositions. Added 48 focused memberships from 33 existing canonical skills and one new API contract testing skill, keeping plugin IDs stable, and repaired published examples before promotion. See [review evidence](docs/maintainers/specialized-plugin-expansion-review-2026-10-13.md) for exact trees, omissions and verification scope. Generated mirrors belong to protected canonical sync; no release or deployment is requested.
+
+## Maintenance and release 19.6.0
+
+Reviewed and repaired the three open contribution PRs, prepared tag-diff-based release notes, and retained protected merge, canonical sync and release flows. See [batch review](docs/maintainers/maintenance-19.6.0.md) for source scope, checks, attribution and full release-alignment requirements.
+
+## Release preparation alignment
+
+The real 19.6.0 candidate exposed an unstaged Codex guide and sitemap dates that changed after the candidate commit. Classify both setup guides as mixed, settle HEAD-dependent metadata before the first push, and reject missing-guide or persistent drift. Real Git fixtures cover convergence and fail-closed behavior.
+
+## Plugin offer consolidation
+
+Unify 28 overlapping packs into existing destinations: 30 focused packs plus the full-library plugin. Preserve every retired pack membership, keep activation lookup aliases, and show the entire active offer from one editorial source. See [migration and scope](docs/users/plugin-migration.md). Publication requires a new release; v19.6.0 stays immutable.
+
+### Azure plugin review follow-up
+
+Address the actual Tessl feedback from the consolidation: require every RBAC hook input, add post-deployment verification and remove unsupported custom-domain preservation guarantees. Validate examples without executing Azure operations.
+
+
+## 2026-10-14 — Exhaustive individual catalog review, first additional batch
+
+Correct the scope of the earlier 90-skill review: full inventory is 2689 canonical entrypoints and 8617 tracked files. Directly review eight additional trees, repair Andru.ia diagnosis/authoring/domain boundaries and broken 3D examples, retain three AAS native workflows and the verified A/B setup guide. Full review remains open; see docs/maintainers/full-catalog-individual-review-2026-10-14.md and exact file receipts.
+
+
+## 2026-10-14 — Exhaustive catalog review, second additional batch
+
+Review nine additional complete trees. Replace three out-of-domain AI operational registers with tool-routing/code-review/prompt-regression contracts and actual tested examples; correct build delivery/status/path boundaries, Django access illustration and score-eval execution classification. Retain three already repaired upstream-routing guides. Full catalog work remains incomplete. See docs/maintainers/full-catalog-individual-review-batch-02-2026-10-14.md.
+
+## 2026-10-14 — Exhaustive catalog review, EAS workflow support
+
+Review all EAS workflow entrypoint/support files. Correct schema/permission/launch boundaries and implement bounded reference retrieval with cache outside the immutable skill. Eleven real helper regressions and actual public-schema fetch; no authenticated EAS job or feedback. Full catalog work remains incomplete; see docs/maintainers/full-catalog-individual-review-batch-03-2026-10-14.md.
+
+## 2026-10-14 — Consolidated 175-tree individual report review
+
+Consolidate pending source repairs into one large batch:85new complete-tree reviews plus90unchanged prior reviews individually reconciled with the full report. Correct remaining trigger gaps and substantive orchestration/EAS/AI/Docker/Git/documentation/wrapper defects. Evidence and exactfile receipts in docs/maintainers/full-catalog-large-batch-01-2026-10-14.md/.json. All2,689 remains the objective; no release or deployment.
+
+## 2026-10-18 — Maintenance redesign in progress
+
+Verified the proposed redesign against protected main `71b1c1a9e2e85e492bc647aeae0b86c21642c249` and archived eight historical workflow runs. Implemented conservative component validation for source PRs and local preflight, an editorial-only main path, and separate public-release/personal-environment verification states. Added tested primitives for distribution integrity and authenticated review-receipt invalidation; these primitives are not yet publisher or merge authority.
+
+Local measurement on macOS with Node 26.7.0: the unchanged base's 152-file suite passed in 151.199 seconds. The proposed editorial checks passed three times in 1.251, 1.244 and 1.246 seconds against that same base. This compares local check workloads only, with one baseline execution; it does not measure the complete maintenance or distribution cycle.
+
+The full requested migration remains incomplete: build-once publishers, release-only snapshots, persistent coordinator/receipt storage and independent catalog distribution must still be integrated and exercised. No runtime release, catalog publication or installed maintainer-skill update is claimed. See [component validation](docs/maintainers/component-validation.md) for the implemented boundary.

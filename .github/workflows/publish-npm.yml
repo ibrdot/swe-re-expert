@@ -1,0 +1,63 @@
+# Publish agentic-awesome-skills to npm on release.
+# Requires NPM_TOKEN secret (npm → Access Tokens → Granular token with Publish).
+# Before creating a Release: bump package.json "version" (npm forbids republishing the same version).
+# Release tag (e.g. v4.6.1) should match package.json version.
+
+name: Publish to npm
+
+permissions:
+  contents: read
+  actions: read
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    if: startsWith(github.event.release.tag_name, 'v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Verify protected release provenance
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          test "$GITHUB_EVENT_NAME" = "release"
+          test -n "$RELEASE_TAG"
+          git fetch --force origin main "refs/tags/$RELEASE_TAG:refs/tags/$RELEASE_TAG"
+          tag_commit="$(git rev-list -n1 "$RELEASE_TAG")"
+          main_commit="$(git rev-parse origin/main)"
+          git merge-base --is-ancestor "$tag_commit" "$main_commit"
+          tag_version="$(git show "$RELEASE_TAG:package.json" | node -e 'let s=""; process.stdin.on("data",c=>s+=c); process.stdin.on("end",()=>process.stdout.write(JSON.parse(s).version))')"
+          test "$RELEASE_TAG" = "v$tag_version"
+          git checkout --detach "$tag_commit"
+
+      - name: Setup Node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Fetch and verify tested immutable candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node tools/scripts/distribution_fetch.cjs "$RUNNER_TEMP/distribution"
+
+      - name: Publish
+        shell: bash
+        run: |
+          version="$(node -p "require('./package.json').version")"
+          node -e "const v=process.argv[1]; const semver=/^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?(?:\\+[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?$/; if (!semver.test(v)) process.exit(1)" "$version"
+          if [[ "$version" == *-* ]]; then
+            npm publish "$RUNNER_TEMP/distribution/package.tgz" --ignore-scripts --tag next
+          else
+            npm publish "$RUNNER_TEMP/distribution/package.tgz" --ignore-scripts --tag latest
+          fi
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
