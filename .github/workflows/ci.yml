@@ -469,6 +469,10 @@ jobs:
         run: |
           base="$BEFORE_SHA"
           if [[ ! "$base" =~ ^[a-f0-9]{40}$ || "$base" =~ ^0+$ ]]; then base="$HEAD_SHA"; fi
+          if ! git cat-file -e "$base^{commit}" 2>/dev/null; then
+            echo "::warning::Before SHA $base is unreachable in this checkout; falling back to HEAD~1"
+            base="$(git rev-parse HEAD~1)"
+          fi
           node tools/scripts/maintenance_validate.cjs --base "$base" --head "$HEAD_SHA" --output .tmp/component-validation.json
       - name: Upload source validation receipt
         if: always()
