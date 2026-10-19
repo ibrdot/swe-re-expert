@@ -12,17 +12,17 @@ describe('public asset URL helpers', () => {
     expect(
       getSkillsIndexCandidateUrls({
         baseUrl: '/',
-        origin: 'https://github.com/ibrdot/swe-re-expert',
+        origin: 'https://swe-re-expert.vercel.app',
         pathname: '/skill/some-id',
-        documentBaseUrl: 'https://github.com/ibrdot/swe-re-expert/',
+        documentBaseUrl: 'https://swe-re-expert.vercel.app/',
       }),
     ).toEqual([
-      'https://github.com/ibrdot/swe-re-expert/skills.json',
-      'https://github.com/ibrdot/swe-re-expert/skills.json.backup',
-      'https://github.com/ibrdot/swe-re-expert/skill/skills.json',
-      'https://github.com/ibrdot/swe-re-expert/skill/skills.json.backup',
-      'https://github.com/ibrdot/swe-re-expert/skill/some-id/skills.json',
-      'https://github.com/ibrdot/swe-re-expert/skill/some-id/skills.json.backup',
+      'https://swe-re-expert.vercel.app/skills.json',
+      'https://swe-re-expert.vercel.app/skills.json.backup',
+      'https://swe-re-expert.vercel.app/skill/skills.json',
+      'https://swe-re-expert.vercel.app/skill/skills.json.backup',
+      'https://swe-re-expert.vercel.app/skill/some-id/skills.json',
+      'https://swe-re-expert.vercel.app/skill/some-id/skills.json.backup',
     ]);
   });
 

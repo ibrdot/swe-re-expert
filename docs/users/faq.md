@@ -93,7 +93,7 @@ For the longer explanation, read [skills-vs-mcp-tools.md](skills-vs-mcp-tools.md
 - ✅ Free for commercial use
 - ✅ You can modify them
 
-See [../../LICENSE](../../LICENSE), [../../LICENSE-CONTENT](../../LICENSE-CONTENT), and [../sources/sources.md](../sources/sources.md) for attribution and third-party license details.
+See [../../LICENSE](../../LICENSE) and [../../LICENSE-CONTENT](../../LICENSE-CONTENT) for license details.
 
 ### How do these skills avoid overflowing the model context?
 

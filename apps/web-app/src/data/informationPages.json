@@ -60,7 +60,7 @@
       },
       {
         "title": "What to check before wider use",
-        "body": "Review each skill\u2019s source, license, declared risk, limitations, and required services. AAS is community-maintained open source; it does not provide a service-level agreement, compliance certification, or guaranteed agent outcomes. Model providers and optional services have their own terms and costs.",
+        "body": "Review each skill’s source, license, declared risk, limitations, and required services. AAS is community-maintained open source; it does not provide a service-level agreement, compliance certification, or guaranteed agent outcomes. Model providers and optional services have their own terms and costs.",
         "links": [
           {
             "label": "Trust & transparency",
@@ -106,16 +106,12 @@
           {
             "label": "Content license",
             "href": "https://github.com/ibrdot/swe-re-expert/blob/main/LICENSE-CONTENT"
-          },
-          {
-            "label": "Sources & attribution",
-            "href": "https://github.com/ibrdot/swe-re-expert/blob/main/docs/sources/sources.md"
           }
         ]
       },
       {
         "title": "Browser data and analytics",
-        "body": "Saved skills and shortlists stay in this browser\u2019s local storage. Workbench imports stay in memory. Shared links contain selected IDs and a catalog version, and anyone with the link can read them. The hosted catalog uses Vercel Web Analytics for aggregate visit statistics; AAS removes query strings and fragments from analytics URLs. The catalog also requests public aggregate skill-save counts from Supabase.",
+        "body": "Saved skills and shortlists stay in this browser’s local storage. Workbench imports stay in memory. Shared links contain selected IDs and a catalog version, and anyone with the link can read them. The hosted catalog uses Vercel Web Analytics for aggregate visit statistics; AAS removes query strings and fragments from analytics URLs. The catalog also requests public aggregate skill-save counts from Supabase.",
         "links": [
           {
             "label": "Privacy policy",
@@ -129,7 +125,7 @@
       },
       {
         "title": "Local tools and third parties",
-        "body": "Skills-only plugins are local instruction bundles and do not independently collect telemetry. AAS Core\u2019s local catalog discovery is read-only and offline-capable. Your agent client, model provider, and any services you enable handle data under their own policies. A skill mentioning a service does not grant access or include its fees.",
+        "body": "Skills-only plugins are local instruction bundles and do not independently collect telemetry. AAS Core’s local catalog discovery is read-only and offline-capable. Your agent client, model provider, and any services you enable handle data under their own policies. A skill mentioning a service does not grant access or include its fees.",
         "links": [
           {
             "label": "Core reference",

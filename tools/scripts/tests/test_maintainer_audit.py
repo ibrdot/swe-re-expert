@@ -33,7 +33,8 @@ class MaintainerAuditTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
             (root / "README.md").write_text(
-                """# Test Repo
+                """<!-- registry-sync: version=8.4.0; skills=1; stars=26132; updated_at=2026-03-21T00:00:00+00:00 -->
+# Test Repo
 """,
                 encoding="utf-8",
             )
@@ -67,7 +68,8 @@ class MaintainerAuditTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
             (root / "README.md").write_text(
-                """# Test Repo
+                """<!-- registry-sync: version=8.4.0; skills=1; stars=26132; updated_at=2026-03-21T00:00:00+00:00 -->
+# Test Repo
 """,
                 encoding="utf-8",
             )

@@ -10,7 +10,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 GITHUB_REPO = "ibrdot/swe-re-expert"
-SYNC_COMMENT_RE = re.compile(r"")
+SYNC_COMMENT_RE = re.compile(r"<!-- registry-sync: .*? -->")
 SYNC_COMMENT_FIELDS_RE = re.compile(
     r"<!-- registry-sync: version=(?P<version>[^;]+); skills=(?P<skills>\d+); "
     r"stars=(?P<stars>\d+); updated_at=(?P<updated_at>[^ ]+) -->"
@@ -328,7 +328,7 @@ def apply_metadata(content: str, metadata: dict) -> str:
         count=1,
     )
     content = re.sub(
-        r"\n?",
+        r"<!-- registry-sync: .*? -->\n?",
         "",
         content,
         count=1,
