@@ -755,7 +755,7 @@ function readCatalogGeneratedAt() {
   const readmePath = path.join(ROOT, "README.md");
   try {
     const readme = fs.readFileSync(readmePath, "utf8");
-    const match = readme.match(//);
+    const match = readme.match(/<!--\s*registry-sync:[^\n]*?updated_at=([^\s>]+)[^\n]*?-->/);
     if (match) {
       return new Date(match[1]).toISOString();
     }
